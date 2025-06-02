@@ -2,9 +2,9 @@
 
 ## explanation
  --I have provided three code examples—example_for_dqc_0081.ipynb, example_for_dqc_0099.ipynb, and example_for_dqc_0126.ipynb—which demonstrate how to extract gold standard answers from DQC messages for rule IDs 0081, 0099, and 0126, respectively.
- --Each rule ID corresponds to a specific error type and is aligned with a particular subtask:
-   **DQC_0099 pertains to the semantic matching task.
-   **DQC_0081 pertains to the relationship extraction task.
+ --Each rule ID corresponds to a specific error type and is aligned with a particular subtask: <br>
+   **DQC_0099 pertains to the semantic matching task. <br>
+   **DQC_0081 pertains to the relationship extraction task. <br>
    **DQC_0126 pertains to the mathematical reasoning task.
 
  --Please note that these examples were executed on sample data for demonstration purposes. You are expected to run the provided code on the actual dataset to generate the final extraction results.
