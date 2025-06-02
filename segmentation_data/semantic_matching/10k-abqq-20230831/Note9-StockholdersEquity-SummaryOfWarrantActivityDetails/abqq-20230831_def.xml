@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#notAll" arcroleURI="http://xbrl.org/int/dim/arcrole/notAll"/>
+    <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"/>
+    <link:roleRef roleURI="http://abqqs.com/role/Note9-StockholdersEquity-SummaryOfWarrantActivityDetails" xlink:href="abqq-20230831.xsd#Note9-StockholdersEquity-SummaryOfWarrantActivityDetails" xlink:type="simple"/>
+    <link:definitionLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note9-StockholdersEquity-SummaryOfWarrantActivityDetails" xlink:title="00000044 - Disclosure - NOTE 9 - STOCKHOLDERS' EQUITY - A Summary of Warrant Activity (Details)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ShortTermDebtLineItems" xlink:label="loc_us-gaapShortTermDebtLineItems"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ScheduleOfShortTermDebtTable" xlink:label="loc_us-gaapScheduleOfShortTermDebtTable"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xbrldt:contextElement="segment" xlink:from="loc_us-gaapShortTermDebtLineItems" xlink:to="loc_us-gaapScheduleOfShortTermDebtTable" xlink:type="arc" order="10" xbrldt:closed="true"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_DebtInstrumentAxis" xlink:label="loc_us-gaapDebtInstrumentAxis"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_us-gaapScheduleOfShortTermDebtTable" xlink:to="loc_us-gaapDebtInstrumentAxis" xlink:type="arc" order="1"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_DebtInstrumentNameDomain" xlink:label="loc_us-gaapDebtInstrumentNameDomain"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_us-gaapDebtInstrumentAxis" xlink:to="loc_us-gaapDebtInstrumentNameDomain" xlink:type="arc" order="20"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_DebtInstrumentNameDomain" xlink:label="loc_us-gaapDebtInstrumentNameDomain_10"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xbrldt:contextElement="segment" xlink:from="loc_us-gaapDebtInstrumentAxis" xlink:to="loc_us-gaapDebtInstrumentNameDomain_10" xlink:type="arc" order="30"/>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_OriginalSharesIssuedMember" xlink:label="loc_ABQQOriginalSharesIssuedMember_0"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapDebtInstrumentNameDomain" xlink:to="loc_ABQQOriginalSharesIssuedMember_0" xlink:type="arc" order="1"/>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_AntiDilutionAdjustedMember" xlink:label="loc_ABQQAntiDilutionAdjustedMember_10"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapDebtInstrumentNameDomain" xlink:to="loc_ABQQAntiDilutionAdjustedMember_10" xlink:type="arc" order="11"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ClassOfWarrantOrRightOutstanding" xlink:label="loc_us-gaapClassOfWarrantOrRightOutstanding_110"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapShortTermDebtLineItems" xlink:to="loc_us-gaapClassOfWarrantOrRightOutstanding_110" xlink:type="arc" order="0"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AdjustmentOfWarrantsGrantedForServices" xlink:label="loc_us-gaapAdjustmentOfWarrantsGrantedForServices_110"/>
+      <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaapShortTermDebtLineItems" xlink:to="loc_us-gaapAdjustmentOfWarrantsGrantedForServices_110" xlink:type="arc" order="1"/>
+    </link:definitionLink>
+    </link:linkbase>

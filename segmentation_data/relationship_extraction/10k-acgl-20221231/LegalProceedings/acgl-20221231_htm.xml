@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:LegalMattersAndContingenciesTextBlock contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTQvZnJhZzpmMTFlNDBmODExZmI0ZWVhYWMxZDQwZDA5MjUzOTc3MS90ZXh0cmVnaW9uOmYxMWU0MGY4MTFmYjRlZWFhYzFkNDBkMDkyNTM5NzcxXzM5NA_91263212-21d3-4561-ba1f-cd9e60f076ac">The Company, in common with the insurance industry in general, is subject to litigation and arbitration in the normal course of its business. As of December 31, 2022, the Company was not a party to any litigation or arbitration which is expected by management to have a material adverse effect on the Company’s results of operations and financial condition and liquidity.</us-gaap:LegalMattersAndContingenciesTextBlock>
+	</xbrl>
+

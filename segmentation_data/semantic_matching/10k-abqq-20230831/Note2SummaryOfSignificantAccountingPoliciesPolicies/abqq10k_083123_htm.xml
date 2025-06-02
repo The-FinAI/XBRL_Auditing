@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:BusinessDescriptionAndBasisOfPresentationTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_84A_eus-gaap--BusinessDescriptionAndBasisOfPresentationTextBlock_z2vDt3vGqcH1" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Basis of Presentation&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The accompanying consolidated financial
+statements have been prepared in accordance with accounting principles generally accepted in the United States of America (“US GAAP”)
+and have been consistently applied.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+</us-gaap:BusinessDescriptionAndBasisOfPresentationTextBlock>
+	<us-gaap:ConsolidationPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_845_eus-gaap--ConsolidationPolicyTextBlock_zNDsznUk61Oj" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Principles of Consolidation&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The financial statements have been
+prepared on a consolidated basis, with the Company’s wholly owned subsidiary App Board Limited and AB Cinemas NY, Inc. All intercompany
+balances and transactions have been eliminated in consolidation.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+
+
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;AB INTERNATIONAL GROUP CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 2 – SUMMARY OF SIGNIFICANT
+ACCOUNTING POLICIES (Continued)&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+
+</us-gaap:ConsolidationPolicyTextBlock>
+	<us-gaap:UseOfEstimates contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_84A_eus-gaap--UseOfEstimates_zUZKoHAgCD43" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Use of Estimates&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The preparation of financial statements
+in conformity with accounting principles generally accepted in the United States requires management to make estimates and assumptions
+that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date the financial
+statements and the reported amount of revenues and expenses during the reporting period. Actual results could differ from those estimates.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+</us-gaap:UseOfEstimates>
+	<us-gaap:CashAndCashEquivalentsPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_849_eus-gaap--CashAndCashEquivalentsPolicyTextBlock_zgkedPB9wvX9" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Cash and Cash Equivalents&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The Company considers all highly liquid
+instruments purchased with an original maturity of three months or less to be cash equivalents.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+</us-gaap:CashAndCashEquivalentsPolicyTextBlock>
+	<us-gaap:ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_840_eus-gaap--ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock_zs9tC7bmH6fd" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Foreign Currency Transactions&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The financial risk arises from the
+fluctuations in foreign exchange rates and the degrees of volatility in these rates. Currently the Company does not use derivative instruments
+to reduce its exposure to foreign currency risk. Gains and losses from translation of foreign currency into U.S. dollars are included
+in current results of operations.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+</us-gaap:ForeignCurrencyTransactionsAndTranslationsPolicyTextBlock>
+	<us-gaap:ReceivablesAndPortionsOfSecuritizationsThatCanBePrepaidAtPotentialLossPolicyPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_849_eus-gaap--ReceivablesAndPortionsOfSecuritizationsThatCanBePrepaidAtPotentialLossPolicyPolicyTextBlock_zM736HhfeMK3" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Prepayments &lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="font-family: TimesNewRomanPSStd-Regular,serif"&gt;Prepayments
+primarily consist of payments made to acquire the copyrights and &lt;/span&gt;&lt;span style="color: #212529"&gt;distribution rights of movies, TV
+shows and music, etc. &lt;/span&gt;&lt;span style="font-family: TimesNewRomanPSStd-Regular,serif"&gt;Prepayments are classified as either current
+or non-current based on the nature and the terms of the respective agreements. These prepayments are unsecured and are reviewed periodically
+to determine whether their carrying value has become impaired. The allowance is also based on management’s best estimate of specific
+losses on individual exposures, as well as a provision on historical trends of collections and utilizations. Actual amounts received or
+utilized may differ from management’s estimate of credit worthiness and the economic environment. Prepayments are written off against
+the allowances only after exhaustive collection efforts. &lt;span id="xdx_90E_eus-gaap--AllowanceForDoubtfulAccountsReceivableWriteOffs_do_c20220901__20230831_zKg07gHTLT6i"&gt;&lt;span id="xdx_901_eus-gaap--AllowanceForDoubtfulAccountsReceivableWriteOffs_do_c20210901__20220831_zUouygcaEsx9"&gt;No&lt;/span&gt;&lt;/span&gt; allowance was recorded &lt;/span&gt;&lt;span style="color: #212529"&gt;for the years ended
+August 31, 2023 and 2022.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 12pt Times New Roman, Times, Serif; margin: 0"&gt; &lt;/p&gt;
+
+</us-gaap:ReceivablesAndPortionsOfSecuritizationsThatCanBePrepaidAtPotentialLossPolicyPolicyTextBlock>
+	<us-gaap:PropertyPlantAndEquipmentPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_841_eus-gaap--PropertyPlantAndEquipmentPolicyTextBlock_zWSpEKxc8O7e" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Property and Equipment, net&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 12pt Times New Roman, Times, Serif; margin: 0"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="background-color: white"&gt;Property, plant
+and equipment are stated at cost less accumulated depreciation and amortization. Leasehold improvement is related to the enhancements
+paid by the Company to leased offices. Leasehold improvement represents capital expenditures for direct costs of renovation or acquisition
+and design fees incurred. The amortization of leasehold improvements commences once the renovation is completed and ready for the Company’s
+intended use.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="background-color: white"&gt;The straight-line
+depreciation method is used to compute depreciation over the estimated useful lives of the assets, as follows:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;&lt;table cellpadding="0" cellspacing="0" id="xdx_887_eus-gaap--FiniteLivedIntangibleAssetsAmortizationExpenseTableTextBlock_zJ2XprxBVB1e" style="font: 11pt Calibri, Helvetica, Sans-Serif; margin-left: auto; width: 50%; border-collapse: collapse; margin-right: auto" summary="xdx: Disclosure - NOTE 2 - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Estimated Useful Life (Details)"&gt;
+&lt;tr style="vertical-align: bottom"&gt;
+    &lt;td style="line-height: 11.55pt; width: 45%"&gt; &lt;/td&gt;
+    &lt;td style="line-height: 11.55pt; width: 4%"&gt; &lt;/td&gt;
+    &lt;td style="line-height: 11.55pt; width: 1%"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: black 1pt solid; text-align: center; line-height: 11.55pt; width: 50%"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 9pt"&gt;&lt;b&gt;Estimated Useful Life&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="line-height: 11.55pt"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 9pt; color: black"&gt;Furniture&lt;/span&gt;&lt;/td&gt;
+    &lt;td style="line-height: 11.55pt"&gt; &lt;/td&gt;
+    &lt;td style="line-height: 11.55pt"&gt; &lt;/td&gt;
+    &lt;td style="text-align: center; line-height: 11.55pt"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 9pt; color: black"&gt;&lt;span id="xdx_907_eus-gaap--PropertyPlantAndEquipmentUsefulLife_iI_dtY_c20230831__us-gaap--FiniteLivedIntangibleAssetsByMajorClassAxis__custom--FurnitureMember_zB04Ohkw6WLg"&gt;7&lt;/span&gt; years&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr style="vertical-align: bottom; background-color: White"&gt;
+    &lt;td style="line-height: 11.55pt"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 9pt; color: black"&gt;Appliances&lt;/span&gt;&lt;/td&gt;
+    &lt;td style="line-height: 11.55pt"&gt; &lt;/td&gt;
+    &lt;td style="line-height: 11.55pt"&gt; &lt;/td&gt;
+    &lt;td style="text-align: center; line-height: 11.55pt"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 9pt; color: black"&gt;&lt;span id="xdx_907_eus-gaap--PropertyPlantAndEquipmentUsefulLife_iI_dtY_c20230831__us-gaap--FiniteLivedIntangibleAssetsByMajorClassAxis__custom--AppliancesMember_zjIl6YwZUhlg"&gt;5&lt;/span&gt; years&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="line-height: 11.55pt"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 9pt; color: black"&gt;Leasehold improvement &lt;/span&gt;&lt;/td&gt;
+    &lt;td style="line-height: 11.55pt"&gt; &lt;/td&gt;
+    &lt;td style="line-height: 11.55pt"&gt;&lt;/td&gt;
+    &lt;td style="text-align: center; line-height: 11.55pt"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 9pt; color: black"&gt;Lesser of useful life and lease term&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p style="margin-top: 0; margin-bottom: 0"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="background-color: white"&gt;Expenditures
+for maintenance and repairs, which do not materially extend the useful lives of the assets, are charged to expense as incurred. Expenditures
+for major renewals and betterments that substantially extend the useful life of assets are capitalized. The cost and related accumulated
+depreciation of assets retired or sold are removed from the respective accounts, and any gain or loss is recognized in the consolidated
+statements of operations in other income or expenses.&lt;/span&gt;&lt;/p&gt;
+
+
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+&lt;p style="font: 12pt Times New Roman, Times, Serif; margin: 0"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;/p&gt;
+
+
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;AB INTERNATIONAL GROUP CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 2 – SUMMARY OF SIGNIFICANT
+ACCOUNTING POLICIES (Continued)&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+
+</us-gaap:PropertyPlantAndEquipmentPolicyTextBlock>
+	<us-gaap:IntangibleAssetsFiniteLivedPolicy contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_844_eus-gaap--IntangibleAssetsFiniteLivedPolicy_zAh1Gx3rYdK" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Intangible Assets&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;Intangible assets are recorded at
+the lower of cost or estimated fair value and amortized as follows:&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;table cellpadding="0" cellspacing="0" style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 100%; border-collapse: collapse"&gt;
+  &lt;tr style="vertical-align: top"&gt;
+    &lt;td style="width: 30px; text-align: justify"&gt; &lt;/td&gt;
+    &lt;td style="width: 30px; text-align: justify"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;•&lt;/span&gt;&lt;/td&gt;
+    &lt;td style="text-align: justify"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;Movie copyrights and broadcast rights: &lt;span id="xdx_90B_eus-gaap--FiniteLivedIntangibleAssetsAmortizationMethod_c20220901__20230831__us-gaap--FiniteLivedIntangibleAssetsByMajorClassAxis__us-gaap--CopyrightsMember_zPOTknhJb1ri"&gt;straight-line method over the estimated life of the asset, which has been determined by management to be &lt;span id="xdx_900_eus-gaap--FiniteLivedIntangibleAssetUsefulLife_iI_c20230831__us-gaap--FiniteLivedIntangibleAssetsByMajorClassAxis__us-gaap--CopyrightsMember_zgaqQGj5mkri"&gt;2 years&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: top"&gt;
+    &lt;td style="text-align: justify"&gt; &lt;/td&gt;
+    &lt;td style="text-align: justify"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;•&lt;/span&gt;&lt;/td&gt;
+    &lt;td style="text-align: justify"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: #212529"&gt;NFT MMM platform: &lt;/span&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;&lt;span id="xdx_90B_eus-gaap--FiniteLivedIntangibleAssetsAmortizationMethod_c20220901__20230831__us-gaap--FiniteLivedIntangibleAssetsByMajorClassAxis__custom--NFTPlatformMember_zkHru5TZzlC3"&gt;straight-line method over the estimated life of the asset, which has been determined by management to be &lt;span id="xdx_90B_eus-gaap--FiniteLivedIntangibleAssetUsefulLife_iI_c20230831__us-gaap--FiniteLivedIntangibleAssetsByMajorClassAxis__custom--NFTPlatformMember_zQNZPFFdOQLf"&gt;2 years&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;Amortized costs of the intangible
+asset are recorded as amortization expenses in the consolidated statements of operations..&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+</us-gaap:IntangibleAssetsFiniteLivedPolicy>
+	<us-gaap:OperatingLeasesOfLesseeDisclosureTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_843_eus-gaap--OperatingLeasesOfLesseeDisclosureTextBlock_zWh5RNmrRvZc" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Lease property under operating
+lease&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="background-color: white"&gt;The Company
+adopted ASU No. 2016-02—Leases (Topic 842) since June 1, 2019, using a modified retrospective transition method permitted under
+ASU No. 2018-11. This transition approach provides a method for recording existing leases only at the date of adoption and does not require
+previously reported balances to be adjusted. In addition, the Company elected the package of practical expedients permitted under the
+transition guidance within the new standard, which among other things, allowed us to carry forward the historical lease classification.
+Adoption of the new standard resulted in the recording of additional lease assets and lease liabilities on the consolidated balance sheets.
+The standard did not materially impact the Company’s consolidated net earnings and cash flows.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+</us-gaap:OperatingLeasesOfLesseeDisclosureTextBlock>
+	<us-gaap:ImpairmentOrDisposalOfLongLivedAssetsPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_843_eus-gaap--ImpairmentOrDisposalOfLongLivedAssetsPolicyTextBlock_zsVhyEd2iWW8" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Impairment of Long-lived asset&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white"&gt;&lt;span style="color: #212529"&gt;The
+Company evaluates its long-lived assets or asset group, including intangible assets with indefinite and finite lives, for impairment.
+Intangible assets with indefinite lives that are not subject to amortization are tested for impairment at least annually or more frequently
+if events or changes in circumstances indicate that the assets might be impaired in accordance with ASC 350. Such impairment test compares
+the fair values of assets with their carrying values with an impairment loss recognized when the carrying values exceed fair values. For
+long-lived assets and intangible assets with finite lives that are subject to depreciation and amortization are tested for impairment
+whenever events or changes in circumstances (such as a significant adverse change to market conditions that will impact the future use
+of the assets) indicate that the carrying amount of an asset or a group of long-lived assets may not be recoverable. When these events
+occur, the Company evaluates impairment by comparing the carrying amount of the assets to future undiscounted net cash flows expected
+to result from the use of the assets and their eventual disposition. If the sum of the expected undiscounted cash flows is less than the
+carrying amount of the assets, the Company would recognize an impairment loss based on the excess of the carrying amount of the asset
+group over its fair value. Impairment losses are included in the general and administrative expense. There was &lt;span id="xdx_90B_eus-gaap--ImpairmentOfIntangibleAssetsFinitelived_do_c20220901__20230831_zhEGed6zCkae"&gt;&lt;span id="xdx_90A_eus-gaap--ImpairmentOfIntangibleAssetsFinitelived_do_c20210901__20220831_zSdXMhvkiWE8"&gt;no&lt;/span&gt;&lt;/span&gt; impairment loss during
+the year ended August 31&lt;/span&gt;, 2023 and 2022&lt;span style="color: #212529"&gt;, respectively.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;AB INTERNATIONAL GROUP CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 2 – SUMMARY OF SIGNIFICANT
+ACCOUNTING POLICIES (Continued)&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+</us-gaap:ImpairmentOrDisposalOfLongLivedAssetsPolicyTextBlock>
+	<us-gaap:RevenueRecognitionPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_842_eus-gaap--RevenueRecognitionPolicyTextBlock_ze5JxUYzslG6" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Revenue Recognition&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;The Company adopted ASC
+Topic 606, “Revenue from Contracts with Customers”, &lt;/span&gt;using the modified retrospective approach. ASC 606 establishes
+principles for reporting information about the nature, amount, timing and uncertainty of revenue and cash flows arising from the entity’s
+contracts to provide goods or services to customers. The core principle requires an entity to recognize revenue to depict the transfer
+of goods or services to customers in an amount that reflects the consideration that it expects to be entitled to receive in exchange for
+those goods or services recognized as performance obligations are satisfied.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;To determine revenue recognition for contracts with
+customers, the Company performs the following five steps: (i) identify the contract with the customer, (ii) identify the performance obligations
+in the contract, (iii) determine the transaction price, including variable consideration to the extent that it is probable that a significant
+future reversal will &lt;i&gt;not&lt;/i&gt; occur, (iv) allocate the transaction price to the respective performance obligations in the contract,
+and (v) recognize revenue when (or as) the Company satisfies the performance obligation.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company derives its revenues primarily from three
+sources: (1) selling copyrights of movies or TV shows; (2) licensing NFT MMM platform and providing technical service; (3) movie theater
+admissions and food and beverage sales.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;&lt;i&gt;Revenue from selling
+copyrights of &lt;/i&gt;&lt;/span&gt;&lt;i&gt;movies or TV shows:&lt;/i&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company recognizes revenue when master copy of
+movie or TV show is delivered, the IP is authorized and transferred to customers. The Company’s contracts with customer are primarily
+on a fixed-price basis and do not contain cancelable and refund-type provisions.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;i&gt;Revenue from licensing NFT MMM
+platform and providing technical service fee: &lt;/i&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The Company derives revenue from NFTMM
+platform license fees, which includes accessing the NFTMM platform and platform data on both app and website. The Company's contract has
+one year term, and is non-cancelable and non-refundable. In accordance with ASC 606, a 'right to access' license is recognized over the
+license period. Initial technical service fee comprises of installation, implementation and necessary training required by the customer.
+These services fees are recognized as the services are delivered at a point in time.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt/105% Times New Roman, Times, Serif; margin: 0 0 8pt; color: #212529"&gt;&lt;i&gt;Revenue from movie theater admissions and
+food and beverage sales:&lt;/i&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The Company recognizes admissions
+and food and beverage revenues based on a gross transaction price which are recorded at a point in time when a film is exhibited to a
+customer and when a customer takes possession of food and beverage offerings. The Company defers 100% of the revenue associated with
+the sales of gift cards and exchange tickets until such time as the items are redeemed or estimated income from non-redemption is recorded.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white"&gt;&lt;i&gt;Contract Assets and Liabilities&lt;/i&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;Payment terms are established on the Company’s
+pre-established credit requirements based upon an evaluation of customers’ credit quality. Contact assets are recognized for in
+related accounts receivable. Contract liabilities are recognized for contracts where payment has been received in advance of delivery.
+The contract liability balance can vary significantly depending on the timing of when an order is placed and when shipment or delivery
+occurs.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;As of August 31, 2023 and 2022, other than accounts
+receivable and deferred revenue, the Company had &lt;span id="xdx_908_eus-gaap--ContractWithCustomerAssetNet_iI_do_c20230831_zbehwcp6kSGh"&gt;&lt;span id="xdx_90F_eus-gaap--ContractWithCustomerAssetNet_iI_do_c20220831_zQinlDBsjyg6"&gt;no&lt;/span&gt;&lt;/span&gt; material contract assets, contract liabilities or deferred contract costs recorded
+on its consolidated balance sheets.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+
+
+
+&lt;p style="font: 10pt/107% Times New Roman, Times, Serif; margin: 0pt; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt; &lt;b&gt;AB INTERNATIONAL GROUP CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: center; color: #212529"&gt;  &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 2 – SUMMARY OF SIGNIFICANT
+ACCOUNTING POLICIES (Continued)&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;i&gt;Disaggregation of revenue&lt;/i&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company disaggregates its revenue from contracts
+by revenue streams, as the Company believes it best depicts how the nature, amount, timing and uncertainty of the revenue and cash flows
+are affected by economic factors.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The following table presents sales by revenue streams
+for the years ended August 31, 2023 and 2022, respectively:&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;table cellpadding="0" cellspacing="0" id="xdx_885_eus-gaap--DisaggregationOfRevenueTableTextBlock_zG4tnulxonWk" style="font: 11pt Calibri, Helvetica, Sans-Serif; margin-left: auto; border-collapse: collapse; width: 45%; margin-right: auto" summary="xdx: Disclosure - NOTE 2 - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Dissaggregation of Revenues (Details"&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td&gt; &lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td colspan="3" id="xdx_491_20220901__20230831_z5HhGXdLrnX" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center"&gt;August 31, 2023&lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td colspan="3" id="xdx_499_20210901__20220831_zaLirQQBJws1" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center"&gt;August 31, 2022&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 68%; text-align: left"&gt;Copyrights sales&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 2%"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt;$&lt;/td&gt;&lt;td id="xdx_989_eus-gaap--RevenueFromContractWithCustomerIncludingAssessedTax_c20220901__20230831__us-gaap--ContractWithCustomerSalesChannelAxis__custom--CopyrightSalesMember_zXQWE4wJJLM7" style="font: 10pt Times New Roman, Times, Serif; width: 12%; text-align: right"&gt;250,000&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 2%"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt;$&lt;/td&gt;&lt;td id="xdx_986_eus-gaap--RevenueFromContractWithCustomerIncludingAssessedTax_c20210901__20220831__us-gaap--ContractWithCustomerSalesChannelAxis__custom--CopyrightSalesMember_zlVovWVZFeY9" style="font: 10pt Times New Roman, Times, Serif; width: 12%; text-align: right"&gt;2,806,000&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: White"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt;NFT licenses&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_985_eus-gaap--RevenueFromContractWithCustomerIncludingAssessedTax_c20220901__20230831__us-gaap--ContractWithCustomerSalesChannelAxis__custom--NFTLicensesMember_zlLqijofUHO5" style="font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;698,000&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_981_eus-gaap--RevenueFromContractWithCustomerIncludingAssessedTax_c20210901__20220831__us-gaap--ContractWithCustomerSalesChannelAxis__custom--NFTLicensesMember_zPJDwTixoSBb" style="font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;122,000&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt;Theatre admissions&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_988_eus-gaap--RevenueNotFromContractWithCustomer_c20220901__20230831__us-gaap--ContractWithCustomerSalesChannelAxis__custom--TheatreAdmissionsMember_zGogEkmTZzGa" style="font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;345,057&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_988_eus-gaap--RevenueNotFromContractWithCustomer_c20210901__20220831__us-gaap--ContractWithCustomerSalesChannelAxis__custom--TheatreAdmissionsMember_zlWe4px9roth" style="font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0544"&gt;—&lt;/span&gt;  &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: White"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left; padding-bottom: 1pt"&gt;Food and beverage sales&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_980_eus-gaap--RevenueNotFromContractWithCustomer_c20220901__20230831__us-gaap--ContractWithCustomerSalesChannelAxis__custom--FoodAndBeverageSalesMember_zGXAuJRkh0X4" style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;180,165&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_98F_eus-gaap--RevenueNotFromContractWithCustomer_c20210901__20220831__us-gaap--ContractWithCustomerSalesChannelAxis__custom--FoodAndBeverageSalesMember_zIM6gKmGosFc" style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0546"&gt;—&lt;/span&gt;  &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr id="xdx_40D_eus-gaap--Revenues_zUngKOYEXpOe" style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: left"&gt;Total revenue&lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: right"&gt;1,473,222&lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: right"&gt;2,928,000&lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+</us-gaap:RevenueRecognitionPolicyTextBlock>
+	<us-gaap:FairValueOfFinancialInstrumentsPolicy contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_84F_eus-gaap--FairValueOfFinancialInstrumentsPolicy_z8JEX3qG45Z2" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Fair Value of Financial Instruments&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;ASC 820, “Fair Value Measurements”
+(ASC 820) and ASC 825, “Financial Instruments” (ASC 825), requires an entity to maximize the use of observable inputs and
+minimize the use of unobservable inputs when measuring fair value. It establishes a fair value hierarchy based on the level of independent,
+objective evidence surrounding the inputs used to measure fair value. A financial instrument’s categorization within the fair value
+hierarchy is based upon the lowest level of input that is significant to the fair value measurement. It prioritizes the inputs into three
+levels that may be used to measure fair value:&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;Level 1 – Level 1 applies to
+assets or liabilities for which there are quoted prices in active markets for identical assets or liabilities.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;Level 2 – Level 2 applies to
+assets or liabilities for which there are inputs other than quoted prices that are observable for the asset or liability such as quoted
+prices for similar assets or liabilities in active markets; quoted prices for identical assets or liabilities in markets with insufficient
+volume or infrequent transactions (less active markets); or model-derived valuations in which significant inputs are observable or can
+be derived principally from, or corroborated by, observable market data.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;Level 3 – Level 3 applies to
+assets or liabilities for which there are unobservable inputs to the valuation methodology that are significant to the measurement of
+the fair value of the assets or liabilities. &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;ASC 820 describes three main approaches
+to measuring the fair value of assets and liabilities: (1) market approach; (2) income approach; and (3) cost approach. The market approach
+uses prices and other relevant information generated from market transactions involving identical or comparable assets or liabilities.
+The income approach uses valuation techniques to convert future amounts to a single present value amount. The measurement is based on
+the value indicated by current market expectations about those future amounts. The cost approach is based on the amount that would currently
+be required to replace an asset. &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The carrying values of cash, accounts
+payable, and accrued liabilities approximate fair value due to their short-term nature. The fair values of warrant liabilities and derivative
+liabilities embedded in convertible notes are determined by level 3 inputs. &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;  &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;No liabilities measured
+at fair value on a recurring basis as of August 31&lt;/span&gt;, 2023 and 2022&lt;span style="color: #212529"&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;  &lt;b&gt;AB INTERNATIONAL GROUP
+CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: center; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 2 – SUMMARY OF SIGNIFICANT
+ACCOUNTING POLICIES (Continued)&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+</us-gaap:FairValueOfFinancialInstrumentsPolicy>
+	<us-gaap:EarningsPerSharePolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_84F_eus-gaap--EarningsPerSharePolicyTextBlock_ztdxowQY67W" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Basic and Diluted Earnings (Loss)
+Per Share&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company computes earnings per share (“EPS”)
+in accordance with ASC 260, “Earnings per Share” (“ASC 260”). ASC 260 requires companies with complex capital
+structures to present basic and diluted EPS. Basic EPS is measured as net income (loss) divided by the weighted average common shares
+outstanding for the period. Diluted EPS presents the dilutive effect on a per share basis of potential common shares (e.g., convertible
+securities, options and warrants) as if they had been converted at the beginning of the periods presented, or issuance date, if later.
+Potential common shares that have an anti-dilutive effect (i.e., those that increase income per share or decrease loss per share) are
+excluded from the calculation of diluted EPS. As of August 31, 2023, the total number of warrants outstanding was &lt;span id="xdx_90D_eus-gaap--WarrantsAndRightsOutstanding_iI_c20230831_zoTFOCFwUxW7"&gt;50,000,000&lt;/span&gt; (See Note
+9). No warrants were included in the diluted loss per share as they would be anti-dilutive.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+</us-gaap:EarningsPerSharePolicyTextBlock>
+	<us-gaap:Reclassifications contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_847_eus-gaap--Reclassifications_zJYTZCoKtf5k" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Reclassification&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;Certain prior period amounts have
+been reclassified to conform to the current period presentation.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+</us-gaap:Reclassifications>
+	<us-gaap:CreditLossFinancialInstrumentPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_84A_eus-gaap--CreditLossFinancialInstrumentPolicyTextBlock_zUbBNkv6vHD9" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Warrants&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white; color: #212529"&gt;Warrants
+are classified as equity and the proceeds from issuing warrants in conjunction with convertible notes are allocated based on the relative
+fair values of the base instrument of convertible notes and the warrants by following the guidance of ASC 470-20-25-2&lt;span style="font-family: SimSun"&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white; color: #212529"&gt;Proceeds
+from the sale of a debt instrument with stock purchase warrants (detachable call options) shall be allocated to the two elements based
+on the relative fair values of the debt instrument without the warrants and of the warrants themselves at time of issuance. The portion
+of the proceeds so allocated to the warrants shall be accounted for as paid-in capital. The remainder of the proceeds shall be allocated
+to the debt instrument portion of the transaction. This usually results in a discount (or, occasionally, a reduced premium), which shall
+be accounted for as interest expense under Topic 835 Interest.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+</us-gaap:CreditLossFinancialInstrumentPolicyTextBlock>
+	<us-gaap:IncomeTaxPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_84A_eus-gaap--IncomeTaxPolicyTextBlock_z2kS5aiYUXWj" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Income Taxes&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="background-color: white"&gt;The Company
+accounts for current income taxes in accordance with the laws of the relevant tax authorities. Income taxes are accounted for using the
+asset and liability approach. Under this approach, income tax expense is recognized for the amount of taxes payable or refundable for
+the current year. Deferred income taxes assets and liabilities are recognized when temporary differences exist between the tax bases of
+assets and liabilities and their reported amounts in the consolidated financial statements. Deferred tax assets and liabilities are measured
+using enacted tax rates expected to apply to taxable income in the years in which those temporary differences are expected to be recovered
+or settled. The effect on deferred tax assets and liabilities of a change in tax rates is recognized in the consolidated statement of
+operations in the period including the enactment date. Valuation allowances are established, when necessary, to reduce deferred tax assets
+to the amount expected to be realized.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="background-color: white"&gt;The Company
+records uncertain tax positions in accordance with ASC 740 on the basis of a two-step process whereby (1) the Company determines whether
+it is more likely than not that the tax positions will be sustained on the basis of the technical merits of the position and (2) for those
+tax positions that meet the more-likely-than-not recognition threshold, the Company recognizes the largest amount of tax benefit that
+is more than 50 percent likely to be realized upon ultimate settlement with the related tax authority.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+</us-gaap:IncomeTaxPolicyTextBlock>
+	<us-gaap:CompensationRelatedCostsGeneralTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_84E_eus-gaap--CompensationRelatedCostsGeneralTextBlock_z9bdWDsmwQ59" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Share-Based Compensation&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="background-color: white"&gt;The Company
+follows the provisions of ASC 718, “Compensation - Stock Compensation,” which establishes the accounting for employee share-based
+awards. For employee share-based awards, share-based compensation cost is measured at the grant date based on the fair value of the award
+and is recognized as expense with graded vesting on a straight-line basis over the requisite service period for the entire award.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+
+
+
+&lt;p style="font: 10pt/107% Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;AB INTERNATIONAL GROUP CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 2 – SUMMARY OF SIGNIFICANT
+ACCOUNTING POLICIES (continued)&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+</us-gaap:CompensationRelatedCostsGeneralTextBlock>
+	<us-gaap:NewAccountingPronouncementsPolicyPolicyTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_849_eus-gaap--NewAccountingPronouncementsPolicyPolicyTextBlock_zSGqJcKJlYo1" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Recent Accounting Pronouncements&lt;/span&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;In October 2021, the FASB issued ASU No. 2021-08,
+“‘Business Combinations (Topic 805): Accounting for Contract Assets and Contract Liabilities from Contracts with Customers”
+(“ASU 2021-08”). This ASU requires entities to apply Topic 606 to recognize and measure contract assets and contract liabilities
+in a business combination. The amendments improve comparability after the business combination by providing consistent recognition and
+measurement guidance for revenue contracts with customers acquired in a business combination and revenue contracts with customers not
+acquired in a business combination. The amendments are effective for the Company beginning after December 15, 2023, and are applied prospectively
+to business combinations that occur after the effective date. The Company does not expect the adoption of ASU 2021-04 to have a material
+effect on the consolidated financial statements.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;In June 2022, the FASB issued ASU No. 2022-03, "Fair
+Value Measurements (Topic 820): Fair Value Measurement of Equity Securities Subject to Contractual Sale Restrictions," which clarifies
+and amends the guidance of measuring the fair value of equity securities subject to contractual restrictions that prohibit the sale of
+the equity securities. The guidance will be effective for fiscal years beginning after December 15, 2023 and interim periods within those
+fiscal years. The Company does not expect the adoption to have a material impact on the consolidated financial statements.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify"&gt;&lt;span style="font-family: Times New Roman, Times, Serif"&gt;The
+Company does not believe other recently issued but not yet effective accounting standards, if currently adopted, would have a material
+effect on the Company’s consolidated balance sheets, statements of operations and statements of cash flows.&lt;/span&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+</us-gaap:NewAccountingPronouncementsPolicyPolicyTextBlock>
+	</xbrl>
+

@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i8f8cb917d8a749d38031af3fff17b48c_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">us-gaap:EmployeeStockOptionMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="icb32e1a8b9624fa2bc1ea0726c66196b_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">us-gaap:EmployeeStockOptionMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i709fce92404c479eb083352ab1dbe74d_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">us-gaap:EmployeeStockOptionMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i7da183a95a4f4ed6abc2b8b6410f1b54_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">acgl:RestrictedCommonSharesAndRestrictedUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i65355ada35214409a29c66e69bae1e3a_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">acgl:RestrictedCommonSharesAndRestrictedUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ic5275711094240979d4514b67a47e5b4_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">acgl:RestrictedCommonSharesAndRestrictedUnitsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i50450242ddb74cf28527b418ec4d5840_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">us-gaap:PerformanceSharesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i599915a980b24497b553de7966c1c372_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">us-gaap:PerformanceSharesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0359c9777ef945eca7e20d1e464cf012_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">us-gaap:PerformanceSharesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i4556ed6b713549b08c060f21643ff0f6_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">acgl:EmployeeSharePurchasePlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3282edf28c9f435984a98671b3eda83b_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">acgl:EmployeeSharePurchasePlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i7604b51f3219493992a28f04f2f8baa7_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:AwardTypeAxis">acgl:EmployeeSharePurchasePlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i8f8cb917d8a749d38031af3fff17b48c_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzMtMS0xLTEtNjc4NzQ_4e0aa72b-7e20-46d9-9756-d85785560f61" unitRef="usd">11891000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="icb32e1a8b9624fa2bc1ea0726c66196b_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzMtMy0xLTEtNjc4NzQ_d5c577da-a2b9-4430-80c4-b81aa2ebdddb" unitRef="usd">12316000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i709fce92404c479eb083352ab1dbe74d_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzMtNS0xLTEtNjc4NzQ_bda1b8e2-7252-4b0c-884d-17f724e95441" unitRef="usd">11744000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i7da183a95a4f4ed6abc2b8b6410f1b54_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzQtMS0xLTEtNjc4NzQ_902d8aa6-6fe3-4f54-9b0e-5c4a12e10f57" unitRef="usd">50278000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i65355ada35214409a29c66e69bae1e3a_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzQtMy0xLTEtNjc4NzQ_329dee79-1a5a-41be-888a-646d5c1d23c4" unitRef="usd">46817000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="ic5275711094240979d4514b67a47e5b4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzQtNS0xLTEtNjc4NzQ_ad9b0538-14ea-4234-89d0-39655cf18e2e" unitRef="usd">41284000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i50450242ddb74cf28527b418ec4d5840_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzUtMS0xLTEtNjc4NzQ_7ea10969-5dad-42fd-b7b3-bbc7ebb82281" unitRef="usd">21510000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i599915a980b24497b553de7966c1c372_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzUtMy0xLTEtNjc4NzQ_59043bc8-c1e0-4e70-8905-45f98add52b7" unitRef="usd">23696000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i0359c9777ef945eca7e20d1e464cf012_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzUtNS0xLTEtNjc4NzQ_2115dc7a-e645-4db5-a18a-9128184b94ae" unitRef="usd">14729000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i4556ed6b713549b08c060f21643ff0f6_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzYtMS0xLTEtNjc4NzQ_81f717bc-a2be-4a81-928c-f4532e3d372d" unitRef="usd">3993000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i3282edf28c9f435984a98671b3eda83b_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzYtMy0xLTEtNjc4NzQ_32a20f85-91d7-490f-ad83-9657dbb6246c" unitRef="usd">3751000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i7604b51f3219493992a28f04f2f8baa7_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzYtNS0xLTEtNjc4NzQ_7044fca5-a58b-40b6-9759-ceda59a817ce" unitRef="usd">2135000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzctMS0xLTEtNjc4NzQ_657befc4-cd0d-4b22-a5c0-e9922c716ee1" unitRef="usd">87672000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzctMy0xLTEtNjc4NzQ_4242c1b2-4770-4a7d-98fd-0e83c932bcf7" unitRef="usd">86580000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpense contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzctNS0xLTEtNjc4NzQ_4cf0b1b9-1b5d-4dfe-af37-88778bd827cb" unitRef="usd">69892000</us-gaap:AllocatedShareBasedCompensationExpense>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i8f8cb917d8a749d38031af3fff17b48c_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEwLTEtMS0xLTY3ODc0_17350a7e-99d9-4170-949b-7b343d1b3df8" unitRef="usd">10726000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="icb32e1a8b9624fa2bc1ea0726c66196b_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEwLTMtMS0xLTY3ODc0_ef935ca8-4b7e-4328-8c4e-706efb944ba3" unitRef="usd">10927000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i709fce92404c479eb083352ab1dbe74d_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEwLTUtMS0xLTY3ODc0_e2572476-acf2-4672-83e6-ba56d22c0e43" unitRef="usd">10388000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i7da183a95a4f4ed6abc2b8b6410f1b54_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzExLTEtMS0xLTY3ODc0_3e1143cd-01d3-40dc-ab1e-caad4d7c59eb" unitRef="usd">42346000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i65355ada35214409a29c66e69bae1e3a_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzExLTMtMS0xLTY3ODc0_d6c6f5b3-4379-4cd7-a6ce-a650e31dc705" unitRef="usd">39349000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="ic5275711094240979d4514b67a47e5b4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzExLTUtMS0xLTY3ODc0_6d9bda00-90d0-452c-aec8-38f2ecba56be" unitRef="usd">34599000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i50450242ddb74cf28527b418ec4d5840_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEyLTEtMS0xLTY3ODc0_5105cae8-8189-4eda-932f-966fe6da0463" unitRef="usd">19794000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i599915a980b24497b553de7966c1c372_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEyLTMtMS0xLTY3ODc0_f5457234-1eb2-4566-8d0e-3beebeabb87c" unitRef="usd">21920000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i0359c9777ef945eca7e20d1e464cf012_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEyLTUtMS0xLTY3ODc0_a11b24e2-fbc8-4def-84a2-b96e64c534a1" unitRef="usd">13380000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i4556ed6b713549b08c060f21643ff0f6_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEzLTEtMS0xLTY3ODc0_96879ed5-0c24-4b62-9d56-720eeef4a686" unitRef="usd">3660000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i3282edf28c9f435984a98671b3eda83b_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEzLTMtMS0xLTY3ODc0_e7b99213-c82c-4d16-8248-d0b508a7d957" unitRef="usd">3471000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i7604b51f3219493992a28f04f2f8baa7_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzEzLTUtMS0xLTY3ODc0_94381d5b-4967-4be6-8d4f-b14855d68db1" unitRef="usd">1978000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzE0LTEtMS0xLTY3ODc0_c9392afe-8569-4219-89fa-33f1cc2d88ef" unitRef="usd">76526000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzE0LTMtMS0xLTY3ODc0_2fae8f13-b292-44bc-b2e6-1643e8e624c7" unitRef="usd">75667000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	<us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90YWJsZTowNzA1YzQxMTdkMWY0MTM5OGI3OGI0ZWE4ODBkMjk1YS90YWJsZXJhbmdlOjA3MDVjNDExN2QxZjQxMzk4Yjc4YjRlYTg4MGQyOTVhXzE0LTUtMS0xLTY3ODc0_51649883-f360-47d3-b722-8193ae0a1daa" unitRef="usd">60345000</us-gaap:AllocatedShareBasedCompensationExpenseNetOfTax>
+	</xbrl>
+

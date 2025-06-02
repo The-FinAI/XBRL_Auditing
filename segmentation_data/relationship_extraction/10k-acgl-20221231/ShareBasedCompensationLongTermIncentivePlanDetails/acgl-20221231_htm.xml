@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i7860796a887241acb8bfd1c8cdcdee01_I20220504">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PlanNameAxis">acgl:A2022LongTermIncentiveAndShareAwardPlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-05-04</instant>
+        </period>
+    </context>
+	<context id="i012618a9fc9242e1b003a599402940b6_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PlanNameAxis">acgl:TwoThousandEighteenLongTermIncentiveandShareAwardPlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ia16da5768de1416cbe93b9233c285d29_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PlanNameAxis">acgl:LongTermIncentiveAndShareAwardPlan2015Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i89ba85a2a19943bea2bf10a56dfebdb4_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PlanNameAxis">acgl:A2022LongTermIncentiveAndShareAwardPlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i5fbcca60a88541d587519eb180136269_I20160506">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PlanNameAxis">acgl:EmployeeSharePurchasePlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2016-05-06</instant>
+        </period>
+    </context>
+	<context id="i0890d478783442acb07d42491fd32145_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PlanNameAxis">acgl:EmployeeSharePurchasePlanMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized contextRef="i7860796a887241acb8bfd1c8cdcdee01_I20220504" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzEwOTk1MTE2MzUxODA_cdadcab2-2dcc-486e-909b-712030d42a95" unitRef="shares">9000000</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized>
+	<us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized contextRef="i012618a9fc9242e1b003a599402940b6_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzkzNg_2f3b96de-42b1-493a-b865-636a9dce6c85" unitRef="shares">34500000</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized>
+	<us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized contextRef="ia16da5768de1416cbe93b9233c285d29_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzExNjI_ac03aafd-135b-48a4-9dc2-b8f358cec3ad" unitRef="shares">12900000</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized>
+	<acgl:ShareBasedCompensationNumberOfSharesAuthorizedForIncentiveStockOptions contextRef="i7860796a887241acb8bfd1c8cdcdee01_I20220504" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzU0OTc1NTgyMTc1Mw_ca20051c-3e05-4643-8bc5-36f6aa7def57" unitRef="shares">6000000</acgl:ShareBasedCompensationNumberOfSharesAuthorizedForIncentiveStockOptions>
+	<us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant contextRef="i89ba85a2a19943bea2bf10a56dfebdb4_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzU0OTc1NTgyMTc3NQ_751af1f1-d7a3-4eb4-8a3c-effd80898ea1" unitRef="shares">9000000</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant>
+	<us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant contextRef="i012618a9fc9242e1b003a599402940b6_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzEwOTk1MTE2MzUxODQ_5e22b3bf-43af-4d12-934f-27f3ca43e2fb" unitRef="shares">4577991</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant>
+	<us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant contextRef="ia16da5768de1416cbe93b9233c285d29_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzE0MzA_3289c6c2-4235-492b-8c27-19d74aac414d" unitRef="shares">504872</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant>
+	<us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant contextRef="i5fbcca60a88541d587519eb180136269_I20160506" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzE5ODA_3c91891a-5b2b-451b-b323-a5bec9ef90ff" unitRef="shares">4689777</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant>
+	<us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant contextRef="i0890d478783442acb07d42491fd32145_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMDgvZnJhZzplYmIzNjRkMTJkNjY0ZWZkOTljMDcyMTU1MTY4MjEwYy90ZXh0cmVnaW9uOmViYjM2NGQxMmQ2NjRlZmQ5OWMwNzIxNTUxNjgyMTBjXzIzOTU_07a6440f-2b7c-4612-9e1f-5be55dff5d83" unitRef="shares">1041837</us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant>
+	</xbrl>
+

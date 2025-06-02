@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="ia342b0e371ba4e598d5179a1d2666725_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">us-gaap:DomesticCountryMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i7ffbee31bd0f4cb1824be2e0c4dbaf51_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:US</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i27a1ac1a34d249f8b4100fc4f928db93_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:GB</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ic3997157130f4fd990d94cf7cc075de9_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:IE</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ifdb0892bfee44f599970b5b20cb74bfa_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:DK</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ibe7f7519ec4849c3aee35c737b8bb5c1_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:CA</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i2ae7fe4864df490795a171738b9593f5_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:GI</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="iaec101322c104daeaf13df1205f104cd_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:AU</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ib3d96911ed2b4a168af7925052209394_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:HK</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i69376fb2551c46d7b4ae375beab70b2f_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:IncomeTaxAuthorityAxis">country:NL</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<acgl:StatutoryTaxRatePercentage contextRef="ia342b0e371ba4e598d5179a1d2666725_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMxNzI_83ac6209-02c1-4bf5-8fdd-6dc2a907c916" unitRef="number">0.000</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="i7ffbee31bd0f4cb1824be2e0c4dbaf51_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMxOTI_4342b47e-782c-4933-936e-535b4725b8da" unitRef="number">0.210</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="i27a1ac1a34d249f8b4100fc4f928db93_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMyMTM_b307b85b-8659-4f08-b28f-c85fbdee28a8" unitRef="number">0.190</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="ic3997157130f4fd990d94cf7cc075de9_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMyMjc_70c983dd-bd05-4322-9989-963d52c673dd" unitRef="number">0.125</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="ifdb0892bfee44f599970b5b20cb74bfa_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMyNDE_93a5cae0-4330-46bf-a0c8-28e3a5105367" unitRef="number">0.220</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="ibe7f7519ec4849c3aee35c737b8bb5c1_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMyNTQ_45b585a9-c3ef-45cc-9cfe-7600c2c8c003" unitRef="number">0.265</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="i2ae7fe4864df490795a171738b9593f5_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMyNzA_d132ab68-5913-45ab-ae31-6bf2fa8d4ec2" unitRef="number">0.125</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="iaec101322c104daeaf13df1205f104cd_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMyODY_f29edd72-0c02-4ea4-b03d-ac4ef510e931" unitRef="number">0.300</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="ib3d96911ed2b4a168af7925052209394_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMzMDI_8b3b712c-aea0-439d-926f-011d11caa29a" unitRef="number">0.165</acgl:StatutoryTaxRatePercentage>
+	<acgl:StatutoryTaxRatePercentage contextRef="i69376fb2551c46d7b4ae375beab70b2f_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90ZXh0cmVnaW9uOjE1MjRkMTNjMDAyMTQ4OWE5ODUxMzE4ZDdkMzgxNTRhXzMzMjc_73b39ba9-825f-4df0-a19a-b9ce8b51ed94" unitRef="number">0.258</acgl:StatutoryTaxRatePercentage>
+	</xbrl>
+

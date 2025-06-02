@@ -1,0 +1,1379 @@
+assertion.code,assertion.detail,assertion.run-date,assertion.severity,assertion.source,assertion.type,entity.cik,entity.name,report.accepted-timestamp,report.accession,report.base-taxonomy,report.creation-software,report.document-type,report.entry-url,report.filing-date,report.filing-year,report.id,report.sec-url,report.sic-code,folder_name
+DQC.US.0081.9278,"2022-01-03 07:00:36,513 [DQC.US.0081.9278] The line item concept us-gaap:ProceedsFromIssuanceOfCommonStock with a value of 91,900 and a calculation parent of us-gaap:NetCashProvidedByUsedInFinancingActivities is represented as a sibling of us-gaap:ProceedsFromIssuanceOrSaleOfEquity with a value of 78,225 in the extension taxonomy role 000006 - Statement - STATEMENT OF CASH FLOWS (Unaudited), but us-gaap:ProceedsFromIssuanceOfCommonStock is represented as a descendent of us-gaap:ProceedsFromIssuanceOrSaleOfEquity in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ProceedsFromIssuanceOfCommonStock fact are:
+
+Period :2021-01-01 to 2021-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - gdwl_10q.htm 1",2022-01-03,ERROR,DQC,81,1800373,"GOLDENWELL BIOTECH, INC.",2022-01-03 06:29:00,0001477932-22-000010,US GAAP 2020,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1800373/000147793222000010/gdwl_10q.htm,2022-01-03,2022,409763,https://www.sec.gov/Archives/edgar/data/1800373/000147793222000010/0001477932-22-000010-index.htm,2000,10q-gdwl-20210930
+DQC.US.0081.9277,"2022-01-14 12:30:34,917 [DQC.US.0081.9277] The line item concept us-gaap:ProceedsFromLoans with a value of 11,865 is represented as a child of us-gaap:NetCashProvidedByUsedInFinancingActivities with a value of 29,140 in the companies extension taxonomy role 00000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited). The element us-gaap:ProceedsFromLoans however, is not represented as a component of us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:ProceedsFromLoans as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInFinancingActivities and the child element us-gaap:ProceedsFromLoans.
+The element ProceedsFromLoans is an operating cash receipt from principal payments made on loans related to operating activities.  Look to use one of the elements included as descendants of the abstract element ProceedsFromRepaymentsOfDebtAbstract.
+
+The properties of this us-gaap:ProceedsFromLoans fact are:
+
+Period :2021-06-01 to 2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 16.0.10
+ - paxh113021q.htm 2434",2022-01-14,ERROR,DQC,81,1350156,PREAXIA HEALTH CARE PAYMENT SYSTEMS INC.,2022-01-14 12:02:00,0001262463-22-000015,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_058_edei%2D%2DDocumentFiscalPeriodFocus_Q2,10-Q,http://www.sec.gov/Archives/edgar/data/1350156/000126246322000015/paxh113021q.htm,2022-01-14,2022,412124,https://www.sec.gov/Archives/edgar/data/1350156/000126246322000015/0001262463-22-000015-index.htm,5700,10q-paxh-20211130
+DQC.US.0081.9278,"2022-01-14 12:30:34,917 [DQC.US.0081.9278] The line item concept us-gaap:AccountsPayableRelatedPartiesCurrent with a value of 429,121 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:DueToRelatedPartiesCurrent with a value of 37,696 in the extension taxonomy role 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited), but us-gaap:AccountsPayableRelatedPartiesCurrent is represented as a descendent of us-gaap:DueToRelatedPartiesCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AccountsPayableRelatedPartiesCurrent fact are:
+
+Period :2021-05-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - paxh113021q.htm 2400",2022-01-14,ERROR,DQC,81,1350156,PREAXIA HEALTH CARE PAYMENT SYSTEMS INC.,2022-01-14 12:02:00,0001262463-22-000015,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_058_edei%2D%2DDocumentFiscalPeriodFocus_Q2,10-Q,http://www.sec.gov/Archives/edgar/data/1350156/000126246322000015/paxh113021q.htm,2022-01-14,2022,412124,https://www.sec.gov/Archives/edgar/data/1350156/000126246322000015/0001262463-22-000015-index.htm,5700,10q-paxh-20211130
+DQC.US.0081.9278,"2022-01-14 12:30:34,917 [DQC.US.0081.9278] The line item concept us-gaap:AccountsPayableRelatedPartiesCurrent with a value of 489,121 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:DueToRelatedPartiesCurrent with a value of 54,971 in the extension taxonomy role 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited), but us-gaap:AccountsPayableRelatedPartiesCurrent is represented as a descendent of us-gaap:DueToRelatedPartiesCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AccountsPayableRelatedPartiesCurrent fact are:
+
+Period :2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - paxh113021q.htm 2400",2022-01-14,ERROR,DQC,81,1350156,PREAXIA HEALTH CARE PAYMENT SYSTEMS INC.,2022-01-14 12:02:00,0001262463-22-000015,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_058_edei%2D%2DDocumentFiscalPeriodFocus_Q2,10-Q,http://www.sec.gov/Archives/edgar/data/1350156/000126246322000015/paxh113021q.htm,2022-01-14,2022,412124,https://www.sec.gov/Archives/edgar/data/1350156/000126246322000015/0001262463-22-000015-index.htm,5700,10q-paxh-20211130
+DQC.US.0081.9278,"2022-03-09 20:02:26,631 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayable with a value of 1,932,964 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayable with a value of 118,031 in the extension taxonomy role 00000002 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:ConvertibleNotesPayable is represented as a descendent of us-gaap:NotesPayable in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayable fact are:
+
+Period :2021-05-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 17.0.2
+ - lfer_2021nov30-10q.htm 2383",2022-03-10,ERROR,DQC,81,1579010,"LIFE ON EARTH, INC.",2022-01-14 16:34:00,0001017386-22-000026,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_050_edei%2D%2DCurrentFiscalYearEndDate_05%2D31,10-Q,http://www.sec.gov/Archives/edgar/data/1579010/000101738622000026/lfer_2021nov30-10q.htm,2022-01-14,2022,412216,https://www.sec.gov/Archives/edgar/data/1579010/000101738622000026/0001017386-22-000026-index.htm,2080,10q-lfer-20211130
+DQC.US.0081.9278,"2022-03-09 20:02:26,631 [DQC.US.0081.9278] The line item concept us-gaap:IntangibleAssetsCurrent with a value of 4,660,925 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsCurrent with a value of 75,081 in the extension taxonomy role 00000002 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:IntangibleAssetsCurrent is represented as a descendent of us-gaap:AssetsCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:IntangibleAssetsCurrent fact are:
+
+Period :2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 17.0.2
+ - lfer_2021nov30-10q.htm 2340",2022-03-10,ERROR,DQC,81,1579010,"LIFE ON EARTH, INC.",2022-01-14 16:34:00,0001017386-22-000026,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_050_edei%2D%2DCurrentFiscalYearEndDate_05%2D31,10-Q,http://www.sec.gov/Archives/edgar/data/1579010/000101738622000026/lfer_2021nov30-10q.htm,2022-01-14,2022,412216,https://www.sec.gov/Archives/edgar/data/1579010/000101738622000026/0001017386-22-000026-index.htm,2080,10q-lfer-20211130
+DQC.US.0081.9278,"2022-03-09 20:02:26,631 [DQC.US.0081.9278] The line item concept us-gaap:IntangibleAssetsCurrent with a value of 5,102,000 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsCurrent with a value of 113,657 in the extension taxonomy role 00000002 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:IntangibleAssetsCurrent is represented as a descendent of us-gaap:AssetsCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:IntangibleAssetsCurrent fact are:
+
+Period :2021-05-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 17.0.2
+ - lfer_2021nov30-10q.htm 2341",2022-03-10,ERROR,DQC,81,1579010,"LIFE ON EARTH, INC.",2022-01-14 16:34:00,0001017386-22-000026,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_050_edei%2D%2DCurrentFiscalYearEndDate_05%2D31,10-Q,http://www.sec.gov/Archives/edgar/data/1579010/000101738622000026/lfer_2021nov30-10q.htm,2022-01-14,2022,412216,https://www.sec.gov/Archives/edgar/data/1579010/000101738622000026/0001017386-22-000026-index.htm,2080,10q-lfer-20211130
+DQC.US.0081.9278,"2022-03-09 20:02:26,632 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayable with a value of 611,750 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayable with a value of 142,404 in the extension taxonomy role 00000002 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:ConvertibleNotesPayable is represented as a descendent of us-gaap:NotesPayable in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayable fact are:
+
+Period :2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 17.0.2
+ - lfer_2021nov30-10q.htm 2382",2022-03-10,ERROR,DQC,81,1579010,"LIFE ON EARTH, INC.",2022-01-14 16:34:00,0001017386-22-000026,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_050_edei%2D%2DCurrentFiscalYearEndDate_05%2D31,10-Q,http://www.sec.gov/Archives/edgar/data/1579010/000101738622000026/lfer_2021nov30-10q.htm,2022-01-14,2022,412216,https://www.sec.gov/Archives/edgar/data/1579010/000101738622000026/0001017386-22-000026-index.htm,2080,10q-lfer-20211130
+DQC.US.0081.9277,"2022-01-18 07:01:54,630 [DQC.US.0081.9277] The line item concept us-gaap:CostOfRevenue with a value of 13,289 is represented as a child of us-gaap:Revenues with a value of 13,289 in the companies extension taxonomy role 000004 - Statement - Consolidated Statements of Operations (Unaudited). The element us-gaap:CostOfRevenue however, is not represented as a component of us-gaap:Revenues in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:CostOfRevenue as a sibling element (or child of that sibling) relative to us-gaap:Revenues in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:Revenues and the child element us-gaap:CostOfRevenue.
+
+
+The properties of this us-gaap:CostOfRevenue fact are:
+
+Period :2021-09-01 to 2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 16.0.10
+ - hbr_10q.htm 1",2022-01-18,ERROR,DQC,81,1796949,"GenFlat Holdings, Inc.",2022-01-18 06:02:00,0001654954-22-000549,US GAAP 2020,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/hbr_10q.htm,2022-01-18,2022,412314,https://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/0001654954-22-000549-index.htm,8742,10q-hbr-20211130
+DQC.US.0081.9277,"2022-01-18 07:01:54,631 [DQC.US.0081.9277] The line item concept us-gaap:CostOfRevenue with a value of 28,942 is represented as a child of us-gaap:Revenues with a value of 28,942 in the companies extension taxonomy role 000004 - Statement - Consolidated Statements of Operations (Unaudited). The element us-gaap:CostOfRevenue however, is not represented as a component of us-gaap:Revenues in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:CostOfRevenue as a sibling element (or child of that sibling) relative to us-gaap:Revenues in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:Revenues and the child element us-gaap:CostOfRevenue.
+
+
+The properties of this us-gaap:CostOfRevenue fact are:
+
+Period :2021-03-01 to 2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 16.0.10
+ - hbr_10q.htm 1",2022-01-18,ERROR,DQC,81,1796949,"GenFlat Holdings, Inc.",2022-01-18 06:02:00,0001654954-22-000549,US GAAP 2020,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/hbr_10q.htm,2022-01-18,2022,412314,https://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/0001654954-22-000549-index.htm,8742,10q-hbr-20211130
+DQC.US.0081.9277,"2022-01-18 07:01:54,631 [DQC.US.0081.9277] The line item concept us-gaap:InterestIncomeOperating with a value of 2,992 is represented as a child of us-gaap:OtherIncome with a value of -5,555 in the companies extension taxonomy role 000004 - Statement - Consolidated Statements of Operations (Unaudited). The element us-gaap:InterestIncomeOperating however, is not represented as a component of us-gaap:OtherIncome in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:InterestIncomeOperating as a sibling element (or child of that sibling) relative to us-gaap:OtherIncome in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:OtherIncome and the child element us-gaap:InterestIncomeOperating.
+
+
+The properties of this us-gaap:InterestIncomeOperating fact are:
+
+Period :2021-09-01 to 2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 16.0.10
+ - hbr_10q.htm 1",2022-01-18,ERROR,DQC,81,1796949,"GenFlat Holdings, Inc.",2022-01-18 06:02:00,0001654954-22-000549,US GAAP 2020,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/hbr_10q.htm,2022-01-18,2022,412314,https://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/0001654954-22-000549-index.htm,8742,10q-hbr-20211130
+DQC.US.0081.9277,"2022-01-18 07:01:54,631 [DQC.US.0081.9277] The line item concept us-gaap:ProceedsFromConvertibleDebt with a value of -200,000 is represented as a child of us-gaap:NetCashProvidedByUsedInInvestingActivities with a value of -195,000 in the companies extension taxonomy role 000006 - Statement - Consolidated Statements of Cash Flows (Unaudited). The element us-gaap:ProceedsFromConvertibleDebt however, is not represented as a component of us-gaap:NetCashProvidedByUsedInInvestingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:ProceedsFromConvertibleDebt as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInInvestingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInInvestingActivities and the child element us-gaap:ProceedsFromConvertibleDebt.
+
+
+The properties of this us-gaap:ProceedsFromConvertibleDebt fact are:
+
+Period :2021-03-01 to 2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 16.0.10
+ - hbr_10q.htm 1",2022-01-18,ERROR,DQC,81,1796949,"GenFlat Holdings, Inc.",2022-01-18 06:02:00,0001654954-22-000549,US GAAP 2020,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/hbr_10q.htm,2022-01-18,2022,412314,https://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/0001654954-22-000549-index.htm,8742,10q-hbr-20211130
+DQC.US.0081.9277,"2022-01-18 07:01:54,632 [DQC.US.0081.9277] The line item concept us-gaap:CostOfRevenue with a value of 2,009 is represented as a child of us-gaap:Revenues with a value of 2,009 in the companies extension taxonomy role 000004 - Statement - Consolidated Statements of Operations (Unaudited). The element us-gaap:CostOfRevenue however, is not represented as a component of us-gaap:Revenues in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:CostOfRevenue as a sibling element (or child of that sibling) relative to us-gaap:Revenues in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:Revenues and the child element us-gaap:CostOfRevenue.
+
+
+The properties of this us-gaap:CostOfRevenue fact are:
+
+Period :2020-03-01 to 2020-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 16.0.10
+ - hbr_10q.htm 1",2022-01-18,ERROR,DQC,81,1796949,"GenFlat Holdings, Inc.",2022-01-18 06:02:00,0001654954-22-000549,US GAAP 2020,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/hbr_10q.htm,2022-01-18,2022,412314,https://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/0001654954-22-000549-index.htm,8742,10q-hbr-20211130
+DQC.US.0081.9277,"2022-01-18 07:01:54,632 [DQC.US.0081.9277] The line item concept us-gaap:InterestIncomeOperating with a value of 8,548 is represented as a child of us-gaap:OtherIncome with a value of -11,468 in the companies extension taxonomy role 000004 - Statement - Consolidated Statements of Operations (Unaudited). The element us-gaap:InterestIncomeOperating however, is not represented as a component of us-gaap:OtherIncome in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:InterestIncomeOperating as a sibling element (or child of that sibling) relative to us-gaap:OtherIncome in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:OtherIncome and the child element us-gaap:InterestIncomeOperating.
+
+
+The properties of this us-gaap:InterestIncomeOperating fact are:
+
+Period :2021-03-01 to 2021-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 16.0.10
+ - hbr_10q.htm 1",2022-01-18,ERROR,DQC,81,1796949,"GenFlat Holdings, Inc.",2022-01-18 06:02:00,0001654954-22-000549,US GAAP 2020,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/hbr_10q.htm,2022-01-18,2022,412314,https://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/0001654954-22-000549-index.htm,8742,10q-hbr-20211130
+DQC.US.0081.9278,"2022-01-26 13:15:23,708 [DQC.US.0081.9278] The line item concept us-gaap:DueToOtherRelatedPartiesClassifiedCurrent with a value of 108,496 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:DueToRelatedPartiesCurrent with a value of 10,243 in the extension taxonomy role 00000002 - Statement - BALANCE SHEET, but us-gaap:DueToOtherRelatedPartiesClassifiedCurrent is represented as a descendent of us-gaap:DueToRelatedPartiesCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:DueToOtherRelatedPartiesClassifiedCurrent fact are:
+
+Period :2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - zenosenseinc_10k.htm 2660",2022-01-26,ERROR,DQC,81,1458581,"Zenosense, Inc.",2022-01-26 12:58:00,0001829126-22-001655,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD,10-K,http://www.sec.gov/Archives/edgar/data/1458581/000182912622001655/zenosenseinc_10k.htm,2022-01-26,2022,413859,https://www.sec.gov/Archives/edgar/data/1458581/000182912622001655/0001829126-22-001655-index.htm,1040,10k-zeno-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,653 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfIntangibleAssets with a value of 3,347,000 and a calculation parent of us-gaap:OperatingIncomeLoss is represented as a sibling of us-gaap:OperatingExpenses with a value of 97,758,000 in the extension taxonomy role 1001002 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF INCOME (UNAUDITED), but us-gaap:AmortizationOfIntangibleAssets is represented as a descendent of us-gaap:OperatingExpenses in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AmortizationOfIntangibleAssets fact are:
+
+Period :2020-10-01 to 2020-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,653 [DQC.US.0081.9278] The line item concept us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax with a value of -479,000 and a calculation parent of us-gaap:OtherComprehensiveIncomeLossNetOfTax is represented as a sibling of us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax with a value of 3,291,000 in the extension taxonomy role 1002003 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (UNAUDITED), but us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax is represented as a descendent of us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax fact are:
+
+Period :2020-10-01 to 2020-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,654 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfIntangibleAssets with a value of 6,681,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities with a value of 4,549,000 in the extension taxonomy role 1005006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (UNAUDITED), but us-gaap:AmortizationOfIntangibleAssets is represented as a descendent of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AmortizationOfIntangibleAssets fact are:
+
+Period :2020-07-01 to 2020-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,654 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfIntangibleAssets with a value of 6,681,000 and a calculation parent of us-gaap:OperatingIncomeLoss is represented as a sibling of us-gaap:OperatingExpenses with a value of 191,097,000 in the extension taxonomy role 1001002 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF INCOME (UNAUDITED), but us-gaap:AmortizationOfIntangibleAssets is represented as a descendent of us-gaap:OperatingExpenses in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AmortizationOfIntangibleAssets fact are:
+
+Period :2020-07-01 to 2020-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,654 [DQC.US.0081.9278] The line item concept us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax with a value of -940,000 and a calculation parent of us-gaap:OtherComprehensiveIncomeLossNetOfTax is represented as a sibling of us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax with a value of 4,501,000 in the extension taxonomy role 1002003 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (UNAUDITED), but us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax is represented as a descendent of us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax fact are:
+
+Period :2020-07-01 to 2020-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,655 [DQC.US.0081.9278] The line item concept us-gaap:DeferredIncomeTaxExpenseBenefit with a value of -455,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities with a value of 4,549,000 in the extension taxonomy role 1005006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (UNAUDITED), but us-gaap:DeferredIncomeTaxExpenseBenefit is represented as a descendent of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:DeferredIncomeTaxExpenseBenefit fact are:
+
+Period :2020-07-01 to 2020-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,655 [DQC.US.0081.9278] The line item concept us-gaap:Depreciation with a value of 55,483,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities with a value of 4,549,000 in the extension taxonomy role 1005006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (UNAUDITED), but us-gaap:Depreciation is represented as a descendent of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:Depreciation fact are:
+
+Period :2020-07-01 to 2020-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,655 [DQC.US.0081.9278] The line item concept us-gaap:ShareBasedCompensation with a value of 12,797,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities with a value of 4,549,000 in the extension taxonomy role 1005006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (UNAUDITED), but us-gaap:ShareBasedCompensation is represented as a descendent of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ShareBasedCompensation fact are:
+
+Period :2020-07-01 to 2020-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,656 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfIntangibleAssets with a value of 3,257,000 and a calculation parent of us-gaap:OperatingIncomeLoss is represented as a sibling of us-gaap:OperatingExpenses with a value of 106,654,000 in the extension taxonomy role 1001002 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF INCOME (UNAUDITED), but us-gaap:AmortizationOfIntangibleAssets is represented as a descendent of us-gaap:OperatingExpenses in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AmortizationOfIntangibleAssets fact are:
+
+Period :2021-10-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,656 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfIntangibleAssets with a value of 6,517,000 and a calculation parent of us-gaap:OperatingIncomeLoss is represented as a sibling of us-gaap:OperatingExpenses with a value of 209,348,000 in the extension taxonomy role 1001002 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF INCOME (UNAUDITED), but us-gaap:AmortizationOfIntangibleAssets is represented as a descendent of us-gaap:OperatingExpenses in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AmortizationOfIntangibleAssets fact are:
+
+Period :2021-07-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,656 [DQC.US.0081.9278] The line item concept us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax with a value of 192,000 and a calculation parent of us-gaap:OtherComprehensiveIncomeLossNetOfTax is represented as a sibling of us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax with a value of 0 in the extension taxonomy role 1002003 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (UNAUDITED), but us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax is represented as a descendent of us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax fact are:
+
+Period :2021-10-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,657 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfIntangibleAssets with a value of 6,517,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities with a value of 22,000 in the extension taxonomy role 1005006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (UNAUDITED), but us-gaap:AmortizationOfIntangibleAssets is represented as a descendent of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AmortizationOfIntangibleAssets fact are:
+
+Period :2021-07-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,657 [DQC.US.0081.9278] The line item concept us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax with a value of 385,000 and a calculation parent of us-gaap:OtherComprehensiveIncomeLossNetOfTax is represented as a sibling of us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax with a value of 0 in the extension taxonomy role 1002003 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (UNAUDITED), but us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax is represented as a descendent of us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax fact are:
+
+Period :2021-07-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,657 [DQC.US.0081.9278] The line item concept us-gaap:ShareBasedCompensation with a value of 13,374,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities with a value of 22,000 in the extension taxonomy role 1005006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (UNAUDITED), but us-gaap:ShareBasedCompensation is represented as a descendent of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ShareBasedCompensation fact are:
+
+Period :2021-07-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,658 [DQC.US.0081.9278] The line item concept us-gaap:DeferredIncomeTaxExpenseBenefit with a value of 108,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities with a value of 22,000 in the extension taxonomy role 1005006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (UNAUDITED), but us-gaap:DeferredIncomeTaxExpenseBenefit is represented as a descendent of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:DeferredIncomeTaxExpenseBenefit fact are:
+
+Period :2021-07-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-02-09 13:00:29,658 [DQC.US.0081.9278] The line item concept us-gaap:Depreciation with a value of 58,229,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities with a value of 22,000 in the extension taxonomy role 1005006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (UNAUDITED), but us-gaap:Depreciation is represented as a descendent of us-gaap:AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:Depreciation fact are:
+
+Period :2021-07-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 16.0.10
+ - kmt-20211231.htm 4",2022-02-09,ERROR,DQC,81,55242,KENNAMETAL INC.,2022-02-09 12:31:00,0000055242-22-000007,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/55242/000005524222000007/kmt-20211231.htm,2022-02-09,2022,417189,https://www.sec.gov/Archives/edgar/data/55242/000005524222000007/0000055242-22-000007-index.htm,3541,10q-kmt-20211231
+DQC.US.0081.9278,"2022-12-20 16:00:42,046 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayableCurrent with a value of 305,127 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayableCurrent with a value of 375,042 in the extension taxonomy role 000020 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:ConvertibleNotesPayableCurrent is represented as a descendent of us-gaap:NotesPayableCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayableCurrent fact are:
+
+Period :2022-04-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.6
+ - dtii-20221031.htm 1416",2022-12-20,ERROR,DQC,81,1533357,DEFENSE TECHNOLOGIES INTERNATIONAL CORP.,2022-12-20 15:30:00,0001096906-22-003015,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGXA5UT0]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1533357/000109690622003015/dtii-20221031.htm,2022-12-20,2022,536505,https://www.sec.gov/Archives/edgar/data/1533357/000109690622003015/0001096906-22-003015-index.htm,1040,10q-dtii-20221031
+DQC.US.0081.9278,"2022-12-20 16:00:42,046 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayableCurrent with a value of 341,803 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayableCurrent with a value of 45,042 in the extension taxonomy role 000020 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:ConvertibleNotesPayableCurrent is represented as a descendent of us-gaap:NotesPayableCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayableCurrent fact are:
+
+Period :2022-10-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.6
+ - dtii-20221031.htm 1415",2022-12-20,ERROR,DQC,81,1533357,DEFENSE TECHNOLOGIES INTERNATIONAL CORP.,2022-12-20 15:30:00,0001096906-22-003015,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGXA5UT0]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1533357/000109690622003015/dtii-20221031.htm,2022-12-20,2022,536505,https://www.sec.gov/Archives/edgar/data/1533357/000109690622003015/0001096906-22-003015-index.htm,1040,10q-dtii-20221031
+DQC.US.0081.9277,"2022-12-05 06:04:56,206 [DQC.US.0081.9277] The line item concept us-gaap:MinorityInterest with a value of -765,227 is represented as a child of us-gaap:StockholdersEquity with a value of 19,113,055 in the companies extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS. The element us-gaap:MinorityInterest however, is not represented as a component of us-gaap:StockholdersEquity in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:MinorityInterest as a sibling element (or child of that sibling) relative to us-gaap:StockholdersEquity in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:StockholdersEquity and the child element us-gaap:MinorityInterest.
+The element MinorityInterest should be defined as a child of StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest and not a child of StockholdersEquity which excludes non controlling interests.
+
+The properties of this us-gaap:MinorityInterest fact are:
+
+Period :2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 19.0.6
+ - icnb_10q.htm 1",2022-12-05,ERROR,DQC,81,1350073,"ICONIC BRANDS, INC.",2022-12-02 16:43:00,0001477932-22-009053,US GAAP 2022,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1350073/000147793222009053/icnb_10q.htm,2022-12-02,2022,533087,https://www.sec.gov/Archives/edgar/data/1350073/000147793222009053/0001477932-22-009053-index.htm,2080,10q-icnb-20220930
+DQC.US.0081.9277,"2022-12-05 06:04:56,207 [DQC.US.0081.9277] The line item concept us-gaap:MinorityInterest with a value of -872,050 is represented as a child of us-gaap:StockholdersEquity with a value of 21,693,349 in the companies extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS. The element us-gaap:MinorityInterest however, is not represented as a component of us-gaap:StockholdersEquity in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:MinorityInterest as a sibling element (or child of that sibling) relative to us-gaap:StockholdersEquity in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:StockholdersEquity and the child element us-gaap:MinorityInterest.
+The element MinorityInterest should be defined as a child of StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest and not a child of StockholdersEquity which excludes non controlling interests.
+
+The properties of this us-gaap:MinorityInterest fact are:
+
+Period :2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 19.0.6
+ - icnb_10q.htm 1",2022-12-05,ERROR,DQC,81,1350073,"ICONIC BRANDS, INC.",2022-12-02 16:43:00,0001477932-22-009053,US GAAP 2022,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1350073/000147793222009053/icnb_10q.htm,2022-12-02,2022,533087,https://www.sec.gov/Archives/edgar/data/1350073/000147793222009053/0001477932-22-009053-index.htm,2080,10q-icnb-20220930
+DQC.US.0081.9277,"2022-11-21 17:48:29,645 [DQC.US.0081.9277] The line item concept us-gaap:IncreaseDecreaseInDeposits with a value of 44,977 is represented as a child of us-gaap:NetCashProvidedByUsedInOperatingActivities with a value of -303,288 in the companies extension taxonomy role 000070 - Statement - Condensed Consolidated Statements of Cash Flows. The element us-gaap:IncreaseDecreaseInDeposits however, is not represented as a component of us-gaap:NetCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:IncreaseDecreaseInDeposits as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInOperatingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInOperatingActivities and the child element us-gaap:IncreaseDecreaseInDeposits.
+The element IncreaseDecreaseInDeposits represents the increase in deposits received by financial institutions as an investing cash inflow. The element IncreaseDecreaseInDeposits should not be included as a component of operating activities but as a component of investing activities.
+
+The properties of this us-gaap:IncreaseDecreaseInDeposits fact are:
+
+Period :2022-04-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 19.0.5
+ - mxsg-20220930.htm 3033",2022-11-21,ERROR,DQC,81,1355677,Mexus Gold us,2022-11-21 16:08:00,0001096906-22-002820,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGS139PY]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/mxsg-20220930.htm,2022-11-21,2022,531019,https://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/0001096906-22-002820-index.htm,1040,10q-mxsg-20220930
+DQC.US.0081.9278,"2022-11-21 17:48:29,643 [DQC.US.0081.9278] The line item concept us-gaap:OtherAssetsNoncurrent with a value of 829,947 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsNoncurrent with a value of 279,243 in the extension taxonomy role 000020 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:OtherAssetsNoncurrent is represented as a descendent of us-gaap:AssetsNoncurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherAssetsNoncurrent fact are:
+
+Period :2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.5
+ - mxsg-20220930.htm 1856",2022-11-21,ERROR,DQC,81,1355677,Mexus Gold us,2022-11-21 16:08:00,0001096906-22-002820,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGS139PY]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/mxsg-20220930.htm,2022-11-21,2022,531019,https://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/0001096906-22-002820-index.htm,1040,10q-mxsg-20220930
+DQC.US.0081.9278,"2022-11-21 17:48:29,643 [DQC.US.0081.9278] The line item concept us-gaap:OtherNotesPayableCurrent with a value of 65,000 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayableCurrent with a value of 1,322,225 in the extension taxonomy role 000020 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:OtherNotesPayableCurrent is represented as a descendent of us-gaap:NotesPayableCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherNotesPayableCurrent fact are:
+
+Period :2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.5
+ - mxsg-20220930.htm 1937",2022-11-21,ERROR,DQC,81,1355677,Mexus Gold us,2022-11-21 16:08:00,0001096906-22-002820,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGS139PY]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/mxsg-20220930.htm,2022-11-21,2022,531019,https://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/0001096906-22-002820-index.htm,1040,10q-mxsg-20220930
+DQC.US.0081.9278,"2022-11-21 17:48:29,644 [DQC.US.0081.9278] The line item concept us-gaap:OtherAssetsNoncurrent with a value of 829,947 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsNoncurrent with a value of 221,457 in the extension taxonomy role 000020 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:OtherAssetsNoncurrent is represented as a descendent of us-gaap:AssetsNoncurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherAssetsNoncurrent fact are:
+
+Period :2022-03-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.5
+ - mxsg-20220930.htm 1858",2022-11-21,ERROR,DQC,81,1355677,Mexus Gold us,2022-11-21 16:08:00,0001096906-22-002820,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGS139PY]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/mxsg-20220930.htm,2022-11-21,2022,531019,https://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/0001096906-22-002820-index.htm,1040,10q-mxsg-20220930
+DQC.US.0081.9278,"2022-11-21 17:48:29,644 [DQC.US.0081.9278] The line item concept us-gaap:OtherNotesPayableCurrent with a value of 65,000 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayableCurrent with a value of 1,169,147 in the extension taxonomy role 000020 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:OtherNotesPayableCurrent is represented as a descendent of us-gaap:NotesPayableCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherNotesPayableCurrent fact are:
+
+Period :2022-03-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.5
+ - mxsg-20220930.htm 1939",2022-11-21,ERROR,DQC,81,1355677,Mexus Gold us,2022-11-21 16:08:00,0001096906-22-002820,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGS139PY]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/mxsg-20220930.htm,2022-11-21,2022,531019,https://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/0001096906-22-002820-index.htm,1040,10q-mxsg-20220930
+DQC.US.0081.9278,"2022-11-21 17:48:29,644 [DQC.US.0081.9278] The line item concept us-gaap:ProceedsFromConvertibleDebt with a value of 65,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInFinancingActivities is represented as a sibling of us-gaap:ProceedsFromIssuanceOfLongTermDebt with a value of 105,000 in the extension taxonomy role 000070 - Statement - Condensed Consolidated Statements of Cash Flows, but us-gaap:ProceedsFromConvertibleDebt is represented as a descendent of us-gaap:ProceedsFromIssuanceOfLongTermDebt in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ProceedsFromConvertibleDebt fact are:
+
+Period :2022-04-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.5
+ - mxsg-20220930.htm 3081",2022-11-21,ERROR,DQC,81,1355677,Mexus Gold us,2022-11-21 16:08:00,0001096906-22-002820,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGS139PY]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/mxsg-20220930.htm,2022-11-21,2022,531019,https://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/0001096906-22-002820-index.htm,1040,10q-mxsg-20220930
+DQC.US.0081.9278,"2022-11-21 17:48:29,645 [DQC.US.0081.9278] The line item concept us-gaap:ProceedsFromConvertibleDebt with a value of 228,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInFinancingActivities is represented as a sibling of us-gaap:ProceedsFromIssuanceOfLongTermDebt with a value of 0 in the extension taxonomy role 000070 - Statement - Condensed Consolidated Statements of Cash Flows, but us-gaap:ProceedsFromConvertibleDebt is represented as a descendent of us-gaap:ProceedsFromIssuanceOfLongTermDebt in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ProceedsFromConvertibleDebt fact are:
+
+Period :2021-04-01 to 2021-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.5
+ - mxsg-20220930.htm 3082",2022-11-21,ERROR,DQC,81,1355677,Mexus Gold us,2022-11-21 16:08:00,0001096906-22-002820,US GAAP 2022,"Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2022 [PPXK5GW761L0VGS139PY]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/mxsg-20220930.htm,2022-11-21,2022,531019,https://www.sec.gov/Archives/edgar/data/1355677/000109690622002820/0001096906-22-002820-index.htm,1040,10q-mxsg-20220930
+DQC.US.0081.9277,"2022-11-18 17:30:32,016 [DQC.US.0081.9277] The line item concept us-gaap:LongTermDebtNoncurrent with a value of 131,364 is represented as a child of us-gaap:LiabilitiesOtherThanLongtermDebtNoncurrent with a value of 131,364 in the companies extension taxonomy role 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS. The element us-gaap:LongTermDebtNoncurrent however, is not represented as a component of us-gaap:LiabilitiesOtherThanLongtermDebtNoncurrent in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:LongTermDebtNoncurrent as a sibling element (or child of that sibling) relative to us-gaap:LiabilitiesOtherThanLongtermDebtNoncurrent in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:LiabilitiesOtherThanLongtermDebtNoncurrent and the child element us-gaap:LongTermDebtNoncurrent.
+
+
+The properties of this us-gaap:LongTermDebtNoncurrent fact are:
+
+Period :2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 19.0.4
+ - realq322.htm 1385",2022-11-18,ERROR,DQC,81,1084133,REAL BRANDS INC.,2022-11-18 16:43:00,0001264931-22-000192,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/realq322.htm,2022-11-18,2022,530751,https://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/0001264931-22-000192-index.htm,2080,10q-rlbd-20220930
+DQC.US.0081.9277,"2022-11-18 17:30:32,016 [DQC.US.0081.9277] The line item concept us-gaap:LongTermDebtNoncurrent with a value of 148,551 is represented as a child of us-gaap:LiabilitiesOtherThanLongtermDebtNoncurrent with a value of 148,551 in the companies extension taxonomy role 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS. The element us-gaap:LongTermDebtNoncurrent however, is not represented as a component of us-gaap:LiabilitiesOtherThanLongtermDebtNoncurrent in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:LongTermDebtNoncurrent as a sibling element (or child of that sibling) relative to us-gaap:LiabilitiesOtherThanLongtermDebtNoncurrent in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:LiabilitiesOtherThanLongtermDebtNoncurrent and the child element us-gaap:LongTermDebtNoncurrent.
+
+
+The properties of this us-gaap:LongTermDebtNoncurrent fact are:
+
+Period :2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 19.0.4
+ - realq322.htm 1386",2022-11-18,ERROR,DQC,81,1084133,REAL BRANDS INC.,2022-11-18 16:43:00,0001264931-22-000192,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/realq322.htm,2022-11-18,2022,530751,https://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/0001264931-22-000192-index.htm,2080,10q-rlbd-20220930
+DQC.US.0081.9278,"2022-11-18 17:30:32,017 [DQC.US.0081.9278] The line item concept us-gaap:AccruedLiabilitiesCurrent with a value of 614,154 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent with a value of 567,247 in the extension taxonomy role 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:AccruedLiabilitiesCurrent is represented as a descendent of us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AccruedLiabilitiesCurrent fact are:
+
+Period :2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.4
+ - realq322.htm 1349",2022-11-18,ERROR,DQC,81,1084133,REAL BRANDS INC.,2022-11-18 16:43:00,0001264931-22-000192,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/realq322.htm,2022-11-18,2022,530751,https://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/0001264931-22-000192-index.htm,2080,10q-rlbd-20220930
+DQC.US.0081.9278,"2022-11-18 17:30:32,018 [DQC.US.0081.9278] The line item concept us-gaap:AccruedLiabilitiesCurrent with a value of 402,347 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent with a value of 513,065 in the extension taxonomy role 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:AccruedLiabilitiesCurrent is represented as a descendent of us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AccruedLiabilitiesCurrent fact are:
+
+Period :2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.4
+ - realq322.htm 1350",2022-11-18,ERROR,DQC,81,1084133,REAL BRANDS INC.,2022-11-18 16:43:00,0001264931-22-000192,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/realq322.htm,2022-11-18,2022,530751,https://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/0001264931-22-000192-index.htm,2080,10q-rlbd-20220930
+DQC.US.0081.9278,"2022-11-18 17:30:32,018 [DQC.US.0081.9278] The line item concept us-gaap:IncreaseDecreaseInAccountsPayable with a value of 75,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:IncreaseDecreaseInAccountsPayableAndAccruedLiabilities with a value of 258,763 in the extension taxonomy role 00000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS, but us-gaap:IncreaseDecreaseInAccountsPayable is represented as a descendent of us-gaap:IncreaseDecreaseInAccountsPayableAndAccruedLiabilities in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:IncreaseDecreaseInAccountsPayable fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.4
+ - realq322.htm 2691",2022-11-18,ERROR,DQC,81,1084133,REAL BRANDS INC.,2022-11-18 16:43:00,0001264931-22-000192,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/realq322.htm,2022-11-18,2022,530751,https://www.sec.gov/Archives/edgar/data/1084133/000126493122000192/0001264931-22-000192-index.htm,2080,10q-rlbd-20220930
+DQC.US.0081.9278,"2023-01-06 15:45:27,845 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayableCurrent with a value of 129,219 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayableCurrent with a value of 127,690 in the extension taxonomy role 00000002 - Statement - CONSOLIDATED BALANCE SHEETS  (Unaudited), but us-gaap:ConvertibleNotesPayableCurrent is represented as a descendent of us-gaap:NotesPayableCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayableCurrent fact are:
+
+Period :2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.6
+ - ecox_10q-093022.htm 3478",2023-01-06,ERROR,DQC,81,1144169,"Eco Innovation Group, Inc.",2023-01-06 15:17:00,0001079973-23-000032,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/ecox_10q-093022.htm,2023-01-06,2023,539327,https://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/0001079973-23-000032-index.htm,3690,10q-ecox-20220930
+DQC.US.0081.9278,"2023-01-06 15:45:27,846 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayableCurrent with a value of 183,642 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayableCurrent with a value of 122,216 in the extension taxonomy role 00000002 - Statement - CONSOLIDATED BALANCE SHEETS  (Unaudited), but us-gaap:ConvertibleNotesPayableCurrent is represented as a descendent of us-gaap:NotesPayableCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayableCurrent fact are:
+
+Period :2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.6
+ - ecox_10q-093022.htm 3477",2023-01-06,ERROR,DQC,81,1144169,"Eco Innovation Group, Inc.",2023-01-06 15:17:00,0001079973-23-000032,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/ecox_10q-093022.htm,2023-01-06,2023,539327,https://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/0001079973-23-000032-index.htm,3690,10q-ecox-20220930
+DQC.US.0081.9278,"2023-01-06 15:45:27,846 [DQC.US.0081.9278] The line item concept us-gaap:ProceedsFromIssuanceOfCommonStock with a value of 167,900 and a calculation parent of us-gaap:NetCashProvidedByUsedInFinancingActivities is represented as a sibling of us-gaap:ProceedsFromIssuanceOrSaleOfEquity with a value of 190,000 in the extension taxonomy role 00000006 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited), but us-gaap:ProceedsFromIssuanceOfCommonStock is represented as a descendent of us-gaap:ProceedsFromIssuanceOrSaleOfEquity in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ProceedsFromIssuanceOfCommonStock fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.6
+ - ecox_10q-093022.htm 4761",2023-01-06,ERROR,DQC,81,1144169,"Eco Innovation Group, Inc.",2023-01-06 15:17:00,0001079973-23-000032,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/ecox_10q-093022.htm,2023-01-06,2023,539327,https://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/0001079973-23-000032-index.htm,3690,10q-ecox-20220930
+DQC.US.0081.9278,"2023-01-06 15:45:27,846 [DQC.US.0081.9278] The line item concept us-gaap:RestrictedStockExpense with a value of 1,086,323 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:ShareBasedCompensation with a value of 76,800 in the extension taxonomy role 00000006 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited), but us-gaap:RestrictedStockExpense is represented as a descendent of us-gaap:ShareBasedCompensation in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:RestrictedStockExpense fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.6
+ - ecox_10q-093022.htm 4689",2023-01-06,ERROR,DQC,81,1144169,"Eco Innovation Group, Inc.",2023-01-06 15:17:00,0001079973-23-000032,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/ecox_10q-093022.htm,2023-01-06,2023,539327,https://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/0001079973-23-000032-index.htm,3690,10q-ecox-20220930
+DQC.US.0081.9278,"2023-01-06 15:45:27,847 [DQC.US.0081.9278] The line item concept us-gaap:ProceedsFromIssuanceOfCommonStock with a value of 45,450 and a calculation parent of us-gaap:NetCashProvidedByUsedInFinancingActivities is represented as a sibling of us-gaap:ProceedsFromIssuanceOrSaleOfEquity with a value of 115,000 in the extension taxonomy role 00000006 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited), but us-gaap:ProceedsFromIssuanceOfCommonStock is represented as a descendent of us-gaap:ProceedsFromIssuanceOrSaleOfEquity in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ProceedsFromIssuanceOfCommonStock fact are:
+
+Period :2021-01-01 to 2021-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.6
+ - ecox_10q-093022.htm 4762",2023-01-06,ERROR,DQC,81,1144169,"Eco Innovation Group, Inc.",2023-01-06 15:17:00,0001079973-23-000032,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/ecox_10q-093022.htm,2023-01-06,2023,539327,https://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/0001079973-23-000032-index.htm,3690,10q-ecox-20220930
+DQC.US.0081.9278,"2023-01-06 15:45:27,847 [DQC.US.0081.9278] The line item concept us-gaap:RestrictedStockExpense with a value of 331,018 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:ShareBasedCompensation with a value of 509,600 in the extension taxonomy role 00000006 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited), but us-gaap:RestrictedStockExpense is represented as a descendent of us-gaap:ShareBasedCompensation in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:RestrictedStockExpense fact are:
+
+Period :2021-01-01 to 2021-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 19.0.6
+ - ecox_10q-093022.htm 4690",2023-01-06,ERROR,DQC,81,1144169,"Eco Innovation Group, Inc.",2023-01-06 15:17:00,0001079973-23-000032,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/ecox_10q-093022.htm,2023-01-06,2023,539327,https://www.sec.gov/Archives/edgar/data/1144169/000107997323000032/0001079973-23-000032-index.htm,3690,10q-ecox-20220930
+DQC.US.0081.9872,"2023-02-08 15:30:36,217 [DQC.US.0081.9872] The line item concept us-gaap:NetIncomeLossAttributableToNoncontrollingInterest with a value of -489 and a calculation parent of us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic is represented as a sibling of us-gaap:NetIncomeLoss with a value of 9,444,706 in the extension taxonomy role 00000004 - Statement - CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED), but us-gaap:NetIncomeLossAttributableToNoncontrollingInterest is represented as a descendent of us-gaap:NetIncomeLoss in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:NetIncomeLossAttributableToNoncontrollingInterest fact are:
+
+Period :2021-10-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9872
+Rule version: 20.0.0
+ - bion_10q.htm 3856",2023-02-08,ERROR,DQC,81,875729,"BION ENVIRONMENTAL TECHNOLOGIES, INC.",2023-02-08 14:53:00,0001079973-23-000168,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/875729/000107997323000168/bion_10q.htm,2023-02-08,2023,546586,https://www.sec.gov/Archives/edgar/data/875729/000107997323000168/0001079973-23-000168-index.htm,2870,10q-bnet-20221231
+DQC.US.0081.9872,"2023-02-08 15:30:36,217 [DQC.US.0081.9872] The line item concept us-gaap:NetIncomeLossAttributableToNoncontrollingInterest with a value of -995 and a calculation parent of us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic is represented as a sibling of us-gaap:NetIncomeLoss with a value of 8,780,830 in the extension taxonomy role 00000004 - Statement - CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED), but us-gaap:NetIncomeLossAttributableToNoncontrollingInterest is represented as a descendent of us-gaap:NetIncomeLoss in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:NetIncomeLossAttributableToNoncontrollingInterest fact are:
+
+Period :2021-07-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9872
+Rule version: 20.0.0
+ - bion_10q.htm 3858",2023-02-08,ERROR,DQC,81,875729,"BION ENVIRONMENTAL TECHNOLOGIES, INC.",2023-02-08 14:53:00,0001079973-23-000168,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/875729/000107997323000168/bion_10q.htm,2023-02-08,2023,546586,https://www.sec.gov/Archives/edgar/data/875729/000107997323000168/0001079973-23-000168-index.htm,2870,10q-bnet-20221231
+DQC.US.0081.9278,"2023-11-20 16:34:45,485 [DQC.US.0081.9278] The line item concept us-gaap:ReinsurancePayable with a value of 20,263,484 and a calculation parent of us-gaap:Liabilities is represented as a sibling of us-gaap:LiabilityForFuturePolicyBenefitsAndUnpaidClaimsAndClaimsAdjustmentExpense with a value of 121,674,947 in the extension taxonomy role 000002 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:ReinsurancePayable is represented as a descendent of us-gaap:LiabilityForFuturePolicyBenefitsAndUnpaidClaimsAndClaimsAdjustmentExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ReinsurancePayable fact are:
+
+Period :2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - king_10q.htm 1",2023-11-20,ERROR,DQC,81,33992,"KINGSTONE COMPANIES, INC.",2023-11-20 15:52:00,0001654954-23-014618,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/33992/000165495423014618/king_10q.htm,2023-11-20,2023,656687,https://www.sec.gov/Archives/edgar/data/33992/000165495423014618/0001654954-23-014618-index.htm,6331,10q-king-20230930
+DQC.US.0081.9278,"2023-11-20 16:34:45,486 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfDebtDiscountPremium with a value of 922,257 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AmortizationOfFinancingCostsAndDiscounts with a value of 132,135 in the extension taxonomy role 000006 - Statement - Condensed Consolidated Statements of Cash Flows (Unaudited), but us-gaap:AmortizationOfDebtDiscountPremium is represented as a descendent of us-gaap:AmortizationOfFinancingCostsAndDiscounts in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AmortizationOfDebtDiscountPremium fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - king_10q.htm 1",2023-11-20,ERROR,DQC,81,33992,"KINGSTONE COMPANIES, INC.",2023-11-20 15:52:00,0001654954-23-014618,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/33992/000165495423014618/king_10q.htm,2023-11-20,2023,656687,https://www.sec.gov/Archives/edgar/data/33992/000165495423014618/0001654954-23-014618-index.htm,6331,10q-king-20230930
+DQC.US.0081.9278,"2023-11-20 16:34:45,487 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfDebtDiscountPremium with a value of 118,280 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:AmortizationOfFinancingCostsAndDiscounts with a value of 890,758 in the extension taxonomy role 000006 - Statement - Condensed Consolidated Statements of Cash Flows (Unaudited), but us-gaap:AmortizationOfDebtDiscountPremium is represented as a descendent of us-gaap:AmortizationOfFinancingCostsAndDiscounts in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AmortizationOfDebtDiscountPremium fact are:
+
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - king_10q.htm 1",2023-11-20,ERROR,DQC,81,33992,"KINGSTONE COMPANIES, INC.",2023-11-20 15:52:00,0001654954-23-014618,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/33992/000165495423014618/king_10q.htm,2023-11-20,2023,656687,https://www.sec.gov/Archives/edgar/data/33992/000165495423014618/0001654954-23-014618-index.htm,6331,10q-king-20230930
+DQC.US.0081.9278,"2023-11-20 16:34:45,487 [DQC.US.0081.9278] The line item concept us-gaap:ReinsurancePayable with a value of 13,061,966 and a calculation parent of us-gaap:Liabilities is represented as a sibling of us-gaap:LiabilityForFuturePolicyBenefitsAndUnpaidClaimsAndClaimsAdjustmentExpense with a value of 118,339,513 in the extension taxonomy role 000002 - Statement - Condensed Consolidated Balance Sheets, but us-gaap:ReinsurancePayable is represented as a descendent of us-gaap:LiabilityForFuturePolicyBenefitsAndUnpaidClaimsAndClaimsAdjustmentExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ReinsurancePayable fact are:
+
+Period :2022-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - king_10q.htm 1",2023-11-20,ERROR,DQC,81,33992,"KINGSTONE COMPANIES, INC.",2023-11-20 15:52:00,0001654954-23-014618,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/33992/000165495423014618/king_10q.htm,2023-11-20,2023,656687,https://www.sec.gov/Archives/edgar/data/33992/000165495423014618/0001654954-23-014618-index.htm,6331,10q-king-20230930
+DQC.US.0081.9278,"2023-11-20 14:46:46,489 [DQC.US.0081.9278] The line item concept us-gaap:AccruedLiabilitiesCurrent with a value of 1,439,000 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent with a value of 119,000 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:AccruedLiabilitiesCurrent is represented as a descendent of us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AccruedLiabilitiesCurrent fact are:
+
+Period :2022-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - mhtx_10q.htm 1",2023-11-20,ERROR,DQC,81,1099132,"MANHATTAN SCIENTIFICS, INC.",2023-11-20 14:12:00,0001477932-23-008674,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1099132/000147793223008674/mhtx_10q.htm,2023-11-20,2023,656659,https://www.sec.gov/Archives/edgar/data/1099132/000147793223008674/0001477932-23-008674-index.htm,3690,10q-mhtx-20230930
+DQC.US.0081.9278,"2023-11-20 14:46:46,489 [DQC.US.0081.9278] The line item concept us-gaap:AccruedLiabilitiesCurrent with a value of 1,782,000 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent with a value of 128,000 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:AccruedLiabilitiesCurrent is represented as a descendent of us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AccruedLiabilitiesCurrent fact are:
+
+Period :2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - mhtx_10q.htm 1",2023-11-20,ERROR,DQC,81,1099132,"MANHATTAN SCIENTIFICS, INC.",2023-11-20 14:12:00,0001477932-23-008674,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1099132/000147793223008674/mhtx_10q.htm,2023-11-20,2023,656659,https://www.sec.gov/Archives/edgar/data/1099132/000147793223008674/0001477932-23-008674-index.htm,3690,10q-mhtx-20230930
+DQC.US.0081.9277,"2023-11-20 14:32:17,914 [DQC.US.0081.9277] The line item concept us-gaap:PaymentsToFundLongtermLoansToRelatedParties with a value of 1,750,649 is represented as a child of us-gaap:NetCashProvidedByUsedInFinancingActivities with a value of 4,604,154 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited). The element us-gaap:PaymentsToFundLongtermLoansToRelatedParties however, is not represented as a component of us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:PaymentsToFundLongtermLoansToRelatedParties as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInFinancingActivities and the child element us-gaap:PaymentsToFundLongtermLoansToRelatedParties.
+
+
+The properties of this us-gaap:PaymentsToFundLongtermLoansToRelatedParties fact are:
+
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9277,"2023-11-20 14:32:17,915 [DQC.US.0081.9277] The line item concept us-gaap:PaymentsToFundLongtermLoansToRelatedParties with a value of 70,379 is represented as a child of us-gaap:NetCashProvidedByUsedInFinancingActivities with a value of 5,539,908 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited). The element us-gaap:PaymentsToFundLongtermLoansToRelatedParties however, is not represented as a component of us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:PaymentsToFundLongtermLoansToRelatedParties as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInFinancingActivities and the child element us-gaap:PaymentsToFundLongtermLoansToRelatedParties.
+
+
+The properties of this us-gaap:PaymentsToFundLongtermLoansToRelatedParties fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9277,"2023-11-20 14:32:17,915 [DQC.US.0081.9277] The line item concept us-gaap:ProceedsFromCollectionOfLongtermLoansToRelatedParties with a value of 50,000 is represented as a child of us-gaap:NetCashProvidedByUsedInFinancingActivities with a value of 5,539,908 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited). The element us-gaap:ProceedsFromCollectionOfLongtermLoansToRelatedParties however, is not represented as a component of us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:ProceedsFromCollectionOfLongtermLoansToRelatedParties as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInFinancingActivities and the child element us-gaap:ProceedsFromCollectionOfLongtermLoansToRelatedParties.
+
+
+The properties of this us-gaap:ProceedsFromCollectionOfLongtermLoansToRelatedParties fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 14:32:17,915 [DQC.US.0081.9278] The line item concept us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties with a value of 44,582 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:IncreaseDecreaseInAccountsPayable with a value of 329,427 in the extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited), but us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties is represented as a descendent of us-gaap:IncreaseDecreaseInAccountsPayable in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties fact are:
+
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 14:32:17,916 [DQC.US.0081.9278] The line item concept us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties with a value of -86,658 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:IncreaseDecreaseInAccountsPayable with a value of 253,039 in the extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited), but us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties is represented as a descendent of us-gaap:IncreaseDecreaseInAccountsPayable in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:IncreaseDecreaseInAccountsPayableRelatedParties fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 14:32:17,916 [DQC.US.0081.9278] The line item concept us-gaap:OtherGeneralAndAdministrativeExpense with a value of 403,963 and a calculation parent of us-gaap:OperatingExpenses is represented as a sibling of us-gaap:GeneralAndAdministrativeExpense with a value of 2,770,482 in the extension taxonomy role 000004 - Statement - Condensed Consolidated Statements of Operations (Unaudited), but us-gaap:OtherGeneralAndAdministrativeExpense is represented as a descendent of us-gaap:GeneralAndAdministrativeExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherGeneralAndAdministrativeExpense fact are:
+
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 14:32:17,916 [DQC.US.0081.9278] The line item concept us-gaap:OtherSellingAndMarketingExpense with a value of 79,881 and a calculation parent of us-gaap:OperatingExpenses is represented as a sibling of us-gaap:SellingAndMarketingExpense with a value of 668,227 in the extension taxonomy role 000004 - Statement - Condensed Consolidated Statements of Operations (Unaudited), but us-gaap:OtherSellingAndMarketingExpense is represented as a descendent of us-gaap:SellingAndMarketingExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherSellingAndMarketingExpense fact are:
+
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 14:32:17,917 [DQC.US.0081.9278] The line item concept us-gaap:OtherGeneralAndAdministrativeExpense with a value of 135,454 and a calculation parent of us-gaap:OperatingExpenses is represented as a sibling of us-gaap:GeneralAndAdministrativeExpense with a value of 1,037,790 in the extension taxonomy role 000004 - Statement - Condensed Consolidated Statements of Operations (Unaudited), but us-gaap:OtherGeneralAndAdministrativeExpense is represented as a descendent of us-gaap:GeneralAndAdministrativeExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherGeneralAndAdministrativeExpense fact are:
+
+Period :2023-07-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 14:32:17,917 [DQC.US.0081.9278] The line item concept us-gaap:OtherGeneralAndAdministrativeExpense with a value of 195,000 and a calculation parent of us-gaap:OperatingExpenses is represented as a sibling of us-gaap:GeneralAndAdministrativeExpense with a value of 1,758,561 in the extension taxonomy role 000004 - Statement - Condensed Consolidated Statements of Operations (Unaudited), but us-gaap:OtherGeneralAndAdministrativeExpense is represented as a descendent of us-gaap:GeneralAndAdministrativeExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherGeneralAndAdministrativeExpense fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 14:32:17,917 [DQC.US.0081.9278] The line item concept us-gaap:OtherSellingAndMarketingExpense with a value of 29,794 and a calculation parent of us-gaap:OperatingExpenses is represented as a sibling of us-gaap:SellingAndMarketingExpense with a value of 306,505 in the extension taxonomy role 000004 - Statement - Condensed Consolidated Statements of Operations (Unaudited), but us-gaap:OtherSellingAndMarketingExpense is represented as a descendent of us-gaap:SellingAndMarketingExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherSellingAndMarketingExpense fact are:
+
+Period :2023-07-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 14:32:17,918 [DQC.US.0081.9278] The line item concept us-gaap:OtherGeneralAndAdministrativeExpense with a value of 45,000 and a calculation parent of us-gaap:OperatingExpenses is represented as a sibling of us-gaap:GeneralAndAdministrativeExpense with a value of 791,562 in the extension taxonomy role 000004 - Statement - Condensed Consolidated Statements of Operations (Unaudited), but us-gaap:OtherGeneralAndAdministrativeExpense is represented as a descendent of us-gaap:GeneralAndAdministrativeExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherGeneralAndAdministrativeExpense fact are:
+
+Period :2022-07-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - hpco_10q.htm 1",2023-11-20,ERROR,DQC,81,1892480,"Hempacco Co., Inc.",2023-11-20 13:50:00,0001477932-23-008668,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/hpco_10q.htm,2023-11-20,2023,656649,https://www.sec.gov/Archives/edgar/data/1892480/000147793223008668/0001477932-23-008668-index.htm,2111,10q-hpco-20230930
+DQC.US.0081.9278,"2023-11-20 09:46:25,280 [DQC.US.0081.9278] The line item concept us-gaap:LongTermNotesPayable with a value of 38,572 and a calculation parent of us-gaap:Liabilities is represented as a sibling of us-gaap:LongTermNotesAndLoans with a value of 328,148 in the extension taxonomy role 000002 - Statement - CONSOLIDATED BALANCE SHEETS, but us-gaap:LongTermNotesPayable is represented as a descendent of us-gaap:LongTermNotesAndLoans in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:LongTermNotesPayable fact are:
+
+Period :2023-06-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - imth_10q.htm 1",2023-11-20,ERROR,DQC,81,1331612,"Innovative MedTech, Inc.",2023-11-20 09:16:00,0001477932-23-008641,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/imth_10q.htm,2023-11-20,2023,656581,https://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/0001477932-23-008641-index.htm,5040,10q-imth-20230930
+DQC.US.0081.9278,"2023-11-20 09:46:25,281 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfDebtDiscountPremium with a value of 8,053 and a calculation parent of us-gaap:OtherOperatingIncomeExpenseNet is represented as a sibling of us-gaap:InterestExpense with a value of 21,863 in the extension taxonomy role 000004 - Statement - CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited), but us-gaap:AmortizationOfDebtDiscountPremium is represented as a descendent of us-gaap:InterestExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+The filing should use the element InterestExpenseDebtExcludingAmortization instead of the element InterestExpense. The element InterestExpenseDebtExcludingAmortization excludes the amortization component from interest expense.
+
+The properties of this us-gaap:AmortizationOfDebtDiscountPremium fact are:
+
+Period :2023-07-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - imth_10q.htm 1",2023-11-20,ERROR,DQC,81,1331612,"Innovative MedTech, Inc.",2023-11-20 09:16:00,0001477932-23-008641,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/imth_10q.htm,2023-11-20,2023,656581,https://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/0001477932-23-008641-index.htm,5040,10q-imth-20230930
+DQC.US.0081.9278,"2023-11-20 09:46:25,281 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayableCurrent with a value of 266,900 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayableCurrent with a value of 146,992 in the extension taxonomy role 000002 - Statement - CONSOLIDATED BALANCE SHEETS, but us-gaap:ConvertibleNotesPayableCurrent is represented as a descendent of us-gaap:NotesPayableCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayableCurrent fact are:
+
+Period :2023-06-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - imth_10q.htm 1",2023-11-20,ERROR,DQC,81,1331612,"Innovative MedTech, Inc.",2023-11-20 09:16:00,0001477932-23-008641,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/imth_10q.htm,2023-11-20,2023,656581,https://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/0001477932-23-008641-index.htm,5040,10q-imth-20230930
+DQC.US.0081.9278,"2023-11-20 09:46:25,281 [DQC.US.0081.9278] The line item concept us-gaap:LongTermNotesPayable with a value of 90,331 and a calculation parent of us-gaap:Liabilities is represented as a sibling of us-gaap:LongTermNotesAndLoans with a value of 338,906 in the extension taxonomy role 000002 - Statement - CONSOLIDATED BALANCE SHEETS, but us-gaap:LongTermNotesPayable is represented as a descendent of us-gaap:LongTermNotesAndLoans in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:LongTermNotesPayable fact are:
+
+Period :2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - imth_10q.htm 1",2023-11-20,ERROR,DQC,81,1331612,"Innovative MedTech, Inc.",2023-11-20 09:16:00,0001477932-23-008641,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/imth_10q.htm,2023-11-20,2023,656581,https://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/0001477932-23-008641-index.htm,5040,10q-imth-20230930
+DQC.US.0081.9278,"2023-11-20 09:46:25,282 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayableCurrent with a value of 266,900 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:NotesPayableCurrent with a value of 312,166 in the extension taxonomy role 000002 - Statement - CONSOLIDATED BALANCE SHEETS, but us-gaap:ConvertibleNotesPayableCurrent is represented as a descendent of us-gaap:NotesPayableCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayableCurrent fact are:
+
+Period :2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - imth_10q.htm 1",2023-11-20,ERROR,DQC,81,1331612,"Innovative MedTech, Inc.",2023-11-20 09:16:00,0001477932-23-008641,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/imth_10q.htm,2023-11-20,2023,656581,https://www.sec.gov/Archives/edgar/data/1331612/000147793223008641/0001477932-23-008641-index.htm,5040,10q-imth-20230930
+DQC.US.0081.9277,"2023-11-17 13:16:23,433 [DQC.US.0081.9277] The line item concept us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents with a value of -33,999 is represented as a child of us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect with a value of 11,460 in the companies extension taxonomy role 000006 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited). The element us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents however, is not represented as a component of us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents as a sibling element (or child of that sibling) relative to us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect and the child element us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents.
+
+
+The properties of this us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents fact are:
+
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 22.0.1
+ - couv_10q.htm 1",2023-11-17,ERROR,DQC,81,1450307,"CORPORATE UNIVERSE, INC.",2023-11-17 12:40:00,0001654954-23-014526,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1450307/000165495423014526/couv_10q.htm,2023-11-17,2023,656231,https://www.sec.gov/Archives/edgar/data/1450307/000165495423014526/0001654954-23-014526-index.htm,3690,10q-couv-20230930
+DQC.US.0081.9277,"2023-11-17 13:16:23,434 [DQC.US.0081.9277] The line item concept us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents with a value of -316,012 is represented as a child of us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect with a value of 91,110 in the companies extension taxonomy role 000006 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited). The element us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents however, is not represented as a component of us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents as a sibling element (or child of that sibling) relative to us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect and the child element us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents.
+
+
+The properties of this us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents fact are:
+
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 22.0.1
+ - couv_10q.htm 1",2023-11-17,ERROR,DQC,81,1450307,"CORPORATE UNIVERSE, INC.",2023-11-17 12:40:00,0001654954-23-014526,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1450307/000165495423014526/couv_10q.htm,2023-11-17,2023,656231,https://www.sec.gov/Archives/edgar/data/1450307/000165495423014526/0001654954-23-014526-index.htm,3690,10q-couv-20230930
+DQC.US.0081.9278,"2023-11-17 13:16:23,434 [DQC.US.0081.9278] The line item concept us-gaap:OtherAssetsNoncurrent with a value of 877,476 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsNoncurrent with a value of 802,030 in the extension taxonomy role 000002 - Statement - CONSOLIDATED BALANCE SHEETS, but us-gaap:OtherAssetsNoncurrent is represented as a descendent of us-gaap:AssetsNoncurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherAssetsNoncurrent fact are:
+
+Period :2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - couv_10q.htm 1",2023-11-17,ERROR,DQC,81,1450307,"CORPORATE UNIVERSE, INC.",2023-11-17 12:40:00,0001654954-23-014526,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1450307/000165495423014526/couv_10q.htm,2023-11-17,2023,656231,https://www.sec.gov/Archives/edgar/data/1450307/000165495423014526/0001654954-23-014526-index.htm,3690,10q-couv-20230930
+DQC.US.0081.9278,"2023-11-17 13:16:23,434 [DQC.US.0081.9278] The line item concept us-gaap:OtherAssetsNoncurrent with a value of 945,383 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsNoncurrent with a value of 775,001 in the extension taxonomy role 000002 - Statement - CONSOLIDATED BALANCE SHEETS, but us-gaap:OtherAssetsNoncurrent is represented as a descendent of us-gaap:AssetsNoncurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:OtherAssetsNoncurrent fact are:
+
+Period :2022-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.1
+ - couv_10q.htm 1",2023-11-17,ERROR,DQC,81,1450307,"CORPORATE UNIVERSE, INC.",2023-11-17 12:40:00,0001654954-23-014526,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1450307/000165495423014526/couv_10q.htm,2023-11-17,2023,656231,https://www.sec.gov/Archives/edgar/data/1450307/000165495423014526/0001654954-23-014526-index.htm,3690,10q-couv-20230930
+DQC.US.0081.9277,"2023-11-15 06:10:22,793 [DQC.US.0081.9277] The line item concept us-gaap:OtherAssetsNoncurrent with a value of 72,527 is represented as a child of us-gaap:AssetsCurrent with a value of 15,295,630 in the companies extension taxonomy role 000002 - Statement - CONDENSED BALANCE SHEETS. The element us-gaap:OtherAssetsNoncurrent however, is not represented as a component of us-gaap:AssetsCurrent in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:OtherAssetsNoncurrent as a sibling element (or child of that sibling) relative to us-gaap:AssetsCurrent in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:AssetsCurrent and the child element us-gaap:OtherAssetsNoncurrent.
+
+
+The properties of this us-gaap:OtherAssetsNoncurrent fact are:
+
+Period :2022-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 22.0.1
+ - laser_10q.htm 2",2023-11-15,ERROR,DQC,81,1807887,Laser     Photonics Corporation,2023-11-14 17:01:00,0001654954-23-014375,US GAAP 2022,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1807887/000165495423014375/laser_10q.htm,2023-11-14,2023,655171,https://www.sec.gov/Archives/edgar/data/1807887/000165495423014375/0001654954-23-014375-index.htm,3690,10q-laser-20230930
+DQC.US.0081.9277,"2023-11-15 06:10:22,794 [DQC.US.0081.9277] The line item concept us-gaap:OtherAssetsNoncurrent with a value of 66,936 is represented as a child of us-gaap:AssetsCurrent with a value of 12,643,972 in the companies extension taxonomy role 000002 - Statement - CONDENSED BALANCE SHEETS. The element us-gaap:OtherAssetsNoncurrent however, is not represented as a component of us-gaap:AssetsCurrent in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:OtherAssetsNoncurrent as a sibling element (or child of that sibling) relative to us-gaap:AssetsCurrent in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:AssetsCurrent and the child element us-gaap:OtherAssetsNoncurrent.
+
+
+The properties of this us-gaap:OtherAssetsNoncurrent fact are:
+
+Period :2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 22.0.1
+ - laser_10q.htm 2",2023-11-15,ERROR,DQC,81,1807887,Laser     Photonics Corporation,2023-11-14 17:01:00,0001654954-23-014375,US GAAP 2022,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1807887/000165495423014375/laser_10q.htm,2023-11-14,2023,655171,https://www.sec.gov/Archives/edgar/data/1807887/000165495423014375/0001654954-23-014375-index.htm,3690,10q-laser-20230930
+DQC.US.0081.9278,"2024-01-16 16:48:11,265 [DQC.US.0081.9278] The line item concept us-gaap:PaymentsToAcquireMachineryAndEquipment with a value of 1,271,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInInvestingActivities is represented as a sibling of us-gaap:PaymentsToAcquirePropertyPlantAndEquipment with a value of 68,000 in the extension taxonomy role 000006 - Statement - Condensed Consolidated Statements of Cash Flows (Unaudited), but us-gaap:PaymentsToAcquireMachineryAndEquipment is represented as a descendent of us-gaap:PaymentsToAcquirePropertyPlantAndEquipment in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:PaymentsToAcquireMachineryAndEquipment fact are:
+
+Period :2022-03-01 to 2022-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.3
+ - loop_10q.htm 1",2024-01-16,ERROR,DQC,81,1504678,"LOOP INDUSTRIES, INC.",2024-01-16 16:11:00,0001654954-24-000626,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1504678/000165495424000626/loop_10q.htm,2024-01-16,2024,667660,https://www.sec.gov/Archives/edgar/data/1504678/000165495424000626/0001654954-24-000626-index.htm,2800,10q-loop-20231130
+DQC.US.0081.9278,"2024-01-16 16:48:11,266 [DQC.US.0081.9278] The line item concept us-gaap:PaymentsToAcquireMachineryAndEquipment with a value of 5,065,000 and a calculation parent of us-gaap:NetCashProvidedByUsedInInvestingActivities is represented as a sibling of us-gaap:PaymentsToAcquirePropertyPlantAndEquipment with a value of 10,000 in the extension taxonomy role 000006 - Statement - Condensed Consolidated Statements of Cash Flows (Unaudited), but us-gaap:PaymentsToAcquireMachineryAndEquipment is represented as a descendent of us-gaap:PaymentsToAcquirePropertyPlantAndEquipment in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:PaymentsToAcquireMachineryAndEquipment fact are:
+
+Period :2023-03-01 to 2023-11-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 22.0.3
+ - loop_10q.htm 1",2024-01-16,ERROR,DQC,81,1504678,"LOOP INDUSTRIES, INC.",2024-01-16 16:11:00,0001654954-24-000626,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1504678/000165495424000626/loop_10q.htm,2024-01-16,2024,667660,https://www.sec.gov/Archives/edgar/data/1504678/000165495424000626/0001654954-24-000626-index.htm,2800,10q-loop-20231130
+DQC.US.0081.9277,"2024-02-14 13:19:12,297 [DQC.US.0081.9277] The line item concept us-gaap:PaymentsToAcquireNotesReceivable with a value of 139,947 is represented as a child of us-gaap:NetCashProvidedByUsedInFinancingActivities with a value of -8,163 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED). The element us-gaap:PaymentsToAcquireNotesReceivable however, is not represented as a component of us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:PaymentsToAcquireNotesReceivable as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInFinancingActivities and the child element us-gaap:PaymentsToAcquireNotesReceivable.
+
+
+The properties of this us-gaap:PaymentsToAcquireNotesReceivable fact are:
+
+Period :2023-07-01 to 2023-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9277,"2024-02-14 13:19:12,297 [DQC.US.0081.9277] The line item concept us-gaap:ProceedsFromConvertibleDebt with a value of 630,000 is represented as a child of us-gaap:NetCashProvidedByUsedInInvestingActivities with a value of 630,000 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED). The element us-gaap:ProceedsFromConvertibleDebt however, is not represented as a component of us-gaap:NetCashProvidedByUsedInInvestingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:ProceedsFromConvertibleDebt as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInInvestingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInInvestingActivities and the child element us-gaap:ProceedsFromConvertibleDebt.
+
+
+The properties of this us-gaap:ProceedsFromConvertibleDebt fact are:
+
+Period :2023-07-01 to 2023-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9277,"2024-02-14 13:19:12,297 [DQC.US.0081.9277] The line item concept us-gaap:RepaymentOfNotesReceivableFromRelatedParties with a value of 131,784 is represented as a child of us-gaap:NetCashProvidedByUsedInFinancingActivities with a value of -8,163 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED). The element us-gaap:RepaymentOfNotesReceivableFromRelatedParties however, is not represented as a component of us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:RepaymentOfNotesReceivableFromRelatedParties as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInFinancingActivities and the child element us-gaap:RepaymentOfNotesReceivableFromRelatedParties.
+
+
+The properties of this us-gaap:RepaymentOfNotesReceivableFromRelatedParties fact are:
+
+Period :2023-07-01 to 2023-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9277,"2024-02-14 13:19:12,298 [DQC.US.0081.9277] The line item concept us-gaap:PaymentsToAcquirePropertyPlantAndEquipment with a value of 2,567 is represented as a child of us-gaap:NetCashProvidedByUsedInFinancingActivities with a value of -2,567 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED). The element us-gaap:PaymentsToAcquirePropertyPlantAndEquipment however, is not represented as a component of us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:PaymentsToAcquirePropertyPlantAndEquipment as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInFinancingActivities and the child element us-gaap:PaymentsToAcquirePropertyPlantAndEquipment.
+
+
+The properties of this us-gaap:PaymentsToAcquirePropertyPlantAndEquipment fact are:
+
+Period :2022-07-01 to 2022-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9278,"2024-02-14 13:19:12,298 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayableCurrent with a value of 860,000 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:ConvertibleNotesPayable with a value of 5,850,000 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:ConvertibleNotesPayableCurrent is represented as a descendent of us-gaap:ConvertibleNotesPayable in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayableCurrent fact are:
+
+Period :2023-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9278,"2024-02-14 13:19:12,298 [DQC.US.0081.9278] The line item concept us-gaap:DepositsAssetsCurrent with a value of 12,546 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsCurrent with a value of 53,428 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:DepositsAssetsCurrent is represented as a descendent of us-gaap:AssetsCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:DepositsAssetsCurrent fact are:
+
+Period :2023-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9278,"2024-02-14 13:19:12,299 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfDebtDiscountPremium with a value of 461,842 and a calculation parent of us-gaap:OtherNonoperatingIncomeExpense is represented as a sibling of us-gaap:InterestExpense with a value of 0 in the extension taxonomy role 000004 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED), but us-gaap:AmortizationOfDebtDiscountPremium is represented as a descendent of us-gaap:InterestExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+The filing should use the element InterestExpenseDebtExcludingAmortization instead of the element InterestExpense. The element InterestExpenseDebtExcludingAmortization excludes the amortization component from interest expense.
+
+The properties of this us-gaap:AmortizationOfDebtDiscountPremium fact are:
+
+Period :2022-07-01 to 2022-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9278,"2024-02-14 13:19:12,299 [DQC.US.0081.9278] The line item concept us-gaap:ConvertibleNotesPayableCurrent with a value of 100,000 and a calculation parent of us-gaap:LiabilitiesCurrent is represented as a sibling of us-gaap:ConvertibleNotesPayable with a value of 5,850,000 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:ConvertibleNotesPayableCurrent is represented as a descendent of us-gaap:ConvertibleNotesPayable in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:ConvertibleNotesPayableCurrent fact are:
+
+Period :2023-06-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9278,"2024-02-14 13:19:12,299 [DQC.US.0081.9278] The line item concept us-gaap:DepositsAssetsCurrent with a value of 12,546 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsCurrent with a value of 66,154 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:DepositsAssetsCurrent is represented as a descendent of us-gaap:AssetsCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:DepositsAssetsCurrent fact are:
+
+Period :2023-06-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 23.0.3
+ - xeri_10q.htm 2",2024-02-14,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-02-14 12:43:00,0001477932-24-000713,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/xeri_10q.htm,2024-02-14,2024,674748,https://www.sec.gov/Archives/edgar/data/1481504/000147793224000713/0001477932-24-000713-index.htm,3721,10q-xeri-20231231
+DQC.US.0081.9278,"2024-11-21 06:16:32,940 [DQC.US.0081.9278] The line item concept us-gaap:IncreaseDecreaseInOtherAccountsPayable with a value of 45,978 and a calculation parent of us-gaap:NetCashProvidedByUsedInContinuingOperations is represented as a sibling of us-gaap:IncreaseDecreaseInAccountsPayable with a value of 3,308 in the extension taxonomy role 00000006 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS, but us-gaap:IncreaseDecreaseInOtherAccountsPayable is represented as a descendent of us-gaap:IncreaseDecreaseInAccountsPayable in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:IncreaseDecreaseInOtherAccountsPayable fact are:
+
+Period :2024-01-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 25.0.5
+ - scth_form10q093020224.htm 2001",2024-11-21,ERROR,DQC,81,1703157,"SecureTech Innovations, Inc.",2024-11-19 14:36:00,0001017386-24-000272,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1703157/000101738624000272/scth_form10q093020224.htm,2024-11-19,2024,783008,https://www.sec.gov/Archives/edgar/data/1703157/000101738624000272/0001017386-24-000272-index.htm,3714,10q-scth-20240930
+DQC.US.0081.9278,"2024-11-18 10:45:51,846 [DQC.US.0081.9278] The line item concept us-gaap:AdjustmentForAmortization with a value of 5,544 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:DepreciationDepletionAndAmortization with a value of 30,135 in the extension taxonomy role 000060 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited), but us-gaap:AdjustmentForAmortization is represented as a descendent of us-gaap:DepreciationDepletionAndAmortization in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:AdjustmentForAmortization fact are:
+
+Period :2024-01-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 25.0.4
+ - atvk-20240930.htm 3216",2024-11-18,ERROR,DQC,81,1530185,"Ameritek Ventures, Inc.",2024-11-14 15:51:00,0001376474-24-000696,US GAAP 2024,"Produced by edgar-services.com using EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2024 [PPWEVSUSUJKYVE46T7W9]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1530185/000137647424000696/atvk-20240930.htm,2024-11-14,2024,781266,https://www.sec.gov/Archives/edgar/data/1530185/000137647424000696/0001376474-24-000696-index.htm,3714,10q-atvk-20240930
+DQC.US.0081.9277,"2024-11-19 06:16:38,076 [DQC.US.0081.9277] The line item concept us-gaap:ProceedsFromConvertibleDebt with a value of 411,000 is represented as a child of us-gaap:NetCashProvidedByUsedInInvestingActivities with a value of 411,000 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED). The element us-gaap:ProceedsFromConvertibleDebt however, is not represented as a component of us-gaap:NetCashProvidedByUsedInInvestingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:ProceedsFromConvertibleDebt as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInInvestingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInInvestingActivities and the child element us-gaap:ProceedsFromConvertibleDebt.
+
+
+The properties of this us-gaap:ProceedsFromConvertibleDebt fact are:
+
+Period :2023-07-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 25.0.4
+ - xeri_10q.htm 2",2024-11-19,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-11-14 15:36:00,0001477932-24-007198,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/xeri_10q.htm,2024-11-14,2024,781689,https://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/0001477932-24-007198-index.htm,3721,10q-xeri-20240930
+DQC.US.0081.9277,"2024-11-19 06:16:38,076 [DQC.US.0081.9277] The line item concept us-gaap:RepaymentOfNotesReceivableFromRelatedParties with a value of 139,947 is represented as a child of us-gaap:NetCashProvidedByUsedInFinancingActivities with a value of -139,947 in the companies extension taxonomy role 000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED). The element us-gaap:RepaymentOfNotesReceivableFromRelatedParties however, is not represented as a component of us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:RepaymentOfNotesReceivableFromRelatedParties as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInFinancingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInFinancingActivities and the child element us-gaap:RepaymentOfNotesReceivableFromRelatedParties.
+
+
+The properties of this us-gaap:RepaymentOfNotesReceivableFromRelatedParties fact are:
+
+Period :2023-07-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 25.0.4
+ - xeri_10q.htm 2",2024-11-19,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-11-14 15:36:00,0001477932-24-007198,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/xeri_10q.htm,2024-11-14,2024,781689,https://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/0001477932-24-007198-index.htm,3721,10q-xeri-20240930
+DQC.US.0081.9278,"2024-11-19 06:16:38,077 [DQC.US.0081.9278] The line item concept us-gaap:AmortizationOfDebtDiscountPremium with a value of 16,802 and a calculation parent of us-gaap:OtherNonoperatingIncomeExpense is represented as a sibling of us-gaap:InterestExpense with a value of 61,617 in the extension taxonomy role 000004 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED), but us-gaap:AmortizationOfDebtDiscountPremium is represented as a descendent of us-gaap:InterestExpense in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+The filing should use the element InterestExpenseDebtExcludingAmortization instead of the element InterestExpense. The element InterestExpenseDebtExcludingAmortization excludes the amortization component from interest expense.
+
+The properties of this us-gaap:AmortizationOfDebtDiscountPremium fact are:
+
+Period :2024-07-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 25.0.4
+ - xeri_10q.htm 2",2024-11-19,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-11-14 15:36:00,0001477932-24-007198,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/xeri_10q.htm,2024-11-14,2024,781689,https://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/0001477932-24-007198-index.htm,3721,10q-xeri-20240930
+DQC.US.0081.9278,"2024-11-19 06:16:38,077 [DQC.US.0081.9278] The line item concept us-gaap:DepositsAssetsCurrent with a value of 12,546 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsCurrent with a value of 664,211 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:DepositsAssetsCurrent is represented as a descendent of us-gaap:AssetsCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:DepositsAssetsCurrent fact are:
+
+Period :2024-06-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 25.0.4
+ - xeri_10q.htm 2",2024-11-19,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-11-14 15:36:00,0001477932-24-007198,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/xeri_10q.htm,2024-11-14,2024,781689,https://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/0001477932-24-007198-index.htm,3721,10q-xeri-20240930
+DQC.US.0081.9278,"2024-11-19 06:16:38,078 [DQC.US.0081.9278] The line item concept us-gaap:DepositsAssetsCurrent with a value of 12,546 and a calculation parent of us-gaap:Assets is represented as a sibling of us-gaap:AssetsCurrent with a value of 319,977 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:DepositsAssetsCurrent is represented as a descendent of us-gaap:AssetsCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:DepositsAssetsCurrent fact are:
+
+Period :2024-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 25.0.4
+ - xeri_10q.htm 2",2024-11-19,ERROR,DQC,81,1481504,"XERIANT, INC.",2024-11-14 15:36:00,0001477932-24-007198,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/xeri_10q.htm,2024-11-14,2024,781689,https://www.sec.gov/Archives/edgar/data/1481504/000147793224007198/0001477932-24-007198-index.htm,3721,10q-xeri-20240930
+DQC.US.0081.9278,"2024-11-18 06:45:54,595 [DQC.US.0081.9278] The line item concept us-gaap:IncreaseDecreaseInNotesPayableCurrent with a value of -2,500 and a calculation parent of us-gaap:NetCashProvidedByUsedInOperatingActivities is represented as a sibling of us-gaap:IncreaseDecreaseInAccountsPayable with a value of 22,141 in the extension taxonomy role 000060 - Statement - Unaudited Condensed Consolidated Statements of Cash Flows, but us-gaap:IncreaseDecreaseInNotesPayableCurrent is represented as a descendent of us-gaap:IncreaseDecreaseInAccountsPayable in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:IncreaseDecreaseInNotesPayableCurrent fact are:
+
+Period :2024-01-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 25.0.4
+ - fflo-20240930.htm 2503",2024-11-18,ERROR,DQC,81,1543652,Free Flow USA Inc.,2024-11-14 12:55:00,0001096906-24-002132,US GAAP 2024,"Produced by gain loss using EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2024 [PPXK5GW761L0VE30FJS6]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1543652/000109690624002132/fflo-20240930.htm,2024-11-14,2024,781181,https://www.sec.gov/Archives/edgar/data/1543652/000109690624002132/0001096906-24-002132-index.htm,5531,10q-fflo-20240930
+DQC.US.0081.9277,"2024-11-18 06:27:53,326 [DQC.US.0081.9277] The line item concept us-gaap:IncreaseDecreaseInDeposits with a value of -372,383 is represented as a child of us-gaap:NetCashProvidedByUsedInOperatingActivities with a value of -26,295 in the companies extension taxonomy role 000060 - Statement - Condensed Statements of Cash Flows (unaudited). The element us-gaap:IncreaseDecreaseInDeposits however, is not represented as a component of us-gaap:NetCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:IncreaseDecreaseInDeposits as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInOperatingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInOperatingActivities and the child element us-gaap:IncreaseDecreaseInDeposits.
+The element IncreaseDecreaseInDeposits represents the increase in deposits received by financial institutions as an investing cash inflow. The element IncreaseDecreaseInDeposits should not be included as a component of operating activities but as a component of investing activities.
+
+The properties of this us-gaap:IncreaseDecreaseInDeposits fact are:
+
+Period :2024-01-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 25.0.4
+ - omtk-20240930.htm 2149",2024-11-18,ERROR,DQC,81,1404804,OMNITEK ENGINEERING CORP.,2024-11-14 11:23:00,0001096906-24-002123,US GAAP 2024,"Produced by gain loss using EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2024 [PPXK5GW761L0VE30FJS6]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1404804/000109690624002123/omtk-20240930.htm,2024-11-14,2024,781133,https://www.sec.gov/Archives/edgar/data/1404804/000109690624002123/0001096906-24-002123-index.htm,3714,10q-omtk-20240930
+DQC.US.0081.9277,"2024-11-18 06:27:53,327 [DQC.US.0081.9277] The line item concept us-gaap:IncreaseDecreaseInDeposits with a value of -1,094 is represented as a child of us-gaap:NetCashProvidedByUsedInOperatingActivities with a value of -64,332 in the companies extension taxonomy role 000060 - Statement - Condensed Statements of Cash Flows (unaudited). The element us-gaap:IncreaseDecreaseInDeposits however, is not represented as a component of us-gaap:NetCashProvidedByUsedInOperatingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:IncreaseDecreaseInDeposits as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInOperatingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInOperatingActivities and the child element us-gaap:IncreaseDecreaseInDeposits.
+The element IncreaseDecreaseInDeposits represents the increase in deposits received by financial institutions as an investing cash inflow. The element IncreaseDecreaseInDeposits should not be included as a component of operating activities but as a component of investing activities.
+
+The properties of this us-gaap:IncreaseDecreaseInDeposits fact are:
+
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 25.0.4
+ - omtk-20240930.htm 2152",2024-11-18,ERROR,DQC,81,1404804,OMNITEK ENGINEERING CORP.,2024-11-14 11:23:00,0001096906-24-002123,US GAAP 2024,"Produced by gain loss using EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2024 [PPXK5GW761L0VE30FJS6]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1404804/000109690624002123/omtk-20240930.htm,2024-11-14,2024,781133,https://www.sec.gov/Archives/edgar/data/1404804/000109690624002123/0001096906-24-002123-index.htm,3714,10q-omtk-20240930
+DQC.US.0081.9277,"2024-11-18 06:27:53,327 [DQC.US.0081.9277] The line item concept us-gaap:PaymentsForPurchaseOfOtherAssets1 with a value of 6,336 is represented as a child of us-gaap:NetCashProvidedByUsedInInvestingActivities with a value of -6,336 in the companies extension taxonomy role 000060 - Statement - Condensed Statements of Cash Flows (unaudited). The element us-gaap:PaymentsForPurchaseOfOtherAssets1 however, is not represented as a component of us-gaap:NetCashProvidedByUsedInInvestingActivities in the calculation relationships defined in the US GAAP taxonomy. The US-GAAP taxonomies include us-gaap:PaymentsForPurchaseOfOtherAssets1 as a sibling element (or child of that sibling) relative to us-gaap:NetCashProvidedByUsedInInvestingActivities in the calculation relationships of the US GAAP taxonomy. Please review the element selection to determine that an appropriate element has been used for the parent element us-gaap:NetCashProvidedByUsedInInvestingActivities and the child element us-gaap:PaymentsForPurchaseOfOtherAssets1.
+
+
+The properties of this us-gaap:PaymentsForPurchaseOfOtherAssets1 fact are:
+
+Period :2024-01-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9277
+Rule version: 25.0.4
+ - omtk-20240930.htm 2247",2024-11-18,ERROR,DQC,81,1404804,OMNITEK ENGINEERING CORP.,2024-11-14 11:23:00,0001096906-24-002123,US GAAP 2024,"Produced by gain loss using EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2024 [PPXK5GW761L0VE30FJS6]. www.edgarsuite.com",10-Q,http://www.sec.gov/Archives/edgar/data/1404804/000109690624002123/omtk-20240930.htm,2024-11-14,2024,781133,https://www.sec.gov/Archives/edgar/data/1404804/000109690624002123/0001096906-24-002123-index.htm,3714,10q-omtk-20240930
+DQC.US.0081.9278,"2024-11-18 06:02:04,901 [DQC.US.0081.9278] The line item concept us-gaap:NotesPayableCurrent with a value of 10,979,723 and a calculation parent of us-gaap:Liabilities is represented as a sibling of us-gaap:LiabilitiesCurrent with a value of 2,183,364 in the extension taxonomy role 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS, but us-gaap:NotesPayableCurrent is represented as a descendent of us-gaap:LiabilitiesCurrent in the calculation relationships defined in the US GAAP taxonomies. Please review the element selection to determine that an appropriate element has been used for these two line item concepts.
+
+
+The properties of this us-gaap:NotesPayableCurrent fact are:
+
+Period :2023-12-31
+Dimensions : 
+Unit : USD
+
+
+Rule Element Id:9278
+Rule version: 25.0.4
+ - meec_10q.htm 2",2024-11-18,ERROR,DQC,81,728385,BIRCHTECH CORP.,2024-11-14 06:03:00,0001477932-24-007130,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/728385/000147793224007130/meec_10q.htm,2024-11-14,2024,780988,https://www.sec.gov/Archives/edgar/data/728385/000147793224007130/0001477932-24-007130-index.htm,3829,10q-meec-20240930

@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i3155d9511d0d485bba5e8188d995aeea_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:FixedMaturitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i1d28688ffaaa4ce79642ae0361c3261a_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:FixedMaturitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i52cc84b28d024236ad2b963a76a6b135_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:FixedMaturitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="icdc31fd2a55647b9ad351ae6e40e8afe_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">acgl:TermLoanInvestmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i6e8a6514449846aaba05e40decdef61a_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">acgl:TermLoanInvestmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="if923dbcb24794c7f9e73ea1d35c7c7a6_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">acgl:TermLoanInvestmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ic1d9bb85bacf49cb8beed8d73b15060a_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:EquitySecuritiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3aa5bba148ca4f5c8a1d8e5d6e454bf3_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:EquitySecuritiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i6faf7cc57e3844d485b19f537acc03e6_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:EquitySecuritiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i28f12d8d7a4641c795e94c5d97faaa8d_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:ShortTermInvestmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i9b4935f4c1b94b21849e7fd352a3466f_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:ShortTermInvestmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i77b4c8bedcdb49b4a3b7548fe3837870_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:ShortTermInvestmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia9d3e35348304449ac37ce379605f74f_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">acgl:OtherInvestmentIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ibea5d8c796be4ec28616ac0c2c11a49a_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">acgl:OtherInvestmentIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i07c86d3063874bb6aed46b452170e853_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">acgl:OtherInvestmentIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i720fa7e6155346b78b57cbc2826eedae_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia585acec0cc44319b4174df64717200e_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i069496e8b66e496fb9c5e8179f4e3f5b_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i2cbc353ebe67452583b2539eace656d2_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i434f2a88ad1841d79d2bbfac73d95915_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i224dc243b09142e79be2793bb143e621_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ifee866f62fd148179db8723c31001a1a_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:ParentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i9d986e8f2409427c950ea67bc5803eb9_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:ParentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i50220b0a46c54269b89833ea760d0f7f_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:ParentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i3155d9511d0d485bba5e8188d995aeea_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzItMS0xLTEtNjc4NzQ_7e675d44-d4c5-4c7f-b37f-91192203dc36" unitRef="usd">468659000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i1d28688ffaaa4ce79642ae0361c3261a_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzItMy0xLTEtNjc4NzQ_d09949ca-7bcf-4d05-8cd7-84e54ef54131" unitRef="usd">330061000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i52cc84b28d024236ad2b963a76a6b135_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzItNS0xLTEtNjc4NzQ_f422e1c6-b187-4c83-a0e1-84d66e0117b1" unitRef="usd">412481000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="icdc31fd2a55647b9ad351ae6e40e8afe_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzMtMS0xLTEtNjc4NzQ_7e186e13-6bb8-4fab-80b3-c764a75f4400" unitRef="usd">2038000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i6e8a6514449846aaba05e40decdef61a_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzMtMy0xLTEtNjc4NzQ_103acbf3-9897-43da-977f-c866a8b2fb19" unitRef="usd">34843000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="if923dbcb24794c7f9e73ea1d35c7c7a6_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzMtNS0xLTEtNjc4NzQ_41d65770-d6b2-4176-9bfb-c9fe1aca7a0c" unitRef="usd">84149000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="ic1d9bb85bacf49cb8beed8d73b15060a_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzQtMS0xLTEtNjc4NzQ_3fc879eb-f000-4b50-ada1-2708b0ee3383" unitRef="usd">22497000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i3aa5bba148ca4f5c8a1d8e5d6e454bf3_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzQtMy0xLTEtNjc4NzQ_4e04041a-d73d-4741-b6b7-77dceb980264" unitRef="usd">42396000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i6faf7cc57e3844d485b19f537acc03e6_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzQtNS0xLTEtNjc4NzQ_845d2a99-9748-4cc6-b446-00cddad29cc9" unitRef="usd">28958000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i28f12d8d7a4641c795e94c5d97faaa8d_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzUtMS0xLTEtNjc4NzQ_0da104b7-f81a-48d0-82ad-e9be32c2330b" unitRef="usd">29519000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i9b4935f4c1b94b21849e7fd352a3466f_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzUtMy0xLTEtNjc4NzQ_ddce2e9e-4dfa-4b88-8f0d-9dc14ca2d130" unitRef="usd">6928000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i77b4c8bedcdb49b4a3b7548fe3837870_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzUtNS0xLTEtNjc4NzQ_c55c3498-e939-46b3-84c8-51d29ebded9d" unitRef="usd">10840000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="ia9d3e35348304449ac37ce379605f74f_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzYtMS0xLTEtNjc4NzQ_f47608f4-b1cc-4eca-a788-578a32e21b7c" unitRef="usd">44609000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="ibea5d8c796be4ec28616ac0c2c11a49a_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzYtMy0xLTEtNjc4NzQ_6cb24778-7b32-4c4b-a1fc-c017f4b12b4c" unitRef="usd">62895000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i07c86d3063874bb6aed46b452170e853_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzYtNS0xLTEtNjc4NzQ_744bd274-75fe-4dcc-952f-4d503ef81ee1" unitRef="usd">72395000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzctMS0xLTEtNjc4NzQ_61c063e2-ebee-4851-b586-3cce36623a2f" unitRef="usd">567322000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzctMy0xLTEtNjc4NzQ_349e2d1b-f4c2-4d4d-bebd-e21b160f0fd9" unitRef="usd">477123000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInterestAndDividend contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzctNS0xLTEtNjc4NzQ_3d346c5d-7e08-4a82-935e-96eb1a7d3c0e" unitRef="usd">608823000</us-gaap:InvestmentIncomeInterestAndDividend>
+	<us-gaap:InvestmentIncomeInvestmentExpense contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzgtMS0xLTEtNjc4NzQ_c23a9782-e02a-485a-a6bc-4e9073a17bf0" unitRef="usd">70775000</us-gaap:InvestmentIncomeInvestmentExpense>
+	<us-gaap:InvestmentIncomeInvestmentExpense contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzgtMy0xLTEtNjc4NzQ_9fa3174f-06a5-4a0b-a74f-e9d561545bc0" unitRef="usd">88005000</us-gaap:InvestmentIncomeInvestmentExpense>
+	<us-gaap:InvestmentIncomeInvestmentExpense contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzgtNS0xLTEtNjc4NzQ_18fa3946-a474-4fcd-ad7a-4d22921d4edb" unitRef="usd">89215000</us-gaap:InvestmentIncomeInvestmentExpense>
+	<us-gaap:InvestmentIncomeNet contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzctMS0xLTEtNjc4NzQ_c0a3fecb-c565-4a04-a811-f46b654fa323" unitRef="usd">496547000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzctMy0xLTEtNjc4NzQ_5cb6e808-9a0c-467b-82e0-23a06b698893" unitRef="usd">389118000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzctNS0xLTEtNjc4NzQ_22281f1b-a689-4274-91f5-5f41887ead6f" unitRef="usd">519608000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i720fa7e6155346b78b57cbc2826eedae_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzEzLTctMS0xLTY3ODc0_5d37f5a7-072f-4d29-8748-fa9fab87d700" unitRef="usd">496547000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="ia585acec0cc44319b4174df64717200e_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzEzLTktMS0xLTY3ODc0_48b347d5-862a-4c4b-9b6a-2738270956e7" unitRef="usd">0</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzEzLTExLTEtMS02Nzg3NA_6359817c-4e35-4fd7-9c0e-704b0f5a042d" unitRef="usd">496547000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i069496e8b66e496fb9c5e8179f4e3f5b_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzEzLTctMS0xLTY3ODc0_40695a14-c052-451d-ab76-387a1f4cd6f8" unitRef="usd">346808000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i2cbc353ebe67452583b2539eace656d2_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzEzLTktMS0xLTY3ODc0_cea1c234-f7d6-4d41-9bff-44df6c7c5e0a" unitRef="usd">42310000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzEzLTExLTEtMS02Nzg3NA_a5b0bf8a-c7eb-44c7-987a-abb656881598" unitRef="usd">389118000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i434f2a88ad1841d79d2bbfac73d95915_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzEzLTctMS0xLTY3ODc0_d661738a-dac5-491a-885a-fe31e8ed0249" unitRef="usd">401908000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i224dc243b09142e79be2793bb143e621_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzEzLTktMS0xLTY3ODc0_abe9b8b9-9524-4695-b13e-377c30c4bf45" unitRef="usd">117700000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzEzLTExLTEtMS02Nzg3NA_7ac86274-f89f-4596-a782-f812dadb2842" unitRef="usd">519608000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzktMS0xLTEtNjc4NzQ_5bcc8462-c03c-4bc2-b5b0-819e0c9bbc26" unitRef="usd">496547000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzktMy0xLTEtNjc4NzQ_cf1179b8-8304-44f9-8b8c-61840eaa6447" unitRef="usd">389118000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZTozYmIyMWMyNGI2N2Q0NzU4OTMwZDlkNzE4ZTNmNTI1My90YWJsZXJhbmdlOjNiYjIxYzI0YjY3ZDQ3NTg5MzBkOWQ3MThlM2Y1MjUzXzktNS0xLTEtNjc4NzQ_01ebc00c-2732-4bc6-b3a1-9001b828c453" unitRef="usd">519608000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="ifee866f62fd148179db8723c31001a1a_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTo3YmMyN2Q3ZjAyZDk0YmJmOWZiYWIyYmZkNzM0ZTJmYi90YWJsZXJhbmdlOjdiYzI3ZDdmMDJkOTRiYmY5ZmJhYjJiZmQ3MzRlMmZiXzYtMS0xLTEtNjc4NzQ_de749f90-328c-4f65-a650-8417fb66a825" unitRef="usd">2058000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i9d986e8f2409427c950ea67bc5803eb9_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTo3YmMyN2Q3ZjAyZDk0YmJmOWZiYWIyYmZkNzM0ZTJmYi90YWJsZXJhbmdlOjdiYzI3ZDdmMDJkOTRiYmY5ZmJhYjJiZmQ3MzRlMmZiXzYtMy0xLTEtNjc4NzQ_60648e4c-dff8-4aef-ad04-b6a5446facd0" unitRef="usd">1524000</us-gaap:InvestmentIncomeNet>
+	<us-gaap:InvestmentIncomeNet contextRef="i50220b0a46c54269b89833ea760d0f7f_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTo3YmMyN2Q3ZjAyZDk0YmJmOWZiYWIyYmZkNzM0ZTJmYi90YWJsZXJhbmdlOjdiYzI3ZDdmMDJkOTRiYmY5ZmJhYjJiZmQ3MzRlMmZiXzYtNS0xLTEtNjc4NzQ_845b7435-93d4-411b-ab1a-79078aa4c80f" unitRef="usd">53000</us-gaap:InvestmentIncomeNet>
+	</xbrl>
+

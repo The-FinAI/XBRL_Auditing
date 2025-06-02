@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:roleRef roleURI="http://aep.com/role/RelatedPartyTransactions" xlink:type="simple" xlink:href="aep-20211231.xsd#RelatedPartyTransactions"/>
+  <link:definitionLink xlink:role="http://aep.com/role/RelatedPartyTransactions" xlink:type="extended" id="i4a0eecbce423403698bb43b42c1dc210_RelatedPartyTransactions">
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_StatementLineItems_29e16ad8-bc4b-4608-9507-81db0a425df1" xlink:href="https://xbrl.fasb.org/us-gaap/2021/elts/us-gaap-2021-01-31.xsd#us-gaap_StatementLineItems"/>
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_RelatedPartyTransactionsDisclosureTextBlock_7a04bc31-971d-42b8-8186-428354f1f25d" xlink:href="https://xbrl.fasb.org/us-gaap/2021/elts/us-gaap-2021-01-31.xsd#us-gaap_RelatedPartyTransactionsDisclosureTextBlock"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_us-gaap_StatementLineItems_29e16ad8-bc4b-4608-9507-81db0a425df1" xlink:to="loc_us-gaap_RelatedPartyTransactionsDisclosureTextBlock_7a04bc31-971d-42b8-8186-428354f1f25d" xlink:type="arc" order="0"/>
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_StatementTable_218f4dcd-99ef-4f9b-a7ad-ec9d7b03e7f1" xlink:href="https://xbrl.fasb.org/us-gaap/2021/elts/us-gaap-2021-01-31.xsd#us-gaap_StatementTable"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_us-gaap_StatementLineItems_29e16ad8-bc4b-4608-9507-81db0a425df1" xlink:to="loc_us-gaap_StatementTable_218f4dcd-99ef-4f9b-a7ad-ec9d7b03e7f1" xlink:type="arc" order="1" xbrldt:closed="true" xbrldt:contextElement="segment"/>
+    <link:loc xlink:type="locator" xlink:label="loc_dei_LegalEntityAxis_137fa2ff-3c55-4396-97aa-7a81af06506a" xlink:href="https://xbrl.sec.gov/dei/2021q4/dei-2021q4.xsd#dei_LegalEntityAxis"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_us-gaap_StatementTable_218f4dcd-99ef-4f9b-a7ad-ec9d7b03e7f1" xlink:to="loc_dei_LegalEntityAxis_137fa2ff-3c55-4396-97aa-7a81af06506a" xlink:type="arc" order="1"/>
+    <link:loc xlink:type="locator" xlink:label="loc_dei_EntityDomain_137fa2ff-3c55-4396-97aa-7a81af06506a_default" xlink:href="https://xbrl.sec.gov/dei/2021q4/dei-2021q4.xsd#dei_EntityDomain"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_dei_LegalEntityAxis_137fa2ff-3c55-4396-97aa-7a81af06506a" xlink:to="loc_dei_EntityDomain_137fa2ff-3c55-4396-97aa-7a81af06506a_default" xlink:type="arc" order="1"/>
+    <link:loc xlink:type="locator" xlink:label="loc_dei_EntityDomain_d884f06f-b312-49f4-bd2d-7e4df3f05722" xlink:href="https://xbrl.sec.gov/dei/2021q4/dei-2021q4.xsd#dei_EntityDomain"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_dei_LegalEntityAxis_137fa2ff-3c55-4396-97aa-7a81af06506a" xlink:to="loc_dei_EntityDomain_d884f06f-b312-49f4-bd2d-7e4df3f05722" xlink:type="arc" order="1"/>
+  </link:definitionLink>
+  </link:linkbase>

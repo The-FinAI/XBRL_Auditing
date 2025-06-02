@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="AsOf2023-08-31_custom_RenovationCostsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PropertyPlantAndEquipmentByTypeAxis">ABQQ:RenovationCostsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_custom_RenovationCostsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PropertyPlantAndEquipmentByTypeAxis">ABQQ:RenovationCostsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:LeaseholdImprovementsGross contextRef="AsOf2023-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">146304</us-gaap:LeaseholdImprovementsGross>
+	<us-gaap:LeaseholdImprovementsGross contextRef="AsOf2022-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">146304</us-gaap:LeaseholdImprovementsGross>
+	<us-gaap:FurnitureAndFixturesGross contextRef="AsOf2023-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">25974</us-gaap:FurnitureAndFixturesGross>
+	<us-gaap:FurnitureAndFixturesGross contextRef="AsOf2022-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">25974</us-gaap:FurnitureAndFixturesGross>
+	<us-gaap:PropertyPlantAndEquipmentOwnedGross contextRef="AsOf2023-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">172278</us-gaap:PropertyPlantAndEquipmentOwnedGross>
+	<us-gaap:PropertyPlantAndEquipmentOwnedGross contextRef="AsOf2022-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">172278</us-gaap:PropertyPlantAndEquipmentOwnedGross>
+	<us-gaap:PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation contextRef="AsOf2023-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">164024</us-gaap:PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation>
+	<us-gaap:PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation contextRef="AsOf2022-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">159583</us-gaap:PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">8254</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">12695</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2023-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">8254</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2022-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">12695</us-gaap:PropertyPlantAndEquipmentNet>
+	</xbrl>
+

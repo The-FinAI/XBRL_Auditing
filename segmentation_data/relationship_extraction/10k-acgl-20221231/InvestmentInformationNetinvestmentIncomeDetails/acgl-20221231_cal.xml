@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/InvestmentInformationNetinvestmentIncomeDetails" xlink:type="simple" xlink:href="acgl-20221231.xsd#InvestmentInformationNetinvestmentIncomeDetails"/>
+  <link:calculationLink xlink:role="http://www.archcapgroup.com/role/InvestmentInformationNetinvestmentIncomeDetails" xlink:type="extended">
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_InvestmentIncomeNet_bfbdcb81-94ef-4eb0-9f51-73d243d1dd1a" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_InvestmentIncomeNet"/>
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_InvestmentIncomeInterestAndDividend_acc0d621-ca75-42fb-8af4-280bd435a462" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_InvestmentIncomeInterestAndDividend"/>
+    <link:calculationArc order="1" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaap_InvestmentIncomeNet_bfbdcb81-94ef-4eb0-9f51-73d243d1dd1a" xlink:to="loc_us-gaap_InvestmentIncomeInterestAndDividend_acc0d621-ca75-42fb-8af4-280bd435a462" xlink:type="arc"/>
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_InvestmentIncomeInvestmentExpense_cf64ece5-14a5-4708-9813-bb4a1ed17a50" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_InvestmentIncomeInvestmentExpense"/>
+    <link:calculationArc order="2" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaap_InvestmentIncomeNet_bfbdcb81-94ef-4eb0-9f51-73d243d1dd1a" xlink:to="loc_us-gaap_InvestmentIncomeInvestmentExpense_cf64ece5-14a5-4708-9813-bb4a1ed17a50" xlink:type="arc"/>
+  </link:calculationLink>
+  </link:linkbase>

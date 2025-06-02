@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:SubstantialDoubtAboutGoingConcernTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_803_eus-gaap--SubstantialDoubtAboutGoingConcernTextBlock_zAtj3Sdlnxth" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 3 – GOING CONCERN &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;The accompanying consolidated financial
+statements have been prepared assuming that the Company will continue as a going concern, which contemplates the realization of assets
+and the discharge of liabilities in the normal course of business for the foreseeable future.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;As of August 31&lt;/span&gt;,
+2023&lt;span style="color: #212529"&gt;, the Company had an accumulated deficit of approximately &lt;span id="xdx_90A_ecustom--RetainedEarningsAccumulatedDeficitEstimated_iI_pp2d_c20230831_zDbToVDC55z2"&gt;$12.4 million&lt;/span&gt; and a working capital deficit
+of approximately &lt;span id="xdx_903_eus-gaap--Capital_iNI_di_c20230831_zw259BEcFXTc"&gt;$1.0 million&lt;/span&gt;. For the year ended &lt;/span&gt;August 31, 2023, &lt;span style="color: #212529"&gt;the Company incurred a net loss
+of approximately &lt;span id="xdx_90B_ecustom--NetIncomeLossEstimated_pp2d_c20220901__20230831_zsfwvJBfqkG5"&gt;$3.6 million&lt;/span&gt; and the net cash used in operating activities was approximately $0&lt;span id="xdx_90C_ecustom--NetCashUsedInOperationsApproximate_pp2d_c20220901__20230831_zPK0rKSinrPl"&gt;.6 million&lt;/span&gt;. Losses have principally
+occurred as a result of the substantial resources required for general and administrative expenses associated with our operations. The
+continuation of the Company as a going concern is dependent upon the continued financial support from its stockholders or external financing.
+Management believes the existing stockholders will provide the additional cash to meet the Company’s obligations as they become
+due. However, there is no assurance that the Company will be successful in securing sufficient funds to sustain the operations.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;These factors, among others, raise
+the substantial doubt regarding the Company’s ability to continue as a going concern. These consolidated financial statements do
+not include any adjustments to reflect the possible future effect on the recoverability and classification of assets or the amounts and
+classifications of liabilities that may result from the outcome of these uncertainties. Management believes that the actions presently
+being taken to obtain additional funding and implement its strategic plan provides the opportunity for the Company to continue as a going
+concern.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+
+
+
+&lt;p style="font: 10pt/107% Times New Roman, Times, Serif; margin: 0pt; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;AB INTERNATIONAL GROUP CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+</us-gaap:SubstantialDoubtAboutGoingConcernTextBlock>
+	</xbrl>
+

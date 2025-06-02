@@ -1,0 +1,1515 @@
+assertion.code,assertion.detail,assertion.run-date,assertion.severity,assertion.source,assertion.type,entity.cik,entity.name,report.accepted-timestamp,report.accession,report.base-taxonomy,report.creation-software,report.document-type,report.entry-url,report.filing-date,report.filing-year,report.id,report.sec-url,report.sic-code,folder_name
+DQC.US.0117.9574,"2022-02-07 17:45:51,654 [DQC.US.0117.9574] In the statement 1003004 - Statement - Condensed Consolidated Income Statements the concept us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax with a value of 255,500,000 is not equal to the dimensional breakdown of 142,400,000 which is comprised of the members:
+	ConsultingManagementAndAccountFeesMember 	 --> 23,000,000 	 --> srt:ProductOrServiceAxis=intl:ConsultingManagementAndAccountFeesMember 
+	CommissionandClearingFeesMember 	 --> 119,400,000 	 --> srt:ProductOrServiceAxis=intl:CommissionandClearingFeesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+When breaking down 606 revenue using the product or service axis and the total does not aggregate, then the element NoninterestIncome income should be used as the total to comply with the FASB guidance for breaking down 606 revenue. To correct this error ensure that a the element NoninterestIncome is included in the presentation and definition linkbases.
+The properties of this us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax fact are:
+Period :2020-10-01 to 2020-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.10 - intl-20211231.htm 4",2022-02-07,ERROR,DQC,117,913760,StoneX Group Inc.,2022-02-07 17:24:00,0000913760-22-000029,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/913760/000091376022000029/intl-20211231.htm,2022-02-07,2022,416718,https://www.sec.gov/Archives/edgar/data/913760/000091376022000029/0000913760-22-000029-index.htm,6200,10q-intl-20211231
+DQC.US.0117.9574,"2022-02-07 17:45:51,654 [DQC.US.0117.9574] In the statement 1003004 - Statement - Condensed Consolidated Income Statements the concept us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax with a value of 920,700,000 is not equal to the dimensional breakdown of 140,400,000 which is comprised of the members:
+	ConsultingManagementAndAccountFeesMember 	 --> 24,100,000 	 --> srt:ProductOrServiceAxis=intl:ConsultingManagementAndAccountFeesMember 
+	CommissionandClearingFeesMember 	 --> 116,300,000 	 --> srt:ProductOrServiceAxis=intl:CommissionandClearingFeesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+When breaking down 606 revenue using the product or service axis and the total does not aggregate, then the element NoninterestIncome income should be used as the total to comply with the FASB guidance for breaking down 606 revenue. To correct this error ensure that a the element NoninterestIncome is included in the presentation and definition linkbases.
+The properties of this us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax fact are:
+Period :2021-10-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.10 - intl-20211231.htm 4",2022-02-07,ERROR,DQC,117,913760,StoneX Group Inc.,2022-02-07 17:24:00,0000913760-22-000029,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/913760/000091376022000029/intl-20211231.htm,2022-02-07,2022,416718,https://www.sec.gov/Archives/edgar/data/913760/000091376022000029/0000913760-22-000029-index.htm,6200,10q-intl-20211231
+DQC.US.0117.9574,"2022-02-15 18:16:50,994 [DQC.US.0117.9574] In the statement 1410408 - Statement - Preneed Activities Preneed Activities Receivables Net and Trust Invesments (Details) the concept us-gaap:AllowanceForDoubtfulAccountsPremiumsAndOtherReceivables with a value of 19,204,000 is not equal to the dimensional breakdown of -19,204,000 which is comprised of the members:
+	FuneralMember 	 --> -10,940,000 	 --> us-gaap:StatementBusinessSegmentsAxis=sci:FuneralMember 
+	CemeteryMember 	 --> -8,264,000 	 --> us-gaap:StatementBusinessSegmentsAxis=sci:CemeteryMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:AllowanceForDoubtfulAccountsPremiumsAndOtherReceivables fact are:
+Period :2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - sci-20211231.htm 4",2022-02-15,ERROR,DQC,117,89089,Service Corporation International,2022-02-15 17:23:00,0000089089-22-000012,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/89089/000008908922000012/sci-20211231.htm,2022-02-15,2022,420057,https://www.sec.gov/Archives/edgar/data/89089/000008908922000012/0000089089-22-000012-index.htm,7200,10k-sci-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,179 [DQC.US.0117.9574] In the statement 100100012 - Statement - Statements of Income - APC the concept us-gaap:Revenues with a value of 21,419,000,000 is not equal to the dimensional breakdown of 16,991,000,000 which is comprised of the members:
+	ProductAndServiceOtherMember 	 --> 755,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+	RetailMember 	 --> 14,084,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 2,152,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2019-01-01 to 2019-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,179 [DQC.US.0117.9574] In the statement 100180020 - Statement - Statements of Income - GPC the concept us-gaap:Revenues with a value of 21,419,000,000 is not equal to the dimensional breakdown of 16,991,000,000 which is comprised of the members:
+	RetailMember 	 --> 14,084,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 2,152,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+	ProductAndServiceOtherMember 	 --> 755,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2019-01-01 to 2019-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,180 [DQC.US.0117.9574] In the statement 100100012 - Statement - Statements of Income - APC the concept us-gaap:Revenues with a value of 23,113,000,000 is not equal to the dimensional breakdown of 18,015,000,000 which is comprised of the members:
+	ProductAndServiceOtherMember 	 --> 708,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+	RetailMember 	 --> 14,852,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 2,455,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,180 [DQC.US.0117.9574] In the statement 100260028 - Statement - Statements of Income - MPC the concept us-gaap:Revenues with a value of 21,419,000,000 is not equal to the dimensional breakdown of 16,991,000,000 which is comprised of the members:
+	ProductAndServiceOtherMember 	 --> 755,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+	RetailMember 	 --> 14,084,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 2,152,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2019-01-01 to 2019-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,180 [DQC.US.0117.9574] In the statement 100340036 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 21,419,000,000 is not equal to the dimensional breakdown of 2,907,000,000 which is comprised of the members:
+	WholesaleNonAffiliatesMember 	 --> 2,152,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+	ProductAndServiceOtherMember 	 --> 755,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2019-01-01 to 2019-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,180 [DQC.US.0117.9574] In the statement 100420044 - Statement - Consolidated Statements of Income - GAS the concept us-gaap:Revenues with a value of 21,419,000,000 is not equal to the dimensional breakdown of 3,792,000,000 which is comprised of the members:
+	NaturalGasUsRegulatedMember 	 --> 3,792,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:NaturalGasUsRegulatedMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2019-01-01 to 2019-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,181 [DQC.US.0117.9574] In the statement 100180020 - Statement - Statements of Income - GPC the concept us-gaap:Revenues with a value of 23,113,000,000 is not equal to the dimensional breakdown of 18,015,000,000 which is comprised of the members:
+	RetailMember 	 --> 14,852,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 2,455,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+	ProductAndServiceOtherMember 	 --> 708,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,181 [DQC.US.0117.9574] In the statement 100340036 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 23,113,000,000 is not equal to the dimensional breakdown of 3,163,000,000 which is comprised of the members:
+	WholesaleNonAffiliatesMember 	 --> 2,455,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+	ProductAndServiceOtherMember 	 --> 708,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,181 [DQC.US.0117.9574] In the statement 100420044 - Statement - Consolidated Statements of Income - GAS the concept us-gaap:Revenues with a value of 23,113,000,000 is not equal to the dimensional breakdown of 4,380,000,000 which is comprised of the members:
+	NaturalGasUsRegulatedMember 	 --> 4,380,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:NaturalGasUsRegulatedMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,182 [DQC.US.0117.9574] In the statement 100100012 - Statement - Statements of Income - APC the concept us-gaap:Revenues with a value of 20,375,000,000 is not equal to the dimensional breakdown of 16,269,000,000 which is comprised of the members:
+	ProductAndServiceOtherMember 	 --> 681,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+	RetailMember 	 --> 13,643,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 1,945,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2020-01-01 to 2020-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,182 [DQC.US.0117.9574] In the statement 100180020 - Statement - Statements of Income - GPC the concept us-gaap:Revenues with a value of 20,375,000,000 is not equal to the dimensional breakdown of 16,269,000,000 which is comprised of the members:
+	RetailMember 	 --> 13,643,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 1,945,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+	ProductAndServiceOtherMember 	 --> 681,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2020-01-01 to 2020-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,182 [DQC.US.0117.9574] In the statement 100260028 - Statement - Statements of Income - MPC the concept us-gaap:Revenues with a value of 23,113,000,000 is not equal to the dimensional breakdown of 18,015,000,000 which is comprised of the members:
+	ProductAndServiceOtherMember 	 --> 708,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+	RetailMember 	 --> 14,852,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 2,455,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,183 [DQC.US.0117.9574] In the statement 100260028 - Statement - Statements of Income - MPC the concept us-gaap:Revenues with a value of 20,375,000,000 is not equal to the dimensional breakdown of 16,269,000,000 which is comprised of the members:
+	ProductAndServiceOtherMember 	 --> 681,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+	RetailMember 	 --> 13,643,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:RetailMember 
+	WholesaleNonAffiliatesMember 	 --> 1,945,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2020-01-01 to 2020-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,183 [DQC.US.0117.9574] In the statement 100340036 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 20,375,000,000 is not equal to the dimensional breakdown of 2,626,000,000 which is comprised of the members:
+	WholesaleNonAffiliatesMember 	 --> 1,945,000,000 	 --> srt:ProductOrServiceAxis=so:WholesaleNonAffiliatesMember 
+	ProductAndServiceOtherMember 	 --> 681,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductAndServiceOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2020-01-01 to 2020-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-02-17 07:02:22,183 [DQC.US.0117.9574] In the statement 100420044 - Statement - Consolidated Statements of Income - GAS the concept us-gaap:Revenues with a value of 20,375,000,000 is not equal to the dimensional breakdown of 3,434,000,000 which is comprised of the members:
+	NaturalGasUsRegulatedMember 	 --> 3,434,000,000 	 --> srt:ProductOrServiceAxis=us-gaap:NaturalGasUsRegulatedMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2020-01-01 to 2020-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 16.0.11 - so-20211231.htm 4",2022-02-17,ERROR,DQC,117,92122,The Southern Company,2022-02-16 17:44:00,0000092122-22-000003,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/92122/000009212222000003/so-20211231.htm,2022-02-17,2022,420498,https://www.sec.gov/Archives/edgar/data/92122/000009212222000003/0000092122-22-000003-index.htm,4911,10k-so-20211231
+DQC.US.0117.9574,"2022-03-09 20:39:49,389 [DQC.US.0117.9574] In the statement 1001002 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 15,561,400,000 is not equal to the dimensional breakdown of 61,700,000 which is comprised of the members:
+	OtherRevenuesMember 	 --> 61,700,000 	 --> srt:ProductOrServiceAxis=aep:OtherRevenuesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2019-01-01 to 2019-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.2 - aep-20211231.htm 4",2022-03-10,ERROR,DQC,117,4904,"AMERICAN ELECTRIC POWER COMPANY, INC.",2022-02-24 07:46:00,0000004904-22-000024,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/4904/000000490422000024/aep-20211231.htm,2022-02-24,2022,438496,https://www.sec.gov/Archives/edgar/data/4904/000000490422000024/0000004904-22-000024-index.htm,4911,10k-aep-20211231
+DQC.US.0117.9574,"2022-03-09 20:39:49,389 [DQC.US.0117.9574] In the statement 1001002 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 16,792,000,000 is not equal to the dimensional breakdown of 227,600,000 which is comprised of the members:
+	OtherRevenuesMember 	 --> 227,600,000 	 --> srt:ProductOrServiceAxis=aep:OtherRevenuesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.2 - aep-20211231.htm 4",2022-03-10,ERROR,DQC,117,4904,"AMERICAN ELECTRIC POWER COMPANY, INC.",2022-02-24 07:46:00,0000004904-22-000024,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/4904/000000490422000024/aep-20211231.htm,2022-02-24,2022,438496,https://www.sec.gov/Archives/edgar/data/4904/000000490422000024/0000004904-22-000024-index.htm,4911,10k-aep-20211231
+DQC.US.0117.9574,"2022-02-25 09:17:47,579 [DQC.US.0117.9574] In the statement 100030003 - Statement - Consolidated Statements of Income the concept us-gaap:NoninterestIncomeOther with a value of 10,551,000 is not equal to the dimensional breakdown of 29,800,000 which is comprised of the members:
+	BankServicingMember 	 --> 29,800,000 	 --> srt:ProductOrServiceAxis=us-gaap:BankServicingMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:NoninterestIncomeOther fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.0 - prk-20211231.htm 4",2022-02-25,ERROR,DQC,117,805676,PARK NATIONAL CORPORATION,2022-02-24 16:16:00,0000805676-22-000034,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/805676/000080567622000034/prk-20211231.htm,2022-02-24,2022,442963,https://www.sec.gov/Archives/edgar/data/805676/000080567622000034/0000805676-22-000034-index.htm,6021,10k-prk-20211231
+DQC.US.0117.9574,"2022-02-25 09:17:47,579 [DQC.US.0117.9574] In the statement 100030003 - Statement - Consolidated Statements of Income the concept us-gaap:NoninterestIncomeOther with a value of 7,248,000 is not equal to the dimensional breakdown of 15,500,000 which is comprised of the members:
+	BankServicingMember 	 --> 15,500,000 	 --> srt:ProductOrServiceAxis=us-gaap:BankServicingMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:NoninterestIncomeOther fact are:
+Period :2019-01-01 to 2019-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.0 - prk-20211231.htm 4",2022-02-25,ERROR,DQC,117,805676,PARK NATIONAL CORPORATION,2022-02-24 16:16:00,0000805676-22-000034,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/805676/000080567622000034/prk-20211231.htm,2022-02-24,2022,442963,https://www.sec.gov/Archives/edgar/data/805676/000080567622000034/0000805676-22-000034-index.htm,6021,10k-prk-20211231
+DQC.US.0117.9574,"2022-02-25 19:02:31,950 [DQC.US.0117.9574] In the statement 1409434 - Statement - Selected Income Statement Information (Details) the concept us-gaap:CostOfGoodsAndServicesSold with a value of 1,605,210,000 is not equal to the dimensional breakdown of 1,511,508,000 which is comprised of the members:
+	ProductMember 	 --> 295,514,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductMember 
+	ServiceMember 	 --> 1,215,994,000 	 --> srt:ProductOrServiceAxis=us-gaap:ServiceMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CostOfGoodsAndServicesSold fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.0 - oii-20211231.htm 4",2022-02-26,ERROR,DQC,117,73756,OCEANEERING INTERNATIONAL INC,2022-02-25 16:32:00,0000073756-22-000018,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/73756/000007375622000018/oii-20211231.htm,2022-02-25,2022,443387,https://www.sec.gov/Archives/edgar/data/73756/000007375622000018/0000073756-22-000018-index.htm,1389,10k-oii-20211231
+DQC.US.0117.9574,"2022-02-25 19:02:31,951 [DQC.US.0117.9574] In the statement 1409434 - Statement - Selected Income Statement Information (Details) the concept us-gaap:CostOfGoodsAndServicesSold with a value of 1,949,880,000 is not equal to the dimensional breakdown of 1,861,496,000 which is comprised of the members:
+	ProductMember 	 --> 619,490,000 	 --> srt:ProductOrServiceAxis=us-gaap:ProductMember 
+	ServiceMember 	 --> 1,242,006,000 	 --> srt:ProductOrServiceAxis=us-gaap:ServiceMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CostOfGoodsAndServicesSold fact are:
+Period :2019-01-01 to 2019-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.0 - oii-20211231.htm 4",2022-02-26,ERROR,DQC,117,73756,OCEANEERING INTERNATIONAL INC,2022-02-25 16:32:00,0000073756-22-000018,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/73756/000007375622000018/oii-20211231.htm,2022-02-25,2022,443387,https://www.sec.gov/Archives/edgar/data/73756/000007375622000018/0000073756-22-000018-index.htm,1389,10k-oii-20211231
+DQC.US.0117.9574,"2022-04-28 08:47:19,099 [DQC.US.0117.9574] In the statement 1001002 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 4,592,600,000 is not equal to the dimensional breakdown of 165,400,000 which is comprised of the members:
+	OtherRevenuesMember 	 --> 165,400,000 	 --> srt:ProductOrServiceAxis=aep:OtherRevenuesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2022-01-01 to 2022-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.3 - aep-20220331.htm 4",2022-04-28,ERROR,DQC,117,4904,"AMERICAN ELECTRIC POWER COMPANY, INC.",2022-04-28 07:07:00,0000004904-22-000053,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/4904/000000490422000053/aep-20220331.htm,2022-04-28,2022,464892,https://www.sec.gov/Archives/edgar/data/4904/000000490422000053/0000004904-22-000053-index.htm,4911,10q-aep-20220331
+DQC.US.0117.9574,"2022-04-28 08:47:19,100 [DQC.US.0117.9574] In the statement 1001002 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 4,281,100,000 is not equal to the dimensional breakdown of 4,800,000 which is comprised of the members:
+	OtherRevenuesMember 	 --> 4,800,000 	 --> srt:ProductOrServiceAxis=aep:OtherRevenuesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2021-01-01 to 2021-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.3 - aep-20220331.htm 4",2022-04-28,ERROR,DQC,117,4904,"AMERICAN ELECTRIC POWER COMPANY, INC.",2022-04-28 07:07:00,0000004904-22-000053,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/4904/000000490422000053/aep-20220331.htm,2022-04-28,2022,464892,https://www.sec.gov/Archives/edgar/data/4904/000000490422000053/0000004904-22-000053-index.htm,4911,10q-aep-20220331
+DQC.US.0117.9574,"2022-05-04 11:00:53,929 [DQC.US.0117.9574] In the statement 100010002 - Statement - Consolidated Balance Sheets the concept us-gaap:HeldToMaturitySecurities with a value of 2,082,242,000 is not equal to the dimensional breakdown of 2,082,302,000 which is comprised of the members:
+	USGovernmentSponsoredEnterprisesDebtSecuritiesMember 	 --> 528,524,000 	 --> us-gaap:FinancialInstrumentAxis=us-gaap:USGovernmentSponsoredEnterprisesDebtSecuritiesMember 
+	MortgageBackedSecuritiesMember 	 --> 463,111,000 	 --> us-gaap:FinancialInstrumentAxis=us-gaap:MortgageBackedSecuritiesMember 
+	USStatesAndPoliticalSubdivisionsMember 	 --> 1,090,667,000 	 --> us-gaap:FinancialInstrumentAxis=us-gaap:USStatesAndPoliticalSubdivisionsMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:HeldToMaturitySecurities fact are:
+Period :2022-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 17.0.3 - onb-20220331.htm 4",2022-05-04,ERROR,DQC,117,707179,OLD NATIONAL BANCORP,2022-05-04 10:31:00,0000707179-22-000021,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/707179/000070717922000021/onb-20220331.htm,2022-05-04,2022,467893,https://www.sec.gov/Archives/edgar/data/707179/000070717922000021/0000707179-22-000021-index.htm,6021,10q-onb-20220331
+DQC.US.0117.9574,"2022-12-23 17:00:50,539 [DQC.US.0117.9574] In the statement 003 - Statement - Condensed Consolidated Statements of Operations (Unaudited) the concept us-gaap:DepreciationAndAmortization with a value of 3,975,000 is not equal to the dimensional breakdown of 3,674,000 which is comprised of the members:
+	CompletionServicesMember 	 --> 1,935,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:CompletionServicesMember 
+	ProductionServicesMember 	 --> 1,739,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:ProductionServicesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:DepreciationAndAmortization fact are:
+Period :2021-01-01 to 2021-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.6 - ensv20220930e_10q.htm 4154",2022-12-23,ERROR,DQC,117,319458,Enservco Corporation,2022-12-23 16:26:00,0001437749-22-029713,US GAAP 2022,Generated by ThunderDome XBRL - 08:24PM UTC 2022-12-23,10-Q,http://www.sec.gov/Archives/edgar/data/319458/000143774922029713/ensv20220930e_10q.htm,2022-12-23,2022,537360,https://www.sec.gov/Archives/edgar/data/319458/000143774922029713/0001437749-22-029713-index.htm,1389,10q-ensv-20220930
+DQC.US.0117.9574,"2022-12-23 17:00:50,540 [DQC.US.0117.9574] In the statement 003 - Statement - Condensed Consolidated Statements of Operations (Unaudited) the concept us-gaap:DepreciationAndAmortization with a value of 3,317,000 is not equal to the dimensional breakdown of 3,033,000 which is comprised of the members:
+	CompletionServicesMember 	 --> 1,440,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:CompletionServicesMember 
+	ProductionServicesMember 	 --> 1,593,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:ProductionServicesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:DepreciationAndAmortization fact are:
+Period :2022-01-01 to 2022-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.6 - ensv20220930e_10q.htm 981",2022-12-23,ERROR,DQC,117,319458,Enservco Corporation,2022-12-23 16:26:00,0001437749-22-029713,US GAAP 2022,Generated by ThunderDome XBRL - 08:24PM UTC 2022-12-23,10-Q,http://www.sec.gov/Archives/edgar/data/319458/000143774922029713/ensv20220930e_10q.htm,2022-12-23,2022,537360,https://www.sec.gov/Archives/edgar/data/319458/000143774922029713/0001437749-22-029713-index.htm,1389,10q-ensv-20220930
+DQC.US.0117.9574,"2022-11-15 10:32:41,746 [DQC.US.0117.9574] In the statement 003 - Statement - Condensed Consolidated Statements of Operations (Unaudited) the concept us-gaap:DepreciationAndAmortization with a value of 2,248,000 is not equal to the dimensional breakdown of 2,056,000 which is comprised of the members:
+	CompletionServicesMember 	 --> 1,009,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:CompletionServicesMember 
+	ProductionServicesMember 	 --> 1,047,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:ProductionServicesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:DepreciationAndAmortization fact are:
+Period :2022-01-01 to 2022-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.2 - ensv20220630_10q.htm 694",2022-11-15,ERROR,DQC,117,319458,Enservco Corporation,2022-11-14 16:26:00,0001437749-22-027305,US GAAP 2022,Generated by ThunderDome Portal - 11/14/2022 2:39:00 PM,10-Q,http://www.sec.gov/Archives/edgar/data/319458/000143774922027305/ensv20220630_10q.htm,2022-11-14,2022,528756,https://www.sec.gov/Archives/edgar/data/319458/000143774922027305/0001437749-22-027305-index.htm,1389,10q-ensv-20220630
+DQC.US.0117.9574,"2022-10-28 10:57:22,216 [DQC.US.0117.9574] In the statement 1001002 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 12,730,600,000 is not equal to the dimensional breakdown of 188,700,000 which is comprised of the members:
+	OtherRevenuesMember 	 --> 188,700,000 	 --> srt:ProductOrServiceAxis=aep:OtherRevenuesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2021-01-01 to 2021-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.1 - aep-20220930.htm 4",2022-10-28,ERROR,DQC,117,4904,"AMERICAN ELECTRIC POWER COMPANY, INC.",2022-10-27 07:14:00,0000004904-22-000093,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/4904/000000490422000093/aep-20220930.htm,2022-10-27,2022,518609,https://www.sec.gov/Archives/edgar/data/4904/000000490422000093/0000004904-22-000093-index.htm,4911,10q-aep-20220930
+DQC.US.0117.9574,"2022-10-28 10:57:22,216 [DQC.US.0117.9574] In the statement 1001002 - Statement - Consolidated Statements of Income the concept us-gaap:Revenues with a value of 14,758,400,000 is not equal to the dimensional breakdown of 429,400,000 which is comprised of the members:
+	OtherRevenuesMember 	 --> 429,400,000 	 --> srt:ProductOrServiceAxis=aep:OtherRevenuesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:Revenues fact are:
+Period :2022-01-01 to 2022-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.1 - aep-20220930.htm 4",2022-10-28,ERROR,DQC,117,4904,"AMERICAN ELECTRIC POWER COMPANY, INC.",2022-10-27 07:14:00,0000004904-22-000093,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/4904/000000490422000093/aep-20220930.htm,2022-10-27,2022,518609,https://www.sec.gov/Archives/edgar/data/4904/000000490422000093/0000004904-22-000093-index.htm,4911,10q-aep-20220930
+DQC.US.0117.9574,"2022-10-19 17:00:37,807 [DQC.US.0117.9574] In the statement 003 - Statement - Condensed Consolidated Statements of Operations (Unaudited) the concept us-gaap:DepreciationAndAmortization with a value of 1,143,000 is not equal to the dimensional breakdown of 1,044,000 which is comprised of the members:
+	CompletionServicesMember 	 --> 557,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:CompletionServicesMember 
+	ProductionServicesMember 	 --> 487,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:ProductionServicesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:DepreciationAndAmortization fact are:
+Period :2022-01-01 to 2022-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.0 - ensv20220331b_10q.htm 767",2022-10-19,ERROR,DQC,117,319458,Enservco Corporation,2022-10-19 16:26:00,0001437749-22-024387,US GAAP 2022,Generated by ThunderDome Portal - 10/19/2022 2:01:27 AM,10-Q,http://www.sec.gov/Archives/edgar/data/319458/000143774922024387/ensv20220331b_10q.htm,2022-10-19,2022,516717,https://www.sec.gov/Archives/edgar/data/319458/000143774922024387/0001437749-22-024387-index.htm,1389,10q-ensv-20220331
+DQC.US.0117.9574,"2022-10-19 17:00:37,807 [DQC.US.0117.9574] In the statement 003 - Statement - Condensed Consolidated Statements of Operations (Unaudited) the concept us-gaap:DepreciationAndAmortization with a value of 1,336,000 is not equal to the dimensional breakdown of 1,240,000 which is comprised of the members:
+	CompletionServicesMember 	 --> 712,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:CompletionServicesMember 
+	ProductionServicesMember 	 --> 528,000 	 --> us-gaap:StatementBusinessSegmentsAxis=ensv:ProductionServicesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:DepreciationAndAmortization fact are:
+Period :2021-01-01 to 2021-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.0 - ensv20220331b_10q.htm 771",2022-10-19,ERROR,DQC,117,319458,Enservco Corporation,2022-10-19 16:26:00,0001437749-22-024387,US GAAP 2022,Generated by ThunderDome Portal - 10/19/2022 2:01:27 AM,10-Q,http://www.sec.gov/Archives/edgar/data/319458/000143774922024387/ensv20220331b_10q.htm,2022-10-19,2022,516717,https://www.sec.gov/Archives/edgar/data/319458/000143774922024387/0001437749-22-024387-index.htm,1389,10q-ensv-20220331
+DQC.US.0117.9574,"2023-02-03 19:01:03,190 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets (Unaudited) the concept us-gaap:PreferredStockValue with a value of 2,440 is not equal to the dimensional breakdown of 600 which is comprised of the members:
+	ClassBSeriesIPreferredStockMember 	 --> 600 	 --> us-gaap:StatementClassOfStockAxis=PHIL:ClassBSeriesIPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2022-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.10 - form10-q.htm 2605",2023-02-04,ERROR,DQC,117,704172,"PHI GROUP, INC.",2023-02-03 16:45:00,0001493152-23-003538,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/704172/000149315223003538/form10-q.htm,2023-02-03,2023,545658,https://www.sec.gov/Archives/edgar/data/704172/000149315223003538/0001493152-23-003538-index.htm,8741,10q-phil-20220930
+DQC.US.0117.9574,"2023-02-03 19:01:03,190 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets (Unaudited) the concept us-gaap:PreferredStockValue with a value of 2,440 is not equal to the dimensional breakdown of 600 which is comprised of the members:
+	ClassBSeriesIPreferredStockMember 	 --> 600 	 --> us-gaap:StatementClassOfStockAxis=PHIL:ClassBSeriesIPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2022-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 19.0.10 - form10-q.htm 2604",2023-02-04,ERROR,DQC,117,704172,"PHI GROUP, INC.",2023-02-03 16:45:00,0001493152-23-003538,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/704172/000149315223003538/form10-q.htm,2023-02-03,2023,545658,https://www.sec.gov/Archives/edgar/data/704172/000149315223003538/0001493152-23-003538-index.htm,8741,10q-phil-20220930
+DQC.US.0117.9574,"2023-02-21 18:00:36,680 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 2,440 is not equal to the dimensional breakdown of 600 which is comprised of the members:
+	ClassBSeriesIPreferredStockMember 	 --> 600 	 --> us-gaap:StatementClassOfStockAxis=PHIL:ClassBSeriesIPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2022-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.2 - form10-q.htm 1994",2023-02-21,ERROR,DQC,117,704172,"PHI GROUP, INC.",2023-02-21 16:46:00,0001493152-23-005672,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/704172/000149315223005672/form10-q.htm,2023-02-21,2023,550253,https://www.sec.gov/Archives/edgar/data/704172/000149315223005672/0001493152-23-005672-index.htm,8741,10q-phil-20221231
+DQC.US.0117.9574,"2023-02-21 18:00:36,681 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 2,440 is not equal to the dimensional breakdown of 600 which is comprised of the members:
+	ClassBSeriesIPreferredStockMember 	 --> 600 	 --> us-gaap:StatementClassOfStockAxis=PHIL:ClassBSeriesIPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.2 - form10-q.htm 1993",2023-02-21,ERROR,DQC,117,704172,"PHI GROUP, INC.",2023-02-21 16:46:00,0001493152-23-005672,US GAAP 2022,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/704172/000149315223005672/form10-q.htm,2023-02-21,2023,550253,https://www.sec.gov/Archives/edgar/data/704172/000149315223005672/0001493152-23-005672-index.htm,8741,10q-phil-20221231
+DQC.US.0117.9574,"2023-04-13 09:16:54,135 [DQC.US.0117.9574] In the statement 0000005 - Statement - CONSOLIDATED STATEMENTS OF INCOME the concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax with a value of 114,600,000 is not equal to the dimensional breakdown of 8,800,000 which is comprised of the members:
+	RelatedPartyFoundingMembersMember 	 --> 8,800,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax fact are:
+Period :2021-01-01 to 2021-12-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.4 - ncmi-20221229.htm 4",2023-04-13,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2023-04-13 08:12:00,0001377630-23-000061,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/ncmi-20221229.htm,2023-04-13,2023,568712,https://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/0001377630-23-000061-index.htm,7310,10k-ncmi-20221229
+DQC.US.0117.9574,"2023-04-13 09:16:54,135 [DQC.US.0117.9574] In the statement 0000011 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS the concept ncmi:ProceedsFromIntegrationAndOtherEncumberedTheaterPaymentsMadeByAffiliates with a value of 2,800,000 is not equal to the dimensional breakdown of 0 which is comprised of the members:
+	RelatedPartyFoundingMembersMember 	 --> 0 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this ncmi:ProceedsFromIntegrationAndOtherEncumberedTheaterPaymentsMadeByAffiliates fact are:
+Period :2021-12-31 to 2022-12-29
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.4 - ncmi-20221229.htm 4",2023-04-13,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2023-04-13 08:12:00,0001377630-23-000061,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/ncmi-20221229.htm,2023-04-13,2023,568712,https://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/0001377630-23-000061-index.htm,7310,10k-ncmi-20221229
+DQC.US.0117.9574,"2023-04-13 09:16:54,136 [DQC.US.0117.9574] In the statement 0000005 - Statement - CONSOLIDATED STATEMENTS OF INCOME the concept ncmi:TheaterAccessFeesAndRevenueShare with a value of 82,300,000 is not equal to the dimensional breakdown of 59,400,000 which is comprised of the members:
+	RelatedPartyFoundingMembersMember 	 --> 59,400,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this ncmi:TheaterAccessFeesAndRevenueShare fact are:
+Period :2021-12-31 to 2022-12-29
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.4 - ncmi-20221229.htm 4",2023-04-13,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2023-04-13 08:12:00,0001377630-23-000061,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/ncmi-20221229.htm,2023-04-13,2023,568712,https://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/0001377630-23-000061-index.htm,7310,10k-ncmi-20221229
+DQC.US.0117.9574,"2023-04-13 09:16:54,136 [DQC.US.0117.9574] In the statement 0000005 - Statement - CONSOLIDATED STATEMENTS OF INCOME the concept us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax with a value of 249,200,000 is not equal to the dimensional breakdown of 14,400,000 which is comprised of the members:
+	RelatedPartyFoundingMembersMember 	 --> 14,400,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax fact are:
+Period :2021-12-31 to 2022-12-29
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.4 - ncmi-20221229.htm 4",2023-04-13,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2023-04-13 08:12:00,0001377630-23-000061,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/ncmi-20221229.htm,2023-04-13,2023,568712,https://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/0001377630-23-000061-index.htm,7310,10k-ncmi-20221229
+DQC.US.0117.9574,"2023-04-13 09:16:54,136 [DQC.US.0117.9574] In the statement 0000005 - Statement - CONSOLIDATED STATEMENTS OF INCOME the concept us-gaap:SellingAndMarketingExpense with a value of 42,800,000 is not equal to the dimensional breakdown of 100,000 which is comprised of the members:
+	RelatedPartyFoundingMembersMember 	 --> 100,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:SellingAndMarketingExpense fact are:
+Period :2021-12-31 to 2022-12-29
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.4 - ncmi-20221229.htm 4",2023-04-13,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2023-04-13 08:12:00,0001377630-23-000061,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/ncmi-20221229.htm,2023-04-13,2023,568712,https://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/0001377630-23-000061-index.htm,7310,10k-ncmi-20221229
+DQC.US.0117.9574,"2023-04-13 09:16:54,136 [DQC.US.0117.9574] In the statement 0000011 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS the concept ncmi:ProceedsFromIntegrationAndOtherEncumberedTheaterPaymentsMadeByAffiliates with a value of 500,000 is not equal to the dimensional breakdown of 0 which is comprised of the members:
+	RelatedPartyFoundingMembersMember 	 --> 0 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this ncmi:ProceedsFromIntegrationAndOtherEncumberedTheaterPaymentsMadeByAffiliates fact are:
+Period :2021-01-01 to 2021-12-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.4 - ncmi-20221229.htm 4",2023-04-13,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2023-04-13 08:12:00,0001377630-23-000061,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/ncmi-20221229.htm,2023-04-13,2023,568712,https://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/0001377630-23-000061-index.htm,7310,10k-ncmi-20221229
+DQC.US.0117.9574,"2023-04-13 09:16:54,137 [DQC.US.0117.9574] In the statement 0000005 - Statement - CONSOLIDATED STATEMENTS OF INCOME the concept ncmi:TheaterAccessFeesAndRevenueShare with a value of 51,100,000 is not equal to the dimensional breakdown of 34,300,000 which is comprised of the members:
+	RelatedPartyFoundingMembersMember 	 --> 34,300,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this ncmi:TheaterAccessFeesAndRevenueShare fact are:
+Period :2021-01-01 to 2021-12-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.4 - ncmi-20221229.htm 4",2023-04-13,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2023-04-13 08:12:00,0001377630-23-000061,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/ncmi-20221229.htm,2023-04-13,2023,568712,https://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/0001377630-23-000061-index.htm,7310,10k-ncmi-20221229
+DQC.US.0117.9574,"2023-04-13 09:16:54,137 [DQC.US.0117.9574] In the statement 0000005 - Statement - CONSOLIDATED STATEMENTS OF INCOME the concept us-gaap:SellingAndMarketingExpense with a value of 34,700,000 is not equal to the dimensional breakdown of 100,000 which is comprised of the members:
+	RelatedPartyFoundingMembersMember 	 --> 100,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:SellingAndMarketingExpense fact are:
+Period :2021-01-01 to 2021-12-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.4 - ncmi-20221229.htm 4",2023-04-13,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2023-04-13 08:12:00,0001377630-23-000061,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/ncmi-20221229.htm,2023-04-13,2023,568712,https://www.sec.gov/Archives/edgar/data/1377630/000137763023000061/0001377630-23-000061-index.htm,7310,10k-ncmi-20221229
+DQC.US.0117.9574,"2023-05-16 19:26:38,277 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets the concept us-gaap:CommonStockValue with a value of 135 is not equal to the dimensional breakdown of 1 which is comprised of the members:
+	CommonClassAMember 	 --> 1 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassAMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CommonStockValue fact are:
+Period :2022-01-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.6 - form10-k.htm 6018",2023-05-16,ERROR,DQC,117,1172178,LIBERTY STAR URANIUM & METALS CORP.,2023-05-15 21:29:00,0001493152-23-017610,US GAAP 2023,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/1172178/000149315223017610/form10-k.htm,2023-05-16,2023,585005,https://www.sec.gov/Archives/edgar/data/1172178/000149315223017610/0001493152-23-017610-index.htm,1000,10k-lbsr-20230131
+DQC.US.0117.9574,"2023-05-16 19:26:38,277 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets the concept us-gaap:CommonStockValue with a value of 186 is not equal to the dimensional breakdown of 1 which is comprised of the members:
+	CommonClassAMember 	 --> 1 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassAMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CommonStockValue fact are:
+Period :2023-01-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.6 - form10-k.htm 6017",2023-05-16,ERROR,DQC,117,1172178,LIBERTY STAR URANIUM & METALS CORP.,2023-05-15 21:29:00,0001493152-23-017610,US GAAP 2023,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/1172178/000149315223017610/form10-k.htm,2023-05-16,2023,585005,https://www.sec.gov/Archives/edgar/data/1172178/000149315223017610/0001493152-23-017610-index.htm,1000,10k-lbsr-20230131
+DQC.US.0117.9574,"2023-06-16 08:48:28,729 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets (Unaudited) the concept us-gaap:CommonStockValue with a value of 202 is not equal to the dimensional breakdown of 1 which is comprised of the members:
+	CommonClassAMember 	 --> 1 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassAMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CommonStockValue fact are:
+Period :2023-04-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.7 - form10-q.htm 2101",2023-06-16,ERROR,DQC,117,1172178,LIBERTY STAR URANIUM & METALS CORP.,2023-06-14 16:09:00,0001493152-23-021237,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1172178/000149315223021237/form10-q.htm,2023-06-14,2023,594715,https://www.sec.gov/Archives/edgar/data/1172178/000149315223021237/0001493152-23-021237-index.htm,1000,10q-lbsr-20230430
+DQC.US.0117.9574,"2023-06-16 08:48:28,730 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets (Unaudited) the concept us-gaap:CommonStockValue with a value of 186 is not equal to the dimensional breakdown of 1 which is comprised of the members:
+	CommonClassAMember 	 --> 1 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassAMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CommonStockValue fact are:
+Period :2023-01-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 20.0.7 - form10-q.htm 2102",2023-06-16,ERROR,DQC,117,1172178,LIBERTY STAR URANIUM & METALS CORP.,2023-06-14 16:09:00,0001493152-23-021237,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1172178/000149315223021237/form10-q.htm,2023-06-14,2023,594715,https://www.sec.gov/Archives/edgar/data/1172178/000149315223021237/0001493152-23-021237-index.htm,1000,10q-lbsr-20230430
+DQC.US.0117.9574,"2023-11-14 15:49:03,626 [DQC.US.0117.9574] In the statement 006 - Statement - Consolidated Statements of Cash Flows (Unaudited) the concept us-gaap:GainsLossesOnExtinguishmentOfDebt with a value of 0 is not equal to the dimensional breakdown of -105,000 using the dimension us-gaap:LongtermDebtTypeAxis which is comprised of the members us-gaap:NotesPayableOtherPayablesMember:
+	NotesPayableOtherPayablesMember 	 --> -105,000 	 --> us-gaap:LongtermDebtTypeAxis=us-gaap:NotesPayableOtherPayablesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:GainsLossesOnExtinguishmentOfDebt fact are:
+Period :2023-01-01 to 2023-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 22.0.1 - minf20230829_10q.htm 1437",2023-11-14,ERROR,DQC,117,1847874,MOBILE INFRASTRUCTURE CORPORATION,2023-11-13 17:11:00,0001437749-23-031683,US GAAP 2023,Generated by ThunderDome XBRL - 07:24PM UTC 2023-11-13,10-Q,http://www.sec.gov/Archives/edgar/data/1847874/000143774923031683/minf20230829_10q.htm,2023-11-13,2023,653965,https://www.sec.gov/Archives/edgar/data/1847874/000143774923031683/0001437749-23-031683-index.htm,6500,10q-minf-20230930
+DQC.US.0117.9574,"2023-11-14 15:49:03,626 [DQC.US.0117.9574] In the statement 006 - Statement - Consolidated Statements of Cash Flows (Unaudited) the concept us-gaap:GainsLossesOnExtinguishmentOfDebt with a value of 328,000 is not equal to the dimensional breakdown of -0 using the dimension us-gaap:LongtermDebtTypeAxis which is comprised of the members us-gaap:NotesPayableOtherPayablesMember:
+	NotesPayableOtherPayablesMember 	 --> -0 	 --> us-gaap:LongtermDebtTypeAxis=us-gaap:NotesPayableOtherPayablesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:GainsLossesOnExtinguishmentOfDebt fact are:
+Period :2022-01-01 to 2022-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 22.0.1 - minf20230829_10q.htm 1441",2023-11-14,ERROR,DQC,117,1847874,MOBILE INFRASTRUCTURE CORPORATION,2023-11-13 17:11:00,0001437749-23-031683,US GAAP 2023,Generated by ThunderDome XBRL - 07:24PM UTC 2023-11-13,10-Q,http://www.sec.gov/Archives/edgar/data/1847874/000143774923031683/minf20230829_10q.htm,2023-11-13,2023,653965,https://www.sec.gov/Archives/edgar/data/1847874/000143774923031683/0001437749-23-031683-index.htm,6500,10q-minf-20230930
+DQC.US.0117.9574,"2023-11-14 14:42:51,912 [DQC.US.0117.9574] In the statement 003 - Statement - Condensed Consolidated Statements of Operations and Comprehensive Income (Loss) (Unaudited) the concept us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax with a value of 19,000 is not equal to the dimensional breakdown of 604,000 using the dimension srt:ProductOrServiceAxis which is comprised of the members us-gaap:RealEstateMember, mlp:ResortAmenitiesAndOtherMember:
+	ResortAmenitiesAndOtherMember 	 --> 604,000 	 --> srt:ProductOrServiceAxis=mlp:ResortAmenitiesAndOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+When breaking down 606 revenue using the product or service axis and the total does not aggregate, then the element NoninterestIncome income should be used as the total to comply with the FASB guidance for breaking down 606 revenue. To correct this error ensure that a the element NoninterestIncome is included in the presentation and definition linkbases.
+The properties of this us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax fact are:
+Period :2023-01-01 to 2023-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 22.0.1 - mlp20230930_10q.htm 2124",2023-11-14,ERROR,DQC,117,63330,"MAUI LAND & PINEAPPLE COMPANY, INC.",2023-11-13 17:01:00,0001437749-23-031675,US GAAP 2023,Generated by ThunderDome XBRL - 09:37PM UTC 2023-11-13,10-Q,http://www.sec.gov/Archives/edgar/data/63330/000143774923031675/mlp20230930_10q.htm,2023-11-13,2023,654050,https://www.sec.gov/Archives/edgar/data/63330/000143774923031675/0001437749-23-031675-index.htm,6500,10q-mlp-20230930
+DQC.US.0117.9574,"2023-09-14 16:48:28,206 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets (Unaudited) the concept us-gaap:CommonStockValue with a value of 186 is not equal to the dimensional breakdown of 1 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:CommonClassAMember:
+	CommonClassAMember 	 --> 1 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassAMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CommonStockValue fact are:
+Period :2023-01-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 21.0.8 - form10-q.htm 2581",2023-09-14,ERROR,DQC,117,1172178,LIBERTY STAR URANIUM & METALS CORP.,2023-09-14 16:05:00,0001493152-23-032626,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1172178/000149315223032626/form10-q.htm,2023-09-14,2023,626073,https://www.sec.gov/Archives/edgar/data/1172178/000149315223032626/0001493152-23-032626-index.htm,1000,10q-lbsr-20230731
+DQC.US.0117.9574,"2023-09-14 16:48:28,206 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets (Unaudited) the concept us-gaap:CommonStockValue with a value of 264 is not equal to the dimensional breakdown of 1 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:CommonClassAMember:
+	CommonClassAMember 	 --> 1 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassAMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CommonStockValue fact are:
+Period :2023-07-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 21.0.8 - form10-q.htm 2580",2023-09-14,ERROR,DQC,117,1172178,LIBERTY STAR URANIUM & METALS CORP.,2023-09-14 16:05:00,0001493152-23-032626,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1172178/000149315223032626/form10-q.htm,2023-09-14,2023,626073,https://www.sec.gov/Archives/edgar/data/1172178/000149315223032626/0001493152-23-032626-index.htm,1000,10q-lbsr-20230731
+DQC.US.0117.9574,"2023-08-18 16:47:01,657 [DQC.US.0117.9574] In the statement 003 - Statement - Condensed Consolidated Statements of Operations and Comprehensive Income (Loss) (Unaudited) the concept us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax with a value of 19,000 is not equal to the dimensional breakdown of 433,000 using the dimension srt:ProductOrServiceAxis which is comprised of the members us-gaap:RealEstateMember, mlp:ResortAmenitiesAndOtherMember:
+	ResortAmenitiesAndOtherMember 	 --> 433,000 	 --> srt:ProductOrServiceAxis=mlp:ResortAmenitiesAndOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+When breaking down 606 revenue using the product or service axis and the total does not aggregate, then the element NoninterestIncome income should be used as the total to comply with the FASB guidance for breaking down 606 revenue. To correct this error ensure that a the element NoninterestIncome is included in the presentation and definition linkbases.
+The properties of this us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax fact are:
+Period :2023-01-01 to 2023-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 21.0.6 - mlp20230630_10q.htm 2109",2023-08-18,ERROR,DQC,117,63330,"MAUI LAND & PINEAPPLE COMPANY, INC.",2023-08-18 16:00:00,0001437749-23-024158,US GAAP 2023,Generated by ThunderDome XBRL - 01:47PM UTC 2023-08-17,10-Q,http://www.sec.gov/Archives/edgar/data/63330/000143774923024158/mlp20230630_10q.htm,2023-08-18,2023,614557,https://www.sec.gov/Archives/edgar/data/63330/000143774923024158/0001437749-23-024158-index.htm,6500,10q-mlp-20230630
+DQC.US.0117.9574,"2023-08-18 16:47:01,657 [DQC.US.0117.9574] In the statement 004 - Statement - Condensed Consolidated Statements of Operations and Comprehensive Income (Loss) (Unaudited) the concept us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax with a value of 19,000 is not equal to the dimensional breakdown of 433,000 using the dimension srt:ProductOrServiceAxis which is comprised of the members us-gaap:RealEstateMember, mlp:ResortAmenitiesAndOtherMember:
+	ResortAmenitiesAndOtherMember 	 --> 433,000 	 --> srt:ProductOrServiceAxis=mlp:ResortAmenitiesAndOtherMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+When breaking down 606 revenue using the product or service axis and the total does not aggregate, then the element NoninterestIncome income should be used as the total to comply with the FASB guidance for breaking down 606 revenue. To correct this error ensure that a the element NoninterestIncome is included in the presentation and definition linkbases.
+The properties of this us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax fact are:
+Period :2023-01-01 to 2023-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 21.0.6 - mlp20230630_10q.htm 2109",2023-08-18,ERROR,DQC,117,63330,"MAUI LAND & PINEAPPLE COMPANY, INC.",2023-08-18 16:00:00,0001437749-23-024158,US GAAP 2023,Generated by ThunderDome XBRL - 01:47PM UTC 2023-08-17,10-Q,http://www.sec.gov/Archives/edgar/data/63330/000143774923024158/mlp20230630_10q.htm,2023-08-18,2023,614557,https://www.sec.gov/Archives/edgar/data/63330/000143774923024158/0001437749-23-024158-index.htm,6500,10q-mlp-20230630
+DQC.US.0117.9574,"2023-08-14 12:39:41,229 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets (Unaudited) the concept us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent with a value of 963,477 is not equal to the dimensional breakdown of 1,802,522 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members us-gaap:RelatedPartyMember, GTII:SubsidiaryMember:
+	RelatedPartyMember 	 --> 1,802,522 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent fact are:
+Period :2023-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 21.0.6 - form10-q.htm 2104",2023-08-14,ERROR,DQC,117,356590,"Global Tech Industries Group, Inc.",2023-08-14 11:56:00,0001493152-23-028169,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/356590/000149315223028169/form10-q.htm,2023-08-14,2023,612484,https://www.sec.gov/Archives/edgar/data/356590/000149315223028169/0001493152-23-028169-index.htm,8741,10q-gtii-20230630
+DQC.US.0117.9574,"2023-08-14 12:39:41,230 [DQC.US.0117.9574] In the statement 00000002 - Statement - Consolidated Balance Sheets (Unaudited) the concept us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent with a value of 952,507 is not equal to the dimensional breakdown of 1,551,208 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members us-gaap:RelatedPartyMember, GTII:SubsidiaryMember:
+	RelatedPartyMember 	 --> 1,551,208 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 21.0.6 - form10-q.htm 2105",2023-08-14,ERROR,DQC,117,356590,"Global Tech Industries Group, Inc.",2023-08-14 11:56:00,0001493152-23-028169,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/356590/000149315223028169/form10-q.htm,2023-08-14,2023,612484,https://www.sec.gov/Archives/edgar/data/356590/000149315223028169/0001493152-23-028169-index.htm,8741,10q-gtii-20230630
+DQC.US.0117.9574,"2024-01-19 17:47:03,033 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -1,194,560 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.0 - form_10-k.htm 4642",2024-01-19,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-01-19 17:13:00,0001161697-24-000049,US GAAP 2023,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000049/form_10-k.htm,2024-01-19,2024,668510,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000049/0001161697-24-000049-index.htm,2834,10k-gstc-20230930
+DQC.US.0117.9574,"2024-01-19 17:47:03,034 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -1,433,861 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.0 - form_10-k.htm 4639",2024-01-19,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-01-19 17:13:00,0001161697-24-000049,US GAAP 2023,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000049/form_10-k.htm,2024-01-19,2024,668510,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000049/0001161697-24-000049-index.htm,2834,10k-gstc-20230930
+DQC.US.0117.9574,"2024-01-19 17:47:03,034 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -725,821 is not equal to the dimensional breakdown of 1,897 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 387 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2021-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.0 - form_10-k.htm 5139",2024-01-19,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-01-19 17:13:00,0001161697-24-000049,US GAAP 2023,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000049/form_10-k.htm,2024-01-19,2024,668510,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000049/0001161697-24-000049-index.htm,2834,10k-gstc-20230930
+DQC.US.0117.9574,"2024-08-02 16:15:26,501 [DQC.US.0117.9574] In the statement 0000003 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:DividendsCommonStock with a value of 26,000,000 is not equal to the dimensional breakdown of 13,900,000 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:CommonClassBMember, us-gaap:CommonClassAMember:
+	CommonClassBMember 	 --> 13,900,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassBMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:DividendsCommonStock fact are:
+Period :2023-01-01 to 2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 24.0.1 - sah-20231231.htm 5",2024-08-02,ERROR,DQC,117,1043509,"SONIC AUTOMOTIVE, INC.",2024-02-22 16:00:00,0001043509-24-000022,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1043509/000104350924000022/sah-20231231.htm,2024-02-22,2024,677539,https://www.sec.gov/Archives/edgar/data/1043509/000104350924000022/0001043509-24-000022-index.htm,5500,10k-sah-20231231
+DQC.US.0117.9574,"2024-08-02 16:15:26,502 [DQC.US.0117.9574] In the statement 0000003 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:DividendsCommonStock with a value of 14,200,000 is not equal to the dimensional breakdown of 4,800,000 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:CommonClassBMember, us-gaap:CommonClassAMember:
+	CommonClassBMember 	 --> 4,800,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:CommonClassBMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:DividendsCommonStock fact are:
+Period :2021-01-01 to 2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 24.0.1 - sah-20231231.htm 5",2024-08-02,ERROR,DQC,117,1043509,"SONIC AUTOMOTIVE, INC.",2024-02-22 16:00:00,0001043509-24-000022,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1043509/000104350924000022/sah-20231231.htm,2024-02-22,2024,677539,https://www.sec.gov/Archives/edgar/data/1043509/000104350924000022/0001043509-24-000022-index.htm,5500,10k-sah-20231231
+DQC.US.0117.9574,"2024-02-23 16:03:41,918 [DQC.US.0117.9574] In the statement 001 - Statement - Consolidated Balance Sheets (Current Period Unaudited) the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 126,660 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:ConvertiblePreferredStockMember:
+	ConvertiblePreferredStockMember 	 --> 126,660 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:ConvertiblePreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.5 - pcyn20231231_10q.htm 1005",2024-02-23,ERROR,DQC,117,812306,PROCYON CORPORATION,2024-02-22 17:17:00,0001437749-24-005229,US GAAP 2023,Generated by ThunderDome XBRL - 09:36PM UTC 2024-02-22,10-Q,http://www.sec.gov/Archives/edgar/data/812306/000143774924005229/pcyn20231231_10q.htm,2024-02-22,2024,677423,https://www.sec.gov/Archives/edgar/data/812306/000143774924005229/0001437749-24-005229-index.htm,2834,10q-pcyn-20231231
+DQC.US.0117.9574,"2024-02-23 16:03:41,918 [DQC.US.0117.9574] In the statement 001 - Statement - Consolidated Balance Sheets (Current Period Unaudited) the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 126,860 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:ConvertiblePreferredStockMember:
+	ConvertiblePreferredStockMember 	 --> 126,860 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:ConvertiblePreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2023-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.5 - pcyn20231231_10q.htm 1009",2024-02-23,ERROR,DQC,117,812306,PROCYON CORPORATION,2024-02-22 17:17:00,0001437749-24-005229,US GAAP 2023,Generated by ThunderDome XBRL - 09:36PM UTC 2024-02-22,10-Q,http://www.sec.gov/Archives/edgar/data/812306/000143774924005229/pcyn20231231_10q.htm,2024-02-22,2024,677423,https://www.sec.gov/Archives/edgar/data/812306/000143774924005229/0001437749-24-005229-index.htm,2834,10q-pcyn-20231231
+DQC.US.0117.9574,"2024-03-12 07:04:46,635 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,194,560 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesEPreferredStockMember:
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.6 - form_10-q.htm 2703",2024-03-12,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-03-11 18:47:00,0001161697-24-000130,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000130/form_10-q.htm,2024-03-12,2024,684356,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000130/0001161697-24-000130-index.htm,2834,10q-gstc-20231231
+DQC.US.0117.9574,"2024-03-12 07:04:46,635 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,237,566 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesEPreferredStockMember:
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.6 - form_10-q.htm 2914",2024-03-12,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-03-11 18:47:00,0001161697-24-000130,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000130/form_10-q.htm,2024-03-12,2024,684356,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000130/0001161697-24-000130-index.htm,2834,10q-gstc-20231231
+DQC.US.0117.9574,"2024-03-12 07:04:46,635 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,433,861 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesEPreferredStockMember:
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.6 - form_10-q.htm 2194",2024-03-12,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-03-11 18:47:00,0001161697-24-000130,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000130/form_10-q.htm,2024-03-12,2024,684356,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000130/0001161697-24-000130-index.htm,2834,10q-gstc-20231231
+DQC.US.0117.9574,"2024-03-12 07:04:46,636 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,532,533 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesEPreferredStockMember:
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.6 - form_10-q.htm 2191",2024-03-12,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-03-11 18:47:00,0001161697-24-000130,US GAAP 2023,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000130/form_10-q.htm,2024-03-12,2024,684356,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000130/0001161697-24-000130-index.htm,2834,10q-gstc-20231231
+DQC.US.0117.9574,"2024-03-18 17:02:09,011 [DQC.US.0117.9574] In the statement 0000005 - Statement - CONSOLIDATED STATEMENTS OF INCOME the concept ncmi:TheaterAccessFees with a value of 43,100,000 is not equal to the dimensional breakdown of 16,500,000 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members ncmi:RelatedPartyFoundingMembersMember:
+	RelatedPartyFoundingMembersMember 	 --> 16,500,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this ncmi:TheaterAccessFees fact are:
+Period :2022-12-30 to 2023-12-28
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.6 - ncmi-20231228.htm 8",2024-03-18,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2024-03-18 16:23:00,0001377630-24-000042,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763024000042/ncmi-20231228.htm,2024-03-18,2024,686424,https://www.sec.gov/Archives/edgar/data/1377630/000137763024000042/0001377630-24-000042-index.htm,7310,10k-ncmi-20231228
+DQC.US.0117.9574,"2024-03-18 17:02:09,011 [DQC.US.0117.9574] In the statement 0000005 - Statement - CONSOLIDATED STATEMENTS OF INCOME the concept ncmi:TheaterAccessFees with a value of 82,300,000 is not equal to the dimensional breakdown of 59,400,000 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members ncmi:RelatedPartyFoundingMembersMember:
+	RelatedPartyFoundingMembersMember 	 --> 59,400,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=ncmi:RelatedPartyFoundingMembersMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this ncmi:TheaterAccessFees fact are:
+Period :2021-12-31 to 2022-12-29
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.6 - ncmi-20231228.htm 8",2024-03-18,ERROR,DQC,117,1377630,"NATIONAL CINEMEDIA, INC.",2024-03-18 16:23:00,0001377630-24-000042,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1377630/000137763024000042/ncmi-20231228.htm,2024-03-18,2024,686424,https://www.sec.gov/Archives/edgar/data/1377630/000137763024000042/0001377630-24-000042-index.htm,7310,10k-ncmi-20231228
+DQC.US.0117.9574,"2024-03-25 17:51:50,996 [DQC.US.0117.9574] In the statement 001 - Statement - Consolidated Balance Sheets the concept us-gaap:AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent with a value of 19,484,000 is not equal to the dimensional breakdown of 470,000 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members us-gaap:RelatedPartyMember, us-gaap:NonrelatedPartyMember:
+	RelatedPartyMember 	 --> 470,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:AccountsPayableAndAccruedLiabilitiesCurrentAndNoncurrent fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.7 - minf20231231_10k.htm 6379",2024-03-25,ERROR,DQC,117,1847874,MOBILE INFRASTRUCTURE CORPORATION,2024-03-22 08:56:00,0001437749-24-008931,US GAAP 2023,Generated by ThunderDome XBRL - 12:48AM UTC 2024-03-22,10-K,http://www.sec.gov/Archives/edgar/data/1847874/000143774924008931/minf20231231_10k.htm,2024-03-22,2024,691701,https://www.sec.gov/Archives/edgar/data/1847874/000143774924008931/0001437749-24-008931-index.htm,6500,10k-beep-20231231
+DQC.US.0117.9574,"2024-03-25 17:51:50,996 [DQC.US.0117.9574] In the statement 006 - Statement - Consolidated Statements of Cash Flows the concept us-gaap:GainsLossesOnExtinguishmentOfDebt with a value of 0 is not equal to the dimensional breakdown of -105,000 using the dimension us-gaap:LongtermDebtTypeAxis which is comprised of the members us-gaap:NotesPayableOtherPayablesMember:
+	NotesPayableOtherPayablesMember 	 --> -105,000 	 --> us-gaap:LongtermDebtTypeAxis=us-gaap:NotesPayableOtherPayablesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:GainsLossesOnExtinguishmentOfDebt fact are:
+Period :2023-01-01 to 2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.7 - minf20231231_10k.htm 6454",2024-03-25,ERROR,DQC,117,1847874,MOBILE INFRASTRUCTURE CORPORATION,2024-03-22 08:56:00,0001437749-24-008931,US GAAP 2023,Generated by ThunderDome XBRL - 12:48AM UTC 2024-03-22,10-K,http://www.sec.gov/Archives/edgar/data/1847874/000143774924008931/minf20231231_10k.htm,2024-03-22,2024,691701,https://www.sec.gov/Archives/edgar/data/1847874/000143774924008931/0001437749-24-008931-index.htm,6500,10k-beep-20231231
+DQC.US.0117.9574,"2024-03-25 17:51:50,996 [DQC.US.0117.9574] In the statement 006 - Statement - Consolidated Statements of Cash Flows the concept us-gaap:GainsLossesOnExtinguishmentOfDebt with a value of 328,000 is not equal to the dimensional breakdown of -0 using the dimension us-gaap:LongtermDebtTypeAxis which is comprised of the members us-gaap:NotesPayableOtherPayablesMember:
+	NotesPayableOtherPayablesMember 	 --> -0 	 --> us-gaap:LongtermDebtTypeAxis=us-gaap:NotesPayableOtherPayablesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:GainsLossesOnExtinguishmentOfDebt fact are:
+Period :2022-01-01 to 2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.7 - minf20231231_10k.htm 6454",2024-03-25,ERROR,DQC,117,1847874,MOBILE INFRASTRUCTURE CORPORATION,2024-03-22 08:56:00,0001437749-24-008931,US GAAP 2023,Generated by ThunderDome XBRL - 12:48AM UTC 2024-03-22,10-K,http://www.sec.gov/Archives/edgar/data/1847874/000143774924008931/minf20231231_10k.htm,2024-03-22,2024,691701,https://www.sec.gov/Archives/edgar/data/1847874/000143774924008931/0001437749-24-008931-index.htm,6500,10k-beep-20231231
+DQC.US.0117.9574,"2024-05-16 18:18:04,615 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of 2,122,188 is not equal to the dimensional breakdown of 2 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 2 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2021-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - capc_10k.htm 9678",2024-05-16,ERROR,DQC,117,814926,"CAPSTONE COMPANIES, INC.",2024-03-29 17:24:00,0001903596-24-000189,US GAAP 2024,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/814926/000190359624000189/capc_10k.htm,2024-03-29,2024,698750,https://www.sec.gov/Archives/edgar/data/814926/000190359624000189/0001903596-24-000189-index.htm,3640,10k-capc-20231231
+DQC.US.0117.9574,"2024-05-16 18:18:04,615 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -2,241,820 is not equal to the dimensional breakdown of 2 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 2 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - capc_10k.htm 9384",2024-05-16,ERROR,DQC,117,814926,"CAPSTONE COMPANIES, INC.",2024-03-29 17:24:00,0001903596-24-000189,US GAAP 2024,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/814926/000190359624000189/capc_10k.htm,2024-03-29,2024,698750,https://www.sec.gov/Archives/edgar/data/814926/000190359624000189/0001903596-24-000189-index.htm,3640,10k-capc-20231231
+DQC.US.0117.9574,"2024-05-16 18:18:04,616 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -545,381 is not equal to the dimensional breakdown of 2 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 2 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - capc_10k.htm 9385",2024-05-16,ERROR,DQC,117,814926,"CAPSTONE COMPANIES, INC.",2024-03-29 17:24:00,0001903596-24-000189,US GAAP 2024,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/814926/000190359624000189/capc_10k.htm,2024-03-29,2024,698750,https://www.sec.gov/Archives/edgar/data/814926/000190359624000189/0001903596-24-000189-index.htm,3640,10k-capc-20231231
+DQC.US.0117.9574,"2024-04-11 18:20:19,092 [DQC.US.0117.9574] In the statement 000002 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 30 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members sobr:SeriesAOneConvertiblePreferredStockMember, sobr:SeriesBConvertiblePreferredMember, sobr:SeriesAConvertiblePreferredStockMember:
+	SeriesAOneConvertiblePreferredStockMember 	 --> 0 	 --> us-gaap:StatementClassOfStockAxis=sobr:SeriesAOneConvertiblePreferredStockMember 
+	SeriesBConvertiblePreferredMember 	 --> 30 	 --> us-gaap:StatementClassOfStockAxis=sobr:SeriesBConvertiblePreferredMember 
+	SeriesAConvertiblePreferredStockMember 	 --> 0 	 --> us-gaap:StatementClassOfStockAxis=sobr:SeriesAConvertiblePreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.9 - sobr_10k.htm 2",2024-04-11,ERROR,DQC,117,1425627,"SOBR SAFE, INC.",2024-03-29 21:49:00,0001477932-24-001629,US GAAP 2023,XBRL Document Created with XBRLMaster,10-K,http://www.sec.gov/Archives/edgar/data/1425627/000147793224001629/sobr_10k.htm,2024-04-01,2024,697704,https://www.sec.gov/Archives/edgar/data/1425627/000147793224001629/0001477932-24-001629-index.htm,2721,10k-sobr-20231231
+DQC.US.0117.9574,"2024-04-16 13:32:06,074 [DQC.US.0117.9574] In the statement 000002 - Statement - Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.10 - jksm_10k.htm 2",2024-04-16,ERROR,DQC,117,860543,Jacksam Corporation,2024-04-16 13:07:00,0001477932-24-002155,US GAAP 2023,XBRL Document Created with XBRLMaster,10-K,http://www.sec.gov/Archives/edgar/data/860543/000147793224002155/jksm_10k.htm,2024-04-16,2024,700037,https://www.sec.gov/Archives/edgar/data/860543/000147793224002155/0001477932-24-002155-index.htm,4833,10k-jksm-20231231
+DQC.US.0117.9574,"2024-04-16 13:32:06,075 [DQC.US.0117.9574] In the statement 000002 - Statement - Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.10 - jksm_10k.htm 2",2024-04-16,ERROR,DQC,117,860543,Jacksam Corporation,2024-04-16 13:07:00,0001477932-24-002155,US GAAP 2023,XBRL Document Created with XBRLMaster,10-K,http://www.sec.gov/Archives/edgar/data/860543/000147793224002155/jksm_10k.htm,2024-04-16,2024,700037,https://www.sec.gov/Archives/edgar/data/860543/000147793224002155/0001477932-24-002155-index.htm,4833,10k-jksm-20231231
+DQC.US.0117.9574,"2024-05-08 21:47:50,984 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS the concept us-gaap:PreferredStockValue with a value of 40,000 is not equal to the dimensional breakdown of 400,000 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 400,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - grst_10k.htm 3406",2024-05-09,ERROR,DQC,117,792935,ETHEMA HEALTH CORPORATION.,2024-05-07 16:16:00,0001903596-24-000279,US GAAP 2023,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/792935/000190359624000279/grst_10k.htm,2024-05-07,2024,710675,https://www.sec.gov/Archives/edgar/data/792935/000190359624000279/0001903596-24-000279-index.htm,8062,10k-grst-20231231
+DQC.US.0117.9574,"2024-05-16 23:00:41,234 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -1,012,056 is not equal to the dimensional breakdown of 2 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 2 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - capc_10q.htm 1324",2024-05-17,ERROR,DQC,117,814926,"CAPSTONE COMPANIES, INC.",2024-05-14 16:42:00,0001903596-24-000307,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/814926/000190359624000307/capc_10q.htm,2024-05-14,2024,715590,https://www.sec.gov/Archives/edgar/data/814926/000190359624000307/0001903596-24-000307-index.htm,3640,10q-capc-20240331
+DQC.US.0117.9574,"2024-05-16 23:00:41,234 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -545,381 is not equal to the dimensional breakdown of 2 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 2 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - capc_10q.htm 1302",2024-05-17,ERROR,DQC,117,814926,"CAPSTONE COMPANIES, INC.",2024-05-14 16:42:00,0001903596-24-000307,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/814926/000190359624000307/capc_10q.htm,2024-05-14,2024,715590,https://www.sec.gov/Archives/edgar/data/814926/000190359624000307/0001903596-24-000307-index.htm,3640,10q-capc-20240331
+DQC.US.0117.9574,"2024-05-16 23:00:41,235 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -2,241,820 is not equal to the dimensional breakdown of 2 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 2 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - capc_10q.htm 1044",2024-05-17,ERROR,DQC,117,814926,"CAPSTONE COMPANIES, INC.",2024-05-14 16:42:00,0001903596-24-000307,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/814926/000190359624000307/capc_10q.htm,2024-05-14,2024,715590,https://www.sec.gov/Archives/edgar/data/814926/000190359624000307/0001903596-24-000307-index.htm,3640,10q-capc-20240331
+DQC.US.0117.9574,"2024-05-16 23:00:41,235 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS the concept us-gaap:StockholdersEquity with a value of -2,504,080 is not equal to the dimensional breakdown of 2 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 2 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - capc_10q.htm 1043",2024-05-17,ERROR,DQC,117,814926,"CAPSTONE COMPANIES, INC.",2024-05-14 16:42:00,0001903596-24-000307,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/814926/000190359624000307/capc_10q.htm,2024-05-14,2024,715590,https://www.sec.gov/Archives/edgar/data/814926/000190359624000307/0001903596-24-000307-index.htm,3640,10q-capc-20240331
+DQC.US.0117.9574,"2024-05-15 20:19:03,119 [DQC.US.0117.9574] In the statement 000002 - Statement - Consolidated Balance Sheets the concept us-gaap:CommonStockValue with a value of 3,630 is not equal to the dimensional breakdown of 1,000 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members gevi:ConvertiblesSeriesCPreferredSockMember, gevi:ConvertiblesSeriesAPreferredStockMember:
+	ConvertiblesSeriesAPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=gevi:ConvertiblesSeriesAPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CommonStockValue fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - gevi_10q.htm 2",2024-05-16,ERROR,DQC,117,894556,"General Enterprise Ventures, Inc.",2024-05-15 17:30:00,0001640334-24-000811,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/894556/000164033424000811/gevi_10q.htm,2024-05-15,2024,716851,https://www.sec.gov/Archives/edgar/data/894556/000164033424000811/0001640334-24-000811-index.htm,4955,10q-gevi-20240331
+DQC.US.0117.9574,"2024-05-15 20:19:03,119 [DQC.US.0117.9574] In the statement 000002 - Statement - Consolidated Balance Sheets the concept us-gaap:CommonStockValue with a value of 9,755 is not equal to the dimensional breakdown of 1,000 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members gevi:ConvertiblesSeriesCPreferredSockMember, gevi:ConvertiblesSeriesAPreferredStockMember:
+	ConvertiblesSeriesAPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=gevi:ConvertiblesSeriesAPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:CommonStockValue fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - gevi_10q.htm 2",2024-05-16,ERROR,DQC,117,894556,"General Enterprise Ventures, Inc.",2024-05-15 17:30:00,0001640334-24-000811,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/894556/000164033424000811/gevi_10q.htm,2024-05-15,2024,716851,https://www.sec.gov/Archives/edgar/data/894556/000164033424000811/0001640334-24-000811-index.htm,4955,10q-gevi-20240331
+DQC.US.0117.9574,"2024-05-17 17:01:46,783 [DQC.US.0117.9574] In the statement 000002 - Statement - Condensed Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members jksm:PreferredStockSeriesBMember:
+	PreferredStockSeriesBMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=jksm:PreferredStockSeriesBMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - jksm_10q.htm 2",2024-05-17,ERROR,DQC,117,860543,Jacksam Corporation,2024-05-17 16:00:00,0001477932-24-003114,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/860543/000147793224003114/jksm_10q.htm,2024-05-17,2024,717528,https://www.sec.gov/Archives/edgar/data/860543/000147793224003114/0001477932-24-003114-index.htm,4833,10q-jksm-20240331
+DQC.US.0117.9574,"2024-05-17 17:01:46,783 [DQC.US.0117.9574] In the statement 000002 - Statement - Condensed Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 50 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members jksm:PreferredStockSeriesBMember:
+	PreferredStockSeriesBMember 	 --> 50 	 --> us-gaap:StatementClassOfStockAxis=jksm:PreferredStockSeriesBMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.11 - jksm_10q.htm 2",2024-05-17,ERROR,DQC,117,860543,Jacksam Corporation,2024-05-17 16:00:00,0001477932-24-003114,US GAAP 2023,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/860543/000147793224003114/jksm_10q.htm,2024-05-17,2024,717528,https://www.sec.gov/Archives/edgar/data/860543/000147793224003114/0001477932-24-003114-index.htm,4833,10q-jksm-20240331
+DQC.US.0117.9574,"2024-06-25 17:40:35,243 [DQC.US.0117.9574] In the statement 00000002 - Statement - BALANCE SHEETS the concept us-gaap:NotesPayableCurrent with a value of 2,400,000 is not equal to the dimensional breakdown of 585,550 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members RGPX:ShareholderMember, us-gaap:OtherAffiliatesMember:
+	ShareholderMember 	 --> 475,050 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=RGPX:ShareholderMember 
+	OtherAffiliatesMember 	 --> 110,500 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:OtherAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:NotesPayableCurrent fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.14 - ixform10k.htm 3851",2024-06-25,ERROR,DQC,117,1357878,"REGENEREX PHARMA, INC.",2024-06-24 12:02:00,0001472375-24-000045,US GAAP 2023,(c) XBRL International.  See www.xbrl.org/legal,10-K,http://www.sec.gov/Archives/edgar/data/1357878/000147237524000045/ixform10k.htm,2024-06-24,2024,735855,https://www.sec.gov/Archives/edgar/data/1357878/000147237524000045/0001472375-24-000045-index.htm,2834,10k-rgpx-20240331
+DQC.US.0117.9574,"2024-06-28 20:22:57,891 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,194,560 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesDPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.14 - form_10-q.htm 3376",2024-06-29,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-06-28 17:08:00,0001161697-24-000285,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/form_10-q.htm,2024-06-28,2024,737150,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/0001161697-24-000285-index.htm,2834,10q-gstc-20240331
+DQC.US.0117.9574,"2024-06-28 20:22:57,891 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,237,566 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesDPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.14 - form_10-q.htm 3587",2024-06-29,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-06-28 17:08:00,0001161697-24-000285,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/form_10-q.htm,2024-06-28,2024,737150,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/0001161697-24-000285-index.htm,2834,10q-gstc-20240331
+DQC.US.0117.9574,"2024-06-28 20:22:57,891 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,433,861 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesDPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.14 - form_10-q.htm 2768",2024-06-29,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-06-28 17:08:00,0001161697-24-000285,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/form_10-q.htm,2024-06-28,2024,737150,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/0001161697-24-000285-index.htm,2834,10q-gstc-20240331
+DQC.US.0117.9574,"2024-06-28 20:22:57,891 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,532,533 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesDPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.14 - form_10-q.htm 4322",2024-06-29,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-06-28 17:08:00,0001161697-24-000285,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/form_10-q.htm,2024-06-28,2024,737150,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/0001161697-24-000285-index.htm,2834,10q-gstc-20240331
+DQC.US.0117.9574,"2024-06-28 20:22:57,892 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,290,670 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesDPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.14 - form_10-q.htm 3833",2024-06-29,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-06-28 17:08:00,0001161697-24-000285,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/form_10-q.htm,2024-06-28,2024,737150,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/0001161697-24-000285-index.htm,2834,10q-gstc-20240331
+DQC.US.0117.9574,"2024-06-28 20:22:57,892 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,468,649 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesFPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesDPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 23.0.14 - form_10-q.htm 2765",2024-06-29,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-06-28 17:08:00,0001161697-24-000285,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/form_10-q.htm,2024-06-28,2024,737150,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000285/0001161697-24-000285-index.htm,2834,10q-gstc-20240331
+DQC.US.0117.9574,"2024-08-09 11:48:41,393 [DQC.US.0117.9574] In the statement 00000002 - Statement - BALANCE SHEETS (UNAUDITED) the concept us-gaap:LongTermDebtNoncurrent with a value of 184,232 is not equal to the dimensional breakdown of 119,114 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members RGPX:ShareholderMember, us-gaap:OtherAffiliatesMember:
+	ShareholderMember 	 --> 119,114 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=RGPX:ShareholderMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:LongTermDebtNoncurrent fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 24.0.3 - ixform10q.htm 1633",2024-08-09,ERROR,DQC,117,1357878,"REGENEREX PHARMA, INC.",2024-08-07 12:13:00,0001472375-24-000074,US GAAP 2024,(c) XBRL International.  See www.xbrl.org/legal,10-Q,http://www.sec.gov/Archives/edgar/data/1357878/000147237524000074/ixform10q.htm,2024-08-07,2024,747148,https://www.sec.gov/Archives/edgar/data/1357878/000147237524000074/0001472375-24-000074-index.htm,2834,10q-rgpx-20240630
+DQC.US.0117.9574,"2024-08-09 11:48:41,393 [DQC.US.0117.9574] In the statement 00000002 - Statement - BALANCE SHEETS (UNAUDITED) the concept us-gaap:NotesPayableCurrent with a value of 2,400,000 is not equal to the dimensional breakdown of 585,550 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members RGPX:ShareholderMember, us-gaap:OtherAffiliatesMember:
+	ShareholderMember 	 --> 475,050 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=RGPX:ShareholderMember 
+	OtherAffiliatesMember 	 --> 110,500 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:OtherAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:NotesPayableCurrent fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 24.0.3 - ixform10q.htm 1583",2024-08-09,ERROR,DQC,117,1357878,"REGENEREX PHARMA, INC.",2024-08-07 12:13:00,0001472375-24-000074,US GAAP 2024,(c) XBRL International.  See www.xbrl.org/legal,10-Q,http://www.sec.gov/Archives/edgar/data/1357878/000147237524000074/ixform10q.htm,2024-08-07,2024,747148,https://www.sec.gov/Archives/edgar/data/1357878/000147237524000074/0001472375-24-000074-index.htm,2834,10q-rgpx-20240630
+DQC.US.0117.9574,"2024-08-09 11:48:41,394 [DQC.US.0117.9574] In the statement 00000002 - Statement - BALANCE SHEETS (UNAUDITED) the concept us-gaap:NotesPayableCurrent with a value of 2,584,232 is not equal to the dimensional breakdown of 773,335 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members RGPX:ShareholderMember, us-gaap:OtherAffiliatesMember:
+	ShareholderMember 	 --> 604,609 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=RGPX:ShareholderMember 
+	OtherAffiliatesMember 	 --> 168,726 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:OtherAffiliatesMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:NotesPayableCurrent fact are:
+Period :2024-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 24.0.3 - ixform10q.htm 1579",2024-08-09,ERROR,DQC,117,1357878,"REGENEREX PHARMA, INC.",2024-08-07 12:13:00,0001472375-24-000074,US GAAP 2024,(c) XBRL International.  See www.xbrl.org/legal,10-Q,http://www.sec.gov/Archives/edgar/data/1357878/000147237524000074/ixform10q.htm,2024-08-07,2024,747148,https://www.sec.gov/Archives/edgar/data/1357878/000147237524000074/0001472375-24-000074-index.htm,2834,10q-rgpx-20240630
+DQC.US.0117.9574,"2024-08-28 07:03:44,590 [DQC.US.0117.9574] In the statement 000002 - Statement - Condensed Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 24.0.4 - jksm_10q.htm 2",2024-08-28,ERROR,DQC,117,860543,Jacksam Corporation,2024-08-19 16:45:00,0001477932-24-005135,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/860543/000147793224005135/jksm_10q.htm,2024-08-19,2024,754382,https://www.sec.gov/Archives/edgar/data/860543/000147793224005135/0001477932-24-005135-index.htm,4833,10q-jksm-20240630
+DQC.US.0117.9574,"2024-08-28 07:03:44,591 [DQC.US.0117.9574] In the statement 000002 - Statement - Condensed Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2024-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 24.0.4 - jksm_10q.htm 2",2024-08-28,ERROR,DQC,117,860543,Jacksam Corporation,2024-08-19 16:45:00,0001477932-24-005135,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/860543/000147793224005135/jksm_10q.htm,2024-08-19,2024,754382,https://www.sec.gov/Archives/edgar/data/860543/000147793224005135/0001477932-24-005135-index.htm,4833,10q-jksm-20240630
+DQC.US.0117.9574,"2024-10-11 09:48:32,607 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,290,670 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesFPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.1 - form_10-q.htm 4241",2024-10-11,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-10-11 09:08:00,0001161697-24-000420,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/form_10-q.htm,2024-10-11,2024,767835,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/0001161697-24-000420-index.htm,2834,10q-gstc-20240630
+DQC.US.0117.9574,"2024-10-11 09:48:32,608 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,277,133 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesFPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.1 - form_10-q.htm 4557",2024-10-11,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-10-11 09:08:00,0001161697-24-000420,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/form_10-q.htm,2024-10-11,2024,767835,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/0001161697-24-000420-index.htm,2834,10q-gstc-20240630
+DQC.US.0117.9574,"2024-10-11 09:48:32,608 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,433,861 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesFPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.1 - form_10-q.htm 3161",2024-10-11,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-10-11 09:08:00,0001161697-24-000420,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/form_10-q.htm,2024-10-11,2024,767835,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/0001161697-24-000420-index.htm,2834,10q-gstc-20240630
+DQC.US.0117.9574,"2024-10-11 09:48:32,608 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,468,649 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesFPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.1 - form_10-q.htm 5289",2024-10-11,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-10-11 09:08:00,0001161697-24-000420,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/form_10-q.htm,2024-10-11,2024,767835,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/0001161697-24-000420-index.htm,2834,10q-gstc-20240630
+DQC.US.0117.9574,"2024-10-11 09:48:32,608 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,532,533 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesFPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.1 - form_10-q.htm 5043",2024-10-11,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-10-11 09:08:00,0001161697-24-000420,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/form_10-q.htm,2024-10-11,2024,767835,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/0001161697-24-000420-index.htm,2834,10q-gstc-20240630
+DQC.US.0117.9574,"2024-10-11 09:48:32,609 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,194,560 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesFPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.1 - form_10-q.htm 3784",2024-10-11,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-10-11 09:08:00,0001161697-24-000420,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/form_10-q.htm,2024-10-11,2024,767835,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/0001161697-24-000420-index.htm,2834,10q-gstc-20240630
+DQC.US.0117.9574,"2024-10-11 09:48:32,609 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,237,566 is not equal to the dimensional breakdown of 1,639 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesFPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesDPreferredStockMember 	 --> 510 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesDPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2022-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.1 - form_10-q.htm 3995",2024-10-11,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-10-11 09:08:00,0001161697-24-000420,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/form_10-q.htm,2024-10-11,2024,767835,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/0001161697-24-000420-index.htm,2834,10q-gstc-20240630
+DQC.US.0117.9574,"2024-10-11 09:48:32,609 [DQC.US.0117.9574] In the statement 00000002 - Statement - CONSOLIDATED BALANCE SHEETS (Unaudited) the concept us-gaap:StockholdersEquity with a value of -1,624,932 is not equal to the dimensional breakdown of 1,129 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesEPreferredStockMember, us-gaap:SeriesDPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesFPreferredStockMember:
+	SeriesEPreferredStockMember 	 --> 1,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesEPreferredStockMember 
+	SeriesFPreferredStockMember 	 --> 129 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesFPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:StockholdersEquity fact are:
+Period :2024-06-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.1 - form_10-q.htm 3158",2024-10-11,ERROR,DQC,117,1502152,GlobeStar Therapeutics Corp,2024-10-11 09:08:00,0001161697-24-000420,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/form_10-q.htm,2024-10-11,2024,767835,https://www.sec.gov/Archives/edgar/data/1502152/000116169724000420/0001161697-24-000420-index.htm,2834,10q-gstc-20240630
+DQC.US.0117.9574,"2024-11-05 18:55:47,919 [DQC.US.0117.9574] In the statement 00000002 - Statement - BALANCE SHEETS (UNAUDITED) the concept us-gaap:NotesPayableCurrent with a value of 2,400,000 is not equal to the dimensional breakdown of 585,550 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members us-gaap:OtherAffiliatesMember, RGPX:ShareholderMember:
+	OtherAffiliatesMember 	 --> 110,500 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:OtherAffiliatesMember 
+	ShareholderMember 	 --> 475,050 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=RGPX:ShareholderMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:NotesPayableCurrent fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.4 - ixform10q.htm 1769",2024-11-05,ERROR,DQC,117,1357878,"REGENEREX PHARMA, INC.",2024-11-04 11:44:00,0001472375-24-000090,US GAAP 2024,(c) XBRL International.  See www.xbrl.org/legal,10-Q,http://www.sec.gov/Archives/edgar/data/1357878/000147237524000090/ixform10q.htm,2024-11-04,2024,774549,https://www.sec.gov/Archives/edgar/data/1357878/000147237524000090/0001472375-24-000090-index.htm,2834,10q-rgpx-20240930
+DQC.US.0117.9574,"2024-11-05 18:55:47,919 [DQC.US.0117.9574] In the statement 00000002 - Statement - BALANCE SHEETS (UNAUDITED) the concept us-gaap:NotesPayableCurrent with a value of 2,824,232 is not equal to the dimensional breakdown of 869,732 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members us-gaap:OtherAffiliatesMember, RGPX:ShareholderMember:
+	OtherAffiliatesMember 	 --> 247,976 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:OtherAffiliatesMember 
+	ShareholderMember 	 --> 621,756 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=RGPX:ShareholderMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:NotesPayableCurrent fact are:
+Period :2024-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.4 - ixform10q.htm 1765",2024-11-05,ERROR,DQC,117,1357878,"REGENEREX PHARMA, INC.",2024-11-04 11:44:00,0001472375-24-000090,US GAAP 2024,(c) XBRL International.  See www.xbrl.org/legal,10-Q,http://www.sec.gov/Archives/edgar/data/1357878/000147237524000090/ixform10q.htm,2024-11-04,2024,774549,https://www.sec.gov/Archives/edgar/data/1357878/000147237524000090/0001472375-24-000090-index.htm,2834,10q-rgpx-20240930
+DQC.US.0117.9574,"2024-11-05 18:55:47,920 [DQC.US.0117.9574] In the statement 00000002 - Statement - BALANCE SHEETS (UNAUDITED) the concept us-gaap:LongTermDebtNoncurrent with a value of 184,232 is not equal to the dimensional breakdown of 119,114 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members us-gaap:OtherAffiliatesMember, RGPX:ShareholderMember:
+	ShareholderMember 	 --> 119,114 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=RGPX:ShareholderMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:LongTermDebtNoncurrent fact are:
+Period :2024-03-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.4 - ixform10q.htm 1819",2024-11-05,ERROR,DQC,117,1357878,"REGENEREX PHARMA, INC.",2024-11-04 11:44:00,0001472375-24-000090,US GAAP 2024,(c) XBRL International.  See www.xbrl.org/legal,10-Q,http://www.sec.gov/Archives/edgar/data/1357878/000147237524000090/ixform10q.htm,2024-11-04,2024,774549,https://www.sec.gov/Archives/edgar/data/1357878/000147237524000090/0001472375-24-000090-index.htm,2834,10q-rgpx-20240930
+DQC.US.0117.9574,"2024-11-18 21:31:52,872 [DQC.US.0117.9574] In the statement 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS the concept us-gaap:PreferredStockValue with a value of 2,455,000 is not equal to the dimensional breakdown of 834,416 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesAPreferredStockMember 	 --> 84,416 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesAPreferredStockMember 
+	SeriesCPreferredStockMember 	 --> 750,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesCPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.4 - isdr_10q.htm 2",2024-11-19,ERROR,DQC,117,1081938,"CannaPharmaRX, Inc.",2024-11-13 17:46:00,0001654954-24-014287,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1081938/000165495424014287/isdr_10q.htm,2024-11-14,2024,781578,https://www.sec.gov/Archives/edgar/data/1081938/000165495424014287/0001654954-24-014287-index.htm,2834,10q-celz-20240930
+DQC.US.0117.9574,"2024-11-18 21:31:52,872 [DQC.US.0117.9574] In the statement 000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS the concept us-gaap:PreferredStockValue with a value of 455,000 is not equal to the dimensional breakdown of 174,416 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember, us-gaap:SeriesAPreferredStockMember, us-gaap:SeriesCPreferredStockMember:
+	SeriesAPreferredStockMember 	 --> 74,416 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesAPreferredStockMember 
+	SeriesCPreferredStockMember 	 --> 100,000 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesCPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2024-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.4 - isdr_10q.htm 2",2024-11-19,ERROR,DQC,117,1081938,"CannaPharmaRX, Inc.",2024-11-13 17:46:00,0001654954-24-014287,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1081938/000165495424014287/isdr_10q.htm,2024-11-14,2024,781578,https://www.sec.gov/Archives/edgar/data/1081938/000165495424014287/0001654954-24-014287-index.htm,2834,10q-celz-20240930
+DQC.US.0117.9574,"2024-11-19 13:17:18,105 [DQC.US.0117.9574] In the statement 001 - Statement - Consolidated Balance Sheets (Current Period Unaudited) the concept us-gaap:LongTermDebt with a value of 918,063 is not equal to the dimensional breakdown of 303,000 using the dimension us-gaap:RelatedPartyTransactionsByRelatedPartyAxis which is comprised of the members us-gaap:RelatedPartyMember:
+	RelatedPartyMember 	 --> 303,000 	 --> us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=us-gaap:RelatedPartyMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:LongTermDebt fact are:
+Period :2024-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.5 - adom20240930_10q.htm 2408",2024-11-19,ERROR,DQC,117,1563568,"ENVIROTECH VEHICLES, INC.",2024-11-14 16:15:00,0001437749-24-035310,US GAAP 2024,Generated by ThunderDome XBRL - 05:47PM UTC 2024-11-14,10-Q,http://www.sec.gov/Archives/edgar/data/1563568/000143774924035310/adom20240930_10q.htm,2024-11-14,2024,781959,https://www.sec.gov/Archives/edgar/data/1563568/000143774924035310/0001437749-24-035310-index.htm,3714,10q-evtv-20240930
+DQC.US.0117.9574,"2024-11-21 06:12:15,663 [DQC.US.0117.9574] In the statement 000002 - Statement - Condensed Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2023-12-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.5 - jksm_10q.htm 2",2024-11-21,ERROR,DQC,117,860543,Jacksam Corporation,2024-11-19 13:28:00,0001477932-24-007412,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/860543/000147793224007412/jksm_10q.htm,2024-11-19,2024,782989,https://www.sec.gov/Archives/edgar/data/860543/000147793224007412/0001477932-24-007412-index.htm,4833,10q-jksm-20240930
+DQC.US.0117.9574,"2024-11-21 06:12:15,663 [DQC.US.0117.9574] In the statement 000002 - Statement - Condensed Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesBPreferredStockMember:
+	SeriesBPreferredStockMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesBPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2024-09-30
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.5 - jksm_10q.htm 2",2024-11-21,ERROR,DQC,117,860543,Jacksam Corporation,2024-11-19 13:28:00,0001477932-24-007412,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/860543/000147793224007412/jksm_10q.htm,2024-11-19,2024,782989,https://www.sec.gov/Archives/edgar/data/860543/000147793224007412/0001477932-24-007412-index.htm,4833,10q-jksm-20240930
+DQC.US.0117.9574,"2025-01-08 09:31:46,661 [DQC.US.0117.9574] In the statement 000002 - Statement - Condensed Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesAPreferredStockMember:
+	SeriesAPreferredStockMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesAPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2024-10-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.6 - jrvs_10q.htm 2",2025-01-08,ERROR,DQC,117,1556801,"My City Builders, Inc.",2024-12-13 13:08:00,0001640334-24-001870,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1556801/000164033424001870/jrvs_10q.htm,2024-12-13,2024,787625,https://www.sec.gov/Archives/edgar/data/1556801/000164033424001870/0001640334-24-001870-index.htm,6500,10q-jrvs-20241031
+DQC.US.0117.9574,"2025-01-08 09:31:46,662 [DQC.US.0117.9574] In the statement 000002 - Statement - Condensed Consolidated Balance Sheets the concept us-gaap:PreferredStockValue with a value of 0 is not equal to the dimensional breakdown of 100 using the dimension us-gaap:StatementClassOfStockAxis which is comprised of the members us-gaap:SeriesAPreferredStockMember:
+	SeriesAPreferredStockMember 	 --> 100 	 --> us-gaap:StatementClassOfStockAxis=us-gaap:SeriesAPreferredStockMember 
+
+
+On the face financial statements it is expected that values reported are dimensionally complete for a given line item. If you added up the values of the dimensions the resulting sum should represent the actual aggregate value.  This rule takes the dimensional values of an axis reported on the face financial statements and adds them up and compares them to the actual aggregate value reported anywhere in the filing. If they are different the rule reports an error.
+
+The properties of this us-gaap:PreferredStockValue fact are:
+Period :2024-07-31
+Unit : USD
+Dimensions : 
+Rule Element Id:9574
+Rule version: 25.0.6 - jrvs_10q.htm 2",2025-01-08,ERROR,DQC,117,1556801,"My City Builders, Inc.",2024-12-13 13:08:00,0001640334-24-001870,US GAAP 2024,XBRL Document Created with XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1556801/000164033424001870/jrvs_10q.htm,2024-12-13,2024,787625,https://www.sec.gov/Archives/edgar/data/1556801/000164033424001870/0001640334-24-001870-index.htm,6500,10q-jrvs-20241031

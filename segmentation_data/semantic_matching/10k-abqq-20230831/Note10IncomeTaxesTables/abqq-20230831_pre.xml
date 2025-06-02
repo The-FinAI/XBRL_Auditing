@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note10IncomeTaxesTables" xlink:href="abqq-20230831.xsd#Note10IncomeTaxesTables" xlink:type="simple"/>
+    <link:presentationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note10IncomeTaxesTables" xlink:title="00000027 - Disclosure - NOTE 10 &#8211; INCOME TAXES (Tables)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_IncomeTaxDisclosureAbstract" xlink:label="loc_us-gaapIncomeTaxDisclosureAbstract"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock" xlink:label="loc_us-gaapScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock"/>
+      <link:presentationArc order="0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapIncomeTaxDisclosureAbstract" xlink:to="loc_us-gaapScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock" xlink:label="loc_us-gaapScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock"/>
+      <link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapIncomeTaxDisclosureAbstract" xlink:to="loc_us-gaapScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock" xlink:type="arc"/>
+    </link:presentationLink>
+    </link:linkbase>

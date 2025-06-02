@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:RelatedPartyTransactionsDisclosureTextBlock contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzI5NDM_c152b066-9283-4c67-984e-6e909699cb74">&lt;div style="margin-bottom:6pt;text-align:justify"&gt;&lt;span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;In 2017, the Company acquired approximately 25% of Premia Holdings Ltd. Premia Holdings Ltd. is the parent of Premia Reinsurance Ltd., a multi-line Bermuda reinsurance company (together with Premia Holdings Ltd., “Premia”). Premia’s strategy is to reinsure or acquire companies or reserve portfolios in the non-life property and casualty insurance and reinsurance run-off market. Arch Re Bermuda and certain Arch co-investors invested $100.0 million and acquired approximately 25% of Premia as well as warrants to purchase additional common equity. Arch has appointed two directors to serve on the seven person board of directors of Premia. Arch Re Bermuda is providing a 25% quota share reinsurance treaty on certain business written by Premia. During 2022, Arch Re Bermuda entered into certain reinsurance transactions with Premia which generated net premiums written and earned of $121.1 million and $119.9 million, respectively, compared to $40.4 million of net premiums written and earned in 2021. At December 31, 2022, Arch Re Bermuda recorded a funds held asset from Premia of $118.7 million, compared to $53.5 million at December 31, 2021.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:6pt;text-align:justify"&gt;&lt;span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;In the 2021 first quarter, as part of the Company’s acquisition of Barbican, the Company entered into an agreement with Premia Managing Agency Limited for the reinsurance to close of Syndicate 1955’s 2018 underwriting year of account into Premia Syndicate 1884’s 2021 underwriting year of account. The reinsurance to close covers legacy business underwritten by Syndicate 1955 on the underwriting 2018 and prior years of account and under the agreement, approximately $380 million of net liabilities was transferred to Syndicate 1884, with an effective date of January 1, 2021. The Company had no reinsurance recoverable on unpaid and paid losses or funds held liability at December 31, 2022 and December 31, 2021. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:6pt;text-align:justify"&gt;&lt;span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;In July 2021, following consummation of the Merger Agreement and the related Greysbridge equity financing, pursuant to which Somers became wholly owned by Greysbridge, and Greysbridge is owned 40% by the Company, 30% by certain funds managed by Kelso and 30% by certain funds managed by Warburg. During the 2022 and 2021 period, the Company entered into certain reinsurance transactions with Somers. The Company’s net premiums written was reduced by $519.4 million and $379.1 million, for the 2022 and 2021 periods, respectively (which included reinsurance transactions as well as those entered into in conjunction with the Merger Agreement). In addition, Somers paid certain acquisition costs and administrative fees to the Company. At December 31, 2022, the Company recorded a reinsurance recoverable on unpaid and paid losses from Somers of $1.2 billion and a reinsurance balance payable to Somers of $413.8 million. At December 31, 2021, &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:6pt;text-align:justify"&gt;&lt;span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;reinsurance recoverable on unpaid and paid losses from Somers was $902.8 million, with a reinsurance balance payable to Somers of $258.4 million. See &lt;/span&gt;&lt;span style="color:#0000ff;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:400;line-height:120%;text-decoration:underline"&gt;&lt;a href="#i00be03d4520d45dcbeeb6c59c24a8334_175" style="color:#0000ff;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:400;line-height:120%;text-decoration:underline"&gt;note 12, “Variable Interest Entity and Noncontrolling Interests.”&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:6pt;text-align:justify"&gt;&lt;span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;The Company has a put/call option that was entered into in connection with the Greysbridge equity financing, whereby beginning January 1, 2024 the Company will have a call right (but not the obligation) and Warburg and Kelso will each have a put right (but not the obligation) to buy/sell one third of their initial shares annually at the tangible book value per share of Greysbridge for the most recently ended fiscal quarter.&lt;/span&gt;&lt;/div&gt;As of December 31, 2022, the Company owns $35.0 million in aggregate principal amount of Somers 6.5% senior notes, due July 2, 2029</us-gaap:RelatedPartyTransactionsDisclosureTextBlock>
+	</xbrl>
+

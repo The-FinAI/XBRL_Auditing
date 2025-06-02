@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="AsOf2023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="From2021-09-012022-08-31_us-gaap_PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2022-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2022-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2022-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2021-09-012022-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2022-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2022-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2021-09-012022-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2022-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2021-09-012021-11-30_custom_PutShare0.02288Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:PutShare0.02288Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2021-11-30</endDate>
+        </period>
+    </context>
+	<context id="From2021-09-012021-11-30_custom_PutShare0.02719Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:PutShare0.02719Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2021-11-30</endDate>
+        </period>
+    </context>
+	<context id="From2022-09-012023-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2022-09-012023-08-31_us-gaap_PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<context id="From2022-09-062022-09-06_us-gaap_SeriesCPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesCPreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-09-06</startDate>
+            <endDate>2022-09-06</endDate>
+        </period>
+    </context>
+	<context id="From2021-12-012022-02-28_custom_SevenConsultantsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:SevenConsultantsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-12-01</startDate>
+            <endDate>2022-02-28</endDate>
+        </period>
+    </context>
+	<context id="From2021-12-012022-02-28_custom_SharesIssuedAt.01548Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:SharesIssuedAt.01548Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-12-01</startDate>
+            <endDate>2022-02-28</endDate>
+        </period>
+    </context>
+	<context id="From2021-12-012022-02-28_custom_SharesIssuedAt0.01716Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:SharesIssuedAt0.01716Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-12-01</startDate>
+            <endDate>2022-02-28</endDate>
+        </period>
+    </context>
+	<context id="From2021-12-012022-02-28_custom_SharesIssuedAt0.01729Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:SharesIssuedAt0.01729Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-12-01</startDate>
+            <endDate>2022-02-28</endDate>
+        </period>
+    </context>
+	<context id="From2021-12-012022-02-28_custom_SharesIssuedAt0.0110Member">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:SharesIssuedAt0.0110Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-12-01</startDate>
+            <endDate>2022-02-28</endDate>
+        </period>
+    </context>
+	<context id="From2021-09-012021-11-30_custom_InvestorOneMember_custom_SeiresDPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:SeiresDPreferredStockMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:InvestorOneMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-09-01</startDate>
+            <endDate>2021-11-30</endDate>
+        </period>
+    </context>
+	<context id="From2021-12-092021-12-09_custom_InvestorTwoMember_custom_SeiresDPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:SeiresDPreferredStockMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:InvestorTwoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-12-09</startDate>
+            <endDate>2021-12-09</endDate>
+        </period>
+    </context>
+	<context id="From2022-01-212022-01-21_custom_InvestorThreeMember_custom_SeiresCPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:SeiresCPreferredStockMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:InvestorThreeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-21</startDate>
+            <endDate>2022-01-21</endDate>
+        </period>
+    </context>
+	<context id="From2022-03-162022-03-16_custom_InvestorFourMember_custom_SeiresCPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:SeiresCPreferredStockMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:InvestorFourMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-03-16</startDate>
+            <endDate>2022-03-16</endDate>
+        </period>
+    </context>
+	<context id="From2022-06-012022-06-01_custom_InvestorFiveMember_custom_SeiresCPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:SeiresCPreferredStockMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:InvestorFiveMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-06-01</startDate>
+            <endDate>2022-06-01</endDate>
+        </period>
+    </context>
+	<context id="From2022-07-192022-07-19_custom_InvestorSixMember_custom_SeiresCPreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:SeiresCPreferredStockMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">ABQQ:InvestorSixMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-07-19</startDate>
+            <endDate>2022-07-19</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0387" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">890988</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">4021948</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">226590</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">120</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">11009517</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_RetainedEarningsMember" decimals="0" unitRef="USD">-6578978</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="0" unitRef="USD">-7473</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31" decimals="0" unitRef="USD">4649776</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">384512</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">456</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">12636838</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_RetainedEarningsMember" decimals="0" unitRef="USD">-8789901</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="0" unitRef="USD">-209957</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">1285283</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">295</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">11993408</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_RetainedEarningsMember" decimals="0" unitRef="USD">-12387998</us-gaap:StockholdersEquity>
+	<us-gaap:SharesIssued contextRef="AsOf2021-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">226589735</us-gaap:SharesIssued>
+	<us-gaap:SharesIssued contextRef="AsOf2021-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">120000</us-gaap:SharesIssued>
+	<us-gaap:SharesIssued contextRef="AsOf2022-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">384512583</us-gaap:SharesIssued>
+	<us-gaap:SharesIssued contextRef="AsOf2022-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">455850</us-gaap:SharesIssued>
+	<us-gaap:SharesIssued contextRef="AsOf2023-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">1285283385</us-gaap:SharesIssued>
+	<us-gaap:SharesIssued contextRef="AsOf2023-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">294421</us-gaap:SharesIssued>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0222" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount contextRef="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0224" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount contextRef="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0225" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">14900</ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount contextRef="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">216002</ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount contextRef="From2021-09-012022-08-31" decimals="0" unitRef="USD">230902</ABQQ:StockIssuedDuringPeriodPutSharesForCashAmount>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashShares contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0228" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashShares contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">14900000</ABQQ:StockIssuedDuringPeriodPutSharesForCashShares>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashShares contextRef="From2021-09-012021-11-30_custom_PutShare0.02288Member" decimals="INF" unitRef="Shares">2500000</ABQQ:StockIssuedDuringPeriodPutSharesForCashShares>
+	<ABQQ:StockIssuedDuringPeriodPutSharesForCashShares contextRef="From2021-09-012021-11-30_custom_PutShare0.02719Member" decimals="INF" unitRef="Shares">3000000</ABQQ:StockIssuedDuringPeriodPutSharesForCashShares>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0230" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0233" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0234" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0320" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0323" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0324" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">758</ABQQ:SeriesCPreferredSharesIssuedAmount>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">586148</ABQQ:SeriesCPreferredSharesIssuedAmount>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31" decimals="0" unitRef="USD">586906</ABQQ:SeriesCPreferredSharesIssuedAmount>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">90</ABQQ:SeriesCPreferredSharesIssuedAmount>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">68910</ABQQ:SeriesCPreferredSharesIssuedAmount>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2022-09-01to2023-08-31" decimals="0" unitRef="USD">69000</ABQQ:SeriesCPreferredSharesIssuedAmount>
+	<ABQQ:SeriesCPreferredSharesIssuedAmount contextRef="From2022-09-062022-09-06_us-gaap_SeriesCPreferredStockMember" decimals="0" unitRef="USD">78500</ABQQ:SeriesCPreferredSharesIssuedAmount>
+	<ABQQ:SeriesCPreferredSharesIssuedShares contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0236" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:SeriesCPreferredSharesIssuedShares contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0326" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:SeriesCPreferredSharesIssuedShares contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">757965</ABQQ:SeriesCPreferredSharesIssuedShares>
+	<ABQQ:SeriesCPreferredSharesIssuedShares contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">90275</ABQQ:SeriesCPreferredSharesIssuedShares>
+	<ABQQ:SeriesCPreferredSharesIssuedShares contextRef="From2022-09-062022-09-06_us-gaap_SeriesCPreferredStockMember" decimals="INF" unitRef="Shares">90275</ABQQ:SeriesCPreferredSharesIssuedShares>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0242" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0243" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2021-09-012022-08-31" id="xdx2ixbrl0244" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0332" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0333" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2022-09-01to2023-08-31" id="xdx2ixbrl0334" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">85715</us-gaap:StockIssuedDuringPeriodValueConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">-422</us-gaap:StockIssuedDuringPeriodValueConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">-85293</us-gaap:StockIssuedDuringPeriodValueConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">700771</us-gaap:StockIssuedDuringPeriodValueConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">-250</us-gaap:StockIssuedDuringPeriodValueConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodValueConversionOfUnits contextRef="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">-700521</us-gaap:StockIssuedDuringPeriodValueConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodSharesConversionOfUnits contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">85715176</us-gaap:StockIssuedDuringPeriodSharesConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodSharesConversionOfUnits contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">-422115</us-gaap:StockIssuedDuringPeriodSharesConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodSharesConversionOfUnits contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">700770802</us-gaap:StockIssuedDuringPeriodSharesConversionOfUnits>
+	<us-gaap:StockIssuedDuringPeriodSharesConversionOfUnits contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">-250268</us-gaap:StockIssuedDuringPeriodSharesConversionOfUnits>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0248" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0249" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0251" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0252" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0338" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0339" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0341" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0342" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">174731</ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2021-09-012022-08-31" decimals="0" unitRef="USD">174731</ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">31387</ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue contextRef="From2022-09-01to2023-08-31" decimals="0" unitRef="USD">31387</ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCValue>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCShares contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0254" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCShares contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0255" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCShares contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0344" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodPenaltyInConnectionSeriesCShares contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0345" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:SeriesDPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0257" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesDPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0258" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesDPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0260" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesDPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0261" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:SeriesDPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">172040</ABQQ:SeriesDPreferredSharesIssuedAmount>
+	<ABQQ:SeriesDPreferredSharesIssuedAmount contextRef="From2021-09-012022-08-31" decimals="0" unitRef="USD">172040</ABQQ:SeriesDPreferredSharesIssuedAmount>
+	<ABQQ:SeriesDPreferredSharesIssuedShares contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0263" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:SeriesDPreferredSharesIssuedShares contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">187</ABQQ:SeriesDPreferredSharesIssuedShares>
+	<ABQQ:StockIssuedDuringPeriodValueConversionOfUnitsSeriesD contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0267" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodValueConversionOfUnitsSeriesD contextRef="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0269" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodValueConversionOfUnitsSeriesD contextRef="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0270" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodValueConversionOfUnitsSeriesD contextRef="From2021-09-012022-08-31" id="xdx2ixbrl0271" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:StockIssuedDuringPeriodValueConversionOfUnitsSeriesD contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">12307</ABQQ:StockIssuedDuringPeriodValueConversionOfUnitsSeriesD>
+	<ABQQ:StockIssuedDuringPeriodValueConversionOfUnitsSeriesD contextRef="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">-12307</ABQQ:StockIssuedDuringPeriodValueConversionOfUnitsSeriesD>
+	<ABQQ:StockIssuedDuringPeriodSharesConversionOfUnitsSeriesD contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">12307672</ABQQ:StockIssuedDuringPeriodSharesConversionOfUnitsSeriesD>
+	<ABQQ:StockIssuedDuringPeriodSharesConversionOfUnitsSeriesD contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">-187</ABQQ:StockIssuedDuringPeriodSharesConversionOfUnitsSeriesD>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0276" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0278" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0347" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0348" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember" id="xdx2ixbrl0349" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0350" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">45000</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">576000</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="0" unitRef="USD">-202484</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2021-09-012022-08-31" decimals="0" unitRef="USD">418516</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="0" unitRef="USD">209957</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+	<us-gaap:StockIssuedDuringPeriodValueIssuedForServices contextRef="From2022-09-01to2023-08-31" decimals="0" unitRef="USD">209957</us-gaap:StockIssuedDuringPeriodValueIssuedForServices>
+	<us-gaap:StockIssuedDuringPeriodSharesIssuedForServices contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0282" unitRef="Shares" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodSharesIssuedForServices contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0353" unitRef="Shares" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodSharesIssuedForServices contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0354" unitRef="Shares" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodSharesIssuedForServices contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">45000000</us-gaap:StockIssuedDuringPeriodSharesIssuedForServices>
+	<us-gaap:StockIssuedDuringPeriodSharesIssuedForServices contextRef="From2021-12-012022-02-28_custom_SevenConsultantsMember" decimals="INF" unitRef="Shares">30000000</us-gaap:StockIssuedDuringPeriodSharesIssuedForServices>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0284" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0285" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2021-09-012022-08-31_us-gaap_AdditionalPaidInCapitalMember" id="xdx2ixbrl0286" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2021-09-012022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0288" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2021-09-012022-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0290" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2021-09-012022-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0291" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0374" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0375" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember" id="xdx2ixbrl0376" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0378" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0380" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0381" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2022-09-01to2023-08-31" decimals="0" unitRef="USD">-3598097</us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2021-09-012022-08-31" decimals="0" unitRef="USD">-2210923</us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2021-09-012022-08-31_us-gaap_RetainedEarningsMember" decimals="0" unitRef="USD">-2210923</us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic>
+	<us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic contextRef="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember" decimals="0" unitRef="USD">-3598097</us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic>
+	<us-gaap:StockIssuedDuringPeriodValueNewIssues contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0312" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueNewIssues contextRef="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0314" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueNewIssues contextRef="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0315" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueNewIssues contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">200000</us-gaap:StockIssuedDuringPeriodValueNewIssues>
+	<us-gaap:StockIssuedDuringPeriodValueNewIssues contextRef="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">-53525</us-gaap:StockIssuedDuringPeriodValueNewIssues>
+	<us-gaap:StockIssuedDuringPeriodValueNewIssues contextRef="From2022-09-01to2023-08-31" decimals="0" unitRef="USD">146475</us-gaap:StockIssuedDuringPeriodValueNewIssues>
+	<us-gaap:StockIssuedDuringPeriodSharesNewIssues contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0318" unitRef="Shares" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodSharesNewIssues contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" decimals="INF" unitRef="Shares">200000000</us-gaap:StockIssuedDuringPeriodSharesNewIssues>
+	<us-gaap:StockIssuedDuringPeriodValueOther contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0356" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueOther contextRef="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0359" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueOther contextRef="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0360" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueOther contextRef="From2022-09-01to2023-08-31" id="xdx2ixbrl0361" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodValueOther contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">-1</us-gaap:StockIssuedDuringPeriodValueOther>
+	<us-gaap:StockIssuedDuringPeriodValueOther contextRef="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">1</us-gaap:StockIssuedDuringPeriodValueOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0362" unitRef="Shares" xsi:nil="true"/>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" decimals="INF" unitRef="Shares">-1436</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2021-12-012022-02-28_custom_SharesIssuedAt.01548Member" decimals="INF" unitRef="Shares">1800000</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2021-12-012022-02-28_custom_SharesIssuedAt0.01716Member" decimals="INF" unitRef="Shares">3000000</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2021-12-012022-02-28_custom_SharesIssuedAt0.01729Member" decimals="INF" unitRef="Shares">2300000</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2021-12-012022-02-28_custom_SharesIssuedAt0.0110Member" decimals="INF" unitRef="Shares">2300000</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2021-09-012021-11-30_custom_InvestorOneMember_custom_SeiresDPreferredStockMember" decimals="INF" unitRef="Shares">153</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2021-12-092021-12-09_custom_InvestorTwoMember_custom_SeiresDPreferredStockMember" decimals="INF" unitRef="Shares">34</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2022-01-212022-01-21_custom_InvestorThreeMember_custom_SeiresCPreferredStockMember" decimals="INF" unitRef="Shares">89490</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2022-03-162022-03-16_custom_InvestorFourMember_custom_SeiresCPreferredStockMember" decimals="INF" unitRef="Shares">96075</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2022-06-012022-06-01_custom_InvestorFiveMember_custom_SeiresCPreferredStockMember" decimals="INF" unitRef="Shares">147775</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<us-gaap:StockIssuedDuringPeriodSharesOther contextRef="From2022-07-192022-07-19_custom_InvestorSixMember_custom_SeiresCPreferredStockMember" decimals="INF" unitRef="Shares">92000</us-gaap:StockIssuedDuringPeriodSharesOther>
+	<ABQQ:ImputedInterest contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0365" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:ImputedInterest contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0366" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:ImputedInterest contextRef="From2022-09-012023-08-31_us-gaap_RetainedEarningsMember" id="xdx2ixbrl0368" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:ImputedInterest contextRef="From2022-09-012023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0369" unitRef="USD" xsi:nil="true"/>
+	<ABQQ:ImputedInterest contextRef="From2022-09-012023-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">10318</ABQQ:ImputedInterest>
+	<ABQQ:ImputedInterest contextRef="From2022-09-01to2023-08-31" decimals="0" unitRef="USD">10318</ABQQ:ImputedInterest>
+	<ABQQ:ReceivableWithInputedInterestShares contextRef="From2022-09-012023-08-31_us-gaap_CommonStockMember" id="xdx2ixbrl0371" unitRef="Shares" xsi:nil="true"/>
+	<ABQQ:ReceivableWithInputedInterestShares contextRef="From2022-09-012023-08-31_us-gaap_PreferredStockMember" id="xdx2ixbrl0372" unitRef="Shares" xsi:nil="true"/>
+	</xbrl>
+

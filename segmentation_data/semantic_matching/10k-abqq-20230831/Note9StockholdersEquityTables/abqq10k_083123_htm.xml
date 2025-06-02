@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<ABQQ:StockWarrantActivityTableTextBlock contextRef="From2022-09-01to2023-08-31">&lt;table cellpadding="0" cellspacing="0" id="xdx_88A_ecustom--StockWarrantActivityTableTextBlock_zmf46WFUY4uh" style="font: 11pt Calibri, Helvetica, Sans-Serif; margin-left: auto; width: 60%; border-collapse: collapse; margin-right: auto" summary="xdx: Disclosure - NOTE 9 - STOCKHOLDERS' EQUITY - A Summary of Warrant Activity (Details)"&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td colspan="7" style="border-bottom: black 1pt solid; text-align: center"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;&lt;b&gt;Number of warrants&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td style="text-align: center"&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td colspan="3" style="border-bottom: black 1pt solid; text-align: center"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;&lt;b&gt;Original shares issued&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td colspan="3" style="border-bottom: black 1pt solid; text-align: center"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;&lt;b&gt;Anti-dilution Adjusted&lt;/b&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: #CCECFF"&gt;
+    &lt;td&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;Warrants as of August 31, 2021&lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="padding-right: -2.65pt; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_90D_eus-gaap--ClassOfWarrantOrRightOutstanding_iI_c20210831__us-gaap--DebtInstrumentAxis__custom--OriginalSharesIssuedMember_zzl32fSW3aQl"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0752"&gt;—&lt;/span&gt;&lt;/span&gt;  &lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_90B_eus-gaap--ClassOfWarrantOrRightOutstanding_iI_c20210831__us-gaap--DebtInstrumentAxis__custom--AntiDilutionAdjustedMember_zhGJzkI9528"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0753"&gt;—&lt;/span&gt;&lt;/span&gt; &lt;/span&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;Warrants granted during the year&lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: black 1pt solid; padding-right: -2.65pt; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_90F_eus-gaap--AdjustmentOfWarrantsGrantedForServices_pp0p0_c20210901__20220831__us-gaap--DebtInstrumentAxis__custom--OriginalSharesIssuedMember_zEIQGJZFTHlg"&gt;50,000,000&lt;/span&gt; &lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: black 1pt solid; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_904_eus-gaap--AdjustmentOfWarrantsGrantedForServices_pp0p0_c20210901__20220831__us-gaap--DebtInstrumentAxis__custom--AntiDilutionAdjustedMember_zT3Ri3JIktx8"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0755"&gt;—&lt;/span&gt;&lt;/span&gt;  &lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: #CCECFF"&gt;
+    &lt;td&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;Warrants as of August 31, 2022&lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="padding-right: -2.65pt; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_909_eus-gaap--ClassOfWarrantOrRightOutstanding_iI_c20220831__us-gaap--DebtInstrumentAxis__custom--OriginalSharesIssuedMember_zVUPOnR4X7Mb"&gt;50,000,000&lt;/span&gt; &lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="padding-right: -5.45pt; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_906_eus-gaap--ClassOfWarrantOrRightOutstanding_iI_c20220831__us-gaap--DebtInstrumentAxis__custom--AntiDilutionAdjustedMember_zbfwxLkYm6R9"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0757"&gt;—&lt;/span&gt;&lt;/span&gt;  &lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;Warrants granted during the year&lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: black 1pt solid; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_900_eus-gaap--AdjustmentOfWarrantsGrantedForServices_pp0p0_c20220901__20230831__us-gaap--DebtInstrumentAxis__custom--OriginalSharesIssuedMember_zjOeO7olWToi"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0758"&gt;—&lt;/span&gt;&lt;/span&gt;  &lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: black 1pt solid; padding-right: -4.75pt; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_900_eus-gaap--AdjustmentOfWarrantsGrantedForServices_pp0p0_c20220901__20230831__us-gaap--DebtInstrumentAxis__custom--AntiDilutionAdjustedMember_z6loaDyW89rd"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0759"&gt;—&lt;/span&gt;&lt;/span&gt;  &lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: #CCECFF"&gt;
+    &lt;td&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;Exercisable as of August 31, 2023&lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_900_eus-gaap--ClassOfWarrantOrRightOutstanding_iI_c20230831__us-gaap--DebtInstrumentAxis__custom--OriginalSharesIssuedMember_zH2hhbj13Dr4"&gt;50,000,000&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;
+    &lt;td style="padding-right: -4.75pt; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt; color: black"&gt;&lt;span id="xdx_907_eus-gaap--ClassOfWarrantOrRightOutstanding_iI_c20230831__us-gaap--DebtInstrumentAxis__custom--AntiDilutionAdjustedMember_zAzsnFrAaV01"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0761"&gt;—&lt;/span&gt;&lt;/span&gt;  &lt;/span&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;</ABQQ:StockWarrantActivityTableTextBlock>
+	</xbrl>
+

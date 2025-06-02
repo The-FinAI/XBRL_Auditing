@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:RelatedPartyTransactionsDisclosureTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_801_eus-gaap--RelatedPartyTransactionsDisclosureTextBlock_zlONtfVfHW0j" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 8 – RELATED PARTY
+TRANSACTIONS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Loan from related parties&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;In support of the Company’s
+efforts and cash requirements, it may rely on advances from stockholders until such time that the Company can support its operations or
+attains adequate financing through sales of its equity or traditional debt financing. On June 1, 2023, Chiyuan Deng, the Chief Executive
+Officer, as the Company stockholders, entered into a line of credit agreement with the Company. Chiyuan Deng agreed to provide a line
+of credit to the Company for a total amount of no more than &lt;span id="xdx_906_eus-gaap--LineOfCredit_iI_c20230601__us-gaap--RelatedPartyTransactionAxis__custom--ChiyuanDengLineOfCreditMember_zOG3bVPQCzp8"&gt;$1,500,000&lt;/span&gt;, including the previous shareholder loan balance of &lt;span id="xdx_902_eus-gaap--AccountsPayableOtherCurrent_iI_c20230601__us-gaap--RelatedPartyTransactionAxis__custom--ShareholderLoanMember_z5r8Rn9AbzX1"&gt;$697,281&lt;/span&gt;. The
+amount under this line of credit is non-interest bearing and due on demand starting from June 1, 2023. The Company has recognized an imputed
+interest at &lt;span id="xdx_90A_eus-gaap--DebtInstrumentInterestRateStatedPercentage_iI_c20230601__us-gaap--RelatedPartyTransactionAxis__custom--ChiyuanDengLineOfCreditMember_z4xFJW1OrPo2"&gt;5%&lt;/span&gt; per annum of the balances as of the year ended August 31, 2023. As of August 31, 2023 and 2022, the Company had loan from
+Chiyuan Deng balance of &lt;span id="xdx_902_eus-gaap--AccountsPayableOtherCurrent_iI_c20230831__us-gaap--RelatedPartyTransactionAxis__custom--ShareholderLoanMember_zWYvPU9qX6u4"&gt;$748,285&lt;/span&gt; and &lt;span id="xdx_907_eus-gaap--AccountsPayableOtherCurrent_iI_c20220831__us-gaap--RelatedPartyTransactionAxis__custom--ShareholderLoanMember_zmlXkBcAp0x8"&gt;$144,516&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;Jianli Deng, the former
+Chief Financial Officer, as the Company’s stockholders, make advances periodically to the Company for working capital purpose. &lt;/span&gt;These
+loans are non-interest bearing and due on demand. The amount due to Jianli Deng was fully settled on May 16, 2023. &lt;span style="color: #212529"&gt;As
+of August 31, 2023 and 2022, the Company had loan from Jianli Deng balance of &lt;span id="xdx_908_eus-gaap--AccountsPayableOtherCurrent_iI_c20230831__us-gaap--RelatedPartyTransactionAxis__custom--JianliDengLoanMember_zyp73DBpoCDi"&gt;$0&lt;/span&gt; and &lt;span id="xdx_90A_eus-gaap--AccountsPayableOtherCurrent_iI_c20220831__us-gaap--RelatedPartyTransactionAxis__custom--JianliDengLoanMember_zUuJI6Kg7Xz7"&gt;$232,882&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Accounts payable and accrued liabilities
+- related party - Youall Perform Services Ltd.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;Youall Perform Services
+Ltd is owned by Jianli Deng, the former Chief Financial Officer. In September 2019, the Company entered into an agreement with Youall
+Perform Services Ltd for two transactions. 1) The Company pays Youall Perform Services Ltd. &lt;span id="xdx_908_eus-gaap--PremiumsPercentageAssumedToNet_c20190901__20190930__us-gaap--TypeOfArrangementAxis__custom--GuangzhouYuezhiComputerMember_zxF7YghICe2k"&gt;10%&lt;/span&gt; of the revenue generated from
+the “Ai Bian Quan Qiu” platform every month to reimburse the valued-added tax, tax surcharges, and foreign transaction fee
+Youall Perform Services Ltd. has been paying on behalf of the Company. 2) Youall Perform Services Ltd. will provide IT consulting service
+for “Ai Bian Quan Qiu” platform upgrade and maintenance at a total cost of &lt;span id="xdx_902_eus-gaap--CapitalizedComputerSoftwareAdditions_pp0p0_c20190901__20190930__us-gaap--TypeOfArrangementAxis__custom--GuangzhouYuezhiComputerMember_zQWNaifqm1Aj"&gt;$128,000&lt;/span&gt;, out of which &lt;span id="xdx_902_eus-gaap--PaymentsToDevelopSoftware_pp0p0_c20190901__20190930__us-gaap--TypeOfArrangementAxis__custom--GuangzhouYuezhiComputerMember_zRxmAVioL8v"&gt;$108,800&lt;/span&gt; has been paid.
+As there has been no revenue from the “Ai Bian Quan Qiu” platform due to COVID-19 since mid-January, 2020, $108,800 prepayment
+was expensed as research and development expense in FY2020. In July 2020, the Company changed the service scope of this agreement and
+turned it into a two-year website maintenance contract to maintain the website ABQQ.TV which was launched on December 29, 2020. The website
+maintenance service began on January 1, 2021 and will end on December 31, 2022. The contract amount remains to be &lt;span id="xdx_90A_eus-gaap--CapitalizedComputerSoftwareAdditions_pp0p0_c20200701__20200701__us-gaap--TypeOfArrangementAxis__custom--YouallPerformServicesLTDMember_zhuqNBrpeXf"&gt;$128,000&lt;/span&gt;, out of
+which &lt;span id="xdx_90E_eus-gaap--PaymentsToDevelopSoftware_pp0p0_c20190901__20190930__us-gaap--TypeOfArrangementAxis__custom--YouallPerformServicesLTDMember_zdaRKE4jLKte"&gt;$108,800&lt;/span&gt; was previously paid and &lt;span id="xdx_904_eus-gaap--CertainLoansAcquiredInTransferAccountedForAsDebtSecuritiesOutstandingBalance_iI_pp0p0_c20210101__us-gaap--TypeOfArrangementAxis__custom--YouallPerformServicesLTDMember_zp3oAhpme3na"&gt;$19,200&lt;/span&gt; was scheduled to be due on the twenty first month of service
+term. During the year ended &lt;/span&gt;August 31, 2023&lt;span style="color: #212529"&gt;, the Company made payment of &lt;span id="xdx_901_eus-gaap--DebtInstrumentPeriodicPayment_pp0p0_c20220901__20230831__us-gaap--TypeOfArrangementAxis__custom--GuangzhouYuezhiComputerMember_zRSWlxRzbpOh"&gt;$12,812&lt;/span&gt; with the accounts
+payable – related party balance to Youall Perform Services Ltd of &lt;span id="xdx_90A_eus-gaap--AccountsPayableAndAccruedLiabilitiesCurrent_iI_pp0p0_c20230831__us-gaap--TypeOfArrangementAxis__custom--YouallPerformServicesLTDMember_zWmULWZocDT2"&gt;$6,388&lt;/span&gt; as of August 31, 2023.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Accounts payable and
+accrued liabilities – related party - &lt;/span&gt;&lt;/span&gt;&lt;span style="text-decoration: underline"&gt;Zestv Studios Limited&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white"&gt;On December 1, 2020, the
+Company entered an agreement with Zestv Studios Limited, a Hong Kong entity 100% owned by Chiyuan Deng, the Chief Executive Officer, to
+grant Zestv Studios Limited the distribution right for the movie “Love over the world” and charge Zestv Studios Limited movie
+royalties. The Company’s royalty revenue is stipulated to equal 43% of the after-tax movie box office revenue deducting movie issuance
+costs. The movie box office revenue is tracked by a movie distributor Huaxia Film Distribution Co. Ltd (hereafter “Hua Xia”)
+in China as it connects with all movie theaters in China and can track the total movie box office revenue online in real time. Although
+Zestv Studios Limited has paid royalty revenue to the Company, Zestv Studios Limited failed to collect cash from Hua Xia. As of August
+31, 2021, the Company had refund payable of &lt;span id="xdx_903_eus-gaap--CustomerRefundLiabilityCurrent_iI_pp0p0_c20210831__us-gaap--TypeOfArrangementAxis__custom--ZestvStudiosMember_z0qKKC7CVsic"&gt;$916,922&lt;/span&gt; for the movie royalty revenue net of the movie distribution commission fee to Zestv
+Studios Limited. &lt;/p&gt;
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;/p&gt;
+
+
+
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;AB INTERNATIONAL GROUP CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt; &lt;/b&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; color: #212529"&gt;&lt;b&gt;NOTE 8 – RELATED PARTY TRANSACTIONS (continued) &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Accounts payable and
+accrued liabilities – related party - &lt;/span&gt;&lt;/span&gt;&lt;span style="text-decoration: underline"&gt;Zestv Studios Limited&lt;/span&gt; (continued)&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;On June 23, 2022, the Company sold the mainland China
+copyright and broadcast right of the movie “Too Simple” to Zestv Studios Limited for a price of &lt;span id="xdx_909_eus-gaap--ProceedsFromSaleOfIntangibleAssets_c20220601__20220623__us-gaap--RelatedPartyTransactionsByRelatedPartyAxis__custom--ZestvStudiosMember_z3NK86g43LTe"&gt;$750,000&lt;/span&gt;. The Company remains
+to have all copyright of outside of mainland China. The Company used this proceed to off-set the refund payable balance to Zestv Studios
+Limited with additional payment of &lt;span id="xdx_909_eus-gaap--DebtInstrumentPeriodicPayment_c20210901__20220831__us-gaap--RelatedPartyTransactionsByRelatedPartyAxis__custom--ZestvStudiosMember_zAPVqqorZ8N8"&gt;$151,795&lt;/span&gt; during the year ended August 31, 2022. The Company made payments of &lt;span id="xdx_90B_eus-gaap--DebtInstrumentPeriodicPayment_c20220901__20230831__us-gaap--RelatedPartyTransactionsByRelatedPartyAxis__custom--ZestvStudiosMember_zXw0HTwS0UG"&gt;$15,127&lt;/span&gt; during the
+year ended August 31, 2023.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white"&gt;As of August 31, 2023 and
+2022, the Company had balance of &lt;span id="xdx_90D_eus-gaap--OtherLoansPayable_iI_c20230831__us-gaap--RelatedPartyTransactionsByRelatedPartyAxis__custom--ZestvStudiosSecondTotalMember_zT01nB4AGQ4c"&gt;$0&lt;/span&gt; and &lt;span id="xdx_90C_eus-gaap--OtherLoansPayable_iI_c20220831__us-gaap--RelatedPartyTransactionsByRelatedPartyAxis__custom--ZestvStudiosSecondTotalMember_zDEvSpfDcZyh"&gt;$15,127&lt;/span&gt; payable to Zestv Studios Limited, respectively.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company also rented an office space from Zestv
+Studios Limited. The lease was early terminated on August 31, 2023 (See Note 6). For the years ended August 31, 2023 and 2022, the Company
+incurred related party office rent expense of &lt;span id="xdx_90D_eus-gaap--OperatingLeasesRentExpenseNet_c20220901__20230831__us-gaap--OtherCommitmentsAxis__custom--HongKongLeaseMember_zy4rTS42jsVl"&gt;$66,048&lt;/span&gt; and &lt;span id="xdx_907_eus-gaap--OperatingLeasesRentExpenseNet_c20210901__20220831__us-gaap--OtherCommitmentsAxis__custom--HongKongLeaseMember_zL4eg1YeHSEd"&gt;$66,048&lt;/span&gt; respectively.  &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;span style="text-decoration: underline"&gt;Executives’ salaries&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;On September 11, 2020
+and May 24, 2022, the Company entered into two amended employment agreements with Chiyuan Deng, the Chief Executive Officer. Pursuant
+the amended agreements, the Company amended the compensation to Mr. Deng to include a salary of &lt;span id="xdx_906_eus-gaap--AccruedSalariesCurrent_iI_c20200911__srt--TitleOfIndividualAxis__srt--ChiefExecutiveOfficerMember_zaaAeateoPkh"&gt;$180,000&lt;/span&gt; annually, a reduction
+in common stock received under his initial employment agreement, a potential for a bonus in cash or shares, and the issuance of &lt;span id="xdx_90D_eus-gaap--StockIssuedDuringPeriodSharesShareBasedCompensation_c20200901__20200911__srt--TitleOfIndividualAxis__srt--ChiefExecutiveOfficerMember_zfKtrV3qsyhd"&gt;100,000&lt;/span&gt; shares
+of Series A Preferred Stock at par value &lt;span id="xdx_90B_eus-gaap--PreferredStockParOrStatedValuePerShare_iI_c20200911__srt--TitleOfIndividualAxis__srt--ChiefExecutiveOfficerMember__us-gaap--StatementClassOfStockAxis__us-gaap--SeriesAPreferredStockMember_zSaWSURcQyc8"&gt;$0.001&lt;/span&gt;. &lt;/span&gt;Mr. &lt;span style="color: #212529"&gt;Deng returned &lt;span id="xdx_903_ecustom--SharesReturnedToCompany_c20200911__20200911__us-gaap--RelatedPartyTransactionsByRelatedPartyAxis__custom--CEOMember_zq7peaFGiw0e"&gt;266,667&lt;/span&gt; shares common&lt;/span&gt;
+stock to the Company received under his initial employment agreement.&lt;span style="color: #212529"&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;For the years ended &lt;/span&gt;August
+31, 2023 and 2022, &lt;span style="color: #212529"&gt;the Company incurred total compensation of &lt;span id="xdx_904_eus-gaap--PaymentsToEmployees_pp0p0_c20220901__20230831__srt--TitleOfIndividualAxis__custom--CEOAndCFOMember_zHau6UJqKsIh"&gt;$198,113&lt;/span&gt; and &lt;span id="xdx_90A_eus-gaap--PaymentsToEmployees_pp0p0_c20210901__20220831__srt--TitleOfIndividualAxis__custom--CEOAndCFOMember_zXzeVh8hiJx5"&gt;$393,165&lt;/span&gt;, respectively, for Chief
+Executive Officer and Chief Financial Officer. The Company also incurred total compensation of &lt;span id="xdx_908_eus-gaap--PaymentsToEmployees_pp0p0_c20220901__20230831__srt--TitleOfIndividualAxis__custom--ChiefInvestmentOfficerMember_zH8OQQaxPAL4"&gt;$32,446&lt;/span&gt; and &lt;span id="xdx_903_eus-gaap--PaymentsToEmployees_pp0p0_c20210901__20220831__srt--TitleOfIndividualAxis__custom--ChiefInvestmentOfficerMember_zXaUBg7fvLt3"&gt;$154,473&lt;/span&gt;, respectively, for
+Chief Investment Officer for the year ended &lt;/span&gt;August 31, 2023 and 2022&lt;span style="color: #212529"&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+</us-gaap:RelatedPartyTransactionsDisclosureTextBlock>
+	</xbrl>
+

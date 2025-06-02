@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i720fa7e6155346b78b57cbc2826eedae_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia585acec0cc44319b4174df64717200e_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i069496e8b66e496fb9c5e8179f4e3f5b_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i2cbc353ebe67452583b2539eace656d2_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i434f2a88ad1841d79d2bbfac73d95915_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i224dc243b09142e79be2793bb143e621_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i07237af9910a4bbb9a8ed823e742496b_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeAxis">us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="iec91039c339e42f5b2db1600bcef72f8_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeAxis">us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="icd475d92a9134cfa8f5d10d3986034de_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeAxis">us-gaap:ReclassificationOutOfAccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzMtMS0xLTEtNjc4NzQ_35319fd2-4b8c-45c9-95d0-58e3730cf447" unitRef="usd">195588000</us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit>
+	<us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzMtMy0xLTEtNjc4NzQ_8d635e89-92eb-40ab-9ab4-9dba9221e1d0" unitRef="usd">284274000</us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit>
+	<us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzMtNS0xLTEtNjc4NzQ_44061771-bfe9-4811-a49e-c57414ed66ce" unitRef="usd">181571000</us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit>
+	<us-gaap:CurrentForeignTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzQtMS0xLTEtNjc4NzQ_33ddd8a5-045e-4394-8369-7bcae116c207" unitRef="usd">5628000</us-gaap:CurrentForeignTaxExpenseBenefit>
+	<us-gaap:CurrentForeignTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzQtMy0xLTEtNjc4NzQ_b6704aca-4f21-4887-af9b-3ef79596524c" unitRef="usd">11259000</us-gaap:CurrentForeignTaxExpenseBenefit>
+	<us-gaap:CurrentForeignTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzQtNS0xLTEtNjc4NzQ_89f25c32-8d89-48d2-8791-05fbf92cdbc0" unitRef="usd">16091000</us-gaap:CurrentForeignTaxExpenseBenefit>
+	<us-gaap:CurrentIncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMwLTEtMS0xLTY3ODc0_5a9d9f34-b4a3-49a0-9ed0-3514f6a3a9cc" unitRef="usd">201216000</us-gaap:CurrentIncomeTaxExpenseBenefit>
+	<us-gaap:CurrentIncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMwLTMtMS0xLTY3ODc0_a709f7fb-aa22-42ef-a060-fa89acefd2fd" unitRef="usd">295533000</us-gaap:CurrentIncomeTaxExpenseBenefit>
+	<us-gaap:CurrentIncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMwLTUtMS0xLTY3ODc0_852f9e7b-f46e-4cbf-a44c-5d18abab048f" unitRef="usd">197662000</us-gaap:CurrentIncomeTaxExpenseBenefit>
+	<us-gaap:CurrentIncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzUtMS0xLTEtNjc4NzQ_32c5b41a-6d67-49d9-a174-d67db470d2f5" unitRef="usd">201216000</us-gaap:CurrentIncomeTaxExpenseBenefit>
+	<us-gaap:CurrentIncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzUtMy0xLTEtNjc4NzQ_5e95af99-ff6b-4e37-b2c6-b46ef0a0358e" unitRef="usd">295533000</us-gaap:CurrentIncomeTaxExpenseBenefit>
+	<us-gaap:CurrentIncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzUtNS0xLTEtNjc4NzQ_d4d188d4-8182-4ead-a985-d7e065aef8f5" unitRef="usd">197662000</us-gaap:CurrentIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzctMS0xLTEtNjc4NzQ_893352eb-3e72-4fa1-b44e-6b6baa00ae9d" unitRef="usd">-96599000</us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit>
+	<us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzctMy0xLTEtNjc4NzQ_c6896b60-e0b7-4dfe-8552-1fe7b28ff656" unitRef="usd">-123261000</us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit>
+	<us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzctNS0xLTEtNjc4NzQ_66afdd31-e193-4c4b-8d78-817d7091b21b" unitRef="usd">-89170000</us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit>
+	<us-gaap:DeferredForeignIncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzgtMS0xLTEtNjc4NzQ_3c4821ae-2226-4053-b8a7-41cfa47b62bd" unitRef="usd">-24656000</us-gaap:DeferredForeignIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredForeignIncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzgtMy0xLTEtNjc4NzQ_0e65c5e4-dc6b-4e4a-ae47-a0cc540ffd13" unitRef="usd">-43690000</us-gaap:DeferredForeignIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredForeignIncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzgtNS0xLTEtNjc4NzQ_42fcc593-f202-4ee5-aa0c-d1506f035c98" unitRef="usd">3346000</us-gaap:DeferredForeignIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredIncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMxLTEtMS0xLTY3ODc0_099f843b-b49e-4a5a-a3df-0da9f8d72731" unitRef="usd">-121255000</us-gaap:DeferredIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredIncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMxLTMtMS0xLTY3ODc0_867bb1d7-fc36-4147-89a9-4690041bd5eb" unitRef="usd">-166951000</us-gaap:DeferredIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredIncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMxLTUtMS0xLTY3ODc0_e0e6b611-f9e1-4c23-a1d0-73e50f984317" unitRef="usd">-85824000</us-gaap:DeferredIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredIncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzktMS0xLTEtNjc4NzQ_5a3adc9b-39be-4b40-8342-923e2390eda3" unitRef="usd">-121255000</us-gaap:DeferredIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredIncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzktMy0xLTEtNjc4NzQ_b347f7b4-f6d1-44f5-9e7c-0e159835023a" unitRef="usd">-166951000</us-gaap:DeferredIncomeTaxExpenseBenefit>
+	<us-gaap:DeferredIncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzktNS0xLTEtNjc4NzQ_e0ba383e-16d1-4521-9457-e730a40c071a" unitRef="usd">-85824000</us-gaap:DeferredIncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMyLTEtMS0xLTY3ODc0_64348d00-926b-426f-a038-307a4dce7841" unitRef="usd">79961000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMyLTMtMS0xLTY3ODc0_7167dc4e-3fef-4fa1-833f-5621d7d7e4d5" unitRef="usd">128582000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzMyLTUtMS0xLTY3ODc0_9c39dda9-c694-48f3-85a1-36799599a20d" unitRef="usd">111838000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i720fa7e6155346b78b57cbc2826eedae_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzI0LTctMS0xLTY3ODc0_042a1ee7-ce33-423c-8a63-db4a0c0e8adc" unitRef="usd">79961000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="ia585acec0cc44319b4174df64717200e_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzI0LTktMS0xLTY3ODc0_fddd9393-e4f1-499b-8bf2-3c9e9d93b207" unitRef="usd">0</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzI0LTExLTEtMS02Nzg3NA_42091f9f-4e7f-43c5-a3b7-bc33951be3e4" unitRef="usd">79961000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i069496e8b66e496fb9c5e8179f4e3f5b_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzI0LTctMS0xLTY3ODc0_569b1b33-a6dd-4d95-9b7d-ccc9eec41c24" unitRef="usd">128348000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i2cbc353ebe67452583b2539eace656d2_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzI0LTktMS0xLTY3ODc0_feb79fe3-141b-403f-a100-e91bf937c509" unitRef="usd">234000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzI0LTExLTEtMS02Nzg3NA_1388d89c-e8e3-4300-85c8-38406d69767a" unitRef="usd">128582000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i434f2a88ad1841d79d2bbfac73d95915_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzI0LTctMS0xLTY3ODc0_b3e20474-24fc-4a01-b58d-775b7a75fa9d" unitRef="usd">111812000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i224dc243b09142e79be2793bb143e621_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzI0LTktMS0xLTY3ODc0_9b119f75-3ec0-4a18-87fc-adf1badf1c64" unitRef="usd">26000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzI0LTExLTEtMS02Nzg3NA_db92d0d6-bbec-431b-8b3e-f440f9a0ea58" unitRef="usd">111838000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i07237af9910a4bbb9a8ed823e742496b_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzgvZnJhZzo1NGU4YjQ2Y2QwMDc0NGY1ODY3NjQ0MGM1M2ZmODVmMy90YWJsZTo0YjYwN2I4OGVkNGM0OTI2ODc1MWJiNTM5MzU1ZmE1Yy90YWJsZXJhbmdlOjRiNjA3Yjg4ZWQ0YzQ5MjY4NzUxYmI1MzkzNTVmYTVjXzgtNC0xLTEtNjc4NzQ_c71a9948-a909-49bb-bfd8-ac4f81f5a7d3" unitRef="usd">-32099000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="iec91039c339e42f5b2db1600bcef72f8_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzgvZnJhZzo1NGU4YjQ2Y2QwMDc0NGY1ODY3NjQ0MGM1M2ZmODVmMy90YWJsZTo0YjYwN2I4OGVkNGM0OTI2ODc1MWJiNTM5MzU1ZmE1Yy90YWJsZXJhbmdlOjRiNjA3Yjg4ZWQ0YzQ5MjY4NzUxYmI1MzkzNTVmYTVjXzgtNi0xLTEtNjc4NzQ_ca7ffced-871c-4fc0-99a7-25c3ebb587b4" unitRef="usd">38928000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="icd475d92a9134cfa8f5d10d3986034de_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzgvZnJhZzo1NGU4YjQ2Y2QwMDc0NGY1ODY3NjQ0MGM1M2ZmODVmMy90YWJsZTo0YjYwN2I4OGVkNGM0OTI2ODc1MWJiNTM5MzU1ZmE1Yy90YWJsZXJhbmdlOjRiNjA3Yjg4ZWQ0YzQ5MjY4NzUxYmI1MzkzNTVmYTVjXzgtOC0xLTEtNjc4NzQ_7b286cb9-3ae9-472b-8f08-128b90187c5f" unitRef="usd">48342000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzEwLTEtMS0xLTY3ODc0_52558bad-3890-46f3-ba78-d615588c4185" unitRef="usd">79961000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzEwLTMtMS0xLTY3ODc0_510dd01b-9bd2-4b0d-bd14-4a8a9d1012a1" unitRef="usd">128582000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTpmNjIxNTk3ODU5MDQ0Yjg1YTdmZjM3MDA4ZTY0NTkwZi90YWJsZXJhbmdlOmY2MjE1OTc4NTkwNDRiODVhN2ZmMzcwMDhlNjQ1OTBmXzEwLTUtMS0xLTY3ODc0_1f0be287-6a52-4c1b-9b9c-42d8e5885e73" unitRef="usd">111838000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTphYTQ5NTkyOTI2MDI0MTkzODRjMzU0NmEzYTA4NzU5My90YWJsZXJhbmdlOmFhNDk1OTI5MjYwMjQxOTM4NGMzNTQ2YTNhMDg3NTkzXzE4LTEtMS0xLTY3ODc0_c4591965-edf1-4307-be7c-57a3d75c2203" unitRef="usd">79961000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTphYTQ5NTkyOTI2MDI0MTkzODRjMzU0NmEzYTA4NzU5My90YWJsZXJhbmdlOmFhNDk1OTI5MjYwMjQxOTM4NGMzNTQ2YTNhMDg3NTkzXzE4LTMtMS0xLTY3ODc0_abc86b41-dba5-4b10-a730-199afd2f6663" unitRef="usd">128582000</us-gaap:IncomeTaxExpenseBenefit>
+	<us-gaap:IncomeTaxExpenseBenefit contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODQvZnJhZzoxNTI0ZDEzYzAwMjE0ODlhOTg1MTMxOGQ3ZDM4MTU0YS90YWJsZTphYTQ5NTkyOTI2MDI0MTkzODRjMzU0NmEzYTA4NzU5My90YWJsZXJhbmdlOmFhNDk1OTI5MjYwMjQxOTM4NGMzNTQ2YTNhMDg3NTkzXzE4LTUtMS0xLTY3ODc0_18fa9901-ba34-4ce9-ae2b-ec663fe81582" unitRef="usd">111838000</us-gaap:IncomeTaxExpenseBenefit>
+	</xbrl>
+

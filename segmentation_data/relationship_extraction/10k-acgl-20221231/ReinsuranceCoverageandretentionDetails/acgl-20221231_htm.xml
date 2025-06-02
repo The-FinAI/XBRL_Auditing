@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i5ce4f25af70341f1a87c0bd40796039d_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20171LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i8e3590e08f7047f8ad6e2ffc99033386_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:BellemeadeRe20181LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i124fa52e24b44a3293731f05a1c0c561_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20183Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i39c6910973714b87b1ffeb44fb70c8aa_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20191LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ie0c434fdf25142b4bd809c737e54d23f_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20192LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i178578fd1c2e4597b9d736f32b74fa2b_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20193LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ic097de07420447bfbcceda410b7b5686_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:BellemeadeRe20194LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="id03abca9944c41239a66a50141171d9d_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20202LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="id55179b922e544049d862c81a00e23e5_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20203LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i058b695d1be849afbe6e6075920b03bc_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20204LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ib588919478ab40f5a4d7189fdea3161f_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20211LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4bfb61811ee84fae92496cd58c348af8_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20212LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="id248e90d05354836b15e57e43f3b5350_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20213LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i1fd52d0507504579a60b177f924bfce2_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade202201LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i6007f08d8454425e850e7aef3abbb807_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20222LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ieadf3d970e8144a2b45c8ac3bbfbc2e2_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ibc627330ea914b49a8bb8b2a40316482_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:FundedByVIEMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20202LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i6cae38724b6941aa925e2bcfa921cbff_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:DirectlyProvidedCapacityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20202LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="id5c9cff638964cd3b3eda09fa5ea120b_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:FundedByVIEMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20203LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i5183455c3f9c4f3f80baa1b0e2047cbd_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:DirectlyProvidedCapacityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20203LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i2230009ef0c24dc4bb4273c1c3c6c91e_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:FundedByVIEMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20204LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i230ca4fd6ce9452dac5d1ca3f62cf49d_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:DirectlyProvidedCapacityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20204LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="if8e04e6a9b2d447fb8acf4a6b620955f_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:FundedByVIEMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20211LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i433116fc432a4f9c9fe2d148190ef829_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:DirectlyProvidedCapacityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20211LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="if65ff1f8817a48beb1c6f8075ee1d16f_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:FundedByVIEMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20212LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i573a5e4d46cf40aea5b7105ef37a06bc_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:DirectlyProvidedCapacityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20212LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ie8d0e9d5e0194f419f751b824c00a35a_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:FundedByVIEMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20213LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ice4ac0b1272246ecbdcf4b0b59c17472_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:DirectlyProvidedCapacityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20213LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ie289ec7c7ee845e185566bebe991225e_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:FundedByVIEMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade202201LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i59e97fdaf28b4ac596afac76bab0c8f2_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:DirectlyProvidedCapacityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade202201LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i6a93baff046e48a6aecc89dae4f06079_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:FundedByVIEMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20222LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f5de21dfc8244ddbb710e3d14fe9007_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:SourcesOfFundingAxis">acgl:DirectlyProvidedCapacityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:Bellemeade20222LtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i8f3e41e89d81424f864a33fbca5d3b9a_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<acgl:InitialCoverageAmount contextRef="i5ce4f25af70341f1a87c0bd40796039d_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzItMS0xLTEtNjc4NzQ_dd468c80-b9af-4541-bc4d-b40d3b40b22d" unitRef="usd">368114000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i8e3590e08f7047f8ad6e2ffc99033386_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzMtMS0xLTEtNjc4NzQ_2203b98f-9009-45e3-8d61-49c92768c988" unitRef="usd">374460000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i124fa52e24b44a3293731f05a1c0c561_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzQtMS0xLTEtNjc4NzQ_03b2e46a-358f-45a0-8dc9-19cf3ecff000" unitRef="usd">506110000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i39c6910973714b87b1ffeb44fb70c8aa_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzUtMS0xLTEtNjc4NzQ_29bab7e2-41eb-4f3f-9ab5-8abe86f068c2" unitRef="usd">341790000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="ie0c434fdf25142b4bd809c737e54d23f_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzYtMS0xLTEtNjc4NzQ_8d2beab8-bd09-41a9-aef3-445c049fdef4" unitRef="usd">621022000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i178578fd1c2e4597b9d736f32b74fa2b_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzctMS0xLTEtNjc4NzQ_eb03dc2e-ab7e-4f2e-86b8-10dfb94b1250" unitRef="usd">700920000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="ic097de07420447bfbcceda410b7b5686_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzgtMS0xLTEtNjc4NzQ_3edb666d-e109-465c-b4de-6dab74ae29a8" unitRef="usd">577267000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="id03abca9944c41239a66a50141171d9d_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzktMS0xLTEtNjc4NzQ_71f670b5-c06a-4cce-b674-14f5feada1bd" unitRef="usd">449167000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="id55179b922e544049d862c81a00e23e5_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEwLTEtMS0xLTY3ODc0_9f074b3c-8f44-4d01-a7b1-221532ad1321" unitRef="usd">451816000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i058b695d1be849afbe6e6075920b03bc_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzExLTEtMS0xLTY3ODc0_c00e1a09-558f-4985-8c48-eb5c19de0328" unitRef="usd">337013000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="ib588919478ab40f5a4d7189fdea3161f_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEyLTEtMS0xLTY3ODc0_103e4fc5-15bc-4523-b456-30b855f4458c" unitRef="usd">643577000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i4bfb61811ee84fae92496cd58c348af8_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEzLTEtMS0xLTY3ODc0_0728a22d-bd2e-452d-8c55-419bc7fc31f6" unitRef="usd">616017000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="id248e90d05354836b15e57e43f3b5350_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE0LTEtMS0xLTY3ODc0_23a3461c-c213-4bf1-bdb9-de50fea53fe4" unitRef="usd">639391000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i1fd52d0507504579a60b177f924bfce2_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE1LTEtMS0xLTcyNDQ2_2e5dbb4e-166c-46cf-ad75-8d76ac1ee4a7" unitRef="usd">316760000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i6007f08d8454425e850e7aef3abbb807_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE2LTEtMS0xLTcyNDQ2_31a6b5a4-2192-4785-9335-751f2a3f62b1" unitRef="usd">327165000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="ieadf3d970e8144a2b45c8ac3bbfbc2e2_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE1LTEtMS0xLTY3ODc0_bf9840d5-6c38-422d-b25f-7b71c6243e78" unitRef="usd">7270589000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="ibc627330ea914b49a8bb8b2a40316482_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzMxNjA_cecc4918-9d60-4067-83c2-7e30cb6605ad" unitRef="usd">423000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i6cae38724b6941aa925e2bcfa921cbff_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzMyMjg_f2bd8906-810a-442f-a4f6-2b7deafc6e80" unitRef="usd">26000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="id5c9cff638964cd3b3eda09fa5ea120b_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzM0MTc_c9bf519a-8407-4557-9c45-52a2b2fd7e1a" unitRef="usd">418000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i5183455c3f9c4f3f80baa1b0e2047cbd_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzM0ODU_e89f8299-0090-400a-8a8c-e2486b04bcdd" unitRef="usd">34000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i2230009ef0c24dc4bb4273c1c3c6c91e_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzM2Nzc_bd3ff0ba-bf98-4f8b-b8d9-1f819a2a7e1f" unitRef="usd">321000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i230ca4fd6ce9452dac5d1ca3f62cf49d_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzM3NDU_959e980d-1d97-4bba-8359-02ee0d3b48f4" unitRef="usd">16000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="if8e04e6a9b2d447fb8acf4a6b620955f_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzM5Mzk_6b8d76c7-aef2-4301-8dae-e73400ccfd61" unitRef="usd">580000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i433116fc432a4f9c9fe2d148190ef829_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzQwMTA_9f46c63f-3d8d-4a8e-8f2d-c9262ad375ab" unitRef="usd">64000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="if65ff1f8817a48beb1c6f8075ee1d16f_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzQxOTY_39dd4f16-6973-4f3a-9164-527632ad2bce" unitRef="usd">523000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i573a5e4d46cf40aea5b7105ef37a06bc_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzQyOTU_3b34f78d-a0f2-477b-97d8-6260d1531a29" unitRef="usd">93000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="ie8d0e9d5e0194f419f751b824c00a35a_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzQ0ODI_9ee068d1-0af8-4251-8769-2b3aab33fb11" unitRef="usd">508000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="ice4ac0b1272246ecbdcf4b0b59c17472_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzQ1ODE_63eecd4d-d88f-4167-a6e1-c5aaafff40b1" unitRef="usd">131000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="ie289ec7c7ee845e185566bebe991225e_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzU0OTc1NTgxOTg3OQ_dc4a0a74-6d2a-48f0-b686-32188f5a6c06" unitRef="usd">284000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i59e97fdaf28b4ac596afac76bab0c8f2_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzU0OTc1NTgxOTg5Mw_537cd775-2a98-401c-be74-7b8d1c76c61b" unitRef="usd">33000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i6a93baff046e48a6aecc89dae4f06079_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzU0OTc1NTgxOTkwNg_7647028f-e772-4629-83d9-957a253c28d2" unitRef="usd">201000000</acgl:InitialCoverageAmount>
+	<acgl:InitialCoverageAmount contextRef="i4f5de21dfc8244ddbb710e3d14fe9007_I20221231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzU0OTc1NTgxOTkyMA_f198fb0d-c7fb-4cb6-bb64-42b4af613ba3" unitRef="usd">126000000</acgl:InitialCoverageAmount>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i5ce4f25af70341f1a87c0bd40796039d_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzItMy0xLTEtNjc4NzQ_52d5fa0a-d239-441c-a25f-c7b9be755197" unitRef="usd">36679000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i8e3590e08f7047f8ad6e2ffc99033386_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzMtMy0xLTEtNjc4NzQ_77f985c8-3e0d-45c2-92b0-af7f28c6e492" unitRef="usd">89698000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i124fa52e24b44a3293731f05a1c0c561_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzQtMy0xLTEtNjc4NzQ_7d365e14-4e06-44a7-9205-e608f4924724" unitRef="usd">199237000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i39c6910973714b87b1ffeb44fb70c8aa_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzUtMy0xLTEtNjc4NzQ_2b336294-8edf-40bf-9f69-997a90d203b7" unitRef="usd">107880000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="ie0c434fdf25142b4bd809c737e54d23f_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzYtMy0xLTEtNjc4NzQ_6e672a52-7d18-4e34-b24d-469b0ad7d538" unitRef="usd">325462000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i178578fd1c2e4597b9d736f32b74fa2b_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzctMy0xLTEtNjc4NzQ_05f87642-6ea8-4f65-aee0-8735edf65e7d" unitRef="usd">222977000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="ic097de07420447bfbcceda410b7b5686_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzgtMy0xLTEtNjc4NzQ_e5d97db6-7939-4a82-862b-8f3173b0336f" unitRef="usd">266124000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="id03abca9944c41239a66a50141171d9d_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzktMy0xLTEtNjc4NzQ_33c931ab-7006-4be4-90fa-e09208b77738" unitRef="usd">105110000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="id55179b922e544049d862c81a00e23e5_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEwLTMtMS0xLTY3ODc0_dcbe7204-cbe9-400f-81af-1c1cbfec4984" unitRef="usd">250971000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i058b695d1be849afbe6e6075920b03bc_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzExLTMtMS0xLTY3ODc0_23fb906b-43aa-4b5f-91af-bf17aa8bd94e" unitRef="usd">101729000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="ib588919478ab40f5a4d7189fdea3161f_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEyLTMtMS0xLTY3ODc0_02d33f59-4b3d-4190-b5a7-312e82b5ab2e" unitRef="usd">503267000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i4bfb61811ee84fae92496cd58c348af8_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEzLTMtMS0xLTY3ODc0_ce52acda-122b-4e45-8e44-6d6a36f523fb" unitRef="usd">535461000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="id248e90d05354836b15e57e43f3b5350_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE0LTMtMS0xLTY3ODc0_afc53b5b-5d72-4cf8-b6d8-e25792c1d08d" unitRef="usd">616959000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i1fd52d0507504579a60b177f924bfce2_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE1LTMtMS0xLTcyNDU4_3fcd5dbb-0aa3-46a4-8ab7-4fa6093fb0f4" unitRef="usd">316760000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="i6007f08d8454425e850e7aef3abbb807_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE2LTMtMS0xLTcyNDU4_96426fe9-8319-47b9-86bc-c6743955c47d" unitRef="usd">327165000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:AggregateExcessOfLossReinsuranceAgreement contextRef="ieadf3d970e8144a2b45c8ac3bbfbc2e2_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE1LTMtMS0xLTY3ODc0_197c25ff-acda-40ca-b2bd-38bfd0e091ad" unitRef="usd">4005479000</acgl:AggregateExcessOfLossReinsuranceAgreement>
+	<acgl:RemainingRetentionNet contextRef="i5ce4f25af70341f1a87c0bd40796039d_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzItNS0xLTEtNjc4NzQ_bc76a81a-0cf4-42a2-a3df-b1bba137b23f" unitRef="usd">142461000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="i8e3590e08f7047f8ad6e2ffc99033386_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzMtNS0xLTEtNjc4NzQ_8e54661f-d26c-4405-bde6-f751c56cbdcf" unitRef="usd">143592000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="i124fa52e24b44a3293731f05a1c0c561_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzQtNS0xLTEtNjc4NzQ_59cfea60-4420-42c8-8366-1227954e7a14" unitRef="usd">152861000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="i39c6910973714b87b1ffeb44fb70c8aa_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzUtNS0xLTEtNjc4NzQ_cd29a26f-7e33-4aa3-b929-4c9657f78e3b" unitRef="usd">118908000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="ie0c434fdf25142b4bd809c737e54d23f_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzYtNS0xLTEtNjc4NzQ_b5ab1983-998c-4a1e-9500-7e2d60d6d0c9" unitRef="usd">191550000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="i178578fd1c2e4597b9d736f32b74fa2b_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzctNS0xLTEtNjc4NzQ_f9902453-ce67-4bd1-8f82-ca1d8a68ac19" unitRef="usd">208931000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="ic097de07420447bfbcceda410b7b5686_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzgtNS0xLTEtNjc4NzQ_0164fcdb-7362-43c9-bc3e-9ac16ff974fb" unitRef="usd">142564000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="id03abca9944c41239a66a50141171d9d_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzktNS0xLTEtNjc4NzQ_ce450a16-3b4d-4933-bca9-ec21e4212176" unitRef="usd">237709000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="id55179b922e544049d862c81a00e23e5_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEwLTUtMS0xLTY3ODc0_4fb241cb-63be-4986-bb39-01e179369bdc" unitRef="usd">161544000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="i058b695d1be849afbe6e6075920b03bc_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzExLTUtMS0xLTY3ODc0_c112f90e-ced0-4144-9f00-b19e8edf4cd5" unitRef="usd">138131000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="ib588919478ab40f5a4d7189fdea3161f_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEyLTUtMS0xLTY3ODc0_54d595cc-1cfe-491a-9da0-981419adabd2" unitRef="usd">153525000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="i4bfb61811ee84fae92496cd58c348af8_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzEzLTUtMS0xLTY3ODc0_83aebae5-5709-4e60-9bfc-9316da321f9c" unitRef="usd">138524000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="id248e90d05354836b15e57e43f3b5350_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE0LTUtMS0xLTY3ODc0_1b5242cb-2fa1-4aff-bd4e-f5eb4213c104" unitRef="usd">132492000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="i1fd52d0507504579a60b177f924bfce2_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE1LTUtMS0xLTcyNDY5_b314cab5-b362-4806-a066-eefe5452bce7" unitRef="usd">143577000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="i6007f08d8454425e850e7aef3abbb807_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE2LTUtMS0xLTcyNDY5_e81c7999-11ef-4c4f-838d-03b718966ccc" unitRef="usd">217436000</acgl:RemainingRetentionNet>
+	<acgl:RemainingRetentionNet contextRef="ieadf3d970e8144a2b45c8ac3bbfbc2e2_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90YWJsZTo4ZGRhMGJmZmE0M2U0ZmY5Yjg4NmNhMTdlY2E3YTEwNC90YWJsZXJhbmdlOjhkZGEwYmZmYTQzZTRmZjliODg2Y2ExN2VjYTdhMTA0XzE1LTUtMS0xLTY3ODc0_fd5b4199-8ae9-4073-969d-da8d03dbd450" unitRef="usd">2423805000</acgl:RemainingRetentionNet>
+	<acgl:AmortizationPeriodExcessofLossPortfolio contextRef="i8f3e41e89d81424f864a33fbca5d3b9a_D20220101-20221231" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjMvZnJhZzpkZjg5ZTYzYzExZmY0OTNjOGE1ZGM4OTdjNWYwYjk2ZS90ZXh0cmVnaW9uOmRmODllNjNjMTFmZjQ5M2M4YTVkYzg5N2M1ZjBiOTZlXzIwMDM_52033470-3fa6-4f25-8331-958cb348cf51">P10Y</acgl:AmortizationPeriodExcessofLossPortfolio>
+	</xbrl>
+

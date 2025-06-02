@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="AsOf2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<ABQQ:RetainedEarningsAccumulatedDeficitEstimated contextRef="AsOf2023-08-31" decimals="2" unitRef="USD">12.4</ABQQ:RetainedEarningsAccumulatedDeficitEstimated>
+	<us-gaap:Capital contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">-1.0</us-gaap:Capital>
+	<ABQQ:NetIncomeLossEstimated contextRef="From2022-09-01to2023-08-31" decimals="2" unitRef="USD">3.6</ABQQ:NetIncomeLossEstimated>
+	<ABQQ:NetCashUsedInOperationsApproximate contextRef="From2022-09-01to2023-08-31" decimals="2" unitRef="USD">0.6</ABQQ:NetCashUsedInOperationsApproximate>
+	</xbrl>
+

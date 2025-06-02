@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_StatementBusinessSegmentsAxis" xlink:label="us-gaap_StatementBusinessSegmentsAxis"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_StatementBusinessSegmentsAxis" xlink:to="us-gaap_StatementBusinessSegmentsAxis_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_StatementBusinessSegmentsAxis_lbl" xml:lang="en-US">Segments [Axis]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_SegmentReportingInformationLineItems" xlink:label="us-gaap_SegmentReportingInformationLineItems"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SegmentReportingInformationLineItems" xlink:to="us-gaap_SegmentReportingInformationLineItems_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_SegmentReportingInformationLineItems_lbl" xml:lang="en-US">Segment Reporting Information [Line Items]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_InterestExpenseDebt" xlink:label="us-gaap_InterestExpenseDebt"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_InterestExpenseDebt" xlink:to="us-gaap_InterestExpenseDebt_lbl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_InterestExpenseDebt" xlink:to="us-gaap_InterestExpenseDebt_2_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_InterestExpenseDebt_lbl" xml:lang="en-US">Interest expense</link:label>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_InterestExpenseDebt_2_lbl" xml:lang="en-US">Interest Expense, Debt</link:label>
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_SegmentReportingAbstract" xlink:label="us-gaap_SegmentReportingAbstract"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_SegmentReportingAbstract" xlink:to="us-gaap_SegmentReportingAbstract_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_SegmentReportingAbstract_lbl" xml:lang="en-US">Segment Reporting [Abstract]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ScheduleOfSegmentReportingInformationBySegmentTable" xlink:label="us-gaap_ScheduleOfSegmentReportingInformationBySegmentTable"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ScheduleOfSegmentReportingInformationBySegmentTable" xlink:to="us-gaap_ScheduleOfSegmentReportingInformationBySegmentTable_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ScheduleOfSegmentReportingInformationBySegmentTable_lbl" xml:lang="en-US">Schedule of Segment Reporting Information, by Segment [Table]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_SegmentIncomeLoss" xlink:label="ABQQ_SegmentIncomeLoss"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_SegmentIncomeLoss" xlink:to="ABQQ_SegmentIncomeLoss_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_SegmentIncomeLoss_lbl" xml:lang="en-US">Segment income (loss)</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_DepreciationAndAmortization" xlink:label="us-gaap_DepreciationAndAmortization"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_DepreciationAndAmortization" xlink:to="us-gaap_DepreciationAndAmortization_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_DepreciationAndAmortization_lbl" xml:lang="en-US">Depreciation and Amortization</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_Revenues" xlink:label="us-gaap_Revenues"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_Revenues" xlink:to="us-gaap_Revenues_lbl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_Revenues" xlink:to="us-gaap_Revenues_2_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_Revenues_lbl" xml:lang="en-US">Total revenue</link:label>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_Revenues_2_lbl" xml:lang="en-US">Revenue</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_IPSegmentMember" xlink:label="ABQQ_IPSegmentMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_IPSegmentMember" xlink:to="ABQQ_IPSegmentMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_IPSegmentMember_lbl" xml:lang="en-US">I P Segment [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ProceedsFromDivestitureOfBusinessesAndInterestsInAffiliates" xlink:label="us-gaap_ProceedsFromDivestitureOfBusinessesAndInterestsInAffiliates"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ProceedsFromDivestitureOfBusinessesAndInterestsInAffiliates" xlink:to="us-gaap_ProceedsFromDivestitureOfBusinessesAndInterestsInAffiliates_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ProceedsFromDivestitureOfBusinessesAndInterestsInAffiliates_lbl" xml:lang="en-US">Segment assets</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_CinemaSegmentMember" xlink:label="ABQQ_CinemaSegmentMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_CinemaSegmentMember" xlink:to="ABQQ_CinemaSegmentMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_CinemaSegmentMember_lbl" xml:lang="en-US">Cinema Segment [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CostOfRevenue" xlink:label="us-gaap_CostOfRevenue"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CostOfRevenue" xlink:to="us-gaap_CostOfRevenue_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_CostOfRevenue_lbl" xml:lang="en-US">Operating costs</link:label>
+      </link:labelLink>
+</link:linkbase>
+

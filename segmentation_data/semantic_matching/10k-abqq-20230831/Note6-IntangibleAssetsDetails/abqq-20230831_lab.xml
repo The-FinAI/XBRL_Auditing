@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightAmazingDataMembeMember" xlink:label="ABQQ_MovieCopyrightAmazingDataMembeMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightAmazingDataMembeMember" xlink:to="ABQQ_MovieCopyrightAmazingDataMembeMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightAmazingDataMembeMember_lbl" xml:lang="en-US">Movie Copyright Amazing Data Membe [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightTVDramaMember" xlink:label="ABQQ_MovieCopyrightTVDramaMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightTVDramaMember" xlink:to="ABQQ_MovieCopyrightTVDramaMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightTVDramaMember_lbl" xml:lang="en-US">Movie Copyright T V Drama [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FiniteLivedIntangibleAssetsGross" xlink:label="us-gaap_FiniteLivedIntangibleAssetsGross"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsGross" xlink:to="us-gaap_FiniteLivedIntangibleAssetsGross_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FiniteLivedIntangibleAssetsGross_lbl" xml:lang="en-US">Finite-Lived Intangible Assets, Gross</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightTooSimpleMember" xlink:label="ABQQ_MovieCopyrightTooSimpleMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightTooSimpleMember" xlink:to="ABQQ_MovieCopyrightTooSimpleMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightTooSimpleMember_lbl" xml:lang="en-US">Movie Copyright Too Simple [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightChujianMember" xlink:label="ABQQ_MovieCopyrightChujianMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightChujianMember" xlink:to="ABQQ_MovieCopyrightChujianMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightChujianMember_lbl" xml:lang="en-US">Movie Copyright Chujian [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_TotalCostOfIntangibleAssets" xlink:label="ABQQ_TotalCostOfIntangibleAssets"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_TotalCostOfIntangibleAssets" xlink:to="ABQQ_TotalCostOfIntangibleAssets_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_TotalCostOfIntangibleAssets_lbl" xml:lang="en-US">Total cost</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization" xlink:label="us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization" xlink:to="us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization_lbl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization" xlink:to="us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization_2_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xlink:label="us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization_lbl" xml:lang="en-US">Accumulated amortization</link:label>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization_2_lbl" xml:lang="en-US">Finite-Lived Intangible Assets, Accumulated Amortization</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightConfusionMember" xlink:label="ABQQ_MovieCopyrightConfusionMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightConfusionMember" xlink:to="ABQQ_MovieCopyrightConfusionMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightConfusionMember_lbl" xml:lang="en-US">Movie Copyright Confusion [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis" xlink:label="us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis" xlink:to="us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis_lbl" xml:lang="en-US">Finite-Lived Intangible Assets by Major Class [Axis]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract" xlink:label="us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract" xlink:to="us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract_lbl" xml:lang="en-US">Goodwill and Intangible Assets Disclosure [Abstract]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightOurTreasuresMember" xlink:label="ABQQ_MovieCopyrightOurTreasuresMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightOurTreasuresMember" xlink:to="ABQQ_MovieCopyrightOurTreasuresMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightOurTreasuresMember_lbl" xml:lang="en-US">Movie Copyright Our Treasures [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable" xlink:label="us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable" xlink:to="us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable_lbl" xml:lang="en-US">Schedule of Finite-Lived Intangible Assets [Table]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightNiceToMeetYouMember" xlink:label="ABQQ_MovieCopyrightNiceToMeetYouMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightNiceToMeetYouMember" xlink:to="ABQQ_MovieCopyrightNiceToMeetYouMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightNiceToMeetYouMember_lbl" xml:lang="en-US">Movie Copyright Nice To Meet You [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightAmazingDataMember" xlink:label="ABQQ_MovieCopyrightAmazingDataMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightAmazingDataMember" xlink:to="ABQQ_MovieCopyrightAmazingDataMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightAmazingDataMember_lbl" xml:lang="en-US">Movie Copyright Amazing Data [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieAndTVBroadcastMember" xlink:label="ABQQ_MovieAndTVBroadcastMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieAndTVBroadcastMember" xlink:to="ABQQ_MovieAndTVBroadcastMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieAndTVBroadcastMember_lbl" xml:lang="en-US">Movie And T V Broadcast [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_NFTPlatformMember" xlink:label="ABQQ_NFTPlatformMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_NFTPlatformMember" xlink:to="ABQQ_NFTPlatformMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_NFTPlatformMember_lbl" xml:lang="en-US">N F T Platform [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightAStoryOfAPictureMember" xlink:label="ABQQ_MovieCopyrightAStoryOfAPictureMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightAStoryOfAPictureMember" xlink:to="ABQQ_MovieCopyrightAStoryOfAPictureMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightAStoryOfAPictureMember_lbl" xml:lang="en-US">Movie Copyright A Story Of A Picture [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightOnTheWayMember" xlink:label="ABQQ_MovieCopyrightOnTheWayMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightOnTheWayMember" xlink:to="ABQQ_MovieCopyrightOnTheWayMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightOnTheWayMember_lbl" xml:lang="en-US">Movie Copyright On The Way [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_MovieCopyrightLoveOverWorldMember" xlink:label="ABQQ_MovieCopyrightLoveOverWorldMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_MovieCopyrightLoveOverWorldMember" xlink:to="ABQQ_MovieCopyrightLoveOverWorldMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_MovieCopyrightLoveOverWorldMember_lbl" xml:lang="en-US">Movie Copyright Love Over World [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FiniteLivedIntangibleAssetsLineItems" xlink:label="us-gaap_FiniteLivedIntangibleAssetsLineItems"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsLineItems" xlink:to="us-gaap_FiniteLivedIntangibleAssetsLineItems_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FiniteLivedIntangibleAssetsLineItems_lbl" xml:lang="en-US">Finite-Lived Intangible Assets [Line Items]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FiniteLivedIntangibleAssetsNet" xlink:label="us-gaap_FiniteLivedIntangibleAssetsNet"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsNet" xlink:to="us-gaap_FiniteLivedIntangibleAssetsNet_lbl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsNet" xlink:to="us-gaap_FiniteLivedIntangibleAssetsNet_2_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FiniteLivedIntangibleAssetsNet_lbl" xml:lang="en-US"> Intangible assets, net</link:label>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_FiniteLivedIntangibleAssetsNet_2_lbl" xml:lang="en-US">Intangible assets, net</link:label>
+      </link:labelLink>
+</link:linkbase>
+

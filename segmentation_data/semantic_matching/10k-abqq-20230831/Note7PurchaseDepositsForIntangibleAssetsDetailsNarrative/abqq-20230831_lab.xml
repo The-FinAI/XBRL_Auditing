@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable" xlink:label="us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable" xlink:to="us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ScheduleOfFiniteLivedIntangibleAssetsTable_lbl" xml:lang="en-US">Schedule of Finite-Lived Intangible Assets [Table]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PaymentsToDevelopSoftware" xlink:label="us-gaap_PaymentsToDevelopSoftware"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PaymentsToDevelopSoftware" xlink:to="us-gaap_PaymentsToDevelopSoftware_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_PaymentsToDevelopSoftware_lbl" xml:lang="en-US">Payments to Develop Software</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ResearchDevelopmentAndComputerSoftwareActivityDescription" xlink:label="us-gaap_ResearchDevelopmentAndComputerSoftwareActivityDescription"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ResearchDevelopmentAndComputerSoftwareActivityDescription" xlink:to="us-gaap_ResearchDevelopmentAndComputerSoftwareActivityDescription_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ResearchDevelopmentAndComputerSoftwareActivityDescription_lbl" xml:lang="en-US">Research, Development and Computer Software, Activity Description</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis" xlink:label="us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis" xlink:to="us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis_lbl" xml:lang="en-US">Finite-Lived Intangible Assets by Major Class [Axis]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AccountingPoliciesAbstract" xlink:label="us-gaap_AccountingPoliciesAbstract"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_AccountingPoliciesAbstract" xlink:to="us-gaap_AccountingPoliciesAbstract_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_AccountingPoliciesAbstract_lbl" xml:lang="en-US">Accounting Policies [Abstract]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost" xlink:label="us-gaap_ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost" xlink:to="us-gaap_ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost_lbl" xml:lang="en-US">Research and Development Expense, Software (Excluding Acquired in Process Cost)</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_GuangzhouYuezhiComputerMember" xlink:label="ABQQ_GuangzhouYuezhiComputerMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_GuangzhouYuezhiComputerMember" xlink:to="ABQQ_GuangzhouYuezhiComputerMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_GuangzhouYuezhiComputerMember_lbl" xml:lang="en-US">Guangzhou Yuezhi Computer [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_TypeOfArrangementAxis" xlink:label="us-gaap_TypeOfArrangementAxis"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_TypeOfArrangementAxis" xlink:to="us-gaap_TypeOfArrangementAxis_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_TypeOfArrangementAxis_lbl" xml:lang="en-US">Collaborative Arrangement and Arrangement Other than Collaborative [Axis]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_StreamingSoftwareMember" xlink:label="ABQQ_StreamingSoftwareMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_StreamingSoftwareMember" xlink:to="ABQQ_StreamingSoftwareMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_StreamingSoftwareMember_lbl" xml:lang="en-US">Streaming Software [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FiniteLivedIntangibleAssetsLineItems" xlink:label="us-gaap_FiniteLivedIntangibleAssetsLineItems"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FiniteLivedIntangibleAssetsLineItems" xlink:to="us-gaap_FiniteLivedIntangibleAssetsLineItems_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FiniteLivedIntangibleAssetsLineItems_lbl" xml:lang="en-US">Finite-Lived Intangible Assets [Line Items]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_YouallPerformServicesLTDMember" xlink:label="ABQQ_YouallPerformServicesLTDMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_YouallPerformServicesLTDMember" xlink:to="ABQQ_YouallPerformServicesLTDMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_YouallPerformServicesLTDMember_lbl" xml:lang="en-US">Youall Perform Services L T D [Member]</link:label>
+      </link:labelLink>
+</link:linkbase>
+

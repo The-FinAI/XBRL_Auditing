@@ -1,0 +1,217 @@
+assertion.code,assertion.detail,assertion.run-date,assertion.severity,assertion.source,assertion.type,entity.cik,entity.name,report.accepted-timestamp,report.accession,report.base-taxonomy,report.creation-software,report.document-type,report.entry-url,report.filing-date,report.filing-year,report.id,report.sec-url,report.sic-code,folder_name
+DQC.US.0099.9533,"2024-03-26 11:19:44,533 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 00000005 - Statement - STATEMENTS OF CASH FLOWS but are not included in any calculation relationship in the filing.
+us-gaap:IncreaseDecreaseInPrepaidExpense, 
+us-gaap:IncreaseDecreaseInInterestPayableNet, 
+us-gaap:NetIncomeLoss, 
+us-gaap:IncreaseDecreaseInDueToRelatedParties, 
+lsmg:RescindedSapirTransaction, 
+us-gaap:IncreaseDecreaseInAccountsPayableAndAccruedLiabilities
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usually appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+
+If the item is an additional disclosure in the cash flow statement then make sure that is included as a child of one of the following abstract items:
+NonCashOperatingAndFinancingActivitiesAbstract, SupplementalCashFlowElementsAbstract, us-gaap:OtherNoncashInvestingAndFinancingItemsAbstract, us-gaap:NoncashOrPartNoncashAcquisitionNetNonmonetaryAssetsAcquiredLiabilitiesAssumedAbstract, NoncashInvestingItemsAbstract, NoncashFinancingItemsAbstract, NoncashInvestingAndFinancingItemsAbstract, CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract, NonCashOperatingAndInvestingActivitiesAbstract, SupplementalCashFlowInformationAbstract, AdditionalCashFlowElementsAndSupplementalCashFlowInformationAbstract, us-gaap:InterestPaidAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfAssetsAcquiredAbstract, us-gaap:IncomeTaxesPaidNetAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfLiabilitiesAssumedAbstract
+
+Rule Element Id:9533
+Rule version: 23.0.7 - IXDS lsmg-10k.htm",2024-03-26,ERROR,DQC,99,1319643,"Lode-Star Mining, Inc.",2024-03-22 15:06:00,0001199835-24-000120,US GAAP 2023,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/1319643/000119983524000120/lsmg-10k.htm,2024-03-22,2024,692753,https://www.sec.gov/Archives/edgar/data/1319643/000119983524000120/0001199835-24-000120-index.htm,1040,10k-lsmg-20231231
+DQC.US.0099.9533,"2022-02-15 07:30:54,506 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 000002 - Statement - Balance Sheets but are not included in any calculation relationship in the filing.
+us-gaap:LiabilitiesAndStockholdersEquity, 
+us-gaap:Liabilities, 
+us-gaap:Assets, 
+us-gaap:PreferredStockValue
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usualy appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+If the item is an additional disclosure in the income statement statement then make sure that is included as a child of one of the following abstract items:
+ShareBasedCompensationAllocationAndClassificationInFinancialStatementsAbstract, 
+SupplementalIncomeStatementElementsAbstract
+
+Rule Element Id:9533
+Rule version: 16.0.11 - IXDS pnht_10k.htm",2022-02-15,ERROR,DQC,99,1620749,PANAMERA HOLDINGS CORPORATION,2022-02-14 21:51:00,0001640334-22-000315,US GAAP 2021,Document Created by XBRLMaster,10-K,http://www.sec.gov/Archives/edgar/data/1620749/000164033422000315/pnht_10k.htm,2022-02-15,2022,419692,https://www.sec.gov/Archives/edgar/data/1620749/000164033422000315/0001640334-22-000315-index.htm,8742,10k-pnht-20210731
+DQC.US.0099.9533,"2022-11-17 06:28:43,249 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 000002 - Statement - Interim Condensed Consolidated Balance Sheets but are not included in any calculation relationship in the filing.
+us-gaap:CommonStockValue
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usualy appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+If the item is an additional disclosure in the income statement statement then make sure that is included as a child of one of the following abstract items:
+ShareBasedCompensationAllocationAndClassificationInFinancialStatementsAbstract, 
+SupplementalIncomeStatementElementsAbstract
+
+Rule Element Id:9533
+Rule version: 19.0.2 - IXDS tpco_10q.htm",2022-11-17,ERROR,DQC,99,1876945,Gold Flora Corporation,2022-11-14 16:56:00,0001654954-22-015300,US GAAP 2022,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1876945/000165495422015300/tpco_10q.htm,2022-11-14,2022,529878,https://www.sec.gov/Archives/edgar/data/1876945/000165495422015300/0001654954-22-015300-index.htm,100,10q-gramf-20220930
+DQC.US.0099.9533,"2023-12-12 22:04:07,575 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 00000009 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS but are not included in any calculation relationship in the filing.
+us-gaap:RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usually appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+
+If the item is an additional disclosure in the cash flow statement then make sure that is included as a child of one of the following abstract items:
+us-gaap:InterestPaidAbstract, NonCashOperatingAndFinancingActivitiesAbstract, NonCashOperatingAndInvestingActivitiesAbstract, NoncashFinancingItemsAbstract, CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract, us-gaap:IncomeTaxesPaidNetAbstract, NoncashInvestingItemsAbstract, SupplementalCashFlowElementsAbstract, NoncashInvestingAndFinancingItemsAbstract, us-gaap:NoncashOrPartNoncashAcquisitionNetNonmonetaryAssetsAcquiredLiabilitiesAssumedAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfAssetsAcquiredAbstract, SupplementalCashFlowInformationAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfLiabilitiesAssumedAbstract, AdditionalCashFlowElementsAndSupplementalCashFlowInformationAbstract, us-gaap:OtherNoncashInvestingAndFinancingItemsAbstract
+
+Rule Element Id:9533
+Rule version: 22.0.2 - IXDS pati10k23.htm",2023-12-13,ERROR,DQC,99,1616741,"PATRIOT
+TRANSPORTATION HOLDING, INC.",2023-12-12 15:49:00,0001616741-23-000042,US GAAP 2023,Novaworks,10-K,http://www.sec.gov/Archives/edgar/data/1616741/000161674123000042/pati10k23.htm,2023-12-12,2023,661477,https://www.sec.gov/Archives/edgar/data/1616741/000161674123000042/0001616741-23-000042-index.htm,4210,10k-pati-20230930
+DQC.US.0099.9533,"2022-02-18 09:45:49,004 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 00000005 - Statement - STATEMENTS OF CASH FLOWS (Unaudited) but are not included in any calculation relationship in the filing.
+us-gaap:IncreaseDecreaseInAccountsPayableAndAccruedLiabilities, 
+us-gaap:NetIncomeLoss, 
+us-gaap:StockIssuedDuringPeriodValueOther, 
+us-gaap:ProceedsFromIssuanceOfCommonStock, 
+us-gaap:IncreaseDecreaseInDueToEmployeesCurrent
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usualy appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+
+If the item is an additional disclosure in the cash flow statement then make sure that is included as a child of one of the following abstract items:
+SupplementalCashFlowInformationAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfLiabilitiesAssumedAbstract, AdditionalCashFlowElementsAndSupplementalCashFlowInformationAbstract, us-gaap:OtherNoncashInvestingAndFinancingItemsAbstract, NonCashOperatingAndFinancingActivitiesAbstract, NonCashOperatingAndInvestingActivitiesAbstract, NoncashInvestingItemsAbstract, NoncashFinancingItemsAbstract, us-gaap:InterestPaidAbstract, CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract, us-gaap:IncomeTaxesPaidNetAbstract, NoncashInvestingAndFinancingItemsAbstract, SupplementalCashFlowElementsAbstract, us-gaap:NoncashOrPartNoncashAcquisitionNetNonmonetaryAssetsAcquiredLiabilitiesAssumedAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfAssetsAcquiredAbstract
+
+Rule Element Id:9533
+Rule version: 16.0.11 - frtg-20211231.xml",2022-02-18,ERROR,DQC,99,1602813,FRONTERA GROUP INC.,2022-02-18 09:24:00,0001549727-22-000009,US GAAP 2020,Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 5.11a,10-Q,http://www.sec.gov/Archives/edgar/data/1602813/000154972722000009/frtg-20211231.xml,2022-02-18,2022,422094,https://www.sec.gov/Archives/edgar/data/1602813/000154972722000009/0001549727-22-000009-index.htm,8742,10q-frtg-20211231
+DQC.US.0099.9533,"2022-01-18 07:01:54,632 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 000004 - Statement - Consolidated Statements of Operations (Unaudited) but are not included in any calculation relationship in the filing.
+hbr:OtherIncomeExpenseAbstract
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usualy appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+If the item is an additional disclosure in the income statement statement then make sure that is included as a child of one of the following abstract items:
+ShareBasedCompensationAllocationAndClassificationInFinancialStatementsAbstract, 
+SupplementalIncomeStatementElementsAbstract
+
+Rule Element Id:9533
+Rule version: 16.0.10 - IXDS hbr_10q.htm",2022-01-18,ERROR,DQC,99,1796949,"GenFlat Holdings, Inc.",2022-01-18 06:02:00,0001654954-22-000549,US GAAP 2020,Document Created by XBRLMaster,10-Q,http://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/hbr_10q.htm,2022-01-18,2022,412314,https://www.sec.gov/Archives/edgar/data/1796949/000165495422000549/0001654954-22-000549-index.htm,8742,10q-hbr-20211130
+DQC.US.0099.9533,"2024-08-14 06:08:49,558 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 0000007 - Statement - Consolidated Statement of Cash Flows but are not included in any calculation relationship in the filing.
+us-gaap:IncreaseDecreaseInMortgageLoansHeldForSale, 
+us-gaap:IncreaseDecreaseInInterestPayableNet, 
+efc:LoansAcquiredInConsolidationOfSecuritizationTrustNetNonCash, 
+efc:InterestIncomeRelatedToConsolidatedSecuritizationTrust, 
+us-gaap:IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities, 
+efc:RealizedGainsLossesOnSecuritiesAndLoansNet, 
+efc:InterestExpenseRelatedToConsolidatedSecuritizationTrust, 
+efc:RealizedGainsLossesOnDerivativesNet, 
+efc:RealEstateAcquiredThroughForeclosureRealizedGainsLossesOnDisposal, 
+efc:UnrealizedGainsLossesOtherNet, 
+efc:CashOutflowForDebtIssuanceCostsRelatedToOtherSecuredBorrowingsAtFairValue, 
+us-gaap:InvestmentCompanyRealizedAndUnrealizedGainLossOnInvestmentAndForeignCurrency, 
+us-gaap:ForeignCurrencyTransactionGainLossUnrealized, 
+efc:UnrealizedGainsLossesOnSecuritiesAndLoansNet, 
+efc:CompensationExpenseRelatedToMergerNoncashExpense, 
+us-gaap:ForeignCurrencyTransactionGainLossRealized, 
+efc:RealEstateAcquiredThroughForeclosureUnrealizedGainsLosses, 
+efc:IncreaseDecreaseInInterestAndPrincipalReceivable, 
+us-gaap:RepaymentsOfSecuredDebt, 
+us-gaap:AmortizationOfFinancingCosts, 
+efc:IncreaseDecreaseInAccruedManagementFee, 
+us-gaap:PaymentsToAcquireBusinessesGross, 
+efc:NetChangeFromReverseMortgageLoansHeldForInvestmentAtFairValue, 
+us-gaap:AccretionAmortizationOfDiscountsAndPremiumsInvestments, 
+efc:IncreaseDecreaseInIncentiveFeePayableToAffiliate, 
+efc:NetChangeRelatedToHMBSObligationsAtFairValue, 
+efc:NetChangeFromForwardMSRRelatedInvestmentsAtFairValue, 
+efc:TransfersFromSecuritiesToCorporateLoansNonCash, 
+efc:ValuationAdjustmentAndDeletionsOfMortgageServicingRights, 
+efc:UnrealizedGainsLossesOnLoanCommitmentsNet, 
+efc:ProceedsFromSaleOfForwardMSRRelatedInvestments, 
+us-gaap:RepaymentsOfUnsecuredDebt, 
+us-gaap:IncreaseDecreaseInOtherOperatingAssets, 
+efc:TransfersFromSecuritiesToResidentialMortgageLoansNonCash, 
+efc:SharesIssuedInConnectionWithIncentiveFeePayment, 
+efc:IncreaseInCashResultingFromConsolidationOfSecuritizationTrustNet, 
+us-gaap:UnrealizedGainLossOnDerivatives, 
+us-gaap:ProceedsFromSaleOfMortgageLoansHeldForSale, 
+efc:EquityBasedCompensationExpense, 
+efc:OtherSecuredBorrowingsAtFairValueAssumedInConsolidationOfSecuritizationTrustNonCash
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usually appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+
+If the item is an additional disclosure in the cash flow statement then make sure that is included as a child of one of the following abstract items:
+CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract, NonCashOperatingAndFinancingActivitiesAbstract, NoncashInvestingAndFinancingItemsAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfLiabilitiesAssumedAbstract, us-gaap:NoncashOrPartNoncashAcquisitionNetNonmonetaryAssetsAcquiredLiabilitiesAssumedAbstract, NoncashFinancingItemsAbstract, us-gaap:IncomeTaxesPaidNetAbstract, NonCashOperatingAndInvestingActivitiesAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfAssetsAcquiredAbstract, us-gaap:InterestPaidAbstract, AdditionalCashFlowElementsAndSupplementalCashFlowInformationAbstract, SupplementalCashFlowElementsAbstract, NoncashInvestingItemsAbstract, us-gaap:OtherNoncashInvestingAndFinancingItemsAbstract, SupplementalCashFlowInformationAbstract
+
+Rule Element Id:9533
+Rule version: 24.0.3 - IXDS efc-20240630.htm",2024-08-14,ERROR,DQC,99,1411342,ELLINGTON FINANCIAL INC,2024-08-09 15:35:00,0001411342-24-000078,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1411342/000141134224000078/efc-20240630.htm,2024-08-09,2024,749558,https://www.sec.gov/Archives/edgar/data/1411342/000141134224000078/0001411342-24-000078-index.htm,6500,10q-efc-20240630
+DQC.US.0099.9533,"2024-11-15 10:17:04,302 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 0000007 - Statement - Consolidated Statement of Cash Flows but are not included in any calculation relationship in the filing.
+efc:LoansAcquiredInConsolidationOfSecuritizationTrustNetNonCash, 
+us-gaap:RepaymentsOfSecuredDebt, 
+us-gaap:AccretionAmortizationOfDiscountsAndPremiumsInvestments, 
+efc:UnrealizedGainsLossesOnLoanCommitmentsNet, 
+efc:RealizedGainsLossesOnDerivativesNet, 
+us-gaap:AmortizationOfFinancingCosts, 
+efc:TransfersOfHMBSObligationsToThirdPartyAtFairValueNonCash, 
+efc:TransfersOfReverseMortgageLoansToThirdPartyAtFairValueNonCash, 
+efc:SharesIssuedInConnectionWithIncentiveFeePayment, 
+efc:RealEstateAcquiredThroughForeclosureRealizedGainsLossesOnDisposal, 
+efc:EquityBasedCompensationExpense, 
+us-gaap:PaymentsToAcquireBusinessesGross, 
+efc:InterestIncomeRelatedToConsolidatedSecuritizationTrust, 
+us-gaap:ForeignCurrencyTransactionGainLossUnrealized, 
+efc:DebtIssuanceCostsRelatedToOtherSecuredBorrowingsAtFairValueNonCash, 
+efc:UnrealizedGainsLossesOnSecuritiesAndLoansNet, 
+efc:RealEstateAcquiredThroughForeclosureUnrealizedGainsLosses, 
+efc:InterestExpenseRelatedToConsolidatedSecuritizationTrust, 
+us-gaap:ForeignCurrencyTransactionGainLossRealized, 
+efc:CashOutflowForDebtIssuanceCostsRelatedToOtherSecuredBorrowingsAtFairValue, 
+us-gaap:ProceedsFromSaleOfMortgageLoansHeldForSale, 
+efc:IncreaseDecreaseInInterestAndPrincipalReceivable, 
+efc:IncreaseDecreaseInAccruedManagementFee, 
+efc:NetChangeRelatedToHMBSObligationsAtFairValue, 
+efc:IncreaseDecreaseInIncentiveFeePayableToAffiliate, 
+us-gaap:IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities, 
+us-gaap:IncreaseDecreaseInInterestPayableNet, 
+us-gaap:UnrealizedGainLossOnDerivatives, 
+efc:TransfersFromSecuritiesToCorporateLoansNonCash, 
+efc:ProceedsFromSaleOfForwardMSRRelatedInvestments, 
+us-gaap:RepaymentsOfUnsecuredDebt, 
+efc:TransfersFromSecuritiesToResidentialMortgageLoansNonCash, 
+efc:UnrealizedGainsLossesOtherNet, 
+us-gaap:IncreaseDecreaseInOtherOperatingAssets, 
+us-gaap:ProceedsFromIssuanceOfUnsecuredDebt, 
+efc:CompensationExpenseRelatedToMergerNoncashExpense, 
+efc:IncreaseInCashResultingFromConsolidationOfSecuritizationTrustNet, 
+us-gaap:IncreaseDecreaseInMortgageLoansHeldForSale, 
+efc:NetChangeFromReverseMortgageLoansHeldForInvestmentAtFairValue, 
+us-gaap:InvestmentCompanyRealizedAndUnrealizedGainLossOnInvestmentAndForeignCurrency, 
+efc:RealizedGainsLossesOnSecuritiesAndLoansNet, 
+efc:OtherSecuredBorrowingsAtFairValueAssumedInConsolidationOfSecuritizationTrustNonCash, 
+efc:NetChangeFromForwardMSRRelatedInvestmentsAtFairValue, 
+efc:ValuationAdjustmentAndDeletionsOfMortgageServicingRights
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usually appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+
+If the item is an additional disclosure in the cash flow statement then make sure that is included as a child of one of the following abstract items:
+us-gaap:NoncashOrPartNoncashAcquisitionNetNonmonetaryAssetsAcquiredLiabilitiesAssumedAbstract, NonCashOperatingAndInvestingActivitiesAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfAssetsAcquiredAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfLiabilitiesAssumedAbstract, us-gaap:InterestPaidAbstract, NonCashOperatingAndFinancingActivitiesAbstract, us-gaap:IncomeTaxesPaidNetAbstract, SupplementalCashFlowElementsAbstract, us-gaap:OtherNoncashInvestingAndFinancingItemsAbstract, CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract, NoncashInvestingAndFinancingItemsAbstract, NoncashFinancingItemsAbstract, AdditionalCashFlowElementsAndSupplementalCashFlowInformationAbstract, NoncashInvestingItemsAbstract, SupplementalCashFlowInformationAbstract
+
+Rule Element Id:9533
+Rule version: 25.0.4 - IXDS efc-20240930.htm",2024-11-15,ERROR,DQC,99,1411342,ELLINGTON FINANCIAL INC,2024-11-12 15:47:00,0001411342-24-000113,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1411342/000141134224000113/efc-20240930.htm,2024-11-12,2024,779538,https://www.sec.gov/Archives/edgar/data/1411342/000141134224000113/0001411342-24-000113-index.htm,6500,10q-efc-20240930
+DQC.US.0099.9533,"2023-02-02 19:01:53,630 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 0000007 - Statement - Condensed Consolidated Statements of Cash Flows (Unaudited) but are not included in any calculation relationship in the filing.
+us-gaap:RepaymentsOfLongTermDebt, 
+us-gaap:ProceedsFromRepaymentsOfDebt
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usualy appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+
+If the item is an additional disclosure in the cash flow statement then make sure that is included as a child of one of the following abstract items:
+us-gaap:NoncashOrPartNoncashAcquisitionNetNonmonetaryAssetsAcquiredLiabilitiesAssumedAbstract, NoncashFinancingItemsAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfLiabilitiesAssumedAbstract, SupplementalCashFlowInformationAbstract, NonCashOperatingAndInvestingActivitiesAbstract, SupplementalCashFlowElementsAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfAssetsAcquiredAbstract, us-gaap:IncomeTaxesPaidNetAbstract, us-gaap:InterestPaidAbstract, NoncashInvestingAndFinancingItemsAbstract, CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract, NonCashOperatingAndFinancingActivitiesAbstract, AdditionalCashFlowElementsAndSupplementalCashFlowInformationAbstract, NoncashInvestingItemsAbstract, us-gaap:OtherNoncashInvestingAndFinancingItemsAbstract
+
+Rule Element Id:9533
+Rule version: 19.0.10 - IXDS rfmd-20221231.htm",2023-02-03,ERROR,DQC,99,1604778,"Qorvo, Inc.",2023-02-02 16:10:00,0001604778-23-000034,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1604778/000160477823000034/rfmd-20221231.htm,2023-02-02,2023,545306,https://www.sec.gov/Archives/edgar/data/1604778/000160477823000034/0001604778-23-000034-index.htm,3674,10q-rfmd-20221231
+DQC.US.0099.9533,"2023-02-23 15:34:42,815 [DQC.US.0099.9533] 
+The following elements are in the presentation linkbase of 0000007 - Statement - Consolidated Statements of Cash Flows but are not included in any calculation relationship in the filing.
+us-gaap:ProceedsFromIssuanceOfDebt
+All elements appearing in the face of the financial statements should be included in a calculation relationship somewhere in the filing. Items not included in the financial statement calculations but included in the presentation are referred to as parenthetical items. These usualy appear as a referenced item, or as a value in parenthesis describing that the value reported includes another specific amount.  These values should be reported in a seperate link role for parenthetical items.
+
+This rule will produce an error irrespective of a fact value being entered for the item(s) listed above.
+
+If the item is an additional disclosure in the cash flow statement then make sure that is included as a child of one of the following abstract items:
+us-gaap:NoncashOrPartNoncashAcquisitionValueOfAssetsAcquiredAbstract, SupplementalCashFlowInformationAbstract, us-gaap:NoncashOrPartNoncashAcquisitionValueOfLiabilitiesAssumedAbstract, NonCashOperatingAndInvestingActivitiesAbstract, AdditionalCashFlowElementsAndSupplementalCashFlowInformationAbstract, us-gaap:OtherNoncashInvestingAndFinancingItemsAbstract, NonCashOperatingAndFinancingActivitiesAbstract, NoncashInvestingItemsAbstract, us-gaap:InterestPaidAbstract, NoncashFinancingItemsAbstract, CashFlowNoncashInvestingAndFinancingActivitiesDisclosureAbstract, us-gaap:IncomeTaxesPaidNetAbstract, NoncashInvestingAndFinancingItemsAbstract, SupplementalCashFlowElementsAbstract, us-gaap:NoncashOrPartNoncashAcquisitionNetNonmonetaryAssetsAcquiredLiabilitiesAssumedAbstract
+
+Rule Element Id:9533
+Rule version: 20.0.2 - IXDS lkq-20221231.htm",2023-02-23,ERROR,DQC,99,1065696,LKQ CORPORATION,2023-02-23 15:08:00,0001065696-23-000008,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1065696/000106569623000008/lkq-20221231.htm,2023-02-23,2023,551270,https://www.sec.gov/Archives/edgar/data/1065696/000106569623000008/0001065696-23-000008-index.htm,5010,10k-lkq-20221231

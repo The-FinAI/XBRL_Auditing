@@ -1,0 +1,806 @@
+assertion.code,assertion.detail,assertion.run-date,assertion.severity,assertion.source,assertion.type,entity.cik,entity.name,report.accepted-timestamp,report.accession,report.base-taxonomy,report.creation-software,report.document-type,report.entry-url,report.filing-date,report.filing-year,report.id,report.sec-url,report.sic-code,folder_name
+DQC.US.0015.1964,"2022-01-14 17:30:24,842 [DQC.US.0015.1964] us-gaap:PaymentsToAcquirePropertyPlantAndEquipment has a value of -1,284 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:PaymentsToAcquirePropertyPlantAndEquipment fact are:
+Period :2021-09-01 to 2021-11-30
+Dimensions : 
+Unit : USD
+Rule version: 16.0.10 - plasma-20211130_10q.htm 736",2022-01-14,ERROR,DQC,15,1883835,ESG Inc.,2022-01-14 16:59:00,0001520138-22-000017,US GAAP 2021,Field: Set; Name: xdx; ID: xdx_05E_edei%2D%2DCurrentFiscalYearEndDate_%2D%2DLS0wOC0zMQ==,10-Q,http://www.sec.gov/Archives/edgar/data/1883835/000152013822000017/plasma-20211130_10q.htm,2022-01-14,2022,412260,https://www.sec.gov/Archives/edgar/data/1883835/000152013822000017/0001520138-22-000017-index.htm,2836,10q-plasma-20211130
+DQC.US.0015.1307,"2022-02-10 17:03:12,659 [DQC.US.0015.1307] us-gaap:IncomeTaxReconciliationTaxCredits has a value of -2,881,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:IncomeTaxReconciliationTaxCredits fact are:
+Period :2019-01-01 to 2019-12-31
+Dimensions : 
+Unit : USD
+Rule version: 16.0.11 - cnx-20211231.htm 4",2022-02-10,ERROR,DQC,15,1070412,CNX Resources Corporation,2022-02-10 16:20:00,0001070412-22-000011,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1070412/000107041222000011/cnx-20211231.htm,2022-02-10,2022,417713,https://www.sec.gov/Archives/edgar/data/1070412/000107041222000011/0001070412-22-000011-index.htm,1311,10k-cnx-20211231
+DQC.US.0015.757,"2022-02-17 21:02:49,520 [DQC.US.0015.757] us-gaap:DerivativeAverageForwardPrice has a value of -0.16 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DerivativeAverageForwardPrice fact are:
+Period :2021-12-31
+Dimensions : us-gaap:DerivativeInstrumentRiskAxis=crk:NaturalGasContractsThreeMember
+Unit : USD/bbl
+Rule version: 16.0.11 - crk-20211231.htm 4",2022-02-18,ERROR,DQC,15,23194,"COMSTOCK RESOURCES, INC.",2022-02-17 15:41:00,0000023194-22-000011,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/23194/000002319422000011/crk-20211231.htm,2022-02-17,2022,420682,https://www.sec.gov/Archives/edgar/data/23194/000002319422000011/0000023194-22-000011-index.htm,1311,10k-crk-20211231
+DQC.US.0015.576,"2022-02-23 06:12:12,069 [DQC.US.0015.576] us-gaap:CostsIncurredAcquisitionOfOilAndGasPropertiesWithProvedReserves has a value of -157,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:CostsIncurredAcquisitionOfOilAndGasPropertiesWithProvedReserves fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : srt:StatementGeographicalAxis=country:EG
+Unit : USD
+Rule version: 17.0.0 - apa-20211231.htm 4",2022-02-23,ERROR,DQC,15,1841666,APA Corp,2022-02-22 14:30:00,0001784031-22-000009,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1841666/000178403122000009/apa-20211231.htm,2022-02-22,2022,435265,https://www.sec.gov/Archives/edgar/data/1841666/000178403122000009/0001784031-22-000009-index.htm,1311,10k-apa-20211231
+DQC.US.0015.576,"2022-02-23 06:12:12,070 [DQC.US.0015.576] us-gaap:CostsIncurredAcquisitionOfOilAndGasPropertiesWithProvedReserves has a value of -157,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:CostsIncurredAcquisitionOfOilAndGasPropertiesWithProvedReserves fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+Rule version: 17.0.0 - apa-20211231.htm 4",2022-02-23,ERROR,DQC,15,1841666,APA Corp,2022-02-22 14:30:00,0001784031-22-000009,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1841666/000178403122000009/apa-20211231.htm,2022-02-22,2022,435265,https://www.sec.gov/Archives/edgar/data/1841666/000178403122000009/0001784031-22-000009-index.htm,1311,10k-apa-20211231
+DQC.US.0015.576,"2022-02-23 06:12:59,857 [DQC.US.0015.576] us-gaap:CostsIncurredAcquisitionOfOilAndGasPropertiesWithProvedReserves has a value of -157,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:CostsIncurredAcquisitionOfOilAndGasPropertiesWithProvedReserves fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+Rule version: 17.0.0 - apa-20211231.htm 4",2022-02-23,ERROR,DQC,15,6769,APACHE CORPORATION,2022-02-22 14:34:00,0001784031-22-000010,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/6769/000178403122000010/apa-20211231.htm,2022-02-22,2022,435268,https://www.sec.gov/Archives/edgar/data/6769/000178403122000010/0001784031-22-000010-index.htm,1311,10k-apa-20211231
+DQC.US.0015.576,"2022-02-23 06:12:59,858 [DQC.US.0015.576] us-gaap:CostsIncurredAcquisitionOfOilAndGasPropertiesWithProvedReserves has a value of -157,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:CostsIncurredAcquisitionOfOilAndGasPropertiesWithProvedReserves fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : srt:StatementGeographicalAxis=country:EG
+Unit : USD
+Rule version: 17.0.0 - apa-20211231.htm 4",2022-02-23,ERROR,DQC,15,6769,APACHE CORPORATION,2022-02-22 14:34:00,0001784031-22-000010,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/6769/000178403122000010/apa-20211231.htm,2022-02-22,2022,435268,https://www.sec.gov/Archives/edgar/data/6769/000178403122000010/0001784031-22-000010-index.htm,1311,10k-apa-20211231
+DQC.US.0015.579,"2022-12-29 16:45:43,438 [DQC.US.0015.579] us-gaap:CostsIncurredOilAndGasPropertyAcquisitionExplorationAndDevelopmentActivities has a value of -121,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:CostsIncurredOilAndGasPropertyAcquisitionExplorationAndDevelopmentActivities fact are:
+Period :2021-10-01 to 2022-09-30
+Dimensions : srt:StatementGeographicalAxis=country:US
+Unit : USD
+Rule version: 19.0.6 - brn-20220930.htm 4",2022-12-29,ERROR,DQC,15,10048,"BARNWELL INDUSTRIES, INC.",2022-12-29 16:12:00,0000010048-22-000029,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/10048/000001004822000029/brn-20220930.htm,2022-12-29,2022,537848,https://www.sec.gov/Archives/edgar/data/10048/000001004822000029/0000010048-22-000029-index.htm,1311,10k-brn-20220930
+DQC.US.0015.7166,"2022-12-29 16:45:43,437 [DQC.US.0015.7166] us-gaap:CostsIncurredDevelopmentCosts has a value of -121,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:CostsIncurredDevelopmentCosts fact are:
+Period :2021-10-01 to 2022-09-30
+Dimensions : srt:StatementGeographicalAxis=country:US
+Unit : USD
+Rule version: 19.0.6 - brn-20220930.htm 4",2022-12-29,ERROR,DQC,15,10048,"BARNWELL INDUSTRIES, INC.",2022-12-29 16:12:00,0000010048-22-000029,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/10048/000001004822000029/brn-20220930.htm,2022-12-29,2022,537848,https://www.sec.gov/Archives/edgar/data/10048/000001004822000029/0000010048-22-000029-index.htm,1311,10k-brn-20220930
+DQC.US.0015.7635,"2022-12-29 16:45:43,439 [DQC.US.0015.7635] srt:StandardizedMeasureOfDiscountedFutureNetCashFlowRelatingToProvedOilAndGasReservesAccretionOfDiscount has a value of -1,566,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this srt:StandardizedMeasureOfDiscountedFutureNetCashFlowRelatingToProvedOilAndGasReservesAccretionOfDiscount fact are:
+Period :2021-10-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.6 - brn-20220930.htm 4",2022-12-29,ERROR,DQC,15,10048,"BARNWELL INDUSTRIES, INC.",2022-12-29 16:12:00,0000010048-22-000029,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/10048/000001004822000029/brn-20220930.htm,2022-12-29,2022,537848,https://www.sec.gov/Archives/edgar/data/10048/000001004822000029/0000010048-22-000029-index.htm,1311,10k-brn-20220930
+DQC.US.0015.7635,"2022-12-29 16:45:43,439 [DQC.US.0015.7635] srt:StandardizedMeasureOfDiscountedFutureNetCashFlowRelatingToProvedOilAndGasReservesAccretionOfDiscount has a value of -176,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this srt:StandardizedMeasureOfDiscountedFutureNetCashFlowRelatingToProvedOilAndGasReservesAccretionOfDiscount fact are:
+Period :2020-10-01 to 2021-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.6 - brn-20220930.htm 4",2022-12-29,ERROR,DQC,15,10048,"BARNWELL INDUSTRIES, INC.",2022-12-29 16:12:00,0000010048-22-000029,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/10048/000001004822000029/brn-20220930.htm,2022-12-29,2022,537848,https://www.sec.gov/Archives/edgar/data/10048/000001004822000029/0000010048-22-000029-index.htm,1311,10k-brn-20220930
+DQC.US.0015.7638,"2022-12-29 16:45:43,439 [DQC.US.0015.7638] srt:StandardizedMeasureOfDiscountedFutureNetCashFlowsRelatingToProvedOilAndGasReserves has a value of -1,685,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this srt:StandardizedMeasureOfDiscountedFutureNetCashFlowsRelatingToProvedOilAndGasReserves fact are:
+Period :2020-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.6 - brn-20220930.htm 4",2022-12-29,ERROR,DQC,15,10048,"BARNWELL INDUSTRIES, INC.",2022-12-29 16:12:00,0000010048-22-000029,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/10048/000001004822000029/brn-20220930.htm,2022-12-29,2022,537848,https://www.sec.gov/Archives/edgar/data/10048/000001004822000029/0000010048-22-000029-index.htm,1311,10k-brn-20220930
+DQC.US.0015.2852,"2022-11-17 07:27:35,042 [DQC.US.0015.2852] us-gaap:ProceedsFromContributedCapital has a value of -288,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ProceedsFromContributedCapital fact are:
+Period :2022-01-03 to 2022-10-02
+Dimensions : 
+Unit : USD
+Rule version: 19.0.2 - dnut-20221002.htm 4",2022-11-17,ERROR,DQC,15,1857154,"Krispy Kreme, Inc.",2022-11-15 12:59:00,0001857154-22-000119,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1857154/000185715422000119/dnut-20221002.htm,2022-11-15,2022,529512,https://www.sec.gov/Archives/edgar/data/1857154/000185715422000119/0001857154-22-000119-index.htm,5400,10q-dnut-20221002
+DQC.US.0015.1873,"2022-11-16 06:04:03,668 [DQC.US.0015.1873] us-gaap:OtherExpenses has a value of -52,292 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:OtherExpenses fact are:
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.2 - vivc-10q.htm 2378",2022-11-16,ERROR,DQC,15,1703073,VIVIC CORP.,2022-11-14 16:27:00,0001549727-22-000093,US GAAP 2022,Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DDocumentFiscalPeriodFocus_Q3,10-Q,http://www.sec.gov/Archives/edgar/data/1703073/000154972722000093/vivc-10q.htm,2022-11-14,2022,529012,https://www.sec.gov/Archives/edgar/data/1703073/000154972722000093/0001549727-22-000093-index.htm,7990,10q-vivc-20220930
+DQC.US.0015.7455,"2022-11-16 06:04:03,667 [DQC.US.0015.7455] us-gaap:StockIssuedDuringPeriodValueAcquisitions has a value of -17,777 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:StockIssuedDuringPeriodValueAcquisitions fact are:
+Period :2021-07-01 to 2021-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.2 - vivc-10q.htm 3068",2022-11-16,ERROR,DQC,15,1703073,VIVIC CORP.,2022-11-14 16:27:00,0001549727-22-000093,US GAAP 2022,Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DDocumentFiscalPeriodFocus_Q3,10-Q,http://www.sec.gov/Archives/edgar/data/1703073/000154972722000093/vivc-10q.htm,2022-11-14,2022,529012,https://www.sec.gov/Archives/edgar/data/1703073/000154972722000093/0001549727-22-000093-index.htm,7990,10q-vivc-20220930
+DQC.US.0015.721,"2022-11-14 21:03:30,925 [DQC.US.0015.721] us-gaap:DepreciationDepletionAndAmortization has a value of -182,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DepreciationDepletionAndAmortization fact are:
+Period :2022-07-01 to 2022-09-30
+Dimensions : us-gaap:IncomeStatementLocationAxis=us-gaap:GeneralAndAdministrativeExpenseMember
+Unit : USD
+Rule version: 19.0.2 - cmlf-20220930.htm 4",2022-11-15,ERROR,DQC,15,1818331,GeneDx Holdings Corp.,2022-11-14 09:02:00,0001818331-22-000078,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1818331/000181833122000078/cmlf-20220930.htm,2022-11-14,2022,528019,https://www.sec.gov/Archives/edgar/data/1818331/000181833122000078/0001818331-22-000078-index.htm,8000,10q-cmlf-20220930
+DQC.US.0015.7095,"2022-11-13 14:33:56,968 [DQC.US.0015.7095] us-gaap:SubleaseIncome has a value of -4,100,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:SubleaseIncome fact are:
+Period :2022-07-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.2 - advm-20220930.htm 4",2022-11-13,ERROR,DQC,15,1501756,"Adverum Biotechnologies, Inc.",2022-11-10 16:18:00,0001628280-22-029499,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1501756/000162828022029499/advm-20220930.htm,2022-11-10,2022,527173,https://www.sec.gov/Archives/edgar/data/1501756/000162828022029499/0001628280-22-029499-index.htm,2836,10q-advm-20220930
+DQC.US.0015.7095,"2022-11-13 14:33:56,969 [DQC.US.0015.7095] us-gaap:SubleaseIncome has a value of -800,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:SubleaseIncome fact are:
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.2 - advm-20220930.htm 4",2022-11-13,ERROR,DQC,15,1501756,"Adverum Biotechnologies, Inc.",2022-11-10 16:18:00,0001628280-22-029499,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1501756/000162828022029499/advm-20220930.htm,2022-11-10,2022,527173,https://www.sec.gov/Archives/edgar/data/1501756/000162828022029499/0001628280-22-029499-index.htm,2836,10q-advm-20220930
+DQC.US.0015.7093,"2022-11-10 21:46:08,012 [DQC.US.0015.7093] us-gaap:ShortTermLeaseCost has a value of -46,600,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShortTermLeaseCost fact are:
+Period :2022-07-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.2 - nvax-20220930.htm 4",2022-11-11,ERROR,DQC,15,1000694,"NOVAVAX, INC.",2022-11-09 09:01:00,0001000694-22-000024,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1000694/000100069422000024/nvax-20220930.htm,2022-11-09,2022,525577,https://www.sec.gov/Archives/edgar/data/1000694/000100069422000024/0001000694-22-000024-index.htm,2836,10q-nvax-20220930
+DQC.US.0015.2069,"2022-11-10 17:18:07,009 [DQC.US.0015.2069] us-gaap:ProceedsFromSaleOfPropertyPlantAndEquipment has a value of -8,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ProceedsFromSaleOfPropertyPlantAndEquipment fact are:
+Period :2021-07-01 to 2021-09-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.2 - ovv-10q_20220930.htm 11954",2022-11-10,ERROR,DQC,15,1792580,Ovintiv Inc.,2022-11-08 17:59:00,0001564590-22-037075,US GAAP 2022,DFIN ActiveDisclosure(SM) Inline XBRL Document - http://www.dfinsolutions.com/,10-Q,http://www.sec.gov/Archives/edgar/data/1792580/000156459022037075/ovv-10q_20220930.htm,2022-11-09,2022,525221,https://www.sec.gov/Archives/edgar/data/1792580/000156459022037075/0001564590-22-037075-index.htm,1311,10q-ovv-20220930
+DQC.US.0015.2419,"2023-01-06 10:30:33,683 [DQC.US.0015.2419] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod has a value of -748,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : us-gaap:AwardTypeAxis=kmx:CashSettledRestrictedStockUnitsMember
+Unit : shares
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.2419,"2023-01-06 10:30:33,684 [DQC.US.0015.2419] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod has a value of -122,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : us-gaap:AwardTypeAxis=kmx:StockSettledRestrictedStockUnitsMember
+Unit : shares
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.2419,"2023-01-06 10:30:33,685 [DQC.US.0015.2419] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod has a value of -80,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : us-gaap:AwardTypeAxis=kmx:OthersharebasedincentivesMember
+Unit : shares
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.2433,"2023-01-06 10:30:33,682 [DQC.US.0015.2433] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod has a value of -48,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : 
+Unit : shares
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.2433,"2023-01-06 10:30:33,683 [DQC.US.0015.2433] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod has a value of -68,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : us-gaap:AwardTypeAxis=kmx:CashSettledRestrictedStockUnitsMember
+Unit : shares
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.2433,"2023-01-06 10:30:33,684 [DQC.US.0015.2433] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod has a value of -6,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : us-gaap:AwardTypeAxis=kmx:StockSettledRestrictedStockUnitsMember
+Unit : shares
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.2433,"2023-01-06 10:30:33,685 [DQC.US.0015.2433] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod has a value of -5,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : us-gaap:AwardTypeAxis=kmx:OthersharebasedincentivesMember
+Unit : shares
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.427,"2023-01-06 10:30:33,683 [DQC.US.0015.427] us-gaap:CapitalExpendituresIncurredButNotYetPaid has a value of -3,123,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:CapitalExpendituresIncurredButNotYetPaid fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.427,"2023-01-06 10:30:33,685 [DQC.US.0015.427] us-gaap:CapitalExpendituresIncurredButNotYetPaid has a value of -9,933,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:CapitalExpendituresIncurredButNotYetPaid fact are:
+Period :2021-03-01 to 2021-11-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.6070,"2023-01-06 10:30:33,684 [DQC.US.0015.6070] us-gaap:OtherReceivables has a value of -4,200,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:OtherReceivables fact are:
+Period :2022-11-30
+Dimensions : 
+Unit : USD
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.7456,"2023-01-06 10:30:33,682 [DQC.US.0015.7456] us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised has a value of -208,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:StockIssuedDuringPeriodSharesStockOptionsExercised fact are:
+Period :2022-03-01 to 2022-11-30
+Dimensions : 
+Unit : shares
+Rule version: 19.0.6 - kmx-20221130.htm 4",2023-01-06,ERROR,DQC,15,1170010,"CARMAX, INC.",2023-01-06 09:58:00,0001170010-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/kmx-20221130.htm,2023-01-06,2023,539298,https://www.sec.gov/Archives/edgar/data/1170010/000117001023000006/0001170010-23-000006-index.htm,5500,10q-kmx-20221130
+DQC.US.0015.2416,"2023-01-26 09:00:53,992 [DQC.US.0015.2416] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod has a value of -64,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod fact are:
+Period :2020-01-01 to 2020-12-31
+Dimensions : 
+Unit : shares
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.2416,"2023-01-26 09:00:53,995 [DQC.US.0015.2416] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod has a value of -58,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : shares
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.2416,"2023-01-26 09:00:53,999 [DQC.US.0015.2416] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod has a value of -31,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : 
+Unit : shares
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.2419,"2023-01-26 09:00:53,992 [DQC.US.0015.2419] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod has a value of -296,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod fact are:
+Period :2020-01-01 to 2020-12-31
+Dimensions : 
+Unit : shares
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.2419,"2023-01-26 09:00:53,995 [DQC.US.0015.2419] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod has a value of -269,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : shares
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.2419,"2023-01-26 09:00:53,998 [DQC.US.0015.2419] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod has a value of -226,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : 
+Unit : shares
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.4007,"2023-01-26 09:00:53,991 [DQC.US.0015.4007] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate has a value of -0.0554 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate fact are:
+Period :2023-01-01 to 2023-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember, us-gaap:SubsequentEventTypeAxis=us-gaap:SubsequentEventMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.4007,"2023-01-26 09:00:53,992 [DQC.US.0015.4007] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate has a value of -0.0557 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate fact are:
+Period :2023-01-01 to 2023-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember, us-gaap:SubsequentEventTypeAxis=us-gaap:SubsequentEventMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.4007,"2023-01-26 09:00:53,993 [DQC.US.0015.4007] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate has a value of -0.0258 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.4007,"2023-01-26 09:00:53,996 [DQC.US.0015.4007] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate has a value of -0.0293 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.4007,"2023-01-26 09:00:53,997 [DQC.US.0015.4007] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate has a value of -0.0268 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.4007,"2023-01-26 09:00:54,000 [DQC.US.0015.4007] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate has a value of -0.0298 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.5879,"2023-01-26 09:00:53,991 [DQC.US.0015.5879] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate has a value of -0.0293 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate fact are:
+Period :2021-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.5879,"2023-01-26 09:00:53,991 [DQC.US.0015.5879] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate has a value of -0.0557 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate fact are:
+Period :2022-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.5879,"2023-01-26 09:00:53,994 [DQC.US.0015.5879] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate has a value of -0.0554 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate fact are:
+Period :2022-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.5879,"2023-01-26 09:00:53,995 [DQC.US.0015.5879] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate has a value of -0.0298 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate fact are:
+Period :2021-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.5879,"2023-01-26 09:00:53,998 [DQC.US.0015.5879] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate has a value of -0.0258 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate fact are:
+Period :2020-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.5879,"2023-01-26 09:00:53,998 [DQC.US.0015.5879] us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate has a value of -0.0268 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate fact are:
+Period :2020-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : pure
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.636,"2023-01-26 09:00:53,994 [DQC.US.0015.636] us-gaap:DeferredTaxLiabilities has a value of -30,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DeferredTaxLiabilities fact are:
+Period :2022-12-31
+Dimensions : 
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6891,"2023-01-26 09:00:53,993 [DQC.US.0015.6891] us-gaap:DefinedBenefitPlanBenefitObligationBenefitsPaid has a value of -157,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanBenefitObligationBenefitsPaid fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6891,"2023-01-26 09:00:53,996 [DQC.US.0015.6891] us-gaap:DefinedBenefitPlanBenefitObligationBenefitsPaid has a value of -164,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanBenefitObligationBenefitsPaid fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6891,"2023-01-26 09:00:53,997 [DQC.US.0015.6891] us-gaap:DefinedBenefitPlanBenefitObligationBenefitsPaid has a value of -1,964,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanBenefitObligationBenefitsPaid fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6891,"2023-01-26 09:00:53,999 [DQC.US.0015.6891] us-gaap:DefinedBenefitPlanBenefitObligationBenefitsPaid has a value of -1,973,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanBenefitObligationBenefitsPaid fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6897,"2023-01-26 09:00:53,993 [DQC.US.0015.6897] us-gaap:DefinedBenefitPlanPlanAssetsBenefitsPaid has a value of -157,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanPlanAssetsBenefitsPaid fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6897,"2023-01-26 09:00:53,996 [DQC.US.0015.6897] us-gaap:DefinedBenefitPlanPlanAssetsBenefitsPaid has a value of -164,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanPlanAssetsBenefitsPaid fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6897,"2023-01-26 09:00:53,997 [DQC.US.0015.6897] us-gaap:DefinedBenefitPlanPlanAssetsBenefitsPaid has a value of -1,964,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanPlanAssetsBenefitsPaid fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6897,"2023-01-26 09:00:53,999 [DQC.US.0015.6897] us-gaap:DefinedBenefitPlanPlanAssetsBenefitsPaid has a value of -1,973,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DefinedBenefitPlanPlanAssetsBenefitsPaid fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : us-gaap:RetirementPlanTypeAxis=us-gaap:PensionPlansDefinedBenefitMember
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.6984,"2023-01-26 09:00:53,994 [DQC.US.0015.6984] us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount has a value of -516,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:LesseeOperatingLeaseLiabilityUndiscountedExcessAmount fact are:
+Period :2022-12-31
+Dimensions : 
+Unit : USD
+Rule version: 19.0.10 - noc-20221231.htm 4",2023-01-26,ERROR,DQC,15,1133421,NORTHROP GRUMMAN CORP /DE/,2023-01-26 08:32:00,0001133421-23-000006,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-K,http://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/noc-20221231.htm,2023-01-26,2023,542790,https://www.sec.gov/Archives/edgar/data/1133421/000113342123000006/0001133421-23-000006-index.htm,3812,10k-noc-20221231
+DQC.US.0015.728,"2023-02-09 17:35:44,295 [DQC.US.0015.728] us-gaap:DerivativeAssetCollateralObligationToReturnCashOffset has a value of -839,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DerivativeAssetCollateralObligationToReturnCashOffset fact are:
+Period :2022-03-31
+Dimensions : us-gaap:DerivativeInstrumentRiskAxis=us-gaap:CommodityContractMember
+Unit : USD
+Rule version: 20.0.0 - ngl-20221231.htm 4",2023-02-09,ERROR,DQC,15,1504461,NGL Energy Partners LP,2023-02-09 16:49:00,0001504461-23-000010,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1504461/000150446123000010/ngl-20221231.htm,2023-02-09,2023,547216,https://www.sec.gov/Archives/edgar/data/1504461/000150446123000010/0001504461-23-000010-index.htm,4922,10q-ngl-20221231
+DQC.US.0015.9103,"2023-02-09 17:35:44,293 [DQC.US.0015.9103] us-gaap:DerivativeNonmonetaryNotionalAmount has a value of -12,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DerivativeNonmonetaryNotionalAmount fact are:
+Period :2022-12-31
+Dimensions : us-gaap:PositionAxis=us-gaap:LongMember, srt:ProductOrServiceAxis=srt:CrudeOilMember, us-gaap:DerivativeInstrumentRiskAxis=us-gaap:FixedPriceContractMember
+Unit : bbl
+Rule version: 20.0.0 - ngl-20221231.htm 4",2023-02-09,ERROR,DQC,15,1504461,NGL Energy Partners LP,2023-02-09 16:49:00,0001504461-23-000010,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1504461/000150446123000010/ngl-20221231.htm,2023-02-09,2023,547216,https://www.sec.gov/Archives/edgar/data/1504461/000150446123000010/0001504461-23-000010-index.htm,4922,10q-ngl-20221231
+DQC.US.0015.9103,"2023-02-09 17:35:44,294 [DQC.US.0015.9103] us-gaap:DerivativeNonmonetaryNotionalAmount has a value of -184,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DerivativeNonmonetaryNotionalAmount fact are:
+Period :2022-03-31
+Dimensions : us-gaap:DerivativeInstrumentRiskAxis=us-gaap:FixedPriceContractMember, us-gaap:PositionAxis=us-gaap:LongMember, srt:ProductOrServiceAxis=us-gaap:PublicUtilitiesInventoryPropaneMember
+Unit : bbl
+Rule version: 20.0.0 - ngl-20221231.htm 4",2023-02-09,ERROR,DQC,15,1504461,NGL Energy Partners LP,2023-02-09 16:49:00,0001504461-23-000010,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1504461/000150446123000010/ngl-20221231.htm,2023-02-09,2023,547216,https://www.sec.gov/Archives/edgar/data/1504461/000150446123000010/0001504461-23-000010-index.htm,4922,10q-ngl-20221231
+DQC.US.0015.9103,"2023-02-09 17:35:44,294 [DQC.US.0015.9103] us-gaap:DerivativeNonmonetaryNotionalAmount has a value of -685,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DerivativeNonmonetaryNotionalAmount fact are:
+Period :2022-03-31
+Dimensions : srt:ProductOrServiceAxis=ngl:RefinedProductsMember, us-gaap:PositionAxis=us-gaap:LongMember, us-gaap:DerivativeInstrumentRiskAxis=us-gaap:FixedPriceContractMember
+Unit : bbl
+Rule version: 20.0.0 - ngl-20221231.htm 4",2023-02-09,ERROR,DQC,15,1504461,NGL Energy Partners LP,2023-02-09 16:49:00,0001504461-23-000010,US GAAP 2021,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1504461/000150446123000010/ngl-20221231.htm,2023-02-09,2023,547216,https://www.sec.gov/Archives/edgar/data/1504461/000150446123000010/0001504461-23-000010-index.htm,4922,10q-ngl-20221231
+DQC.US.0015.2894,"2023-02-10 07:31:07,100 [DQC.US.0015.2894] us-gaap:ProceedsFromSaleOfProductiveAssets has a value of -2,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ProceedsFromSaleOfProductiveAssets fact are:
+Period :2021-07-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+Rule version: 20.0.0 - nws-20221231.htm 4",2023-02-10,ERROR,DQC,15,1564708,NEWS CORPORATION,2023-02-10 07:05:00,0001564708-23-000012,US GAAP 2022,XBRL Document Created with Wdesk from Workiva,10-Q,http://www.sec.gov/Archives/edgar/data/1564708/000156470823000012/nws-20221231.htm,2023-02-10,2023,547363,https://www.sec.gov/Archives/edgar/data/1564708/000156470823000012/0001564708-23-000012-index.htm,2711,10q-nws-20221231
+DQC.US.0015.7211,"2023-11-30 18:06:53,947 [DQC.US.0015.7211] us-gaap:DividendsCash has a value of -43,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DividendsCash fact are:
+Period :2022-08-01 to 2022-10-31
+Dimensions : 
+Unit : USD
+Rule version: 22.0.1 - wmt-20231031.htm 4",2023-11-30,ERROR,DQC,15,104169,WALMART INC.,2023-11-30 17:21:00,0000104169-23-000132,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/104169/000010416923000132/wmt-20231031.htm,2023-11-30,2023,658916,https://www.sec.gov/Archives/edgar/data/104169/000010416923000132/0000104169-23-000132-index.htm,5331,10q-wmt-20231031
+DQC.US.0015.9103,"2023-11-09 19:01:26,229 [DQC.US.0015.9103] us-gaap:DerivativeNonmonetaryNotionalAmount has a value of -1,069,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DerivativeNonmonetaryNotionalAmount fact are:
+Period :2023-03-31
+Dimensions : us-gaap:DerivativeInstrumentRiskAxis=us-gaap:FixedPriceContractMember, srt:ProductOrServiceAxis=srt:CrudeOilMember, us-gaap:PositionAxis=us-gaap:LongMember
+Unit : bbl
+Rule version: 22.0.1 - ngl-20230930.htm 4",2023-11-10,ERROR,DQC,15,1504461,NGL Energy Partners LP,2023-11-09 16:16:00,0001504461-23-000050,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1504461/000150446123000050/ngl-20230930.htm,2023-11-09,2023,652417,https://www.sec.gov/Archives/edgar/data/1504461/000150446123000050/0001504461-23-000050-index.htm,4922,10q-ngl-20230930
+DQC.US.0015.5502,"2023-11-02 22:04:35,640 [DQC.US.0015.5502] us-gaap:ProceedsFromContributionInAidOfConstruction has a value of -1,545,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ProceedsFromContributionInAidOfConstruction fact are:
+Period :2022-01-01 to 2022-09-30
+Dimensions : 
+Unit : USD
+Rule version: 22.0.1 - tgpl-20230930.htm 4",2023-11-03,ERROR,DQC,15,99250,"Transcontinental Gas Pipe Line Company, LLC",2023-11-01 16:22:00,0000099250-23-000013,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/99250/000009925023000013/tgpl-20230930.htm,2023-11-01,2023,641823,https://www.sec.gov/Archives/edgar/data/99250/000009925023000013/0000099250-23-000013-index.htm,4922,10q-tgpl-20230930
+DQC.US.0015.2894,"2023-11-02 22:03:09,705 [DQC.US.0015.2894] us-gaap:ProceedsFromSaleOfProductiveAssets has a value of -60,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ProceedsFromSaleOfProductiveAssets fact are:
+Period :2023-01-01 to 2023-09-30
+Dimensions : dei:LegalEntityAxis=wes:WesternMidstreamOperatingLPMember, us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=wes:ThirdPartiesMember
+Unit : USD
+Rule version: 22.0.1 - wes-20230930.htm 4",2023-11-03,ERROR,DQC,15,1423902,"WESTERN MIDSTREAM PARTNERS, LP",2023-11-01 16:21:00,0001423902-23-000065,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1423902/000142390223000065/wes-20230930.htm,2023-11-01,2023,641830,https://www.sec.gov/Archives/edgar/data/1423902/000142390223000065/0001423902-23-000065-index.htm,4922,10q-wes-20230930
+DQC.US.0015.2894,"2023-11-02 22:03:09,705 [DQC.US.0015.2894] us-gaap:ProceedsFromSaleOfProductiveAssets has a value of -60,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ProceedsFromSaleOfProductiveAssets fact are:
+Period :2023-01-01 to 2023-09-30
+Dimensions : us-gaap:RelatedPartyTransactionsByRelatedPartyAxis=wes:ThirdPartiesMember
+Unit : USD
+Rule version: 22.0.1 - wes-20230930.htm 4",2023-11-03,ERROR,DQC,15,1423902,"WESTERN MIDSTREAM PARTNERS, LP",2023-11-01 16:21:00,0001423902-23-000065,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1423902/000142390223000065/wes-20230930.htm,2023-11-01,2023,641830,https://www.sec.gov/Archives/edgar/data/1423902/000142390223000065/0001423902-23-000065-index.htm,4922,10q-wes-20230930
+DQC.US.0015.930,"2023-11-02 22:03:09,706 [DQC.US.0015.930] us-gaap:EquityMethodInvestmentDividendsOrDistributions has a value of -3,579,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:EquityMethodInvestmentDividendsOrDistributions fact are:
+Period :2023-01-01 to 2023-09-30
+Dimensions : srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis=wes:WhitethornPipelineCompanyLimitedLiabilityCompanyMember
+Unit : USD
+Rule version: 22.0.1 - wes-20230930.htm 4",2023-11-03,ERROR,DQC,15,1423902,"WESTERN MIDSTREAM PARTNERS, LP",2023-11-01 16:21:00,0001423902-23-000065,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1423902/000142390223000065/wes-20230930.htm,2023-11-01,2023,641830,https://www.sec.gov/Archives/edgar/data/1423902/000142390223000065/0001423902-23-000065-index.htm,4922,10q-wes-20230930
+DQC.US.0015.7225,"2023-11-02 22:01:16,619 [DQC.US.0015.7225] us-gaap:FinancialLiabilitiesFairValueDisclosure has a value of -4,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancialLiabilitiesFairValueDisclosure fact are:
+Period :2023-09-30
+Dimensions : us-gaap:FairValueByFairValueHierarchyLevelAxis=us-gaap:FairValueInputsLevel2Member, us-gaap:FairValueByMeasurementFrequencyAxis=us-gaap:FairValueMeasurementsRecurringMember
+Unit : USD
+Rule version: 22.0.1 - wmb-20230930.htm 4",2023-11-03,ERROR,DQC,15,107263,"WILLIAMS COMPANIES, INC.",2023-11-01 16:20:00,0000107263-23-000027,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/107263/000010726323000027/wmb-20230930.htm,2023-11-01,2023,641847,https://www.sec.gov/Archives/edgar/data/107263/000010726323000027/0000107263-23-000027-index.htm,4922,10q-wmb-20230930
+DQC.US.0015.7225,"2023-11-02 22:01:16,619 [DQC.US.0015.7225] us-gaap:FinancialLiabilitiesFairValueDisclosure has a value of -4,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancialLiabilitiesFairValueDisclosure fact are:
+Period :2023-09-30
+Dimensions : us-gaap:FairValueByMeasurementBasisAxis=us-gaap:CarryingReportedAmountFairValueDisclosureMember, us-gaap:FairValueByMeasurementFrequencyAxis=us-gaap:FairValueMeasurementsRecurringMember
+Unit : USD
+Rule version: 22.0.1 - wmb-20230930.htm 4",2023-11-03,ERROR,DQC,15,107263,"WILLIAMS COMPANIES, INC.",2023-11-01 16:20:00,0000107263-23-000027,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/107263/000010726323000027/wmb-20230930.htm,2023-11-01,2023,641847,https://www.sec.gov/Archives/edgar/data/107263/000010726323000027/0000107263-23-000027-index.htm,4922,10q-wmb-20230930
+DQC.US.0015.7225,"2023-11-02 22:01:16,620 [DQC.US.0015.7225] us-gaap:FinancialLiabilitiesFairValueDisclosure has a value of -4,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancialLiabilitiesFairValueDisclosure fact are:
+Period :2023-09-30
+Dimensions : us-gaap:FairValueByMeasurementFrequencyAxis=us-gaap:FairValueMeasurementsRecurringMember, us-gaap:FairValueByMeasurementBasisAxis=us-gaap:EstimateOfFairValueFairValueDisclosureMember
+Unit : USD
+Rule version: 22.0.1 - wmb-20230930.htm 4",2023-11-03,ERROR,DQC,15,107263,"WILLIAMS COMPANIES, INC.",2023-11-01 16:20:00,0000107263-23-000027,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/107263/000010726323000027/wmb-20230930.htm,2023-11-01,2023,641847,https://www.sec.gov/Archives/edgar/data/107263/000010726323000027/0000107263-23-000027-index.htm,4922,10q-wmb-20230930
+DQC.US.0015.2720,"2024-01-09 17:31:38,307 [DQC.US.0015.2720] us-gaap:InterestExpenseOther has a value of -11,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:InterestExpenseOther fact are:
+Period :2023-09-01 to 2023-11-30
+Dimensions : 
+Unit : USD
+Rule version: 22.0.3 - camp-20231130.htm 4861",2024-01-09,ERROR,DQC,15,730255,CalAmp Corp.,2024-01-09 16:30:00,0000950170-24-003368,US GAAP 2023,DFIN New ActiveDisclosure (SM) XBRL Schema Document - http://www.dfinsolutions.com/,10-Q,http://www.sec.gov/Archives/edgar/data/730255/000095017024003368/camp-20231130.htm,2024-01-09,2024,666713,https://www.sec.gov/Archives/edgar/data/730255/000095017024003368/0000950170-24-003368-index.htm,3663,10q-camp-20231130
+DQC.US.0015.2688,"2024-02-13 13:33:08,026 [DQC.US.0015.2688] us-gaap:Assets has a value of -1,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:Assets fact are:
+Period :2022-12-31
+Dimensions : dei:LegalEntityAxis=htz:TheHertzCorporationMember, srt:StatementGeographicalAxis=country:US
+Unit : USD
+Rule version: 23.0.3 - htz-20231231.htm 5",2024-02-13,ERROR,DQC,15,1657853,"HERTZ GLOBAL HOLDINGS, INC.",2024-02-12 17:11:00,0001657853-24-000022,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1657853/000165785324000022/htz-20231231.htm,2024-02-12,2024,674104,https://www.sec.gov/Archives/edgar/data/1657853/000165785324000022/0001657853-24-000022-index.htm,7510,10k-htz-20231231
+DQC.US.0015.2688,"2024-02-13 13:33:08,026 [DQC.US.0015.2688] us-gaap:Assets has a value of -1,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:Assets fact are:
+Period :2023-12-31
+Dimensions : dei:LegalEntityAxis=htz:TheHertzCorporationMember, srt:StatementGeographicalAxis=country:US
+Unit : USD
+Rule version: 23.0.3 - htz-20231231.htm 5",2024-02-13,ERROR,DQC,15,1657853,"HERTZ GLOBAL HOLDINGS, INC.",2024-02-12 17:11:00,0001657853-24-000022,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1657853/000165785324000022/htz-20231231.htm,2024-02-12,2024,674104,https://www.sec.gov/Archives/edgar/data/1657853/000165785324000022/0001657853-24-000022-index.htm,7510,10k-htz-20231231
+DQC.US.0015.2974,"2024-02-14 13:47:32,720 [DQC.US.0015.2974] us-gaap:OtherAssetImpairmentCharges has a value of -1,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:OtherAssetImpairmentCharges fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+Rule version: 23.0.3 - emn-20231231.htm 5",2024-02-14,ERROR,DQC,15,915389,EASTMAN CHEMICAL CO,2024-02-14 13:15:00,0000915389-24-000016,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/915389/000091538924000016/emn-20231231.htm,2024-02-14,2024,674755,https://www.sec.gov/Archives/edgar/data/915389/000091538924000016/0000915389-24-000016-index.htm,2821,10k-emn-20231231
+DQC.US.0015.1787,"2024-02-16 08:32:54,141 [DQC.US.0015.1787] us-gaap:NoncontrollingInterestIncreaseFromSubsidiaryEquityIssuance has a value of -17,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:NoncontrollingInterestIncreaseFromSubsidiaryEquityIssuance fact are:
+Period :2023-01-01 to 2023-12-31
+Dimensions : 
+Unit : USD
+Rule version: 23.0.4 - tds-20231231.htm 5",2024-02-16,ERROR,DQC,15,1051512,"TELEPHONE AND DATA SYSTEMS, INC.",2024-02-16 07:54:00,0001051512-24-000010,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1051512/000105151224000010/tds-20231231.htm,2024-02-16,2024,675624,https://www.sec.gov/Archives/edgar/data/1051512/000105151224000010/0001051512-24-000010-index.htm,4813,10k-tds-20231231
+DQC.US.0015.636,"2024-02-16 08:32:54,141 [DQC.US.0015.636] us-gaap:DeferredTaxLiabilities has a value of -4,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DeferredTaxLiabilities fact are:
+Period :2022-12-31
+Dimensions : us-gaap:BalanceSheetLocationAxis=us-gaap:OtherNoncurrentAssetsMember
+Unit : USD
+Rule version: 23.0.4 - tds-20231231.htm 5",2024-02-16,ERROR,DQC,15,1051512,"TELEPHONE AND DATA SYSTEMS, INC.",2024-02-16 07:54:00,0001051512-24-000010,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1051512/000105151224000010/tds-20231231.htm,2024-02-16,2024,675624,https://www.sec.gov/Archives/edgar/data/1051512/000105151224000010/0001051512-24-000010-index.htm,4813,10k-tds-20231231
+DQC.US.0015.2974,"2024-02-21 12:02:30,333 [DQC.US.0015.2974] us-gaap:OtherAssetImpairmentCharges has a value of -5,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:OtherAssetImpairmentCharges fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+Rule version: 23.0.4 - tnl-20231231.htm 5",2024-02-21,ERROR,DQC,15,1361658,Travel & Leisure Co.,2024-02-21 09:58:00,0001361658-24-000007,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1361658/000136165824000007/tnl-20231231.htm,2024-02-21,2024,676605,https://www.sec.gov/Archives/edgar/data/1361658/000136165824000007/0001361658-24-000007-index.htm,7011,10k-tnl-20231231
+DQC.US.0015.240,"2024-08-02 16:12:51,529 [DQC.US.0015.240] us-gaap:AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation has a value of -14,721,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation fact are:
+Period :2023-01-01 to 2023-12-31
+Dimensions : 
+Unit : USD
+Rule version: 24.0.1 - rrr-20231231.htm 5",2024-08-02,ERROR,DQC,15,1653653,"RED ROCK RESORTS, INC.",2024-02-21 14:28:00,0001653653-24-000004,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/rrr-20231231.htm,2024-02-21,2024,676650,https://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/0001653653-24-000004-index.htm,7011,10k-rrr-20231231
+DQC.US.0015.240,"2024-08-02 16:12:51,529 [DQC.US.0015.240] us-gaap:AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation has a value of -3,425,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+Rule version: 24.0.1 - rrr-20231231.htm 5",2024-08-02,ERROR,DQC,15,1653653,"RED ROCK RESORTS, INC.",2024-02-21 14:28:00,0001653653-24-000004,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/rrr-20231231.htm,2024-02-21,2024,676650,https://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/0001653653-24-000004-index.htm,7011,10k-rrr-20231231
+DQC.US.0015.240,"2024-08-02 16:12:51,530 [DQC.US.0015.240] us-gaap:AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation has a value of -4,527,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : 
+Unit : USD
+Rule version: 24.0.1 - rrr-20231231.htm 5",2024-08-02,ERROR,DQC,15,1653653,"RED ROCK RESORTS, INC.",2024-02-21 14:28:00,0001653653-24-000004,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/rrr-20231231.htm,2024-02-21,2024,676650,https://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/0001653653-24-000004-index.htm,7011,10k-rrr-20231231
+DQC.US.0015.2771,"2024-08-02 16:12:51,530 [DQC.US.0015.2771] us-gaap:UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions has a value of -451,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : 
+Unit : USD
+Rule version: 24.0.1 - rrr-20231231.htm 5",2024-08-02,ERROR,DQC,15,1653653,"RED ROCK RESORTS, INC.",2024-02-21 14:28:00,0001653653-24-000004,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/rrr-20231231.htm,2024-02-21,2024,676650,https://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/0001653653-24-000004-index.htm,7011,10k-rrr-20231231
+DQC.US.0015.2894,"2024-08-02 16:12:51,529 [DQC.US.0015.2894] us-gaap:ProceedsFromSaleOfProductiveAssets has a value of -76,300,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ProceedsFromSaleOfProductiveAssets fact are:
+Period :2022-01-01 to 2022-12-31
+Dimensions : us-gaap:DisposalGroupClassificationAxis=us-gaap:LandMember
+Unit : USD
+Rule version: 24.0.1 - rrr-20231231.htm 5",2024-08-02,ERROR,DQC,15,1653653,"RED ROCK RESORTS, INC.",2024-02-21 14:28:00,0001653653-24-000004,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/rrr-20231231.htm,2024-02-21,2024,676650,https://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/0001653653-24-000004-index.htm,7011,10k-rrr-20231231
+DQC.US.0015.3261,"2024-08-02 16:12:51,528 [DQC.US.0015.3261] us-gaap:LettersOfCreditOutstandingAmount has a value of -39,800,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:LettersOfCreditOutstandingAmount fact are:
+Period :2023-12-31
+Dimensions : us-gaap:LongtermDebtTypeAxis=us-gaap:RevolvingCreditFacilityMember, us-gaap:DebtInstrumentAxis=rrr:RevolvingCreditFacilityDueFebruary72025Member, dei:LegalEntityAxis=rrr:StationCasinosLlcMember
+Unit : USD
+Rule version: 24.0.1 - rrr-20231231.htm 5",2024-08-02,ERROR,DQC,15,1653653,"RED ROCK RESORTS, INC.",2024-02-21 14:28:00,0001653653-24-000004,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/rrr-20231231.htm,2024-02-21,2024,676650,https://www.sec.gov/Archives/edgar/data/1653653/000165365324000004/0001653653-24-000004-index.htm,7011,10k-rrr-20231231
+DQC.US.0015.3577,"2024-02-23 15:46:57,771 [DQC.US.0015.3577] us-gaap:AccountsReceivableGrossCurrent has a value of -15,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:AccountsReceivableGrossCurrent fact are:
+Period :2023-12-31
+Dimensions : us-gaap:AccountsNotesLoansAndFinancingReceivablesByBillingStatusTypeAxis=us-gaap:UnbilledRevenuesMember
+Unit : USD
+Rule version: 23.0.5 - lumn-20231231.htm 5",2024-02-23,ERROR,DQC,15,68622,QWEST CORPORATION,2024-02-22 16:11:00,0000068622-24-000005,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/68622/000006862224000005/lumn-20231231.htm,2024-02-22,2024,677602,https://www.sec.gov/Archives/edgar/data/68622/000006862224000005/0000068622-24-000005-index.htm,4813,10k-lumn-20231231
+DQC.US.0015.719,"2024-02-23 17:13:39,911 [DQC.US.0015.719] us-gaap:DepreciationAndAmortization has a value of -14,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DepreciationAndAmortization fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+Rule version: 23.0.5 - zions-20231231.htm 5",2024-02-23,ERROR,DQC,15,109380,"ZIONS BANCORPORATION, NATIONAL ASSOCIATION",2024-02-23 12:52:00,0000109380-24-000061,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/109380/000010938024000061/zions-20231231.htm,2024-02-23,2024,677885,https://www.sec.gov/Archives/edgar/data/109380/000010938024000061/0000109380-24-000061-index.htm,6021,10k-zions-20231231
+DQC.US.0015.7211,"2024-02-26 09:10:36,810 [DQC.US.0015.7211] us-gaap:DividendsCash has a value of -149,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DividendsCash fact are:
+Period :2021-01-01 to 2021-12-31
+Dimensions : 
+Unit : USD
+Rule version: 23.0.5 - wynn-20231231.htm 5",2024-02-26,ERROR,DQC,15,1174922,"WYNN RESORTS, LIMITED",2024-02-23 17:08:00,0001174922-24-000046,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-K,http://www.sec.gov/Archives/edgar/data/1174922/000117492224000046/wynn-20231231.htm,2024-02-23,2024,678325,https://www.sec.gov/Archives/edgar/data/1174922/000117492224000046/0001174922-24-000046-index.htm,7011,10k-wynn-20231231
+DQC.US.0015.2713,"2025-01-08 09:57:45,850 [DQC.US.0015.2713] us-gaap:GeneralAndAdministrativeExpense has a value of -1,129 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:GeneralAndAdministrativeExpense fact are:
+Period :2023-07-01 to 2023-09-30
+Dimensions : srt:RestatementAxis=srt:ScenarioPreviouslyReportedMember
+Unit : USD
+Rule version: 25.0.6 - form10-q.htm 6620",2025-01-08,ERROR,DQC,15,1803977,Limitless X Holdings Inc.,2024-12-23 17:22:00,0001493152-24-051872,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1803977/000149315224051872/form10-q.htm,2024-12-23,2024,789732,https://www.sec.gov/Archives/edgar/data/1803977/000149315224051872/0001493152-24-051872-index.htm,7990,10q-limx-20240930
+DQC.US.0015.6933,"2025-01-08 09:17:53,426 [DQC.US.0015.6933] us-gaap:FinanceLeasePrincipalPayments has a value of -398,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinanceLeasePrincipalPayments fact are:
+Period :2024-04-28 to 2024-10-26
+Dimensions : 
+Unit : USD
+Rule version: 25.0.6 - bned-20241026.htm 8",2025-01-08,ERROR,DQC,15,1634117,"BARNES & NOBLE EDUCATION, INC.",2024-12-09 09:06:00,0001634117-24-000130,US GAAP 2024,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1634117/000163411724000130/bned-20241026.htm,2024-12-09,2024,786476,https://www.sec.gov/Archives/edgar/data/1634117/000163411724000130/0001634117-24-000130-index.htm,5940,10q-bned-20241026
+DQC.US.0015.1302,"2024-11-18 06:10:55,260 [DQC.US.0015.1302] us-gaap:IncomeTaxesPaid has a value of -203,975 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:IncomeTaxesPaid fact are:
+Period :2023-01-01 to 2023-09-30
+Dimensions : us-gaap:BusinessAcquisitionAxis=IQST:ProFormaAcquisitionsMember
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 7035",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.1302,"2024-11-18 06:10:55,261 [DQC.US.0015.1302] us-gaap:IncomeTaxesPaid has a value of -134,880 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:IncomeTaxesPaid fact are:
+Period :2024-01-01 to 2024-09-30
+Dimensions : us-gaap:BusinessAcquisitionAxis=IQST:ProFormaAcquisitionsMember
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 7034",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.2226,"2024-11-18 06:10:55,264 [DQC.US.0015.2226] us-gaap:RepaymentsOfRelatedPartyDebt has a value of -333,378 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:RepaymentsOfRelatedPartyDebt fact are:
+Period :2024-01-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 5531",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.2882,"2024-11-18 06:10:55,263 [DQC.US.0015.2882] us-gaap:RepaymentsOfConvertibleDebt has a value of -86,238 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:RepaymentsOfConvertibleDebt fact are:
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 5552",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.2882,"2024-11-18 06:10:55,264 [DQC.US.0015.2882] us-gaap:RepaymentsOfConvertibleDebt has a value of -541,612 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:RepaymentsOfConvertibleDebt fact are:
+Period :2024-01-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 5551",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.2932,"2024-11-18 06:10:55,263 [DQC.US.0015.2932] us-gaap:PaymentsToAcquireOtherProductiveAssets has a value of -189,767 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:PaymentsToAcquireOtherProductiveAssets fact are:
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 5496",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.7193,"2024-11-18 06:10:55,262 [DQC.US.0015.7193] us-gaap:DebtInstrumentUnamortizedDiscount has a value of -490,022 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DebtInstrumentUnamortizedDiscount fact are:
+Period :2024-09-30
+Dimensions : us-gaap:DebtInstrumentAxis=IQST:ConvertibleNotesMember
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 6449",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.7193,"2024-11-18 06:10:55,263 [DQC.US.0015.7193] us-gaap:DebtInstrumentUnamortizedDiscount has a value of -39,012 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DebtInstrumentUnamortizedDiscount fact are:
+Period :2023-12-31
+Dimensions : us-gaap:DebtInstrumentAxis=IQST:ConvertibleNotesMember
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 6450",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.7210,"2024-11-18 06:10:55,261 [DQC.US.0015.7210] us-gaap:DividendsPreferredStock has a value of -816,480 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DividendsPreferredStock fact are:
+Period :2023-07-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 4462",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.7210,"2024-11-18 06:10:55,264 [DQC.US.0015.7210] us-gaap:DividendsPreferredStock has a value of -816,480 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:DividendsPreferredStock fact are:
+Period :2023-01-01 to 2023-09-30
+Dimensions : 
+Unit : USD
+Rule version: 25.0.4 - iqst10q3_093024.htm 4464",2024-11-18,ERROR,DQC,15,1527702,iQSTEL Inc.,2024-11-14 08:06:00,0001663577-24-000281,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/iqst10q3_093024.htm,2024-11-14,2024,781067,https://www.sec.gov/Archives/edgar/data/1527702/000166357724000281/0001663577-24-000281-index.htm,4813,10q-iqst-20240930
+DQC.US.0015.1334,"2024-11-18 01:15:10,404 [DQC.US.0015.1334] us-gaap:InterestAndDividendIncomeSecurities has a value of -201,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:InterestAndDividendIncomeSecurities fact are:
+Period :2024-01-01 to 2024-09-30
+Dimensions : us-gaap:FinancialInstrumentAxis=us-gaap:DerivativeMember, us-gaap:DerivativeInstrumentRiskAxis=us-gaap:InterestRateSwapMember, us-gaap:DerivativeInstrumentsGainLossByHedgingRelationshipAxis=us-gaap:FairValueHedgingMember
+Unit : USD
+Rule version: 25.0.4 - e24436_bctf-10q.htm 16348",2024-11-18,ERROR,DQC,15,1668340,"BANCORP 34, INC.",2024-11-13 16:31:00,0001552781-24-000598,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/e24436_bctf-10q.htm,2024-11-13,2024,780486,https://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/0001552781-24-000598-index.htm,6035,10q-bctf-20240930
+DQC.US.0015.5877,"2024-11-18 01:15:10,403 [DQC.US.0015.5877] us-gaap:AvailableForSaleSecuritiesDebtSecurities has a value of -206,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:AvailableForSaleSecuritiesDebtSecurities fact are:
+Period :2024-09-30
+Dimensions : us-gaap:DerivativeInstrumentsGainLossByHedgingRelationshipAxis=us-gaap:FairValueHedgingMember, us-gaap:DefinedBenefitPlanByPlanAssetCategoriesAxis=us-gaap:HedgeFundsMember
+Unit : USD
+Rule version: 25.0.4 - e24436_bctf-10q.htm 16387",2024-11-18,ERROR,DQC,15,1668340,"BANCORP 34, INC.",2024-11-13 16:31:00,0001552781-24-000598,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/e24436_bctf-10q.htm,2024-11-13,2024,780486,https://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/0001552781-24-000598-index.htm,6035,10q-bctf-20240930
+DQC.US.0015.9650,"2024-11-18 01:15:10,403 [DQC.US.0015.9650] us-gaap:FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest has a value of -307,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest fact are:
+Period :2022-12-31
+Dimensions : us-gaap:FinancingReceivableRecordedInvestmentByClassOfFinancingReceivableAxis=us-gaap:CommercialLoanMember
+Unit : USD
+Rule version: 25.0.4 - e24436_bctf-10q.htm 12654",2024-11-18,ERROR,DQC,15,1668340,"BANCORP 34, INC.",2024-11-13 16:31:00,0001552781-24-000598,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/e24436_bctf-10q.htm,2024-11-13,2024,780486,https://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/0001552781-24-000598-index.htm,6035,10q-bctf-20240930
+DQC.US.0015.9650,"2024-11-18 01:15:10,403 [DQC.US.0015.9650] us-gaap:FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest has a value of -33,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest fact are:
+Period :2022-12-31
+Dimensions : us-gaap:FinancingReceivableRecordedInvestmentByClassOfFinancingReceivableAxis=srt:SingleFamilyMember
+Unit : USD
+Rule version: 25.0.4 - e24436_bctf-10q.htm 12653",2024-11-18,ERROR,DQC,15,1668340,"BANCORP 34, INC.",2024-11-13 16:31:00,0001552781-24-000598,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/e24436_bctf-10q.htm,2024-11-13,2024,780486,https://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/0001552781-24-000598-index.htm,6035,10q-bctf-20240930
+DQC.US.0015.9650,"2024-11-18 01:15:10,403 [DQC.US.0015.9650] us-gaap:FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest has a value of -50,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest fact are:
+Period :2022-12-31
+Dimensions : us-gaap:FinancingReceivableRecordedInvestmentByClassOfFinancingReceivableAxis=us-gaap:ConsumerLoanMember
+Unit : USD
+Rule version: 25.0.4 - e24436_bctf-10q.htm 12655",2024-11-18,ERROR,DQC,15,1668340,"BANCORP 34, INC.",2024-11-13 16:31:00,0001552781-24-000598,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/e24436_bctf-10q.htm,2024-11-13,2024,780486,https://www.sec.gov/Archives/edgar/data/1668340/000155278124000598/0001552781-24-000598-index.htm,6035,10q-bctf-20240930
+DQC.US.0015.9138,"2024-11-17 23:53:42,779 [DQC.US.0015.9138] us-gaap:FinancingReceivableOriginatedFiveOrMoreYearsBeforeLatestFiscalYear has a value of -3,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancingReceivableOriginatedFiveOrMoreYearsBeforeLatestFiscalYear fact are:
+Period :2023-12-31
+Dimensions : us-gaap:FinancingReceivableRecordedInvestmentByClassOfFinancingReceivableAxis=bvfl:CommercialRealEstateOwnerOccupiedMember, us-gaap:FinancialInstrumentAxis=bvfl:GrossWriteOffMember
+Unit : USD
+Rule version: 25.0.4 - bvfl-20240930.htm 13012",2024-11-18,ERROR,DQC,15,1302387,"BV FINANCIAL, INC.",2024-11-13 09:39:00,0000950170-24-125992,US GAAP 2024,DFIN New ActiveDisclosure (SM) XBRL Schema Document - http://www.dfinsolutions.com/,10-Q,http://www.sec.gov/Archives/edgar/data/1302387/000095017024125992/bvfl-20240930.htm,2024-11-13,2024,780762,https://www.sec.gov/Archives/edgar/data/1302387/000095017024125992/0000950170-24-125992-index.htm,6035,10q-bvfl-20240930
+DQC.US.0015.9138,"2024-11-17 23:53:42,780 [DQC.US.0015.9138] us-gaap:FinancingReceivableOriginatedFiveOrMoreYearsBeforeLatestFiscalYear has a value of -2,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancingReceivableOriginatedFiveOrMoreYearsBeforeLatestFiscalYear fact are:
+Period :2023-12-31
+Dimensions : us-gaap:FinancialInstrumentAxis=bvfl:GrossWriteOffMember, us-gaap:FinancingReceivableRecordedInvestmentByClassOfFinancingReceivableAxis=bvfl:OneToFourFamilyOwnerOccupiedLoansMember
+Unit : USD
+Rule version: 25.0.4 - bvfl-20240930.htm 12414",2024-11-18,ERROR,DQC,15,1302387,"BV FINANCIAL, INC.",2024-11-13 09:39:00,0000950170-24-125992,US GAAP 2024,DFIN New ActiveDisclosure (SM) XBRL Schema Document - http://www.dfinsolutions.com/,10-Q,http://www.sec.gov/Archives/edgar/data/1302387/000095017024125992/bvfl-20240930.htm,2024-11-13,2024,780762,https://www.sec.gov/Archives/edgar/data/1302387/000095017024125992/0000950170-24-125992-index.htm,6035,10q-bvfl-20240930
+DQC.US.0015.9138,"2024-11-17 23:53:42,780 [DQC.US.0015.9138] us-gaap:FinancingReceivableOriginatedFiveOrMoreYearsBeforeLatestFiscalYear has a value of -80,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancingReceivableOriginatedFiveOrMoreYearsBeforeLatestFiscalYear fact are:
+Period :2023-12-31
+Dimensions : us-gaap:FinancingReceivableRecordedInvestmentByClassOfFinancingReceivableAxis=bvfl:OtherConsumerMember, us-gaap:FinancialInstrumentAxis=bvfl:GrossWriteOffMember
+Unit : USD
+Rule version: 25.0.4 - bvfl-20240930.htm 14208",2024-11-18,ERROR,DQC,15,1302387,"BV FINANCIAL, INC.",2024-11-13 09:39:00,0000950170-24-125992,US GAAP 2024,DFIN New ActiveDisclosure (SM) XBRL Schema Document - http://www.dfinsolutions.com/,10-Q,http://www.sec.gov/Archives/edgar/data/1302387/000095017024125992/bvfl-20240930.htm,2024-11-13,2024,780762,https://www.sec.gov/Archives/edgar/data/1302387/000095017024125992/0000950170-24-125992-index.htm,6035,10q-bvfl-20240930
+DQC.US.0015.1787,"2024-11-05 18:17:36,656 [DQC.US.0015.1787] us-gaap:NoncontrollingInterestIncreaseFromSubsidiaryEquityIssuance has a value of -14,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:NoncontrollingInterestIncreaseFromSubsidiaryEquityIssuance fact are:
+Period :2024-07-01 to 2024-09-30
+Dimensions : 
+Unit : USD
+Rule version: 25.0.4 - tds-20240930.htm 8",2024-11-05,ERROR,DQC,15,1051512,"TELEPHONE AND DATA SYSTEMS, INC.",2024-11-01 07:53:00,0001051512-24-000064,US GAAP 2024,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1051512/000105151224000064/tds-20240930.htm,2024-11-01,2024,774202,https://www.sec.gov/Archives/edgar/data/1051512/000105151224000064/0001051512-24-000064-index.htm,4813,10q-tds-20240930
+DQC.US.0015.9957,"2024-11-05 18:17:36,656 [DQC.US.0015.9957] us-gaap:FinancingReceivableYearFourOriginatedThreeYearsBeforeCurrentFiscalYearWriteoff has a value of -1,000,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:FinancingReceivableYearFourOriginatedThreeYearsBeforeCurrentFiscalYearWriteoff fact are:
+Period :2024-01-01 to 2024-09-30
+Dimensions : us-gaap:FinancingReceivableRecordedInvestmentByClassOfFinancingReceivableAxis=tds:EquipmentInstallmentPlanReceivableMember
+Unit : USD
+Rule version: 25.0.4 - tds-20240930.htm 8",2024-11-05,ERROR,DQC,15,1051512,"TELEPHONE AND DATA SYSTEMS, INC.",2024-11-01 07:53:00,0001051512-24-000064,US GAAP 2024,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/1051512/000105151224000064/tds-20240930.htm,2024-11-01,2024,774202,https://www.sec.gov/Archives/edgar/data/1051512/000105151224000064/0001051512-24-000064-index.htm,4813,10q-tds-20240930
+DQC.US.0015.2973,"2024-11-01 18:35:19,522 [DQC.US.0015.2973] us-gaap:RestrictedStockExpense has a value of -1,369,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:RestrictedStockExpense fact are:
+Period :2024-07-01 to 2024-09-30
+Dimensions : us-gaap:AwardTypeAxis=us-gaap:PerformanceSharesMember
+Unit : USD
+Rule version: 25.0.4 - cfr-20240930.htm 8",2024-11-01,ERROR,DQC,15,39263,"Cullen/Frost Bankers, Inc.",2024-10-31 15:06:00,0000039263-24-000069,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/39263/000003926324000069/cfr-20240930.htm,2024-10-31,2024,772980,https://www.sec.gov/Archives/edgar/data/39263/000003926324000069/0000039263-24-000069-index.htm,6021,10q-cfr-20240930
+DQC.US.0015.2973,"2024-11-01 18:35:19,522 [DQC.US.0015.2973] us-gaap:RestrictedStockExpense has a value of -521,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:RestrictedStockExpense fact are:
+Period :2024-01-01 to 2024-09-30
+Dimensions : us-gaap:AwardTypeAxis=us-gaap:PerformanceSharesMember
+Unit : USD
+Rule version: 25.0.4 - cfr-20240930.htm 8",2024-11-01,ERROR,DQC,15,39263,"Cullen/Frost Bankers, Inc.",2024-10-31 15:06:00,0000039263-24-000069,US GAAP 2023,XBRL Document Created with the Workiva Platform,10-Q,http://www.sec.gov/Archives/edgar/data/39263/000003926324000069/cfr-20240930.htm,2024-10-31,2024,772980,https://www.sec.gov/Archives/edgar/data/39263/000003926324000069/0000039263-24-000069-index.htm,6021,10q-cfr-20240930
+DQC.US.0015.2419,"2024-08-26 17:21:53,045 [DQC.US.0015.2419] us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod has a value of -600,000 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod fact are:
+Period :2023-04-01 to 2023-06-30
+Dimensions : 
+Unit : shares
+Rule version: 24.0.4 - form10-q.htm 14450",2024-08-26,ERROR,DQC,15,1514056,TITAN ENVIRONMENTAL SOLUTIONS INC.,2024-08-19 17:31:00,0001493152-24-033180,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1514056/000149315224033180/form10-q.htm,2024-08-19,2024,753440,https://www.sec.gov/Archives/edgar/data/1514056/000149315224033180/0001493152-24-033180-index.htm,7371,10q-tesi-20240630
+DQC.US.0015.2923,"2024-08-28 10:19:20,974 [DQC.US.0015.2923] us-gaap:SellingAndMarketingExpense has a value of -20 which is less than zero. This element should not have a negative value. The preparer should consider if the value is input correctly for this assertion and, after considering the appropriateness of the input, if incorrect, input the amount as a positive (i.e., absolute) value and provide a negated label.
+
+The properties of this us-gaap:SellingAndMarketingExpense fact are:
+Period :2023-01-01 to 2023-06-30
+Dimensions : 
+Unit : USD
+Rule version: 24.0.4 - form10-q.htm 3772",2024-08-28,ERROR,DQC,15,1375793,"MetAlert, Inc.",2024-08-19 17:21:00,0001493152-24-033153,US GAAP 2024,Novaworks,10-Q,http://www.sec.gov/Archives/edgar/data/1375793/000149315224033153/form10-q.htm,2024-08-19,2024,754455,https://www.sec.gov/Archives/edgar/data/1375793/000149315224033153/0001493152-24-033153-index.htm,3663,10q-mlrt-20240630

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock contextRef="From2022-09-01to2023-08-31">&lt;table cellpadding="0" cellspacing="0" id="xdx_88D_eus-gaap--ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock_zNlfy2qziUSh" style="font: 11pt Calibri, Helvetica, Sans-Serif; margin-left: auto; border-collapse: collapse; width: 50%; margin-right: auto" summary="xdx: Disclosure - NOTE 14 - INCOME TAXES - Schedule of Deferred Tax Assets and Liabilities (Details)"&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td style="text-align: center"&gt; &lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: center; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center"&gt;August 31, 2023&lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; text-align: center; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center"&gt;August 31, 2022&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-indent: -4pt; color: black; text-align: left; padding-left: 5.4pt"&gt;Deferred tax asset attributable to:&lt;/td&gt;&lt;td&gt; &lt;/td&gt;
+    &lt;td style="text-align: left"&gt; &lt;/td&gt;&lt;td style="text-align: right"&gt; &lt;/td&gt;&lt;td style="text-align: left"&gt; &lt;/td&gt;&lt;td&gt; &lt;/td&gt;
+    &lt;td style="text-align: left"&gt; &lt;/td&gt;&lt;td style="text-align: right"&gt; &lt;/td&gt;&lt;td style="text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-indent: -4pt; width: 68%; color: black; text-align: justify; padding-left: 5.4pt"&gt;Net operating loss carry over&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 2%; color: black"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; color: black; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 12%; color: black; text-align: right"&gt;&lt;span id="xdx_90C_eus-gaap--DeferredTaxAssetsOperatingLossCarryforwards_iI_pp0p0_c20230831_zRmE1NsFIta2"&gt;2,077,213&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; color: black; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 2%; color: black"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; color: black; text-align: left"&gt;$&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 12%; color: black; text-align: right"&gt;&lt;span id="xdx_900_eus-gaap--DeferredTaxAssetsOperatingLossCarryforwards_pp0p0_c20220831_zLmSuiaddkha"&gt;1,328,204&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; color: black; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: White"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-indent: 1pt; color: black; text-align: justify; padding-bottom: 1pt"&gt;Less: valuation allowance&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; color: black; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; color: black; text-align: left"&gt; &lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; color: black; text-align: right"&gt;(&lt;span id="xdx_901_eus-gaap--DeferredTaxAssetsValuationAllowance_iI_pp0p0_c20230831_zKGV2hc86Ynk"&gt;2,077,213&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; color: black; text-align: left"&gt;)&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; color: black; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; color: black; text-align: left"&gt; &lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; color: black; text-align: right"&gt;(&lt;span id="xdx_904_eus-gaap--DeferredTaxAssetsValuationAllowance_pp0p0_c20220831_zaCnD3wfCzk2"&gt;1,328,204&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; color: black; text-align: left"&gt;)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-indent: 1pt; color: black; text-align: justify; padding-bottom: 1pt"&gt;Net deferred tax asset&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; color: black; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; color: black; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; color: black; text-align: right"&gt;&lt;span id="xdx_900_eus-gaap--DeferredTaxAssetsNet_iI_pp0p0_c20230831_zUtl75Ii4aJe"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0802"&gt;—&lt;/span&gt;&lt;/span&gt;  &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; color: black; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; color: black; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; color: black; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; color: black; text-align: right"&gt;&lt;span id="xdx_90D_eus-gaap--DeferredTaxAssetsNet_pp0p0_c20220831_zRCcey3qwTH9"&gt;&lt;span style="-sec-ix-hidden: xdx2ixbrl0803"&gt;—&lt;/span&gt;&lt;/span&gt;  &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; color: black; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;</us-gaap:ScheduleOfDeferredTaxAssetsAndLiabilitiesTableTextBlock>
+	<us-gaap:ScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock contextRef="From2022-09-01to2023-08-31">&lt;table cellpadding="0" cellspacing="0" id="xdx_885_eus-gaap--ScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock_zuVuSB8FyIwg" style="font: 11pt Calibri, Helvetica, Sans-Serif; margin-left: auto; border-collapse: collapse; width: 50%; margin-right: auto" summary="xdx: Disclosure - NOTE 14 - INCOME TAXES - Schedule of Effective Income Tax Rate Reconciliation (Details)"&gt;
+    &lt;tr&gt;
+       &lt;td&gt; &lt;/td&gt;
+       &lt;td&gt; &lt;/td&gt;
+       &lt;td&gt; &lt;/td&gt;
+       &lt;td id="xdx_498_20220901__20230831_zNct6C5J0UNc"&gt; &lt;/td&gt;
+       &lt;td&gt; &lt;/td&gt;
+       &lt;td&gt; &lt;/td&gt;
+       &lt;td&gt; &lt;/td&gt;
+       &lt;td id="xdx_497_20210901__20220831_zukOMF8t8MSd"&gt; &lt;/td&gt;
+       &lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td style="text-align: center"&gt; &lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td colspan="7" style="font: bold 10pt Times New Roman, Times, Serif; text-align: center"&gt;Year ended&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td style="text-align: center"&gt; &lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td colspan="7" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center"&gt;August 31,&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td style="text-align: center"&gt; &lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center"&gt;2023&lt;/td&gt;&lt;td style="font: bold 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td colspan="3" style="border-bottom: Black 1pt solid; font: bold 10pt Times New Roman, Times, Serif; text-align: center"&gt;2022&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr id="xdx_408_eus-gaap--EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate_dp_zjBlbAFAKq76" style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-indent: -4pt; width: 68%; text-align: justify; padding-left: 5.4pt"&gt;Federal statutory tax rate&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 2%"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 12%; text-align: right"&gt;21&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt;%&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 2%"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 12%; text-align: right"&gt;21&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt;%&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr id="xdx_404_eus-gaap--EffectiveIncomeTaxRateReconciliationChangeInDeferredTaxAssetsValuationAllowance_iN_dpi_ziE6DKFkp4N" style="vertical-align: bottom; background-color: White"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: justify; padding-bottom: 1pt"&gt;Change in valuation allowance&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;(21&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt;%)&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;(21&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt;%)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr id="xdx_403_eus-gaap--EffectiveIncomeTaxRateContinuingOperations_dp_z81qvXLUeeK7" style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: justify; padding-bottom: 1pt"&gt;Effective tax rate&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;0&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt;%&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;0&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt;%&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;</us-gaap:ScheduleOfEffectiveIncomeTaxRateReconciliationTableTextBlock>
+	</xbrl>
+

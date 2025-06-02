@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note2-SummaryOfSignificantAccountingPolicies-DissaggregationOfRevenuesDetails" xlink:href="abqq-20230831.xsd#Note2-SummaryOfSignificantAccountingPolicies-DissaggregationOfRevenuesDetails" xlink:type="simple"/>
+    <link:calculationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note2-SummaryOfSignificantAccountingPolicies-DissaggregationOfRevenuesDetails" xlink:title="00000031 - Disclosure - NOTE 2 - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Dissaggregation of Revenues (Details"/>
+    </link:linkbase>

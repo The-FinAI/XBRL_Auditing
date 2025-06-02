@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:ConcentrationRiskDisclosureTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_80E_eus-gaap--ConcentrationRiskDisclosureTextBlock_zFBSPlTEmAf4" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 11 – CONCENTRATION
+RISK&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;&lt;i&gt;Concentration &lt;/i&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="color: #212529"&gt;For the year ended &lt;/span&gt;August
+31, 2023&lt;span style="color: #212529"&gt;, &lt;span id="xdx_907_eus-gaap--ConcentrationRiskPercentage1_c20220901__20230831__us-gaap--ConcentrationRiskByTypeAxis__custom--RevenueCustomerOneMember_zDOdcJo2Mp7j"&gt;47%&lt;/span&gt; and &lt;span id="xdx_900_eus-gaap--ConcentrationRiskPercentage1_c20220901__20230831__us-gaap--ConcentrationRiskByTypeAxis__custom--RevenueCustomerTwoMember_zIFvMr3FCEO8"&gt;17%&lt;/span&gt; of the total revenue were generated from two customers, respectively. For the
+year ended &lt;/span&gt;August 31, 2022&lt;span style="color: #212529"&gt;, &lt;span id="xdx_90B_eus-gaap--ConcentrationRiskPercentage1_c20210901__20220831__us-gaap--ConcentrationRiskByTypeAxis__custom--RevenueCustomerOneMember_zvjAbFz40298"&gt;70%&lt;/span&gt; and &lt;span id="xdx_904_eus-gaap--ConcentrationRiskPercentage1_c20210901__20220831__us-gaap--ConcentrationRiskByTypeAxis__custom--RevenueCustomerTwoMember_zybAksizAve3"&gt;26%&lt;/span&gt; of the total revenue were generated from two customers, including
+a related party. There were &lt;span id="xdx_909_eus-gaap--AccountsReceivableNet_iI_do_c20230831_zJvn5FEABurh"&gt;&lt;span id="xdx_902_eus-gaap--AccountsReceivableNet_iI_do_c20220831_z2LJd4sEurf4"&gt;no&lt;/span&gt;&lt;/span&gt; accounts receivable balances as of August 31, 2023 and 2022.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;&lt;i&gt;Credit risk&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;Financial instruments that potentially subject the
+Company to significant concentrations of credit risk consist primarily of cash. The Hong Kong Deposit Protection Board pays compensation
+up to a limit of HKD 500,000 (approximately &lt;span id="xdx_90F_ecustom--HongKongDepositProtection_iI_c20230831_zALqmPTmhEZf"&gt;$64,000&lt;/span&gt;) if the bank with which an individual/a company hold its eligible deposit fails. As
+of August 31, 2023 and 2022, cash balance of &lt;span id="xdx_90B_eus-gaap--CashEquivalentsAtCarryingValue_iI_c20230831_zPSNXTbZMG1g"&gt;$92,972&lt;/span&gt; and &lt;span id="xdx_902_eus-gaap--CashEquivalentsAtCarryingValue_iI_c20220831_zOWML1Lefy3i"&gt;$70,602&lt;/span&gt;, respectively, were maintained at financial institutions in Hong Kong,
+and were subject to credit risk. In the US, the insurance coverage of each bank is &lt;span id="xdx_901_eus-gaap--CashFDICInsuredAmount_iI_c20230831_zVVakm901Us6"&gt;$250,000&lt;/span&gt;. As of August 31, 2023 and 2022, cash balance
+of &lt;span id="xdx_906_eus-gaap--FairValueConcentrationOfRiskCashAndCashEquivalents_iI_c20230831_zBzAswIwVWz8"&gt;$24,124&lt;/span&gt; and &lt;span id="xdx_90D_eus-gaap--FairValueConcentrationOfRiskCashAndCashEquivalents_iI_c20220831_zGPLH7R1yvwj"&gt;$13,621&lt;/span&gt;, respectively, were maintained at financial institutions in the US. While management believes that these financial
+institutions are of high credit quality, it also continually monitors their creditworthiness.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+</us-gaap:ConcentrationRiskDisclosureTextBlock>
+	</xbrl>
+

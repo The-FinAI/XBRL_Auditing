@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i0188793cfbec40b8a12ece3d6a7485d3_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acgl:RestrictedAssetsRestrictionTypeAxis">acgl:CollateralOrGuaranteesAffiliatedTransactionsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i5840cbdf04ac41bba45455dce6657af7_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acgl:RestrictedAssetsRestrictionTypeAxis">acgl:CollateralOrGuaranteesAffiliatedTransactionsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="id1a6f0bbadd04db4bb6c5547b9407f44_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acgl:RestrictedAssetsRestrictionTypeAxis">acgl:CollateralOrGuaranteesThirdPartyAgreementsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i5d8b5233e0be40b98bbd256ccfe80d6e_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acgl:RestrictedAssetsRestrictionTypeAxis">acgl:CollateralOrGuaranteesThirdPartyAgreementsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i03816bf1f3894dc7a821fb77ce204288_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acgl:RestrictedAssetsRestrictionTypeAxis">acgl:DepositsWithUsRegulatoryAuthoritiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4c1c1188265d485a9c4692861ef379db_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acgl:RestrictedAssetsRestrictionTypeAxis">acgl:DepositsWithUsRegulatoryAuthoritiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="iddbc7868f8ae4ec480b822d12b3c93b5_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acgl:RestrictedAssetsRestrictionTypeAxis">acgl:DepositsWithNonUsRegulatoryAuthoritiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i2a043d6d3fed4e0b8feb4ac053e9ec6b_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="acgl:RestrictedAssetsRestrictionTypeAxis">acgl:DepositsWithNonUsRegulatoryAuthoritiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f58039c8da247199a5559e66a073685_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<acgl:RestrictedAssets contextRef="i0188793cfbec40b8a12ece3d6a7485d3_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzMtMS0xLTEtNjc4NzQ_507783ea-9d7a-4d74-a477-74b32bd5ee2d" unitRef="usd">4254398000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="i5840cbdf04ac41bba45455dce6657af7_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzMtMy0xLTEtNjc4NzQ_b7044a40-5a33-45f2-93b5-470ab8c62124" unitRef="usd">4223955000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="id1a6f0bbadd04db4bb6c5547b9407f44_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzQtMS0xLTEtNjc4NzQ_5acd0d10-768a-4b0e-b0d8-505c3dc0590f" unitRef="usd">2632892000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="i5d8b5233e0be40b98bbd256ccfe80d6e_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzQtMy0xLTEtNjc4NzQ_c2967f36-74a9-4395-b589-30179adaeaf5" unitRef="usd">2289631000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="i03816bf1f3894dc7a821fb77ce204288_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzUtMS0xLTEtNjc4NzQ_4c8b1472-a472-4c61-a2aa-44d968ecebad" unitRef="usd">776342000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="i4c1c1188265d485a9c4692861ef379db_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzUtMy0xLTEtNjc4NzQ_d5048316-5634-4c0c-ba98-364fbbb43948" unitRef="usd">798100000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="iddbc7868f8ae4ec480b822d12b3c93b5_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzYtMS0xLTEtNjc4NzQ_a4c6eaca-356a-40c8-847e-c1b1c0efff2a" unitRef="usd">1037848000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="i2a043d6d3fed4e0b8feb4ac053e9ec6b_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzYtMy0xLTEtNjc4NzQ_e1237c11-f108-44c3-9208-391c755efe76" unitRef="usd">938046000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzctMS0xLTEtNjc4NzQ_1a693cc1-8e1e-4239-b23c-6f0cdd994073" unitRef="usd">8701480000</acgl:RestrictedAssets>
+	<acgl:RestrictedAssets contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToyMDcyM2RjMmQ5ZjQ0YjA3YmNkNTE4NzdlZDc1ZmZmYi90YWJsZXJhbmdlOjIwNzIzZGMyZDlmNDRiMDdiY2Q1MTg3N2VkNzVmZmZiXzctMy0xLTEtNjc4NzQ_d6106ef6-0eb8-4c8c-a55b-ed3fdc6a6bde" unitRef="usd">8249732000</acgl:RestrictedAssets>
+	</xbrl>
+

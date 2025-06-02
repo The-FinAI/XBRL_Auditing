@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:CommitmentsAndContingenciesDisclosureTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_802_eus-gaap--CommitmentsAndContingenciesDisclosureTextBlock_z0p2KSJ8ucCb" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 12 – COMMITMENTS
+AND CONTINGENCIES&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; background-color: white; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;b&gt;&lt;i&gt;Contingencies&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;From time to time, the Company may be involved in
+litigation relating to claims arising out of its operations in the normal course of business. There is no pending or threatened lawsuits
+that could reasonably be expected to have a material effect on the results of its operations and there are no proceedings in which any
+of the Company’s directors, officers, or affiliates, or any registered or beneficial stockholder, is an adverse party or has a material
+interest adverse to the Company’s interest.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;&lt;i&gt; &lt;/i&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;&lt;i&gt;Operating leases&lt;/i&gt;&lt;/b&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;The Company has several lease agreements to rent office
+spaces and movie theatre with its related party and third-party vendors. (See Note 6)&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt/106% Times New Roman, Times, Serif; margin: 0pt; color: #212529"&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+
+
+
+
+&lt;p style="font: 10pt/107% Times New Roman, Times, Serif; margin: 0pt; color: #212529"&gt;&lt;b&gt; &lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;AB INTERNATIONAL GROUP CORP.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt;&lt;b&gt;NOTES TO CONSOLIDATED FINANCIAL
+STATEMENTS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
+
+</us-gaap:CommitmentsAndContingenciesDisclosureTextBlock>
+	</xbrl>
+

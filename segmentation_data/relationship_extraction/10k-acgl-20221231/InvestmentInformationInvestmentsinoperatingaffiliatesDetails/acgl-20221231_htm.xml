@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i7b19a3317bb54b0294da27e7fed4fddd_I20210701">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:GreysbridgeHoldingsLtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-07-01</instant>
+        </period>
+    </context>
+	<context id="i4939286e83fa4106906ad8794026bfa8_I20210701">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:GreysbridgeHoldingsLtdMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:KelsoAndCompanyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-07-01</instant>
+        </period>
+    </context>
+	<context id="ia81e0e7891c341d8b21294a269b6f964_I20210701">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:GreysbridgeHoldingsLtdMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">acgl:WarburgPincusLLCMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-07-01</instant>
+        </period>
+    </context>
+	<context id="i8953e2198307428a8bf5b4341cef5824_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:CofaceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="iffd7ddd671774f1b81dd8b5a96198337_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:CofaceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i9e0e77bcfc024d82aaa27a728019241a_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:CofaceMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">acgl:IssuedSharesExcludingTreasuryStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i96fb052084564a4593e519252c29c09e_I20171231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:PremiaHoldingsLtdMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">us-gaap:EquityMethodInvesteeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2017-12-31</instant>
+        </period>
+    </context>
+	<context id="i21225c60bf8a4e7f933f730322c1765d_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:GreysbridgeHoldingsLtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i678c2882da5a41478a0a93d7c766c766_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:CofaceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ic0947f965fd04f24ae5064bbfaa39b05_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:GreysbridgeHoldingsLtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="if5df6c6a102d4edbafc49e04c769618f_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:CofaceMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f58039c8da247199a5559e66a073685_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i5ceadd5970de4d62bfb6191e78d96c6f_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:GreysbridgeHoldingsLtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i328fc0d6399545b3a561afcdb6f0abca_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="id2a193cdd6f046628fbc00dc46a602ef_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i3319c8d85f93428e8321e34fdc57c9aa_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:SomersHoldingsLtdMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i720fa7e6155346b78b57cbc2826eedae_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia585acec0cc44319b4174df64717200e_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i069496e8b66e496fb9c5e8179f4e3f5b_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i2cbc353ebe67452583b2539eace656d2_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i434f2a88ad1841d79d2bbfac73d95915_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:UnderwritingSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i224dc243b09142e79be2793bb143e621_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ifee866f62fd148179db8723c31001a1a_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:ParentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i9d986e8f2409427c950ea67bc5803eb9_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:ParentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i50220b0a46c54269b89833ea760d0f7f_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">us-gaap:ParentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i7b19a3317bb54b0294da27e7fed4fddd_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNDIvZnJhZzpmZmUxMTkzMmRmYmQ0YzY2OGY4YjRiZDlkNzBmMzhmZi90ZXh0cmVnaW9uOmZmZTExOTMyZGZiZDRjNjY4ZjhiNGJkOWQ3MGYzOGZmXzY3OA_9af6a5dc-0d04-4b5d-82cc-b0f8d9214ea2" unitRef="number">0.40</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i4939286e83fa4106906ad8794026bfa8_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNDIvZnJhZzpmZmUxMTkzMmRmYmQ0YzY2OGY4YjRiZDlkNzBmMzhmZi90ZXh0cmVnaW9uOmZmZTExOTMyZGZiZDRjNjY4ZjhiNGJkOWQ3MGYzOGZmXzY5Nw_f005b6bc-a575-4db8-9d23-57f1066c90c3" unitRef="number">0.30</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="ia81e0e7891c341d8b21294a269b6f964_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNDIvZnJhZzpmZmUxMTkzMmRmYmQ0YzY2OGY4YjRiZDlkNzBmMzhmZi90ZXh0cmVnaW9uOmZmZTExOTMyZGZiZDRjNjY4ZjhiNGJkOWQ3MGYzOGZmXzc2OQ_b0fdcc18-3f90-4699-b3ba-2570475e79ca" unitRef="number">0.30</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i8953e2198307428a8bf5b4341cef5824_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzk2ODk_e375f3f1-1946-4ccc-9364-1e3365689563" unitRef="number">0.295</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="iffd7ddd671774f1b81dd8b5a96198337_I20221231" decimals="3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzU0OTc1NTgzMTA4NQ_4ff783a6-e427-4c45-8132-450108284d65" unitRef="number">0.299</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i9e0e77bcfc024d82aaa27a728019241a_I20221231" decimals="3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzU0OTc1NTgzMTA5Mg_90463ab2-15b5-42ca-af52-ff1a3e24a0be" unitRef="number">0.301</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i7b19a3317bb54b0294da27e7fed4fddd_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzEwNTUy_2e621d40-3710-4c69-a99a-7d672e743aaa" unitRef="number">0.40</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i4939286e83fa4106906ad8794026bfa8_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzEwNTcx_efc271bf-9a48-46f0-ab3d-39d11f1a396a" unitRef="number">0.30</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="ia81e0e7891c341d8b21294a269b6f964_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzEwNjIz_04ffa135-39bb-453e-877d-4744a38cf6c9" unitRef="number">0.30</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i7b19a3317bb54b0294da27e7fed4fddd_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzUvZnJhZzpmY2I4ZGQ3ZDg0Njg0YWE0YWFmZjMzYzQ2YWQ2MzQ2OS90ZXh0cmVnaW9uOmZjYjhkZDdkODQ2ODRhYTRhYWZmMzNjNDZhZDYzNDY5Xzc5Mg_2e621d40-3710-4c69-a99a-7d672e743aaa" unitRef="number">0.40</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i4939286e83fa4106906ad8794026bfa8_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzUvZnJhZzpmY2I4ZGQ3ZDg0Njg0YWE0YWFmZjMzYzQ2YWQ2MzQ2OS90ZXh0cmVnaW9uOmZjYjhkZDdkODQ2ODRhYTRhYWZmMzNjNDZhZDYzNDY5XzgxMQ_efc271bf-9a48-46f0-ab3d-39d11f1a396a" unitRef="number">0.30</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="ia81e0e7891c341d8b21294a269b6f964_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzUvZnJhZzpmY2I4ZGQ3ZDg0Njg0YWE0YWFmZjMzYzQ2YWQ2MzQ2OS90ZXh0cmVnaW9uOmZjYjhkZDdkODQ2ODRhYTRhYWZmMzNjNDZhZDYzNDY5Xzg2Mw_04ffa135-39bb-453e-877d-4744a38cf6c9" unitRef="number">0.30</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i96fb052084564a4593e519252c29c09e_I20171231" decimals="2" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzg4_175f6601-2337-4649-8bdb-3fa9c0738c5b" unitRef="number">0.25</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i96fb052084564a4593e519252c29c09e_I20171231" decimals="2" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzUwOA_945ca254-bfe9-4912-aeec-a2392d3b52bc" unitRef="number">0.25</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i7b19a3317bb54b0294da27e7fed4fddd_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzE2NzQ_2e621d40-3710-4c69-a99a-7d672e743aaa" unitRef="number">0.40</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="i4939286e83fa4106906ad8794026bfa8_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzE2OTM_efc271bf-9a48-46f0-ab3d-39d11f1a396a" unitRef="number">0.30</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<us-gaap:EquityMethodInvestmentOwnershipPercentage contextRef="ia81e0e7891c341d8b21294a269b6f964_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzE3MzQ_04ffa135-39bb-453e-877d-4744a38cf6c9" unitRef="number">0.30</us-gaap:EquityMethodInvestmentOwnershipPercentage>
+	<acgl:InvestmentInAffiliatePricePerShare contextRef="i8953e2198307428a8bf5b4341cef5824_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzk4MTg_f119bc8e-1abd-45ac-b755-78d892ab4b92" unitRef="eurPerShare">9.95</acgl:InvestmentInAffiliatePricePerShare>
+	<acgl:InvestmentInAffiliatePricePerShare contextRef="i7b19a3317bb54b0294da27e7fed4fddd_I20210701" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzEwNDQz_992024d1-d559-49d0-9dad-dc6bdcf5af20" unitRef="usdPerShare">35.00</acgl:InvestmentInAffiliatePricePerShare>
+	<us-gaap:EquityMethodInvestmentAggregateCost contextRef="i8953e2198307428a8bf5b4341cef5824_I20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzk4NDg_f5629b33-002c-491d-be49-2d6e6196c124" unitRef="eur">453000000</us-gaap:EquityMethodInvestmentAggregateCost>
+	<us-gaap:EquityMethodInvestmentAggregateCost contextRef="i8953e2198307428a8bf5b4341cef5824_I20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzk4NjY_085484b4-8589-4d81-a1f0-4c97d1e2da1e" unitRef="usd">546000000</us-gaap:EquityMethodInvestmentAggregateCost>
+	<us-gaap:EquityMethodInvestmentAggregateCost contextRef="i21225c60bf8a4e7f933f730322c1765d_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzEwODA1_5748fcac-0fea-4360-bbe0-48c869add13c" unitRef="usd">278900000</us-gaap:EquityMethodInvestmentAggregateCost>
+	<acgl:OperatingAffiliateGainOnAcquisition contextRef="i678c2882da5a41478a0a93d7c766c766_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzk5NjM_fca02051-a7cd-4f95-9bf4-053367437cbd" unitRef="usd">74500000</acgl:OperatingAffiliateGainOnAcquisition>
+	<acgl:OperatingAffiliateGainOnAcquisition contextRef="ic0947f965fd04f24ae5064bbfaa39b05_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzEwODk0_21d4d14b-f02c-48ad-bc99-09908a7faa51" unitRef="usd">95700000</acgl:OperatingAffiliateGainOnAcquisition>
+	<acgl:OperatingAffiliatesEquityMethodDeferredGainOnAcquisition contextRef="i8953e2198307428a8bf5b4341cef5824_I20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzEwMDU4_f6538ed5-36bd-4993-bf75-04f73686d381" unitRef="usd">36000000</acgl:OperatingAffiliatesEquityMethodDeferredGainOnAcquisition>
+	<acgl:OperatingAffiliatesEquityMethodDeferredGainAmortizationPeriod contextRef="if5df6c6a102d4edbafc49e04c769618f_D20220101-20221231" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzEwMTQw_b7dcb97b-30c3-4b47-a506-07cdfc172bce">P5Y</acgl:OperatingAffiliatesEquityMethodDeferredGainAmortizationPeriod>
+	<acgl:InvestmentInOperatingAffiliateEquityMethod contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzE3LTEtMS0xLTY3ODc0_a1b51f4e-8930-4768-ad30-486ed22d26e0" unitRef="usd">964604000</acgl:InvestmentInOperatingAffiliateEquityMethod>
+	<acgl:InvestmentInOperatingAffiliateEquityMethod contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzE3LTMtMS0xLTY3ODc0_df5b29b3-11cb-433c-b01b-01debde07be2" unitRef="usd">1135655000</acgl:InvestmentInOperatingAffiliateEquityMethod>
+	<acgl:InvestmentInOperatingAffiliateEquityMethod contextRef="iffd7ddd671774f1b81dd8b5a96198337_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzE2NDkyNjc0NTg0MzI_58925e21-89dd-4771-9f48-eda126c16086" unitRef="usd">562900000</acgl:InvestmentInOperatingAffiliateEquityMethod>
+	<acgl:InvestmentInOperatingAffiliateEquityMethod contextRef="i8953e2198307428a8bf5b4341cef5824_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzE2NDkyNjc0NTg1OTQ_c9d0f77f-6d16-49b1-b04f-3ad0ec526b81" unitRef="usd">630500000</acgl:InvestmentInOperatingAffiliateEquityMethod>
+	<acgl:InvestmentInOperatingAffiliateEquityMethod contextRef="i5ceadd5970de4d62bfb6191e78d96c6f_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzE2NDkyNjc0NTg3NDM_9fe37ed0-e375-4ec4-833d-e31469633748" unitRef="usd">305600000</acgl:InvestmentInOperatingAffiliateEquityMethod>
+	<acgl:InvestmentInOperatingAffiliateEquityMethod contextRef="i21225c60bf8a4e7f933f730322c1765d_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzE2NDkyNjc0NTg3NTI_8890f237-bdbf-425e-ab5e-fd76922515cd" unitRef="usd">375700000</acgl:InvestmentInOperatingAffiliateEquityMethod>
+	<acgl:InvestmentInOperatingAffiliateEquityMethod contextRef="i328fc0d6399545b3a561afcdb6f0abca_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTowZWY5OTUwMTI3MmU0YTYyYjQ5Zjc1NDRhMTQzYzkwZS90YWJsZXJhbmdlOjBlZjk5NTAxMjcyZTRhNjJiNDlmNzU0NGExNDNjOTBlXzYtMS0xLTEtNjc4NzQ_b6c516f0-c009-4b9b-b4a0-57e407622338" unitRef="usd">5259000</acgl:InvestmentInOperatingAffiliateEquityMethod>
+	<acgl:InvestmentInOperatingAffiliateEquityMethod contextRef="id2a193cdd6f046628fbc00dc46a602ef_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTowZWY5OTUwMTI3MmU0YTYyYjQ5Zjc1NDRhMTQzYzkwZS90YWJsZXJhbmdlOjBlZjk5NTAxMjcyZTRhNjJiNDlmNzU0NGExNDNjOTBlXzYtMy0xLTEtNjc4NzQ_c0f64828-623d-47d3-8d1f-cd50e21d097d" unitRef="usd">6877000</acgl:InvestmentInOperatingAffiliateEquityMethod>
+	<us-gaap:DeconsolidationGainOrLossAmount contextRef="i3319c8d85f93428e8321e34fdc57c9aa_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzUxNjM_3416f5f6-fec9-4a3d-98a1-a71450684b8c" unitRef="usd">-33100000</us-gaap:DeconsolidationGainOrLossAmount>
+	<us-gaap:DeconsolidationGainOrLossAmount contextRef="i3319c8d85f93428e8321e34fdc57c9aa_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzExMDQ0_3416f5f6-fec9-4a3d-98a1-a71450684b8c" unitRef="usd">-33100000</us-gaap:DeconsolidationGainOrLossAmount>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzM0LTEtMS0xLTY3ODc0_0d275f8f-f017-4a16-9f5d-28ccf1345ecd" unitRef="usd">73891000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzM0LTMtMS0xLTY3ODc0_df0666c7-87f2-4926-a27d-0b42dee22e16" unitRef="usd">264693000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMzAvZnJhZzpiNzgxNjk2Y2QxZmU0MTdkYmQzOGY5M2ZjNDlhYjBlOS90YWJsZTo1Yzg0NmFiZTE3ZjQ0NWZiYTI2N2U4MTIwZmQxMzIzZi90YWJsZXJhbmdlOjVjODQ2YWJlMTdmNDQ1ZmJhMjY3ZTgxMjBmZDEzMjNmXzM0LTUtMS0xLTY3ODc0_c5af5d50-3b47-4c10-b933-4f2afacbf394" unitRef="usd">16766000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i720fa7e6155346b78b57cbc2826eedae_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzI1LTctMS0xLTY3ODc0_799c53e0-b279-4413-acd3-edd44179704b" unitRef="usd">73891000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="ia585acec0cc44319b4174df64717200e_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzI1LTktMS0xLTY3ODc0_0e86c6fa-803b-4e86-b716-9dbf5c8b2ed5" unitRef="usd">0</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTozMGM2YTBjNTYxMTA0OTY4OWNkYjlkZDc3YTUwNDI5NS90YWJsZXJhbmdlOjMwYzZhMGM1NjExMDQ5Njg5Y2RiOWRkNzdhNTA0Mjk1XzI1LTExLTEtMS02Nzg3NA_83a238ff-2dbd-415b-8a89-bf2b6031e766" unitRef="usd">73891000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i069496e8b66e496fb9c5e8179f4e3f5b_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzI1LTctMS0xLTY3ODc0_301a0862-be87-4cc5-8a12-b2174aa9ed9c" unitRef="usd">264693000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i2cbc353ebe67452583b2539eace656d2_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzI1LTktMS0xLTY3ODc0_6adfd0ee-f9f3-4e58-9748-7c1b7726bea7" unitRef="usd">0</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo5MmY0ZDE4NjI3NGY0YjZhOTQwMDVjNzVmNGFkNGMzMi90YWJsZXJhbmdlOjkyZjRkMTg2Mjc0ZjRiNmE5NDAwNWM3NWY0YWQ0YzMyXzI1LTExLTEtMS02Nzg3NA_132679d5-bffd-403a-976c-068f1e01d372" unitRef="usd">264693000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i434f2a88ad1841d79d2bbfac73d95915_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzI1LTctMS0xLTY3ODc0_6df99bca-c660-4786-b6d3-d4c49743fbd7" unitRef="usd">16766000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i224dc243b09142e79be2793bb143e621_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzI1LTktMS0xLTY3ODc0_ebdd5a56-5ca9-45ba-9ca1-52f564978e98" unitRef="usd">0</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTEvZnJhZzo1ZWY1N2QyYjU1MzA0YTkzOWY0OTE4YzUyNGM2ODI3Yy90YWJsZTo1YjgwNTI0ZWFjZmQ0MjYzOGZjOGY4MzJmM2Y2OTA1Yi90YWJsZXJhbmdlOjViODA1MjRlYWNmZDQyNjM4ZmM4ZjgzMmYzZjY5MDViXzI1LTExLTEtMS02Nzg3NA_5e43d9df-790b-4929-84ba-b82e75d2dfae" unitRef="usd">16766000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzE2NDkyNjc0NTg4MzQ_1341553a-2a8c-425b-8d31-6e804a0f6711" unitRef="usd">73900000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzE2NDkyNjc0NTg4NDA_ac50c518-cbe1-4109-9c6a-2a51cfde14d4" unitRef="usd">264700000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzE2NDkyNjc0NTg4NDY_048341ba-c55e-423f-a1eb-9af9e094e615" unitRef="usd">16800000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="ifee866f62fd148179db8723c31001a1a_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTo3YmMyN2Q3ZjAyZDk0YmJmOWZiYWIyYmZkNzM0ZTJmYi90YWJsZXJhbmdlOjdiYzI3ZDdmMDJkOTRiYmY5ZmJhYjJiZmQ3MzRlMmZiXzI2LTEtMS0xLTY3ODc0_d232d3de-8798-4c21-92aa-0c12a2c6d338" unitRef="usd">-1047000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i9d986e8f2409427c950ea67bc5803eb9_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTo3YmMyN2Q3ZjAyZDk0YmJmOWZiYWIyYmZkNzM0ZTJmYi90YWJsZXJhbmdlOjdiYzI3ZDdmMDJkOTRiYmY5ZmJhYjJiZmQ3MzRlMmZiXzI2LTMtMS0xLTY3ODc0_f892e91c-f797-49bf-86f7-7cb1ef24ce8e" unitRef="usd">-590000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	<acgl:IncomeLossFromOperatingAffiliatesEquityMethod contextRef="i50220b0a46c54269b89833ea760d0f7f_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTo3YmMyN2Q3ZjAyZDk0YmJmOWZiYWIyYmZkNzM0ZTJmYi90YWJsZXJhbmdlOjdiYzI3ZDdmMDJkOTRiYmY5ZmJhYjJiZmQ3MzRlMmZiXzI2LTUtMS0xLTY3ODc0_758b1be4-9642-4e55-b3a4-5936185c4bbc" unitRef="usd">-437000</acgl:IncomeLossFromOperatingAffiliatesEquityMethod>
+	</xbrl>
+

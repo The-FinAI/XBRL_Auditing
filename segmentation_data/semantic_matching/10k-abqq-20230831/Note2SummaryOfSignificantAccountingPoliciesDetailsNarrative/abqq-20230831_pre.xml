@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note2SummaryOfSignificantAccountingPoliciesDetailsNarrative" xlink:href="abqq-20230831.xsd#Note2SummaryOfSignificantAccountingPoliciesDetailsNarrative" xlink:type="simple"/>
+    <link:presentationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note2SummaryOfSignificantAccountingPoliciesDetailsNarrative" xlink:title="00000032 - Disclosure - NOTE 2 &#8211; SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Details Narrative)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AccountingPoliciesAbstract" xlink:label="loc_us-gaapAccountingPoliciesAbstract"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AllowanceForDoubtfulAccountsReceivableWriteOffs" xlink:label="loc_us-gaapAllowanceForDoubtfulAccountsReceivableWriteOffs"/>
+      <link:presentationArc order="0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapAccountingPoliciesAbstract" xlink:to="loc_us-gaapAllowanceForDoubtfulAccountsReceivableWriteOffs" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ImpairmentOfIntangibleAssetsFinitelived" xlink:label="loc_us-gaapImpairmentOfIntangibleAssetsFinitelived"/>
+      <link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapAccountingPoliciesAbstract" xlink:to="loc_us-gaapImpairmentOfIntangibleAssetsFinitelived" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ContractWithCustomerAssetNet" xlink:label="loc_us-gaapContractWithCustomerAssetNet"/>
+      <link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapAccountingPoliciesAbstract" xlink:to="loc_us-gaapContractWithCustomerAssetNet" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_WarrantsAndRightsOutstanding" xlink:label="loc_us-gaapWarrantsAndRightsOutstanding"/>
+      <link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapAccountingPoliciesAbstract" xlink:to="loc_us-gaapWarrantsAndRightsOutstanding" xlink:type="arc"/>
+    </link:presentationLink>
+    </link:linkbase>

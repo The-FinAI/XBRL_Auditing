@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f58039c8da247199a5559e66a073685_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i4c515c574179488b86477e02dffabcc9_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i34eea92b92644b88ad2175f5c4f05649_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:BarbicanMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">us-gaap:EquityMethodInvesteeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="if3d87cbca67540f3b5b49e4ecd7c0d05_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:BarbicanMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">us-gaap:EquityMethodInvesteeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="if1a04fd96bcb4cffabf1bc9ca7bd680d_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:SomersHoldingsLtdMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">us-gaap:EquityMethodInvesteeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ib42d28f046dd49fca9d22a75b98eb06a_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:SomersHoldingsLtdMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">us-gaap:EquityMethodInvesteeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzE5LTEtMS0xLTY3ODc0_e209ed19-479a-41c6-b7f7-6c637a1d2474" unitRef="usd">6563654000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzE5LTMtMS0xLTY3ODc0_6d4fe9f0-6599-47e0-8378-17a4e74e9f63" unitRef="usd">5880735000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzEwLTItMS0xLTY3ODc0_c7891c4b-f1a9-4f39-818b-520e84d8a04c" unitRef="usd">5880735000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzE1LTItMS0xLTY3ODc0_c1fe9da0-7e78-420f-8f44-4b4b10939b80" unitRef="usd">6563654000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i4c515c574179488b86477e02dffabcc9_I20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzE4LTItMS0xLTY3ODc0_b53e589d-c146-4049-be54-48e4273353ac" unitRef="usd">4500802000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzIxLTItMS0xLTY3ODc0_c7891c4b-f1a9-4f39-818b-520e84d8a04c" unitRef="usd">5880735000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZToyN2EzZTcyNmYzZGY0MjUwOTMyZTc0ZmM4MzY1NDU5NS90YWJsZXJhbmdlOjI3YTNlNzI2ZjNkZjQyNTA5MzJlNzRmYzgzNjU0NTk1XzItMS0xLTEtNjc4NzQ_e209ed19-479a-41c6-b7f7-6c637a1d2474" unitRef="usd">6563654000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZToyN2EzZTcyNmYzZGY0MjUwOTMyZTc0ZmM4MzY1NDU5NS90YWJsZXJhbmdlOjI3YTNlNzI2ZjNkZjQyNTA5MzJlNzRmYzgzNjU0NTk1XzItMy0xLTEtNjc4NzQ_6d4fe9f0-6599-47e0-8378-17a4e74e9f63" unitRef="usd">5880735000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="i34eea92b92644b88ad2175f5c4f05649_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzEzNTY_dc54d583-0bf2-4f3c-bd59-298ba5c3d0b2" unitRef="usd">0</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="if3d87cbca67540f3b5b49e4ecd7c0d05_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzEzNTY_fb46436f-6089-4ef4-97af-3aff63ff3d6b" unitRef="usd">0</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="if1a04fd96bcb4cffabf1bc9ca7bd680d_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzIyMzQ_533122a3-c831-403e-806b-8bc24a79d0d0" unitRef="usd">1200000000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses contextRef="ib42d28f046dd49fca9d22a75b98eb06a_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzU0OTc1NTgxNzE3Ng_b1088cb5-f1df-49f8-8f51-28c2e77d98c7" unitRef="usd">902800000</us-gaap:ReinsuranceRecoverablesOnPaidAndUnpaidLosses>
+	<us-gaap:ReinsuranceRecoverablesAllowance contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzE5LTAtMS0xLTY3ODc0L3RleHRyZWdpb246MjQxYWQ5NDE2ZWQxNDU3Mjg1ZGUxZTI0ZGY0NDk1MTBfMTIw_971fec71-9a96-414b-b7fc-17c21d66e9c0" unitRef="usd">21544000</us-gaap:ReinsuranceRecoverablesAllowance>
+	<us-gaap:ReinsuranceRecoverablesAllowance contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzE5LTAtMS0xLTY3ODc0L3RleHRyZWdpb246MjQxYWQ5NDE2ZWQxNDU3Mjg1ZGUxZTI0ZGY0NDk1MTBfMTI4_2892647c-eb1d-40b7-bbde-2262ac5fa8dc" unitRef="usd">13230000</us-gaap:ReinsuranceRecoverablesAllowance>
+	<us-gaap:ReinsuranceRecoverablesAllowance contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzEwLTQtMS0xLTY3ODc0_c6a94b6d-e05a-47bd-b093-a86ee99c7e20" unitRef="usd">13230000</us-gaap:ReinsuranceRecoverablesAllowance>
+	<us-gaap:ReinsuranceRecoverablesAllowance contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzE1LTQtMS0xLTY3ODc0_728d8599-08b1-408c-9269-6e91ab093240" unitRef="usd">21544000</us-gaap:ReinsuranceRecoverablesAllowance>
+	<us-gaap:ReinsuranceRecoverablesAllowance contextRef="i4c515c574179488b86477e02dffabcc9_I20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzE4LTQtMS0xLTY3ODc0_64786a66-d71a-425d-8e13-e196485ee156" unitRef="usd">11636000</us-gaap:ReinsuranceRecoverablesAllowance>
+	<us-gaap:ReinsuranceRecoverablesAllowance contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzIxLTQtMS0xLTY3ODc0_60ea0142-820e-49a6-bc80-74f2ff49a8f3" unitRef="usd">13230000</us-gaap:ReinsuranceRecoverablesAllowance>
+	<us-gaap:ReinsuranceRecoverableCreditLossExpenseReversal contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzEyLTQtMS0xLTY3ODc0_8dca8821-6079-4f1f-8750-75e83abff187" unitRef="usd">8314000</us-gaap:ReinsuranceRecoverableCreditLossExpenseReversal>
+	<us-gaap:ReinsuranceRecoverableCreditLossExpenseReversal contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjAvZnJhZzpkYWYxOGE1YmU1YzI0MGY0YjA2OTY1NzhkNjZhMzdmMi90YWJsZTo2NmQ5YzcxMWY2M2E0NDE3YmMwYWFiZDg4OTk3NjViMS90YWJsZXJhbmdlOjY2ZDljNzExZjYzYTQ0MTdiYzBhYWJkODg5OTc2NWIxXzIwLTQtMS0xLTY3ODc0_62585d30-63f8-47bc-9410-451482497e4e" unitRef="usd">1594000</us-gaap:ReinsuranceRecoverableCreditLossExpenseReversal>
+	</xbrl>
+

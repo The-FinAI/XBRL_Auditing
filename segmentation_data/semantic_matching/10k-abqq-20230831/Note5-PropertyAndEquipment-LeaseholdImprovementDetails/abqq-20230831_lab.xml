@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PropertyPlantAndEquipmentNet" xlink:label="us-gaap_PropertyPlantAndEquipmentNet"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PropertyPlantAndEquipmentNet" xlink:to="us-gaap_PropertyPlantAndEquipmentNet_lbl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PropertyPlantAndEquipmentNet" xlink:to="us-gaap_PropertyPlantAndEquipmentNet_2_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_PropertyPlantAndEquipmentNet_lbl" xml:lang="en-US"> Property and equipment, net</link:label>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_PropertyPlantAndEquipmentNet_2_lbl" xml:lang="en-US">Property, Plant and Equipment, Net</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PropertyPlantAndEquipmentByTypeAxis" xlink:label="us-gaap_PropertyPlantAndEquipmentByTypeAxis"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PropertyPlantAndEquipmentByTypeAxis" xlink:to="us-gaap_PropertyPlantAndEquipmentByTypeAxis_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_PropertyPlantAndEquipmentByTypeAxis_lbl" xml:lang="en-US">Long-Lived Tangible Asset [Axis]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ScheduleOfPropertyPlantAndEquipmentTable" xlink:label="us-gaap_ScheduleOfPropertyPlantAndEquipmentTable"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ScheduleOfPropertyPlantAndEquipmentTable" xlink:to="us-gaap_ScheduleOfPropertyPlantAndEquipmentTable_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ScheduleOfPropertyPlantAndEquipmentTable_lbl" xml:lang="en-US">Property, Plant and Equipment [Table]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FurnitureAndFixturesGross" xlink:label="us-gaap_FurnitureAndFixturesGross"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FurnitureAndFixturesGross" xlink:to="us-gaap_FurnitureAndFixturesGross_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FurnitureAndFixturesGross_lbl" xml:lang="en-US">Furniture and Fixtures, Gross</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PropertyPlantAndEquipmentOwnedGross" xlink:label="us-gaap_PropertyPlantAndEquipmentOwnedGross"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PropertyPlantAndEquipmentOwnedGross" xlink:to="us-gaap_PropertyPlantAndEquipmentOwnedGross_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_PropertyPlantAndEquipmentOwnedGross_lbl" xml:lang="en-US">Property, Plant, and Equipment, Owned, Gross</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PropertyPlantAndEquipmentLineItems" xlink:label="us-gaap_PropertyPlantAndEquipmentLineItems"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PropertyPlantAndEquipmentLineItems" xlink:to="us-gaap_PropertyPlantAndEquipmentLineItems_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_PropertyPlantAndEquipmentLineItems_lbl" xml:lang="en-US">Property, Plant and Equipment [Line Items]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_RenovationCostsMember" xlink:label="ABQQ_RenovationCostsMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_RenovationCostsMember" xlink:to="ABQQ_RenovationCostsMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_RenovationCostsMember_lbl" xml:lang="en-US">Renovation Costs [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation" xlink:label="us-gaap_PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation" xlink:to="us-gaap_PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation_lbl" xml:lang="en-US">Property, Plant, and Equipment, Lessor Asset under Operating Lease, Accumulated Depreciation</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_LeaseholdImprovementsGross" xlink:label="us-gaap_LeaseholdImprovementsGross"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_LeaseholdImprovementsGross" xlink:to="us-gaap_LeaseholdImprovementsGross_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_LeaseholdImprovementsGross_lbl" xml:lang="en-US">Leasehold Improvements, Gross</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PropertyPlantAndEquipmentAbstract" xlink:label="us-gaap_PropertyPlantAndEquipmentAbstract"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_PropertyPlantAndEquipmentAbstract" xlink:to="us-gaap_PropertyPlantAndEquipmentAbstract_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_PropertyPlantAndEquipmentAbstract_lbl" xml:lang="en-US">Property, Plant and Equipment [Abstract]</link:label>
+      </link:labelLink>
+</link:linkbase>
+

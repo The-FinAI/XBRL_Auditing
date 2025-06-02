@@ -1,0 +1,1630 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:aep="http://aep.com/20211231" xmlns:dei="http://xbrl.sec.gov/dei/2021q4" xmlns:exch="http://xbrl.sec.gov/exch/2021" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2021-01-31" xmlns:stpr="http://xbrl.sec.gov/stpr/2021" xmlns:us-gaap="http://fasb.org/us-gaap/2021-01-31" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="aep-20211231.xsd" xlink:type="simple"/>
+	<context id="i8f27a469aabd4e438286756eda53624e_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2021IndianaBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i20ba59d3372d489e9253720650048ea9_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2020OhioBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:OhioPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ief08124695c94febb077dcee133735a0_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2021OklahomaBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i65fa7bace0fa4e2083044eebf847e254_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2020TexasBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ic3ed659434184782b9ad578eeae998c6_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2020LouisianaBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia3c03aec366b46519903375cd5cca982_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2021ArkansasRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i1fbde3a12b07442bbe79276bfe4655f8_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i3c6b97edea80401c8c6a89b2e52b95e8_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i66e0de61f58244e39ad95bb95aed6632_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i670986055d0f41ab98393d027bccf2ef_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i04223b3cf13541a98eff8b130ec79375_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i09b5bf6d2c08465a80ceddd322e2ca02_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="id991e6a1ed7343d183fab90731cfd748_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i48b5eb6ca347467fbe25cbbe3fc2f055_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="ibab4de71660b454e8d6f1e9b60f4a3ce_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i3e2b5a80cde64b129f165be25649b5f4_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i7e1650defd02406a96b59260a5ba2176_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:OhioPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="icea15b15e8ec4aeeb5a05bfbbc3fd6c7_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:OhioPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i1095337e2499494dbf2cc1fb7b139ebd_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i9ec1b379b58c4aa0adf68f4a2876048d_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i068ba6d03f7b4adca04addf578898ced_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i08eda13cd1b34b6494cca6a67acc0ed4_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="ic76a06ef5bb1403c8d795ad6f9951403_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PropertyPlantAndEquipmentByTypeAxis">aep:GeneratingUnitsProbableofAbandonmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityAxis">aep:NortheasternPlantUnit3Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ibc593fd0667246f48bc66f2f6a75cb44_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PropertyPlantAndEquipmentByTypeAxis">aep:GeneratingUnitsProbableofAbandonmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityAxis">aep:PirkeyGeneratingStationUnitNo1Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="iee83f25e3f014cfd9e245c03d5c1d897_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PropertyPlantAndEquipmentByTypeAxis">aep:GeneratingUnitsProbableofAbandonmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityAxis">aep:WelshPlantUnit1and3Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i62c7ef0f34fc4d27a4ff51801677d173_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:AssetsAndLiabilitiesHeldForSaleAxis">aep:KentuckyPowerCompanyAndKentuckyTransmissionCompanyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:VerticallyIntegratedUtilitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i828ff3d003ed4c529980ca7a16840f1b_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:AssetsAndLiabilitiesHeldForSaleAxis">aep:KentuckyTransmissionCompanyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:TransmissionOperationsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i6487c60a375a46ff822f78e645a35386_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:VerticallyIntegratedUtilitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ie5ed477690d542918db34d5f8583ed32_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:TransmissionAndDistributionCompaniesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i9dd93b24d44b4ad9a6a35f6248f6319f_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:TransmissionOperationsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i884ade022aa540c3b97233e64f10f1e1_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:GenerationAndMarketingMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ied373158ae914ecbb2d62d0ac2f1922b_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i2f6cd3ad56c54862a104d7b4bb68b9c5_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">srt:ConsolidationEliminationsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ic418b3f71975452e96824ec714ab2bc0_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:VerticallyIntegratedUtilitiesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i7070dd2006b94a4f9d8ff7372bca7f4f_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:TransmissionAndDistributionCompaniesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="idde2851b4b9f4b65ad82a1a7bd55c47a_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:TransmissionOperationsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i10a9d5e27f6d4251b62e0615c45f325c_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:GenerationAndMarketingMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i1cd37e7a8b8049f98e4b1b099db7e2a6_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:AllOtherSegmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i4211f4e6fadd465f84c22773a996badb_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">srt:ConsolidationEliminationsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="ib96456cd7206479cb42a5b1fd69f356e_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:StateTranscosMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i00768f26bb4b4d5f931ceae487b1e737_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:AEPTCoParentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ib6a7a4f8570d42d4a3acde79c06c570a_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">srt:ConsolidationEliminationsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="iadc94ce47d294548bfaa778d459dc594_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:StateTranscosMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="id69d80139c514d7ba15d246c63c55210_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">aep:AEPTCoParentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i001cb29afecf42ddac8272e32226ea98_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">srt:ConsolidationEliminationsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i76a89aa32b2242afb9e7ea3ee884bad9_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:ApprovedItemAxis">aep:NetBookValueOfRadialAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:OKTCoRadialAssetTransferMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="ib9954e6fb94f488b88f54eeffe3a2adb_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:SabineMiningCoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ibbf69b3c92eb41f3bbfcdbea980c5a5f_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:DccFuelMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ic6c7dcd2aa4e464da4b9566a98a89921_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:AEPTexasCentralTransitionFundingCoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i3b2ced1f031f4688a5f2582220535516_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:RestorationFundingMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i5c7d8f8121fb4793ab48ffedab549e4a_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:AppalachianConsumerRateReliefFundingMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ib294c3f3a2c44d8e987f4d91926e8262_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:AepCreditIncMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i41c4b6c56c9e4de39aeee3b46ac75dc7_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:ProtectedCellOfEnergyInsuranceServicesIncMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i41084ef4b00f472ab158abb173a37c25_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:TransourceEnergyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="iec7021eb942f4221802d1545a43078e6_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:AppleBlossomandBlackOakMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i8ffd6806b2314deb80c447f68636bca4_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:SantaRitaEastMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ie0409eff68d849b084b13a948dc55f24_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:DryLakeSolarProjectMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ib45ad7316c3b4954a23041fa90d7903c_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:SabineMiningCoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="iff971702e76c43329cb47fce61ca6ed4_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:DccFuelMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i7368066afc6d4084b6783ed0a26279f4_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:AEPTexasCentralTransitionFundingCoMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i9c298d74679e4f66acab7d1404855bb5_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:RestorationFundingMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i1ef76cb26814499b9b861a28a39388de_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:AppalachianConsumerRateReliefFundingMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i550fb826fc7d4b21b3a515f77aa71691_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:AepCreditIncMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i82f9a5935196484ab7b092d968a60a9c_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:ProtectedCellOfEnergyInsuranceServicesIncMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="ied8d39008068446a905dfa9ec2b02762_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:TransourceEnergyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i94a8242974574b1d9e260a1b64365f41_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:AppleBlossomandBlackOakMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i808cf313f67a4717b3473edb89eba6a7_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:VariableInterestEntitiesAxis">aep:VariableInterestEntitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">aep:SantaRitaEastMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i0266cc451ef94220bfdc29cc8f7944d6_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i0b7f55ad3d4841239023434ff95c3d7c_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i817b49988b7e4c0e9e67b1b2026f9922_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i10b11012326d441ebea2aa7f82e86ec9_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="icaaf6f4d48114aa3be7710109415fe16_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i5262975c8e624f0ab768c8e5fd13543f_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:OhioPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i630c188ee49f4cadb30680fe74fa2ccf_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i7522245768964dc887cc499bec751d89_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ib0b53f6ce75942c882f6a36a09be535d_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i9eef7f05a35044188dee52d30405df19_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i9dd080ae6f2042b2af18c8af22483117_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i57dcdff9a4ba4390ba57fefdc1d93b27_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i111c314029ac4e488e4a2caa68406f2c_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i8c1bd0a376f4462c9f0a09ad1b822a59_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:OhioPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ifd6a7b59126d44c5b326942dab414bdc_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i429ffd7e53dd45bf89bb965458772204_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i10e123f582594dc1acaa59b1a3039681_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="idbd537ef594f476f88ebc1ddb139d3b0_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i6c61181c44c74af6988c37619e433611_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i09cc8deee434488692e2dd2778adb7ea_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i03dfe64129254cbaabd13a4b7a4600cb_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="ie8aed4bc96764d6e85da6a63e9474a9f_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:OhioPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="iacec91a003674f2e8607628c58dfdbff_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i2932156c1d0644568ec5109d11e60eac_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:RegulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i4687c920b3074b30a70bf5d71e48397a_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i8a81000cf02f49f58244b76410905444_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTexasInc.Member</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="ie914495cc73f4545959dfcce78bce2f5_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AEPTransmissionCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i6942d8ee1b4648a0884274f2dc6148a6_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="iff9ba5b1ac27464c89c8a9a379d7c6c1_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:IndianaMichiganPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i4e149ce26c864ef2a650064460c24281_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:OhioPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i5330e4452c5945298ef878d924e2a5bb_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="id0c2219eda4149e0b19b748914374011_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityRegulatedOrUnregulatedStatusAxis">us-gaap:UnregulatedOperationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="i9ca3af874e2b4d02b01d2227379c0af9_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:VirginiaLegislationAffectingBiennialReviewsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ie93500a96b6f478fb026114209272068_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:VirginiaLegislationAffectingBiennialReviewsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:RangeAxis">srt:MinimumMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i7b2a8687903343d98a4ab033a5a515d0_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:VirginiaLegislationAffectingBiennialReviewsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:RangeAxis">srt:MaximumMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i1e404492e77c4048a4bb79311b107143_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2016TexasBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i5c4663479ef04ae5b3d486302609b665_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2020TexasFuelReconciliationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">stpr:TX</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="iec103b049c9549c1b68db9da352a6ada_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:CCRELGFilingsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:AppalachianPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i2b0a676e19e64f81b8ab8400df4077a8_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:CCRELGFilingsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:JointlyOwnedUtilityPlantAxis">aep:MitchellPowerPlantMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:KentuckyPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="id929e4b975774fe3974c78af7ac1226e_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2021OklahomaBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:PublicUtilityAxis">aep:OklaunionPowerStationAcceleratedDepreciationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i7573bd5e6ae34ab7b4c5d7f87d20e424_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2020LouisianaBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:RangeAxis">srt:MinimumMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i56af87bedf7d4ef79518627360449bae_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2020LouisianaBaseRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:RangeAxis">srt:MaximumMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i9499b586ee84482aa0ebc7ac1dd128c3_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2021ArkansasRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:RangeAxis">srt:MinimumMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i88c725b8e40c452e87167867899653d0_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:A2021ArkansasRateCaseMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:RangeAxis">srt:MaximumMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia67765f235fb4c8c8765a75f3c434a78_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:CCRELGFilingsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:JointlyOwnedUtilityPlantAxis">aep:MitchellPowerPlantMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ida1d46f439b7432b886eb6daae2548b2_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:JointlyOwnedUtilityPlantAxis">aep:MitchellPowerPlantMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:WheelingPowerCompanyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i0f26eb5c9fa84692b3634995afb1679f_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:JointlyOwnedUtilityPlantAxis">aep:MitchellPowerPlantMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:KentuckyPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i31876400a74c43ff845e3af1caf164e1_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:February2021SevereStormFuelCostsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:PublicServiceCoOfOklahomaMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i49bc7d8e8e7b4417b991c63767c926ae_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:February2021SevereStormFuelCostsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">aep:ArkansasMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ic80dfd32b07f4e8f82850dfde4fa5ec1_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000004904</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="aep:BaseRateAxis">aep:February2021SevereStormFuelCostsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">aep:LouisianaJurisdictionMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="dei:LegalEntityAxis">aep:SouthwesternElectricPowerCoMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="mw">
+        <measure>utr:MW</measure>
+    </unit>
+	<unit id="rate">
+        <measure>utr:Rate</measure>
+    </unit>
+	<unit id="gw">
+        <measure>utr:GW</measure>
+    </unit>
+	<unit id="mwh">
+        <measure>utr:MWh</measure>
+    </unit>
+	<unit id="mmbtu">
+        <measure>utr:MMBTU</measure>
+    </unit>
+	<unit id="gal">
+        <measure>utr:gal</measure>
+    </unit>
+	<aep:RequestedAnnualIncrease contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTEzMzg_378e18b5-73d9-4376-8a49-47de047ffe48" unitRef="usd">104000000</aep:RequestedAnnualIncrease>
+	<aep:RequestedAnnualIncrease contextRef="i20ba59d3372d489e9253720650048ea9_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzE3ODE0_c511f85f-0695-43c4-9aaa-af04eef8b638" unitRef="usd">42000000</aep:RequestedAnnualIncrease>
+	<aep:RequestedAnnualIncrease contextRef="ief08124695c94febb077dcee133735a0_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MDQyMjY_27a23a89-9af4-4cef-8b98-d29d243175c0" unitRef="usd">172000000</aep:RequestedAnnualIncrease>
+	<aep:RequestedAnnualIncrease contextRef="i65fa7bace0fa4e2083044eebf847e254_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzI3MzA2_9c25a197-7830-4511-b4ee-707e36748822" unitRef="usd">105000000</aep:RequestedAnnualIncrease>
+	<aep:RequestedAnnualIncrease contextRef="ic3ed659434184782b9ad578eeae998c6_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzI4Mzkw_3b12b04d-a99b-4b58-9261-4b926b0394d8" unitRef="usd">134000000</aep:RequestedAnnualIncrease>
+	<aep:RequestedAnnualIncrease contextRef="ia3c03aec366b46519903375cd5cca982_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MjIyNzQ_598f7737-1434-4ff3-85ae-bcbef5ba5737" unitRef="usd">85000000</aep:RequestedAnnualIncrease>
+	<us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTEzODE_50313bba-067b-44da-94fb-5a158d91ae7b" unitRef="number">0.10</us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage contextRef="i20ba59d3372d489e9253720650048ea9_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzE3ODY5_99158f90-bd5d-41d9-8a39-987ac11d6da0" unitRef="number">0.1015</us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage contextRef="ief08124695c94febb077dcee133735a0_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MDQyNDQ_03973a9e-5c2e-44b2-826f-556af38c9bbe" unitRef="number">0.10</us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage contextRef="ief08124695c94febb077dcee133735a0_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MDQzODI_4ef0d776-6312-40dd-95b0-6bfe579e2220" unitRef="number">0.10</us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage contextRef="i65fa7bace0fa4e2083044eebf847e254_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzI3MzY3_3af1bc4b-4581-46cb-a330-8477f724b489" unitRef="number">0.1035</us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage contextRef="ic3ed659434184782b9ad578eeae998c6_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzI4NDU1_cf77ff0c-4a72-4bfc-bfed-7510269a2340" unitRef="number">0.1035</us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage contextRef="ia3c03aec366b46519903375cd5cca982_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MjIyOTQ_f2f4a727-8ea7-4ecc-bd88-24722f5b3845" unitRef="number">0.1035</us-gaap:PublicUtilitiesRequestedReturnOnEquityPercentage>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i1fbde3a12b07442bbe79276bfe4655f8_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8xOTMvZnJhZzo3NmFiZTZkNWQ0MTA0OTYxYTdhNzFiZDRiZjU5MmI4Mi90YWJsZTphYzMyNDc4ZjgxYTM0ZGFkYmMyYWU0MWI4OTBkMmY1My90YWJsZXJhbmdlOmFjMzI0NzhmODFhMzRkYWRiYzJhZTQxYjg5MGQyZjUzXzMyLTItMS0xLTA_2b104fa1-e235-4d46-bba8-d1d2c9e82b7a" unitRef="usd">66001300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i3c6b97edea80401c8c6a89b2e52b95e8_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8xOTMvZnJhZzo3NmFiZTZkNWQ0MTA0OTYxYTdhNzFiZDRiZjU5MmI4Mi90YWJsZTphYzMyNDc4ZjgxYTM0ZGFkYmMyYWU0MWI4OTBkMmY1My90YWJsZXJhbmdlOmFjMzI0NzhmODFhMzRkYWRiYzJhZTQxYjg5MGQyZjUzXzMyLTQtMS0xLTA_7a47677d-b5a6-4b0d-81c2-b4fdd695747d" unitRef="usd">63901600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i66e0de61f58244e39ad95bb95aed6632_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8yMzIvZnJhZzpkNGE5NmNjZGM2ODM0ZTUyYjVmYTc1NTNjMWM0NGIxMy90YWJsZTplN2FlYWE2NjA3M2Y0ZTYxYWQ3MmZkMjJiMTZkNWZmYi90YWJsZXJhbmdlOmU3YWVhYTY2MDczZjRlNjFhZDcyZmQyMmIxNmQ1ZmZiXzI5LTItMS0xLTA_5438507a-e1d6-4cf5-b7ee-6b5d678d394a" unitRef="usd">10635400000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i670986055d0f41ab98393d027bccf2ef_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8yMzIvZnJhZzpkNGE5NmNjZGM2ODM0ZTUyYjVmYTc1NTNjMWM0NGIxMy90YWJsZTplN2FlYWE2NjA3M2Y0ZTYxYWQ3MmZkMjJiMTZkNWZmYi90YWJsZXJhbmdlOmU3YWVhYTY2MDczZjRlNjFhZDcyZmQyMmIxNmQ1ZmZiXzI5LTQtMS0xLTA_063e1fa1-62fd-457d-9fb8-b5a5246d9e31" unitRef="usd">9813600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i04223b3cf13541a98eff8b130ec79375_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8yNjgvZnJhZzozZTA3ZDA5NDc0ZGM0YjczOWIyZjczODE1OTlhNjViYy90YWJsZTplYjZlYTBiM2ZhZjY0M2U4YTU0ZTQ1NmEwYWU1NTFkOS90YWJsZXJhbmdlOmViNmVhMGIzZmFmNjQzZThhNTRlNDU2YTBhZTU1MWQ5XzIwLTItMS0xLTA_9720075f-f64b-4163-9274-f3a4627f59ad" unitRef="usd">11935700000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i09b5bf6d2c08465a80ceddd322e2ca02_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8yNjgvZnJhZzozZTA3ZDA5NDc0ZGM0YjczOWIyZjczODE1OTlhNjViYy90YWJsZTplYjZlYTBiM2ZhZjY0M2U4YTU0ZTQ1NmEwYWU1NTFkOS90YWJsZXJhbmdlOmViNmVhMGIzZmFmNjQzZThhNTRlNDU2YTBhZTU1MWQ5XzIwLTQtMS0xLTA_8dd72681-f6f6-4e59-b9bc-0e9c824c4ec7" unitRef="usd">10772800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="id991e6a1ed7343d183fab90731cfd748_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8zMDcvZnJhZzoyZTIxNTE5YzI5NzU0ZGM3YmUzZmJkMjhjYTllZDVlNS90YWJsZTo4MjU1MThhOWFlMGY0YzQ5OTBmOGI3YTJjOGUzYWY1Ny90YWJsZXJhbmdlOjgyNTUxOGE5YWUwZjRjNDk5MGY4YjdhMmM4ZTNhZjU3XzMxLTItMS0xLTA_f70a3db0-a963-4505-879d-6f79022c74a3" unitRef="usd">11804300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i48b5eb6ca347467fbe25cbbe3fc2f055_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8zMDcvZnJhZzoyZTIxNTE5YzI5NzU0ZGM3YmUzZmJkMjhjYTllZDVlNS90YWJsZTo4MjU1MThhOWFlMGY0YzQ5OTBmOGI3YTJjOGUzYWY1Ny90YWJsZXJhbmdlOjgyNTUxOGE5YWUwZjRjNDk5MGY4YjdhMmM4ZTNhZjU3XzMxLTQtMS0xLTA_86785ba6-1041-48e9-b7da-99366c953fb0" unitRef="usd">11394100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ibab4de71660b454e8d6f1e9b60f4a3ce_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8zNDYvZnJhZzozMGI5Y2EzNmIzNmE0MjczYTE3ZTU2ZmVkNGIxZDA0ZS90YWJsZToxM2FiZWM0NGQ0ZWE0YTE1YmRlNjRlMzc3YmM3MmY2Ny90YWJsZXJhbmdlOjEzYWJlYzQ0ZDRlYTRhMTViZGU2NGUzNzdiYzcyZjY3XzMxLTItMS0xLTA_a400f036-9bc0-4e9b-9b86-dfbae3515eac" unitRef="usd">7310900000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i3e2b5a80cde64b129f165be25649b5f4_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8zNDYvZnJhZzozMGI5Y2EzNmIzNmE0MjczYTE3ZTU2ZmVkNGIxZDA0ZS90YWJsZToxM2FiZWM0NGQ0ZWE0YTE1YmRlNjRlMzc3YmM3MmY2Ny90YWJsZXJhbmdlOjEzYWJlYzQ0ZDRlYTRhMTViZGU2NGUzNzdiYzcyZjY3XzMxLTQtMS0xLTA_2610a194-0a2d-4bea-8133-83600b4108a5" unitRef="usd">7052300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i7e1650defd02406a96b59260a5ba2176_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8zODUvZnJhZzowMTZiNTdkN2RlYTc0ZmJiOTRiNTJmZWViZWNmNzE1Yy90YWJsZTowODI3Y2QxYzY2MGM0NTUyOTk1Y2UxNWVkMmRhNDgzYS90YWJsZXJhbmdlOjA4MjdjZDFjNjYwYzQ1NTI5OTVjZTE1ZWQyZGE0ODNhXzI4LTItMS0xLTA_25fa4a68-4047-4ccd-964f-ec19e931e3b7" unitRef="usd">7963000000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="icea15b15e8ec4aeeb5a05bfbbc3fd6c7_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF8zODUvZnJhZzowMTZiNTdkN2RlYTc0ZmJiOTRiNTJmZWViZWNmNzE1Yy90YWJsZTowODI3Y2QxYzY2MGM0NTUyOTk1Y2UxNWVkMmRhNDgzYS90YWJsZXJhbmdlOjA4MjdjZDFjNjYwYzQ1NTI5OTVjZTE1ZWQyZGE0ODNhXzI4LTQtMS0xLTA_7a2ac556-2ae9-497d-aaf4-9bf1b41ebc88" unitRef="usd">7452100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i1095337e2499494dbf2cc1fb7b139ebd_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80MjQvZnJhZzoxMGFjMTA4MjQ1MTE0MTY3ODc5ZmIzYjViNTkyNTdmNi90YWJsZTphMjllZWM4MTdjY2Y0MDliYmRjMTc4ZWIyM2IwOGQyNy90YWJsZXJhbmdlOmEyOWVlYzgxN2NjZjQwOWJiZGMxNzhlYjIzYjA4ZDI3XzI4LTItMS0xLTA_7ddf09c3-510e-484f-919c-bb4cb3c6893c" unitRef="usd">4802800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i9ec1b379b58c4aa0adf68f4a2876048d_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80MjQvZnJhZzoxMGFjMTA4MjQ1MTE0MTY3ODc5ZmIzYjViNTkyNTdmNi90YWJsZTphMjllZWM4MTdjY2Y0MDliYmRjMTc4ZWIyM2IwOGQyNy90YWJsZXJhbmdlOmEyOWVlYzgxN2NjZjQwOWJiZGMxNzhlYjIzYjA4ZDI3XzI4LTQtMS0xLTA_50cccc17-c167-4e2e-95e7-a6824783be4d" unitRef="usd">4320000000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i068ba6d03f7b4adca04addf578898ced_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80NjMvZnJhZzplOWQzZTY1OGM1ODM0MTBiYThiYjcwZjEzZjEwM2M5Mi90YWJsZTowYzI2MThhM2YwNDg0MzNkOGViODAyZDBiNTczODRmMi90YWJsZXJhbmdlOjBjMjYxOGEzZjA0ODQzM2Q4ZWI4MDJkMGI1NzM4NGYyXzI5LTItMS0xLTA_6eb87e12-5b55-4484-a2ce-57ae8192bf08" unitRef="usd">7400100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i08eda13cd1b34b6494cca6a67acc0ed4_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80NjMvZnJhZzplOWQzZTY1OGM1ODM0MTBiYThiYjcwZjEzZjEwM2M5Mi90YWJsZTowYzI2MThhM2YwNDg0MzNkOGViODAyZDBiNTczODRmMi90YWJsZXJhbmdlOjBjMjYxOGEzZjA0ODQzM2Q4ZWI4MDJkMGI1NzM4NGYyXzI5LTQtMS0xLTA_589e0962-0c30-4340-bda0-ee466e0dec6e" unitRef="usd">7088200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ic76a06ef5bb1403c8d795ad6f9951403_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODcvZnJhZzo2MmUxOTdhNTQ2NTU0MjIwOGRjNTIyMTMwZjFmNGJkNC90YWJsZTowOWIwYzZmODQ5ZGQ0ZDE2ODhjMjRmOTQzMmMzNzMwNC90YWJsZXJhbmdlOjA5YjBjNmY4NDlkZDRkMTY4OGMyNGY5NDMyYzM3MzA0XzItNi0xLTEtMA_3fc36567-8780-4d0a-b2d9-bfeec3a31c6b" unitRef="usd">167200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ibc593fd0667246f48bc66f2f6a75cb44_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODcvZnJhZzo2MmUxOTdhNTQ2NTU0MjIwOGRjNTIyMTMwZjFmNGJkNC90YWJsZTowOWIwYzZmODQ5ZGQ0ZDE2ODhjMjRmOTQzMmMzNzMwNC90YWJsZXJhbmdlOjA5YjBjNmY4NDlkZDRkMTY4OGMyNGY5NDMyYzM3MzA0XzQtNi0xLTEtMA_a3276122-1816-41c2-a2c8-3f0fbc61dabd" unitRef="usd">120000000.0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="iee83f25e3f014cfd9e245c03d5c1d897_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODcvZnJhZzo2MmUxOTdhNTQ2NTU0MjIwOGRjNTIyMTMwZjFmNGJkNC90YWJsZTowOWIwYzZmODQ5ZGQ0ZDE2ODhjMjRmOTQzMmMzNzMwNC90YWJsZXJhbmdlOjA5YjBjNmY4NDlkZDRkMTY4OGMyNGY5NDMyYzM3MzA0XzUtNi0xLTEtMA_88d3f018-b4aa-40af-8b03-396edb1c6c9d" unitRef="usd">475200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i62c7ef0f34fc4d27a4ff51801677d173_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDIvZnJhZzpmZDg5NTcyMzM4ZWE0YTA3OWQ2YmQwMDcxYmUyOGQyNy90YWJsZTpjZThhMGNmYmQzYTA0Mjk2ODQxMmExN2VjZTc5YzRkNC90YWJsZXJhbmdlOmNlOGEwY2ZiZDNhMDQyOTY4NDEyYTE3ZWNlNzljNGQ0XzYtMi0xLTEtMjA1MzUz_5a81d1fa-3a03-4207-bd1b-10dd66cc6c94" unitRef="usd">2302700000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i828ff3d003ed4c529980ca7a16840f1b_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDIvZnJhZzpmZDg5NTcyMzM4ZWE0YTA3OWQ2YmQwMDcxYmUyOGQyNy90YWJsZTpjZThhMGNmYmQzYTA0Mjk2ODQxMmExN2VjZTc5YzRkNC90YWJsZXJhbmdlOmNlOGEwY2ZiZDNhMDQyOTY4NDEyYTE3ZWNlNzljNGQ0XzYtNC0xLTEtMjA1Mzc1_dd981f71-59e1-40b8-89a3-21cdc2e50c45" unitRef="usd">165300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i6487c60a375a46ff822f78e645a35386_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4ZTdiOTU5Nzg0Y2Q0NjdhOGJiNmQ1N2E3MDg1YWRlZC90YWJsZXJhbmdlOjhlN2I5NTk3ODRjZDQ2N2E4YmI2ZDU3YTcwODVhZGVkXzIzLTEtMS0xLTA_51056305-1b2c-430e-952f-c919caed4bc7" unitRef="usd">32897300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ie5ed477690d542918db34d5f8583ed32_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4ZTdiOTU5Nzg0Y2Q0NjdhOGJiNmQ1N2E3MDg1YWRlZC90YWJsZXJhbmdlOjhlN2I5NTk3ODRjZDQ2N2E4YmI2ZDU3YTcwODVhZGVkXzIzLTMtMS0xLTA_93899ad6-5542-47bf-be55-3d7bd92d7796" unitRef="usd">18598300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i9dd93b24d44b4ad9a6a35f6248f6319f_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4ZTdiOTU5Nzg0Y2Q0NjdhOGJiNmQ1N2E3MDg1YWRlZC90YWJsZXJhbmdlOjhlN2I5NTk3ODRjZDQ2N2E4YmI2ZDU3YTcwODVhZGVkXzIzLTUtMS0xLTA_362ffc40-52a5-4f9c-b851-f59aafce78c8" unitRef="usd">12411200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i884ade022aa540c3b97233e64f10f1e1_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4ZTdiOTU5Nzg0Y2Q0NjdhOGJiNmQ1N2E3MDg1YWRlZC90YWJsZXJhbmdlOjhlN2I5NTk3ODRjZDQ2N2E4YmI2ZDU3YTcwODVhZGVkXzIzLTctMS0xLTA_8be64433-c614-404f-a790-8541c197d4ba" unitRef="usd">1864400000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ied373158ae914ecbb2d62d0ac2f1922b_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4ZTdiOTU5Nzg0Y2Q0NjdhOGJiNmQ1N2E3MDg1YWRlZC90YWJsZXJhbmdlOjhlN2I5NTk3ODRjZDQ2N2E4YmI2ZDU3YTcwODVhZGVkXzIzLTktMS0xLTA_81778240-6523-4979-9182-9a226a48f4fa" unitRef="usd">230100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i2f6cd3ad56c54862a104d7b4bb68b9c5_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4ZTdiOTU5Nzg0Y2Q0NjdhOGJiNmQ1N2E3MDg1YWRlZC90YWJsZXJhbmdlOjhlN2I5NTk3ODRjZDQ2N2E4YmI2ZDU3YTcwODVhZGVkXzIzLTExLTEtMS0w_19274c63-937c-476a-be5c-304fe139cef3" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i1fbde3a12b07442bbe79276bfe4655f8_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4ZTdiOTU5Nzg0Y2Q0NjdhOGJiNmQ1N2E3MDg1YWRlZC90YWJsZXJhbmdlOjhlN2I5NTk3ODRjZDQ2N2E4YmI2ZDU3YTcwODVhZGVkXzIzLTEzLTEtMS0w_a01bbb52-d189-41ab-beb4-f76f0c871723" unitRef="usd">66001300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ic418b3f71975452e96824ec714ab2bc0_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4NjcwY2I5MjExNmQ0NzZhOWUwZTQ5MDJlMGY4MGY5ZS90YWJsZXJhbmdlOjg2NzBjYjkyMTE2ZDQ3NmE5ZTBlNDkwMmUwZjgwZjllXzIzLTEtMS0xLTA_a191fa07-e0ae-4740-bb92-c70c46e0d0c0" unitRef="usd">33437100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i7070dd2006b94a4f9d8ff7372bca7f4f_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4NjcwY2I5MjExNmQ0NzZhOWUwZTQ5MDJlMGY4MGY5ZS90YWJsZXJhbmdlOjg2NzBjYjkyMTE2ZDQ3NmE5ZTBlNDkwMmUwZjgwZjllXzIzLTMtMS0xLTA_9af2aaf4-9795-44cd-9899-721987e47611" unitRef="usd">17265700000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="idde2851b4b9f4b65ad82a1a7bd55c47a_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4NjcwY2I5MjExNmQ0NzZhOWUwZTQ5MDJlMGY4MGY5ZS90YWJsZXJhbmdlOjg2NzBjYjkyMTE2ZDQ3NmE5ZTBlNDkwMmUwZjgwZjllXzIzLTUtMS0xLTA_9019aeef-956c-4ac0-bc1f-bd6782bff08e" unitRef="usd">11231500000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i10a9d5e27f6d4251b62e0615c45f325c_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4NjcwY2I5MjExNmQ0NzZhOWUwZTQ5MDJlMGY4MGY5ZS90YWJsZXJhbmdlOjg2NzBjYjkyMTE2ZDQ3NmE5ZTBlNDkwMmUwZjgwZjllXzIzLTctMS0xLTA_c5c658fa-96bd-4429-9420-32b8d73624fe" unitRef="usd">1744100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i1cd37e7a8b8049f98e4b1b099db7e2a6_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4NjcwY2I5MjExNmQ0NzZhOWUwZTQ5MDJlMGY4MGY5ZS90YWJsZXJhbmdlOjg2NzBjYjkyMTE2ZDQ3NmE5ZTBlNDkwMmUwZjgwZjllXzIzLTktMS0xLTA_e411e4e1-bd55-45a9-b9e3-fbcbe265d945" unitRef="usd">223200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i4211f4e6fadd465f84c22773a996badb_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4NjcwY2I5MjExNmQ0NzZhOWUwZTQ5MDJlMGY4MGY5ZS90YWJsZXJhbmdlOjg2NzBjYjkyMTE2ZDQ3NmE5ZTBlNDkwMmUwZjgwZjllXzIzLTExLTEtMS0w_f35ca86f-a5b9-4a57-beca-47f66621713d" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i3c6b97edea80401c8c6a89b2e52b95e8_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo4NjcwY2I5MjExNmQ0NzZhOWUwZTQ5MDJlMGY4MGY5ZS90YWJsZXJhbmdlOjg2NzBjYjkyMTE2ZDQ3NmE5ZTBlNDkwMmUwZjgwZjllXzIzLTEzLTEtMS0w_601f7821-03f4-43fd-8196-51b1ae7e83eb" unitRef="usd">63901600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ib96456cd7206479cb42a5b1fd69f356e_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZToyODlkNDE1NDcwODk0NzI2YTAwYjY4MWQzZjE1NDk5Mi90YWJsZXJhbmdlOjI4OWQ0MTU0NzA4OTQ3MjZhMDBiNjgxZDNmMTU0OTkyXzIxLTEtMS0xLTA_c914e59b-c7c8-4e70-863f-ecfbb92d1788" unitRef="usd">11935700000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i00768f26bb4b4d5f931ceae487b1e737_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZToyODlkNDE1NDcwODk0NzI2YTAwYjY4MWQzZjE1NDk5Mi90YWJsZXJhbmdlOjI4OWQ0MTU0NzA4OTQ3MjZhMDBiNjgxZDNmMTU0OTkyXzIxLTMtMS0xLTA_08163ea6-1004-438e-9c49-56ec6db7d438" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ib6a7a4f8570d42d4a3acde79c06c570a_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZToyODlkNDE1NDcwODk0NzI2YTAwYjY4MWQzZjE1NDk5Mi90YWJsZXJhbmdlOjI4OWQ0MTU0NzA4OTQ3MjZhMDBiNjgxZDNmMTU0OTkyXzIxLTUtMS0xLTA_ea718bc3-7150-45d4-a148-f2776b247bd2" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i04223b3cf13541a98eff8b130ec79375_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZToyODlkNDE1NDcwODk0NzI2YTAwYjY4MWQzZjE1NDk5Mi90YWJsZXJhbmdlOjI4OWQ0MTU0NzA4OTQ3MjZhMDBiNjgxZDNmMTU0OTkyXzIxLTctMS0xLTA_47df2cb0-1966-4b05-bdac-5026e9b97f85" unitRef="usd">11935700000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="iadc94ce47d294548bfaa778d459dc594_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo1ZGM0OTU2NGNmYzM0YTJhYWQ5ZDk1ZmMzOTRlZjBjNi90YWJsZXJhbmdlOjVkYzQ5NTY0Y2ZjMzRhMmFhZDlkOTVmYzM5NGVmMGM2XzIxLTEtMS0xLTA_e1451a5f-2575-4832-b447-1b5cb59fc813" unitRef="usd">10772800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="id69d80139c514d7ba15d246c63c55210_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo1ZGM0OTU2NGNmYzM0YTJhYWQ5ZDk1ZmMzOTRlZjBjNi90YWJsZXJhbmdlOjVkYzQ5NTY0Y2ZjMzRhMmFhZDlkOTVmYzM5NGVmMGM2XzIxLTMtMS0xLTA_ab907454-1a18-4207-bd11-6f1837452326" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i001cb29afecf42ddac8272e32226ea98_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo1ZGM0OTU2NGNmYzM0YTJhYWQ5ZDk1ZmMzOTRlZjBjNi90YWJsZXJhbmdlOjVkYzQ5NTY0Y2ZjMzRhMmFhZDlkOTVmYzM5NGVmMGM2XzIxLTUtMS0xLTA_7369b85a-cc39-4d5d-bd0a-f3d883af3fd1" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i09b5bf6d2c08465a80ceddd322e2ca02_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDgvZnJhZzo0NzhmNDc4N2EzMzY0YjY3ODIwNjdhZjk3Y2ZlNjMyYi90YWJsZTo1ZGM0OTU2NGNmYzM0YTJhYWQ5ZDk1ZmMzOTRlZjBjNi90YWJsZXJhbmdlOjVkYzQ5NTY0Y2ZjMzRhMmFhZDlkOTVmYzM5NGVmMGM2XzIxLTctMS0xLTA_0ba202d4-1515-45e4-84c4-1e4a5ce6f55f" unitRef="usd">10772800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i76a89aa32b2242afb9e7ea3ee884bad9_I20201231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDEvZnJhZzowOTc3NzlmMzZiZTI0NjEzYWNhZTY1MTcxOTc1MzBhZi90ZXh0cmVnaW9uOjA5Nzc3OWYzNmJlMjQ2MTNhY2FlNjUxNzE5NzUzMGFmXzI3NDg3NzkwODUzMDE_c58db1ce-d98f-47a7-8b3d-99f9bf6bda53" unitRef="usd">60000000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ib9954e6fb94f488b88f54eeffe3a2adb_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpkNDllYjRlNjEyNTU0NThiOWRjMjkwMDE2YzZiZmI4NS90YWJsZXJhbmdlOmQ0OWViNGU2MTI1NTQ1OGI5ZGMyOTAwMTZjNmJmYjg1XzktMS0xLTEtMA_707c7367-57b2-451d-8454-7aae76fe6339" unitRef="usd">51800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ibbf69b3c92eb41f3bbfcdbea980c5a5f_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpkNDllYjRlNjEyNTU0NThiOWRjMjkwMDE2YzZiZmI4NS90YWJsZXJhbmdlOmQ0OWViNGU2MTI1NTQ1OGI5ZGMyOTAwMTZjNmJmYjg1XzktMy0xLTEtMA_1a943c54-8f27-42a5-8400-428830a68e46" unitRef="usd">118600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ic6c7dcd2aa4e464da4b9566a98a89921_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpkNDllYjRlNjEyNTU0NThiOWRjMjkwMDE2YzZiZmI4NS90YWJsZXJhbmdlOmQ0OWViNGU2MTI1NTQ1OGI5ZGMyOTAwMTZjNmJmYjg1XzktNS0xLTEtMA_594b5c10-eb78-4cc8-a30f-2debe26d41d3" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i3b2ced1f031f4688a5f2582220535516_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpkNDllYjRlNjEyNTU0NThiOWRjMjkwMDE2YzZiZmI4NS90YWJsZXJhbmdlOmQ0OWViNGU2MTI1NTQ1OGI5ZGMyOTAwMTZjNmJmYjg1XzktNy0xLTEtMA_ad4a1921-d5b0-4709-a612-35a8392fd115" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i5c7d8f8121fb4793ab48ffedab549e4a_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpkNDllYjRlNjEyNTU0NThiOWRjMjkwMDE2YzZiZmI4NS90YWJsZXJhbmdlOmQ0OWViNGU2MTI1NTQ1OGI5ZGMyOTAwMTZjNmJmYjg1XzktOS0xLTEtMA_8c857f63-e6d8-47ef-872c-4eaa61fc5df9" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ib294c3f3a2c44d8e987f4d91926e8262_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowNDFhMTAzMWEwOTc0MTYwOTQwOWJkOWRiOGY0MTRlZi90YWJsZXJhbmdlOjA0MWExMDMxYTA5NzQxNjA5NDA5YmQ5ZGI4ZjQxNGVmXzktMS0xLTEtMA_19d042e4-a6cb-4321-a5cb-554791e7bd23" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i41c4b6c56c9e4de39aeee3b46ac75dc7_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowNDFhMTAzMWEwOTc0MTYwOTQwOWJkOWRiOGY0MTRlZi90YWJsZXJhbmdlOjA0MWExMDMxYTA5NzQxNjA5NDA5YmQ5ZGI4ZjQxNGVmXzktMy0xLTEtMA_a66b17cd-0870-487f-9c6f-6ebf805772a5" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i41084ef4b00f472ab158abb173a37c25_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowNDFhMTAzMWEwOTc0MTYwOTQwOWJkOWRiOGY0MTRlZi90YWJsZXJhbmdlOjA0MWExMDMxYTA5NzQxNjA5NDA5YmQ5ZGI4ZjQxNGVmXzktNS0xLTEtMA_33d3431d-a83d-4cd5-abdf-d0b3013411a5" unitRef="usd">475400000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="iec7021eb942f4221802d1545a43078e6_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowNDFhMTAzMWEwOTc0MTYwOTQwOWJkOWRiOGY0MTRlZi90YWJsZXJhbmdlOjA0MWExMDMxYTA5NzQxNjA5NDA5YmQ5ZGI4ZjQxNGVmXzktOS0xLTEtMA_74ee74c5-e1d8-45ba-9fe5-4fbc95d50b00" unitRef="usd">217300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i8ffd6806b2314deb80c447f68636bca4_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowNDFhMTAzMWEwOTc0MTYwOTQwOWJkOWRiOGY0MTRlZi90YWJsZXJhbmdlOjA0MWExMDMxYTA5NzQxNjA5NDA5YmQ5ZGI4ZjQxNGVmXzktMTEtMS0xLTA_8dd97644-5fc7-4e45-a7a0-8d7e0f0adf56" unitRef="usd">437600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ie0409eff68d849b084b13a948dc55f24_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowNDFhMTAzMWEwOTc0MTYwOTQwOWJkOWRiOGY0MTRlZi90YWJsZXJhbmdlOjA0MWExMDMxYTA5NzQxNjA5NDA5YmQ5ZGI4ZjQxNGVmXzktMTMtMS0xLTIwNDA0Ng_e782f113-642b-42cd-8859-815e7f65e366" unitRef="usd">146100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ib45ad7316c3b4954a23041fa90d7903c_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowMzIxNTU0OGRjOTI0OGE5OTM1N2ViMTliZjY4MzcwYS90YWJsZXJhbmdlOjAzMjE1NTQ4ZGM5MjQ4YTk5MzU3ZWIxOWJmNjgzNzBhXzktMS0xLTEtMA_e903c358-410e-4f19-8d9d-4491579eb3b3" unitRef="usd">97300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="iff971702e76c43329cb47fce61ca6ed4_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowMzIxNTU0OGRjOTI0OGE5OTM1N2ViMTliZjY4MzcwYS90YWJsZXJhbmdlOjAzMjE1NTQ4ZGM5MjQ4YTk5MzU3ZWIxOWJmNjgzNzBhXzktMy0xLTEtMA_8ae61d8f-1f50-455f-9eb7-923a04834e56" unitRef="usd">138900000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i7368066afc6d4084b6783ed0a26279f4_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowMzIxNTU0OGRjOTI0OGE5OTM1N2ViMTliZjY4MzcwYS90YWJsZXJhbmdlOjAzMjE1NTQ4ZGM5MjQ4YTk5MzU3ZWIxOWJmNjgzNzBhXzktNS0xLTEtMA_e6511aaa-4216-40ad-bc19-f9a90b531cb8" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i9c298d74679e4f66acab7d1404855bb5_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowMzIxNTU0OGRjOTI0OGE5OTM1N2ViMTliZjY4MzcwYS90YWJsZXJhbmdlOjAzMjE1NTQ4ZGM5MjQ4YTk5MzU3ZWIxOWJmNjgzNzBhXzktNy0xLTEtMA_a82d4338-5864-4601-a1f0-001e6315de68" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i1ef76cb26814499b9b861a28a39388de_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTowMzIxNTU0OGRjOTI0OGE5OTM1N2ViMTliZjY4MzcwYS90YWJsZXJhbmdlOjAzMjE1NTQ4ZGM5MjQ4YTk5MzU3ZWIxOWJmNjgzNzBhXzktOS0xLTEtMA_db9284c4-cf6f-4bec-9396-1d2b1a7a5f61" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i550fb826fc7d4b21b3a515f77aa71691_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpiNTJlZTE2OGQ5YzQ0YzVmOTliMmE0ZDViZjUxMzM2Ni90YWJsZXJhbmdlOmI1MmVlMTY4ZDljNDRjNWY5OWIyYTRkNWJmNTEzMzY2XzktMS0xLTEtMA_d33ae69b-35a8-4321-b034-7e5d62cdd419" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i82f9a5935196484ab7b092d968a60a9c_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpiNTJlZTE2OGQ5YzQ0YzVmOTliMmE0ZDViZjUxMzM2Ni90YWJsZXJhbmdlOmI1MmVlMTY4ZDljNDRjNWY5OWIyYTRkNWJmNTEzMzY2XzktMy0xLTEtMA_65f70359-6522-4c38-a8c9-bfafc1dd3073" unitRef="usd">0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ied8d39008068446a905dfa9ec2b02762_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpiNTJlZTE2OGQ5YzQ0YzVmOTliMmE0ZDViZjUxMzM2Ni90YWJsZXJhbmdlOmI1MmVlMTY4ZDljNDRjNWY5OWIyYTRkNWJmNTEzMzY2XzktNS0xLTEtMA_e366ff3a-2062-4768-a683-699a7eb0208d" unitRef="usd">458700000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i94a8242974574b1d9e260a1b64365f41_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpiNTJlZTE2OGQ5YzQ0YzVmOTliMmE0ZDViZjUxMzM2Ni90YWJsZXJhbmdlOmI1MmVlMTY4ZDljNDRjNWY5OWIyYTRkNWJmNTEzMzY2XzktOS0xLTEtMA_bdfd6559-5088-47e0-99a3-02c4288f9731" unitRef="usd">223100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i808cf313f67a4717b3473edb89eba6a7_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NDQvZnJhZzo3N2JhYTJmMmRjYTM0ZDIzODBiNzI3NWMwMWUyZThiMi90YWJsZTpiNTJlZTE2OGQ5YzQ0YzVmOTliMmE0ZDViZjUxMzM2Ni90YWJsZXJhbmdlOmI1MmVlMTY4ZDljNDRjNWY5OWIyYTRkNWJmNTEzMzY2XzktMTEtMS0xLTA_86113ca4-d3b9-4f11-8b29-69be4221b1aa" unitRef="usd">453100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i0266cc451ef94220bfdc29cc8f7944d6_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzktMi0xLTEtMA_f05585ff-8f77-4b11-b952-cf171351b4b2" unitRef="usd">64009500000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i0b7f55ad3d4841239023434ff95c3d7c_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzktNC0xLTEtMA_ccc0830a-454c-441a-abc8-51b51b9bbc5a" unitRef="usd">10634200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i817b49988b7e4c0e9e67b1b2026f9922_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzktNi0xLTEtMA_a8055ee1-f0bf-4035-a84c-7f5c3584e82d" unitRef="usd">11935400000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i10b11012326d441ebea2aa7f82e86ec9_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzktOC0xLTEtMA_734968cb-9748-4c71-8a7d-f2f145f96683" unitRef="usd">11781000000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="icaaf6f4d48114aa3be7710109415fe16_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzktMTAtMS0xLTA_268f591d-6d18-42d6-beb4-4d6880642ffb" unitRef="usd">7287600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i5262975c8e624f0ab768c8e5fd13543f_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzktMTItMS0xLTA_37e44fcc-c162-4045-878d-742f79dbbaab" unitRef="usd">7953200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i630c188ee49f4cadb30680fe74fa2ccf_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzktMTQtMS0xLTA_4e0b7c21-d37d-4186-a6f7-5f5a976e4643" unitRef="usd">4797500000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i7522245768964dc887cc499bec751d89_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzktMTYtMS0xLTA_d7d8932b-c90f-4710-8c72-33151df4efea" unitRef="usd">7346200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ib0b53f6ce75942c882f6a36a09be535d_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzEwLTItMS0xLTA_7a54f06d-07d3-4776-a047-5e18f68d38c2" unitRef="usd">1991800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i9eef7f05a35044188dee52d30405df19_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzEwLTQtMS0xLTA_947f3dda-4463-47ef-aa49-c0c49439b6a5" unitRef="usd">1200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i9dd080ae6f2042b2af18c8af22483117_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzEwLTYtMS0xLTA_3f12fd03-2fbf-4a72-92c2-922c68d981b9" unitRef="usd">300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i57dcdff9a4ba4390ba57fefdc1d93b27_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzEwLTgtMS0xLTA_51306bd6-9823-4b2c-9b1b-e554364fdf86" unitRef="usd">23300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i111c314029ac4e488e4a2caa68406f2c_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzEwLTEwLTEtMS0w_efff2483-2e89-4f42-9504-f1b265252694" unitRef="usd">23300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i8c1bd0a376f4462c9f0a09ad1b822a59_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzEwLTEyLTEtMS0w_27e15176-6d88-4fc1-8254-caca00ce0a66" unitRef="usd">9800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ifd6a7b59126d44c5b326942dab414bdc_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzEwLTE0LTEtMS0w_fb007be9-1c63-43c6-a07e-ba972c07f83f" unitRef="usd">5300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i429ffd7e53dd45bf89bb965458772204_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzEwLTE2LTEtMS0w_f1124e38-fcd6-47ca-a21b-c589121bba59" unitRef="usd">53900000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i1fbde3a12b07442bbe79276bfe4655f8_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzExLTItMS0xLTA_a17213c9-6dc9-4e19-a26a-05bdbf3f84f1" unitRef="usd">66001300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i66e0de61f58244e39ad95bb95aed6632_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzExLTQtMS0xLTA_48f4e562-1d2e-4746-8cce-7c4866067907" unitRef="usd">10635400000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i04223b3cf13541a98eff8b130ec79375_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzExLTYtMS0xLTA_c3ce8258-565a-4656-b33f-555be548cc77" unitRef="usd">11935700000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="id991e6a1ed7343d183fab90731cfd748_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzExLTgtMS0xLTA_44dc8f37-0880-4336-b172-5758bd5f6e3c" unitRef="usd">11804300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ibab4de71660b454e8d6f1e9b60f4a3ce_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzExLTEwLTEtMS0w_8d55c846-e455-4d9f-a214-775a841f526a" unitRef="usd">7310900000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i7e1650defd02406a96b59260a5ba2176_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzExLTEyLTEtMS0w_44ebd3ba-778c-4184-ba87-4d7791904bc4" unitRef="usd">7963000000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i1095337e2499494dbf2cc1fb7b139ebd_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzExLTE0LTEtMS0w_8cd64b7b-b602-4912-a9f1-07e8a907e33a" unitRef="usd">4802800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i068ba6d03f7b4adca04addf578898ced_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTpjMzViNjFjYzRiZTc0ZTI5ODc4ZjYxOGI5YzYwZDBhNS90YWJsZXJhbmdlOmMzNWI2MWNjNGJlNzRlMjk4NzhmNjE4YjljNjBkMGE1XzExLTE2LTEtMS0w_562d2608-2173-4776-ac80-8e257e1c309a" unitRef="usd">7400100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i10e123f582594dc1acaa59b1a3039681_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzktMi0xLTEtMA_f248595d-02c7-4964-8c0f-6e7a0b4bad05" unitRef="usd">61974600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="idbd537ef594f476f88ebc1ddb139d3b0_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzktNC0xLTEtMA_be9b4139-b177-4d14-a409-f3c1c1800e7a" unitRef="usd">9812400000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i6c61181c44c74af6988c37619e433611_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzktNi0xLTEtMA_4802b387-cc55-40c3-9389-f536475bcfc0" unitRef="usd">10772100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i09cc8deee434488692e2dd2778adb7ea_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzktOC0xLTEtMA_76cafb8f-0481-4102-a22d-020ed89f40b5" unitRef="usd">11370100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i03dfe64129254cbaabd13a4b7a4600cb_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzktMTAtMS0xLTA_3b2a3c95-ea14-40c6-b898-75af06b91876" unitRef="usd">7024100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ie8aed4bc96764d6e85da6a63e9474a9f_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzktMTItMS0xLTA_610e2e97-0531-4fba-9e38-56fcb4fbd2d3" unitRef="usd">7442200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="iacec91a003674f2e8607628c58dfdbff_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzktMTQtMS0xLTA_7ad19d56-edbc-433e-9aaf-3b9d88665df7" unitRef="usd">4313100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i2932156c1d0644568ec5109d11e60eac_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzktMTYtMS0xLTA_b725217c-28ac-4f10-929f-a6f59881af6f" unitRef="usd">6990400000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i4687c920b3074b30a70bf5d71e48397a_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzEwLTItMS0xLTA_86d2fddf-dbb0-44f8-b4a7-38614a3a074d" unitRef="usd">1927000000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i8a81000cf02f49f58244b76410905444_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzEwLTQtMS0xLTA_209f2f9e-1e80-4c7c-a1f2-0f9b0a3778ae" unitRef="usd">1200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="ie914495cc73f4545959dfcce78bce2f5_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzEwLTYtMS0xLTA_93145d7b-035d-4a05-8477-52a02692a904" unitRef="usd">700000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i6942d8ee1b4648a0884274f2dc6148a6_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzEwLTgtMS0xLTA_ac5221c3-edba-42e1-82c4-c54763f37888" unitRef="usd">24000000.0</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="iff9ba5b1ac27464c89c8a9a379d7c6c1_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzEwLTEwLTEtMS0w_387fdd2e-d770-4bdc-88c5-8671a0d9f68a" unitRef="usd">28200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i4e149ce26c864ef2a650064460c24281_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzEwLTEyLTEtMS0w_ae82aac9-1300-4b73-aef1-46a5bf23f046" unitRef="usd">9900000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i5330e4452c5945298ef878d924e2a5bb_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzEwLTE0LTEtMS0w_996c2364-6c62-4d93-b037-85fd5efd8fc5" unitRef="usd">6900000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="id0c2219eda4149e0b19b748914374011_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzEwLTE2LTEtMS0w_208d9211-f4b3-45cf-980b-7e27db9113af" unitRef="usd">97800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i3c6b97edea80401c8c6a89b2e52b95e8_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzExLTItMS0xLTA_1e90e1ed-0858-47a9-be5e-c59e17bafcb6" unitRef="usd">63901600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i670986055d0f41ab98393d027bccf2ef_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzExLTQtMS0xLTA_9e8b8c4f-b81a-4975-b21a-ce6e60912506" unitRef="usd">9813600000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i09b5bf6d2c08465a80ceddd322e2ca02_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzExLTYtMS0xLTA_aa3aa96d-c37f-48ad-848b-3254ea445616" unitRef="usd">10772800000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i48b5eb6ca347467fbe25cbbe3fc2f055_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzExLTgtMS0xLTA_37f80580-788e-4143-b5bc-3cc55ddd1a81" unitRef="usd">11394100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i3e2b5a80cde64b129f165be25649b5f4_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzExLTEwLTEtMS0w_fd08560d-2d9d-4b67-97fc-35daa7aa6ef1" unitRef="usd">7052300000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="icea15b15e8ec4aeeb5a05bfbbc3fd6c7_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzExLTEyLTEtMS0w_c73359c3-f7b5-4779-ab5c-f097c3ea0dca" unitRef="usd">7452100000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i9ec1b379b58c4aa0adf68f4a2876048d_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzExLTE0LTEtMS0w_e48a9f48-851e-48e3-8dc4-e6c26ac0daf3" unitRef="usd">4320000000</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="i08eda13cd1b34b6494cca6a67acc0ed4_I20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81NTAvZnJhZzo1MGFmYWExMTI3MmQ0M2Q2YmUyNzIxOTJhNjZhYjRhYi90YWJsZTo2YzA4NjhmMGRkMTI0YTIzODBiY2M3OWE2MTM5OWU4OC90YWJsZXJhbmdlOjZjMDg2OGYwZGQxMjRhMjM4MGJjYzc5YTYxMzk5ZTg4XzExLTE2LTEtMS0w_4eafc55c-e3ac-4a50-9024-6dab8a481545" unitRef="usd">7088200000</us-gaap:PropertyPlantAndEquipmentNet>
+	<aep:TotalBasisPointBandForAuthorizedReturnOnEquity contextRef="i9ca3af874e2b4d02b01d2227379c0af9_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzcxOTM_c68b9f50-c510-40ee-82a0-d98cd3e0b13d" unitRef="number">1.40</aep:TotalBasisPointBandForAuthorizedReturnOnEquity>
+	<us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage contextRef="i9ca3af874e2b4d02b01d2227379c0af9_D20210101-20211231" decimals="3" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzcxMTQ_7f58c37e-6cc9-4223-ab25-992e4feaf916" unitRef="number">0.092</us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage contextRef="ie93500a96b6f478fb026114209272068_D20210101-20211231" decimals="4" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzcyMTQ_f45cfb3d-079f-4641-9b55-09f2a0387c01" unitRef="number">0.085</us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage contextRef="i9ca3af874e2b4d02b01d2227379c0af9_D20210101-20211231" decimals="4" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzcyMjU_b45f8386-f034-4b4b-a8cb-841501a0c10d" unitRef="number">0.092</us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage contextRef="i7b2a8687903343d98a4ab033a5a515d0_D20210101-20211231" decimals="4" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzcyMzg_70ae78f5-fdb2-40e7-a25a-a55989128ad5" unitRef="number">0.099</us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage contextRef="i20ba59d3372d489e9253720650048ea9_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTk1Njk_0d5cc84e-e402-4f8e-b7a7-244322c68af1" unitRef="number">0.097</us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage contextRef="ief08124695c94febb077dcee133735a0_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MDQ1MjA_212972f9-59e3-4e41-a177-c66223527f4d" unitRef="number">0.094</us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage contextRef="i1e404492e77c4048a4bb79311b107143_D20210101-20211231" decimals="3" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzIyMTg1_f06ec3d9-d2ce-4112-b524-37b92613631d" unitRef="number">0.096</us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage>
+	<us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage contextRef="i65fa7bace0fa4e2083044eebf847e254_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0ODA1OTQ_5ffbe3e8-8fca-40f5-ad50-b60b3d05fe0b" unitRef="number">0.0925</us-gaap:PublicUtilitiesApprovedReturnOnEquityPercentage>
+	<aep:ApprovedAnnualRevenueIncrease contextRef="ief08124695c94febb077dcee133735a0_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0NzE2NTY_1712775e-a801-4b3c-89d1-b4ffbefc51d5" unitRef="usd">51000000</aep:ApprovedAnnualRevenueIncrease>
+	<aep:ApprovedAnnualRevenueIncrease contextRef="i65fa7bace0fa4e2083044eebf847e254_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0ODA1ODE_71d1d007-165f-4756-a76c-74b3720f1d70" unitRef="usd">39000000</aep:ApprovedAnnualRevenueIncrease>
+	<aep:StaffRecommendedReturnOnCommonEquity contextRef="ic3ed659434184782b9ad578eeae998c6_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MjIyMDI_91d0c87d-930c-445e-89b0-cf1f41058c5c" unitRef="number">0.091</aep:StaffRecommendedReturnOnCommonEquity>
+	<aep:StaffRecommendedReturnOnCommonEquity contextRef="ia3c03aec366b46519903375cd5cca982_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MzYxNzI_a9954ee7-abf0-4560-bf46-db99b78855e2" unitRef="number">0.093</aep:StaffRecommendedReturnOnCommonEquity>
+	<aep:RecommendedDisallowancefromStafforIntervenors contextRef="i5c4663479ef04ae5b3d486302609b665_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODcvZnJhZzo2MmUxOTdhNTQ2NTU0MjIwOGRjNTIyMTMwZjFmNGJkNC90ZXh0cmVnaW9uOjYyZTE5N2E1NDY1NTQyMjA4ZGM1MjIxMzBmMWY0YmQ0Xzk0NTI_74f59bd1-588a-4be5-8c86-ae65f3430689" unitRef="usd">125000000</aep:RecommendedDisallowancefromStafforIntervenors>
+	<aep:EstimatedELGCosts contextRef="iec103b049c9549c1b68db9da352a6ada_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzODUwMDU_adf75322-c75b-4ede-aa1f-11fe705d306c" unitRef="usd">197000000</aep:EstimatedELGCosts>
+	<aep:NetBookValueOfAmosAndMountaineerPlantsVirginia contextRef="iec103b049c9549c1b68db9da352a6ada_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzODUwMzI_6b74c9fa-bb99-4f02-85fb-bb27dc798c21" unitRef="usd">1500000000</aep:NetBookValueOfAmosAndMountaineerPlantsVirginia>
+	<aep:EstimatedELGInvestment contextRef="iec103b049c9549c1b68db9da352a6ada_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzODUwNTg_cbc207e8-9e59-446f-a662-d4aa7520570c" unitRef="usd">26000000</aep:EstimatedELGInvestment>
+	<aep:EstimatedELGInvestment contextRef="i2b0a676e19e64f81b8ab8400df4077a8_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTY3ODU_c7de0261-2237-4a0e-864e-acab85a78cd9" unitRef="usd">3000000</aep:EstimatedELGInvestment>
+	<aep:PhasedInAnnualIncrease2022 contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTEzNjQ_d6e2681e-ac11-4016-9aef-54c2abe8180a" unitRef="usd">73000000</aep:PhasedInAnnualIncrease2022>
+	<aep:PhasedInAnnualIncrease2023 contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTEzOTg_6baf598a-186f-400a-bf5b-c5b66fbb0e47" unitRef="usd">31000000</aep:PhasedInAnnualIncrease2023>
+	<aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTE0MjI_27b9d09a-e5e3-40c5-a2af-fd2b9e3083d7" unitRef="usd">7000000</aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense>
+	<aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense contextRef="ief08124695c94febb077dcee133735a0_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MDQzMzg_569cfb46-0743-4e68-9684-aeb4ce9faee0" unitRef="usd">57000000</aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense>
+	<aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense contextRef="id929e4b975774fe3974c78af7ac1226e_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MDQyNjE_5cfbe91f-60af-4643-ac95-1661a7fd009f" unitRef="usd">45000000</aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense>
+	<aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense contextRef="i65fa7bace0fa4e2083044eebf847e254_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzI3ODA2_bb30ed22-998f-4314-9716-577360b47eba" unitRef="usd">10000000</aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense>
+	<aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense contextRef="ic3ed659434184782b9ad578eeae998c6_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MjIxMzQ_ea090ae5-7fc4-44e7-a47d-6a5b7d360148" unitRef="usd">32000000</aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense>
+	<aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense contextRef="ia3c03aec366b46519903375cd5cca982_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MjIzMzk_9804bbcd-ca06-4700-a02e-ad14e07895cc" unitRef="usd">14000000</aep:AmountOfIncreaseRelatedToAnnualDepreciationExpense>
+	<aep:IntervenorRecommendedReturnOnCommonEquity contextRef="i7573bd5e6ae34ab7b4c5d7f87d20e424_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MjIyMTQ_4a4a6b0b-262b-49b5-9dcb-06e9d5a387ba" unitRef="number">0.0935</aep:IntervenorRecommendedReturnOnCommonEquity>
+	<aep:IntervenorRecommendedReturnOnCommonEquity contextRef="i56af87bedf7d4ef79518627360449bae_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MjIyMjY_48f6d37c-ff6b-48ed-9e3e-557ee539ee24" unitRef="number">0.098</aep:IntervenorRecommendedReturnOnCommonEquity>
+	<aep:IntervenorRecommendedReturnOnCommonEquity contextRef="i9499b586ee84482aa0ebc7ac1dd128c3_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MzYxOTg_07ed682c-c06a-4541-94ec-53a946bb10bc" unitRef="number">0.0875</aep:IntervenorRecommendedReturnOnCommonEquity>
+	<aep:IntervenorRecommendedReturnOnCommonEquity contextRef="i88c725b8e40c452e87167867899653d0_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MzYyMDU_c7e89dfd-f3de-4eb0-bc32-6b34405574bf" unitRef="number">0.0925</aep:IntervenorRecommendedReturnOnCommonEquity>
+	<aep:EstimatedCCRELGCosts contextRef="ia67765f235fb4c8c8765a75f3c434a78_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTY3MzM_54eb0a37-3de3-4be5-aafb-2a94f57465b1" unitRef="usd">132000000</aep:EstimatedCCRELGCosts>
+	<aep:OwnershipInterestInMitchellPowerPlant contextRef="ida1d46f439b7432b886eb6daae2548b2_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTY2OTA_5ba35ebe-6c40-4409-929f-da44d5eb39e4" unitRef="number">0.50</aep:OwnershipInterestInMitchellPowerPlant>
+	<aep:OwnershipInterestInMitchellPowerPlant contextRef="i0f26eb5c9fa84692b3634995afb1679f_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTY2OTA_72af5c14-64ac-4a83-85cb-7dc5b711cc35" unitRef="number">0.50</aep:OwnershipInterestInMitchellPowerPlant>
+	<aep:OwnershipInterestInMitchellPowerPlant contextRef="i0f26eb5c9fa84692b3634995afb1679f_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDIvZnJhZzpmZDg5NTcyMzM4ZWE0YTA3OWQ2YmQwMDcxYmUyOGQyNy90ZXh0cmVnaW9uOmZkODk1NzIzMzhlYTRhMDc5ZDZiZDAwNzFiZTI4ZDI3XzY1OTcwNjk4Mjg4Njg_b8122503-8e45-4b96-b623-ee8a90a77f72" unitRef="number">0.50</aep:OwnershipInterestInMitchellPowerPlant>
+	<aep:OwnershipInterestInMitchellPowerPlant contextRef="ida1d46f439b7432b886eb6daae2548b2_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDIvZnJhZzpmZDg5NTcyMzM4ZWE0YTA3OWQ2YmQwMDcxYmUyOGQyNy90ZXh0cmVnaW9uOmZkODk1NzIzMzhlYTRhMDc5ZDZiZDAwNzFiZTI4ZDI3XzY1OTcwNjk4Mjg4NjI_1c93d627-3687-45c8-a6de-fa04bade76c4" unitRef="number">0.50</aep:OwnershipInterestInMitchellPowerPlant>
+	<aep:OwnershipInterestInMitchellPowerPlant contextRef="i0f26eb5c9fa84692b3634995afb1679f_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDIvZnJhZzpmZDg5NTcyMzM4ZWE0YTA3OWQ2YmQwMDcxYmUyOGQyNy90ZXh0cmVnaW9uOmZkODk1NzIzMzhlYTRhMDc5ZDZiZDAwNzFiZTI4ZDI3XzY1OTcwNjk4Mjg4NzY_b8122503-8e45-4b96-b623-ee8a90a77f72" unitRef="number">0.50</aep:OwnershipInterestInMitchellPowerPlant>
+	<aep:OwnershipInterestInMitchellPowerPlant contextRef="i0f26eb5c9fa84692b3634995afb1679f_I20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF81MDIvZnJhZzpmZDg5NTcyMzM4ZWE0YTA3OWQ2YmQwMDcxYmUyOGQyNy90ZXh0cmVnaW9uOmZkODk1NzIzMzhlYTRhMDc5ZDZiZDAwNzFiZTI4ZDI3XzY1OTcwNjk4Mjg4ODI_b8122503-8e45-4b96-b623-ee8a90a77f72" unitRef="number">0.50</aep:OwnershipInterestInMitchellPowerPlant>
+	<aep:EstimatedAlternativeCCRInvestment contextRef="ia67765f235fb4c8c8765a75f3c434a78_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTY3MDc_d90ebbeb-390a-4e9f-83a2-c6ea8f48346a" unitRef="usd">25000000</aep:EstimatedAlternativeCCRInvestment>
+	<us-gaap:PublicUtilitiesPropertyPlantAndEquipmentNet contextRef="i2b0a676e19e64f81b8ab8400df4077a8_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTY3NzE_d7031927-1ad1-4abd-ada6-6c8a205daba3" unitRef="usd">586000000</us-gaap:PublicUtilitiesPropertyPlantAndEquipmentNet>
+	<aep:ProposedSettlementAnnualRateIncrease contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MzEzMTk_274a2bc8-643b-49d3-9a6c-e211b76cf4d7" unitRef="usd">61000000</aep:ProposedSettlementAnnualRateIncrease>
+	<aep:ProposedSettlementAnnualRateIncrease contextRef="ief08124695c94febb077dcee133735a0_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MDQ1MDI_77d1834c-b972-424e-9232-144f195638cd" unitRef="usd">51000000</aep:ProposedSettlementAnnualRateIncrease>
+	<aep:ProposedSettlementAgreementROE contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MzEzMzI_724fe580-cfb6-4a80-b0fd-9328248a13c5" unitRef="number">0.097</aep:ProposedSettlementAgreementROE>
+	<aep:ProposedSettlementAgreementROE contextRef="ief08124695c94febb077dcee133735a0_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0MDQ1MjA_4329c67a-69fa-4645-87f0-d9c446141b69" unitRef="number">0.094</aep:ProposedSettlementAgreementROE>
+	<aep:ApprovedAnnualRevenueCapForTheDIRIn2021 contextRef="i20ba59d3372d489e9253720650048ea9_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTk1ODc_df500bc8-1a66-43cd-8c0c-3e4b332bd685" unitRef="usd">57000000</aep:ApprovedAnnualRevenueCapForTheDIRIn2021>
+	<aep:ApprovedAnnualRevenueCapForTheDIRIn2022 contextRef="i20ba59d3372d489e9253720650048ea9_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTk2MTI_1f0d5bb5-8b28-40f9-9c48-d4c64c2ab0a7" unitRef="usd">91000000</aep:ApprovedAnnualRevenueCapForTheDIRIn2022>
+	<aep:ApprovedAnnualRevenueCapForTheDIRIn2023 contextRef="i20ba59d3372d489e9253720650048ea9_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTk2Mzg_3fc5a1ef-9f16-42db-b91a-753400cfdad2" unitRef="usd">116000000</aep:ApprovedAnnualRevenueCapForTheDIRIn2023>
+	<aep:ApprovedAnnualRevenueCapForTheDIRForTheFirstFiveMonthsOf2024 contextRef="i20ba59d3372d489e9253720650048ea9_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTk2NjY_1cb196b6-6e88-4977-b940-a85ea077cfaf" unitRef="usd">51000000</aep:ApprovedAnnualRevenueCapForTheDIRForTheFirstFiveMonthsOf2024>
+	<aep:ApprovedAnnualRevenueDecrease contextRef="i20ba59d3372d489e9253720650048ea9_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDIzOTk1NTE_f592335a-127a-4d42-9622-bc06901accfe" unitRef="usd">68000000</aep:ApprovedAnnualRevenueDecrease>
+	<aep:ApprovedAnnualIncreaseIn2022 contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0ODY0ODk_682b2c99-d692-46f6-9c5e-189fa8a09ae4" unitRef="usd">3000000</aep:ApprovedAnnualIncreaseIn2022>
+	<aep:ApprovedAnnualIncreaseIn2023 contextRef="i8f27a469aabd4e438286756eda53624e_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzQ5NDc4MDI0ODY1Njg_725e06a6-fc05-43ca-acf2-b92ddc3a1662" unitRef="usd">58000000</aep:ApprovedAnnualIncreaseIn2023>
+	<aep:InterimWACC contextRef="i31876400a74c43ff845e3af1caf164e1_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzU0OTc1NTgyNjkwMzQ_2bbe0b44-3a71-461d-bbba-5e4d718d517e" unitRef="number">0.0075</aep:InterimWACC>
+	<aep:InterimWACC contextRef="i49bc7d8e8e7b4417b991c63767c926ae_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzU0OTc1NTgyNzU1MjE_a4013557-5e06-45f2-b8e9-9780e8bdd536" unitRef="number">0.003</aep:InterimWACC>
+	<aep:InterimWACC contextRef="ic80dfd32b07f4e8f82850dfde4fa5ec1_D20210101-20211231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOmE4Njg2ZGYyZTUxMjRiMzY5ZWM4YjBlMmY4YTA3NWZkL3NlYzphODY4NmRmMmU1MTI0YjM2OWVjOGIwZTJmOGEwNzVmZF80ODQvZnJhZzpiOWFjZWQ0MGZhNjQ0NWFiYWRjNzA3MzgzNTNiMzNjNy90ZXh0cmVnaW9uOmI5YWNlZDQwZmE2NDQ1YWJhZGM3MDczODM1M2IzM2M3XzU0OTc1NTgyNzU0NTM_845c5345-023e-4550-ad0d-6ec9d1aa6462" unitRef="number">0.0325</aep:InterimWACC>
+	</xbrl>
+

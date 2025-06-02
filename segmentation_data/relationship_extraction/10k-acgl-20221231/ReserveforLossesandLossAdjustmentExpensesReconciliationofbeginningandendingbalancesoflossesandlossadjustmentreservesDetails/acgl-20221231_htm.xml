@@ -1,0 +1,1326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f58039c8da247199a5559e66a073685_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i4c515c574179488b86477e02dffabcc9_I20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2020-12-31</instant>
+        </period>
+    </context>
+	<context id="ic4ba29e6bfe044c2b808d9efcbc5eea5_I20191231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2019-12-31</instant>
+        </period>
+    </context>
+	<context id="i773de461239d428a880578960184b36a_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:MajorCustomersAxis">acgl:LossPortfolioTransferMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:OtherShortdurationInsuranceProductLineMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ief831920320f4438861a71ba125ede33_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyEnergyMarineAndAviationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ia82ed932327845b7a04bd08de8aeef00_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ThirdPartyOccurrenceBusinessMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i30a3cfd2908441d0b4d86b1945c9c2de_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ThirdPartyClaimsMadeBusinessMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i76a086f854b54b5c91889bccc11e744b_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:MultilineAndOtherSpecialtyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="icc84400e70d743ad8ff957511ee7c431_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:CasualtyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i2cdb78d721fe4f16b796dd3a35cc3211_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyCatastropheMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i5a3c4597342e4ab1a50e47bd23e5b2d7_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyExcludingPropertyCatastropheMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i9edefdcec6b1442e8bac08dbf9d5f6e8_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:MarineAndAviationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="iaf3cb71fdb2d46fba2a9a32752addba6_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:OtherSpecialtyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ic0de6c06a9804128a5a60988fe480999_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:MortgageSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i64bffc4755ab46378c57cc909158c9ab_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:OtherShortdurationInsuranceProductLineMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i14731771715040098b5146456304ccf6_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">srt:ConsolidationEliminationsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i53013bfa753345429bebbcd5ef5775e1_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ShortDurationLinesOfBusinessMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i1421674b188a4018ba5cdd794f7cadf9_I20210101">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ScheduleOfEquityMethodInvestmentEquityMethodInvesteeNameAxis">acgl:BarbicanMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:RelatedPartyTransactionsByRelatedPartyAxis">us-gaap:EquityMethodInvesteeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-01-01</instant>
+        </period>
+    </context>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia525c171603a45d2b8b8091df88d9571_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersByAffiliationWithRegistrantAxis">srt:ConsolidatedPropertyAndCasualtyInsuranceEntityMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i53e7b1c1fdca4db2b165435ea88dd500_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersByAffiliationWithRegistrantAxis">srt:ConsolidatedPropertyAndCasualtyInsuranceEntityMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="if30dd41b9e9d45439fb7711788849483_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersByAffiliationWithRegistrantAxis">srt:ConsolidatedPropertyAndCasualtyInsuranceEntityMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="id4aa1bfb307c4450ad81d277a98d868d_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="id899fc53d2c34e939349a1c885a7ac69_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i5e46f981d1b84ec491870bda20515b6f_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:MortgageSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i9b02e7bc6b3e4a2999b251ef1b2e8485_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i15333a7886db4ef88cf587bc5dc983dd_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedAndLongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="id7937a50394b45119459df2c0f9962f7_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:LendersProductsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ideefc75af5a54a9d9c7e4bdcebdf1f9b_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:TravelAndAccidentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i6313b9bcf2e94348a011e2f9b866d844_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:ProfessionalMalpracticeLiabilityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i21b5766b29874163bb6e7c89e03b7d81_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ContractBindingBusinessMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i1f77ca3e23ec451a83c0553e07222fe5_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:MarineProductLineMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ifffeab1261e048ff9bc944b48b475a35_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:CasualtyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i8edc9a36e6d5493ca280882a9f75e9db_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ConstructionAndNationalAccountsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i1ca429ccfb4f4537b8e823344de57165_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:OtherBusinessMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ifdc9463799f246139f23a68ed13fba96_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedAndMediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia792836c95d344e3a49bf485efd129a0_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i217a6d6c9cf145199243e44fd5f821b3_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyExcludingPropertyCatastropheMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i861caf77420646029b883d5f2a5b8869_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyCatastropheMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i76940d23098f42338324c12080fd476a_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:OtherSpecialtyLinesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i7b1e3f0fbde94426ab9c3a16bc28c23b_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:MarineAndAviationMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ib28fa488ba0945c4a49ea752117b9985_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:CasualtyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i6625071a6b8349d8a7d843fddbb695a2_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="ib3405c6fb5bf403d9ddcdc55b09f9c40_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="idef98a1330754f91b2b6bf7b15f3cbc2_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:MortgageSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i2cbc353ebe67452583b2539eace656d2_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i135f5a2322fb430c9f76e632204bf76b_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedAndLongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0cda139a115a426ba58e17f4ec1d3ae2_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3c69371f54984baa82e4dea5a53ba251_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3550868f05374f5c9a784fc339492898_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyExcludingMarineMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i4d4b685ac6a24ff1b1d2c5726f55d672_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:LendersProductsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3f515f6b94c74b60a2e8412542be4a58_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:TravelAndAccidentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i5730b3688ac84af78861c64a7bff7226_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i981f59c524034ae2aad4c2399e6d5e68_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ContractBindingBusinessMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i9ac96dab281246b899a5539cbb1c7caa_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:ProfessionalMalpracticeLiabilityMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i86c2504922c74f20b6947ba3a0e5f08c_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedAndMediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i8716851304ce47c78d693c8fbc8c4d25_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i4b3432c506c84ea4b608a886948cb9e0_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i487bf25b43584201821b0f867fa8b46d_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:OtherSpecialtyLinesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i4c55990a904244bba58b17e08b1c743d_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyExcludingPropertyCatastropheMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i6454fa4f987f47ff8a7bec5f5880c17c_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyCatastropheMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i2191026268174bcea5171941f4685002_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i03c02695a9ab44048bd0258da2eca6c2_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ib02fb350b8294cf79238f8ac28814a33_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:MortgageSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i224dc243b09142e79be2793bb143e621_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">us-gaap:CorporateAndOtherMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia67262c3055e4454a234313c3e0dc85e_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedAndLongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i56d331b46b9a4efdbb5e3ad1f23f9ead_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i4e937d9313b341a4936799e24b272564_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i1bcc268ad44d4d85a2bb0db3dcc607dd_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyExcludingMarineMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i84dd98441f5b410f8860bb2948d32eff_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:TravelAndAccidentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ib864307cd30d40f0bd34e34615d4e16e_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="if45b6cadc105496bb2443a9e4e106088_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:OtherBusinessMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="iedef257e63ab49869b306838576d8132_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ConstructionProductLineMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i935dcb4dd06b465394e28ba5f464a60e_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">us-gaap:SuretySegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i9ba1915837f54850aa7710a9a9b830a5_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ContractBindingBusinessMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i8f5510256e6e46d8b08657650046dd88_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:ProgramsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:InsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:MediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i14014120b7f1451ba77bbd4c6119e669_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedAndMediumTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ia8de7440aef04953889c1780344dd531_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:LongTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="ie041266e115a4ee99b954a653aa1b9d3_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i991578eecc4d41a4a033787caa6553a0_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PropertyCatastropheAndPropertyOtherThanPropertyCatastropheMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i8c73982e27d9444ba61869167d7cb223_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:OtherSpecialtyLinesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:ReinsuranceSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="acgl:ReinsuranceBusinessByTypeAxis">acgl:ShortTailedLinesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0324b8dbad1b4431b2bfa054b6c4b3c8_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidationItemsAxis">us-gaap:OperatingSegmentsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="srt:ProductOrServiceAxis">acgl:PrimaryMortgageBusinessMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:MortgageSegmentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzI5LTEtMS0xLTY3ODc0_b0c7736d-9919-45af-be1c-4793485a9425" unitRef="usd">20031943000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzI5LTMtMS0xLTY3ODc0_78fbce9b-df74-4ec7-850c-f6759fa17c23" unitRef="usd">17757156000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzItMS0xLTEtNjc4NzQ_aaf5ea5a-c1e5-410c-a60d-c7ccab1e7850" unitRef="usd">17757156000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="i4c515c574179488b86477e02dffabcc9_I20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzItMy0xLTEtNjc4NzQ_86bd75c9-b846-4a62-ac13-f69ef4ddb43c" unitRef="usd">16513929000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="ic4ba29e6bfe044c2b808d9efcbc5eea5_I20191231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzItNS0xLTEtNjc4NzQ_e99192fb-ab5a-4fa9-ae60-94b9efa2e2a7" unitRef="usd">13891842000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI2LTEtMS0xLTY3ODc0_6b81c97d-6a9a-44c3-a032-b92dc0e59c78" unitRef="usd">20031943000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI2LTMtMS0xLTY3ODc0_3f17c2f1-07d7-4b4f-ba26-056592dd4928" unitRef="usd">17757156000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="i4c515c574179488b86477e02dffabcc9_I20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI2LTUtMS0xLTY3ODc0_a97ccbc1-1a23-4a8b-9f76-57a516c0eeb7" unitRef="usd">16513929000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzQxLTEtMS0xLTY3ODc0_137b2d30-653c-4fd3-937c-278d1e046b5f" unitRef="usd">20031943000</us-gaap:LiabilityForClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzMtMS0xLTEtNjc4NzQ_aefd15b7-0cd5-468e-9ffe-08d83e51a80f" unitRef="usd">5599231000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i4c515c574179488b86477e02dffabcc9_I20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzMtMy0xLTEtNjc4NzQ_b0a7e456-eb01-4255-90d4-58439b4150f4" unitRef="usd">4314855000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="ic4ba29e6bfe044c2b808d9efcbc5eea5_I20191231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzMtNS0xLTEtNjc4NzQ_88679f40-bb0c-4bd9-bc8f-dec9b718bec8" unitRef="usd">4082650000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI1LTEtMS0xLTY3ODc0_fa2ecceb-e1d9-4556-b957-a4ef43653fb4" unitRef="usd">6278825000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI1LTMtMS0xLTY3ODc0_acc7e408-3e7f-48a6-89ab-ecbad2b74492" unitRef="usd">5599231000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i4c515c574179488b86477e02dffabcc9_I20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI1LTUtMS0xLTY3ODc0_3ff1861d-5f07-48d0-ab3e-529580f5a450" unitRef="usd">4314855000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i773de461239d428a880578960184b36a_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90ZXh0cmVnaW9uOjI3NmM4ZDNhNWEwMTQwNjVhMzcxNzE4ODI0YmQyNjExXzE3NDM3_a061f2a0-4b45-4756-9522-850ddcb9b425" unitRef="usd">280200000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="ief831920320f4438861a71ba125ede33_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzIwLTEtMS0xLTY3ODc0_9cf38bb4-430a-48f0-8805-594228ea4259" unitRef="usd">423740000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="ia82ed932327845b7a04bd08de8aeef00_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzIxLTEtMS0xLTY3ODc0_69bb2730-16c2-42e8-b300-bd8469f5cbed" unitRef="usd">1761871000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i30a3cfd2908441d0b4d86b1945c9c2de_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzIyLTEtMS0xLTY3ODc0_669c6fc7-24a6-4e59-a6de-1a272fe0f077" unitRef="usd">995921000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i76a086f854b54b5c91889bccc11e744b_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzIzLTEtMS0xLTY3ODc0_407f9539-df3c-4900-a52f-df4b6dc282f7" unitRef="usd">173051000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="icc84400e70d743ad8ff957511ee7c431_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzI1LTEtMS0xLTY3ODc0_aeb0a43d-77cd-4641-a5b6-20849f85bc2d" unitRef="usd">684663000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i2cdb78d721fe4f16b796dd3a35cc3211_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzI2LTEtMS0xLTY3ODc0_a19ca5f2-36ad-4f51-88b0-1800424c0dd7" unitRef="usd">595740000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i5a3c4597342e4ab1a50e47bd23e5b2d7_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzI3LTEtMS0xLTY3ODc0_81668aeb-ea07-44a9-8144-159344705d0b" unitRef="usd">206867000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i9edefdcec6b1442e8bac08dbf9d5f6e8_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzI4LTEtMS0xLTY3ODc0_2cb09969-b105-4a18-9d5e-445936ed64b5" unitRef="usd">186416000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="iaf3cb71fdb2d46fba2a9a32752addba6_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzI5LTEtMS0xLTY3ODc0_b44779f9-2e97-4548-bc51-e45a15b99bcf" unitRef="usd">656130000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="ic0de6c06a9804128a5a60988fe480999_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzMxLTEtMS0xLTY3ODc0_218b79b9-79da-4074-8ab6-98e7cb2edd1b" unitRef="usd">37531000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i64bffc4755ab46378c57cc909158c9ab_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzMyLTEtMS0xLTY3ODc0_81a4bbe5-62e5-4a9e-b3a3-c1a4f8ca9f6c" unitRef="usd">560642000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i14731771715040098b5146456304ccf6_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzMzLTEtMS0xLTY3ODc0_5cf60068-fbf8-4ceb-aad7-288d92d7b4ce" unitRef="usd">-3747000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i53013bfa753345429bebbcd5ef5775e1_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90YWJsZTplNzU3NTBhMzRjZGM0OWRlODQ1N2U4OGRhNzdiY2JhOS90YWJsZXJhbmdlOmU3NTc1MGEzNGNkYzQ5ZGU4NDU3ZTg4ZGE3N2JjYmE5XzM0LTEtMS0xLTY3ODc0_10c08ef3-3ea3-49f6-930f-d4ccb9a1f826" unitRef="usd">6278825000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments contextRef="i773de461239d428a880578960184b36a_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTcvZnJhZzoyNzZjOGQzYTVhMDE0MDY1YTM3MTcxODgyNGJkMjYxMS90ZXh0cmVnaW9uOjI3NmM4ZDNhNWEwMTQwNjVhMzcxNzE4ODI0YmQyNjExXzM0NzQ2_a061f2a0-4b45-4756-9522-850ddcb9b425" unitRef="usd">280200000</us-gaap:ReinsuranceRecoverableForUnpaidClaimsAndClaimsAdjustments>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzQtMS0xLTEtNjc4NzQ_a3efc1f8-2a93-4a89-8233-5016c7f5c6e8" unitRef="usd">12157925000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet contextRef="i4c515c574179488b86477e02dffabcc9_I20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzQtMy0xLTEtNjc4NzQ_a2fe9128-41e7-4bc0-94ab-ace6a144a15c" unitRef="usd">12199074000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet contextRef="ic4ba29e6bfe044c2b808d9efcbc5eea5_I20191231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzQtNS0xLTEtNjc4NzQ_91f52807-2a5c-4929-9fd6-02794af01153" unitRef="usd">9809192000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI0LTEtMS0xLTY3ODc0_bdae1846-047d-49ea-ae1d-dd1722ea0a2e" unitRef="usd">13753118000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI0LTMtMS0xLTY3ODc0_6755fae8-d9e3-4cee-abc6-5b9655720bb5" unitRef="usd">12157925000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet contextRef="i4c515c574179488b86477e02dffabcc9_I20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzI0LTUtMS0xLTY3ODc0_57ae8b5b-c3e5-467b-bcd0-b3dbeda7e026" unitRef="usd">12199074000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet contextRef="i1421674b188a4018ba5cdd794f7cadf9_I20210101" decimals="-6" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xODcvZnJhZzpmNTg2ODdlOWVjNzE0MDgwOWM3ZDFjYTZkZTBlMGUxYS90ZXh0cmVnaW9uOmY1ODY4N2U5ZWM3MTQwODA5YzdkMWNhNmRlMGUwZTFhXzEyNDA_034e02ed-2774-476f-9800-a8ee3a0383b5" unitRef="usd">380000000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseNet>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzctMS0xLTEtNjc4NzQ_d06658ab-5790-402c-84bd-54cae6dacb20" unitRef="usd">5798528000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzctMy0xLTEtNjc4NzQ_cc982d48-3cfe-4563-bda8-120c55dc756a" unitRef="usd">4940987000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzctNS0xLTEtNjc4NzQ_b441e1fc-2139-401e-98a9-920d6cbf0cda" unitRef="usd">4851051000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense contextRef="ia525c171603a45d2b8b8091df88d9571_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNjgvZnJhZzowMjU2NmQzZDgzNzg0YmFhYTU3NGFkZWExMjM3OWYyMy90YWJsZTo4MzdjNmMyMjYwNTM0MTYzOWM0MzY4YjVlNWZlODJiMy90YWJsZXJhbmdlOjgzN2M2YzIyNjA1MzQxNjM5YzQzNjhiNWU1ZmU4MmIzXzQtNy0xLTEtNjc4NzQ_bb5d1690-4a26-4085-963f-58d62b24e964" unitRef="usd">5798528000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense contextRef="i53e7b1c1fdca4db2b165435ea88dd500_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNjgvZnJhZzowMjU2NmQzZDgzNzg0YmFhYTU3NGFkZWExMjM3OWYyMy90YWJsZTo4MzdjNmMyMjYwNTM0MTYzOWM0MzY4YjVlNWZlODJiMy90YWJsZXJhbmdlOjgzN2M2YzIyNjA1MzQxNjM5YzQzNjhiNWU1ZmU4MmIzXzUtNy0xLTEtNjc4NzQ_5e88bf64-746f-4530-b420-f0f5aacca46e" unitRef="usd">4940987000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense contextRef="if30dd41b9e9d45439fb7711788849483_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNjgvZnJhZzowMjU2NmQzZDgzNzg0YmFhYTU3NGFkZWExMjM3OWYyMy90YWJsZTo4MzdjNmMyMjYwNTM0MTYzOWM0MzY4YjVlNWZlODJiMy90YWJsZXJhbmdlOjgzN2M2YzIyNjA1MzQxNjM5YzQzNjhiNWU1ZmU4MmIzXzYtNy0xLTEtNjc4NzQ_781df6d3-da36-4db0-b756-414ec0654750" unitRef="usd">4851051000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersCurrentYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzgtMS0xLTEtNjc4NzQ_606462d2-bec3-4fd5-997e-0405d77cd254" unitRef="usd">-771011000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzgtMy0xLTEtNjc4NzQ_d992aab3-4ddd-4a52-9380-b7d98b28caa0" unitRef="usd">-356184000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzgtNS0xLTEtNjc4NzQ_c172bcc1-f9c2-4031-91f8-7f2c0f6a7199" unitRef="usd">-161452000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU5MQ_ac52be24-c583-47b0-afc2-5d0fc5f04202" unitRef="usd">-771000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="id4aa1bfb307c4450ad81d277a98d868d_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzY0Mw_7382e20b-0ae0-4499-bcde-094d624bcae6" unitRef="usd">-25300000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="id899fc53d2c34e939349a1c885a7ac69_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzY3NA_00757ac4-925f-409a-a3ae-b85d546a848e" unitRef="usd">-191600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i5e46f981d1b84ec491870bda20515b6f_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzcwNw_b6ac196e-3aa9-43ea-8356-ea06913bea5c" unitRef="usd">-554100000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="id4aa1bfb307c4450ad81d277a98d868d_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzkxMw_7382e20b-0ae0-4499-bcde-094d624bcae6" unitRef="usd">-25300000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i9b02e7bc6b3e4a2999b251ef1b2e8485_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzk2Ng_b5dd3cb1-4ec4-4482-97e3-80aff9b72cc6" unitRef="usd">-55300000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i15333a7886db4ef88cf587bc5dc983dd_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzEwNTM_0d160ace-ce56-4251-8fbe-86fd8fba2dc7" unitRef="usd">29900000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="id7937a50394b45119459df2c0f9962f7_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzExNzM_7d9627db-a4ba-4a57-bb94-0cc611e816a0" unitRef="usd">-37400000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ideefc75af5a54a9d9c7e4bdcebdf1f9b_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzEzMjU_38bc14f0-8680-482e-bf9d-a7c5c5947d26" unitRef="usd">-14800000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i6313b9bcf2e94348a011e2f9b866d844_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzE4ODY_0ff6ca4d-3786-42fb-898c-833bdb7bc27b" unitRef="usd">24700000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i21b5766b29874163bb6e7c89e03b7d81_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzE5ODQ_e47f6187-0135-4374-a186-76305daa3b03" unitRef="usd">6400000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i1f77ca3e23ec451a83c0553e07222fe5_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTI0MA_42372085-c587-4f62-8f7c-da37fd0bdb09" unitRef="usd">-12900000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ifffeab1261e048ff9bc944b48b475a35_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzEwOTk1MTE2NTg4NTc_1a2cc466-a4ca-4b5a-ae4c-c2da8faed62f" unitRef="usd">18500000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i8edc9a36e6d5493ca280882a9f75e9db_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTI1NQ_c53d493a-c8cc-4e98-8c2b-65236dbe9378" unitRef="usd">7300000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i1ca429ccfb4f4537b8e823344de57165_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTI2OQ_83dddbef-da95-4346-abd6-db757117896b" unitRef="usd">-21500000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="id899fc53d2c34e939349a1c885a7ac69_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzIxNDA_00757ac4-925f-409a-a3ae-b85d546a848e" unitRef="usd">-191600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ifdc9463799f246139f23a68ed13fba96_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzIxOTM_a38cd6d7-e3f0-4f17-8c38-f8da395531a7" unitRef="usd">-196200000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ia792836c95d344e3a49bf485efd129a0_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzIyODg_fcb79be9-38a0-4475-823a-d108f1a4d1c3" unitRef="usd">4600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i217a6d6c9cf145199243e44fd5f821b3_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTI4NA_0ce85e7b-df63-4094-a180-73fb037d028c" unitRef="usd">-109400000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i861caf77420646029b883d5f2a5b8869_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTMwMA_fdde6783-d970-46a4-bc6a-a0ca7e914251" unitRef="usd">-24000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i76940d23098f42338324c12080fd476a_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTMxNQ_ff6c8d2c-5bdf-41c2-8509-3fad0233556b" unitRef="usd">-35000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i7b1e3f0fbde94426ab9c3a16bc28c23b_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTMzMA_b0ff8db5-27aa-4a12-bc87-ef2e30b91e57" unitRef="usd">-28000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ib28fa488ba0945c4a49ea752117b9985_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTM0NQ_b39720ef-1486-47fe-bcd1-0af073dbb33a" unitRef="usd">4600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i5e46f981d1b84ec491870bda20515b6f_D20220101-20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzMwNTc_b6ac196e-3aa9-43ea-8356-ea06913bea5c" unitRef="usd">-554100000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTA4Mw_8fb88691-9eb8-40b1-aa44-861161e0d325" unitRef="usd">-356200000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i6625071a6b8349d8a7d843fddbb695a2_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTEzMQ_d203368c-8515-46f1-b29c-0dceb84dadd9" unitRef="usd">-16200000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ib3405c6fb5bf403d9ddcdc55b09f9c40_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTA5OQ_f472af61-f06c-409f-8cb5-b5fa35f62523" unitRef="usd">-178800000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="idef98a1330754f91b2b6bf7b15f3cbc2_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTExNQ_1ad6d280-3f8e-4695-8021-538d6d2b4353" unitRef="usd">-169600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i2cbc353ebe67452583b2539eace656d2_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTE0Ng_f7459dcf-3aac-4bdc-bb07-fbadf689eec2" unitRef="usd">8400000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i6625071a6b8349d8a7d843fddbb695a2_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTM4Nw_d203368c-8515-46f1-b29c-0dceb84dadd9" unitRef="usd">-16200000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i135f5a2322fb430c9f76e632204bf76b_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTE4NA_5e23c13a-c28a-43f3-bab1-ffe12ea45735" unitRef="usd">-109800000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i0cda139a115a426ba58e17f4ec1d3ae2_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTIwMA_b85a7b5c-2251-47e3-9b18-2e7492b474f7" unitRef="usd">93500000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i3c69371f54984baa82e4dea5a53ba251_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTIxNQ_51ba8147-a675-453a-81f1-7235c31a2a46" unitRef="usd">-81700000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i3550868f05374f5c9a784fc339492898_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTIzMA_99f7ef42-181b-481f-b577-2c11e023686c" unitRef="usd">-38900000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i4d4b685ac6a24ff1b1d2c5726f55d672_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTI0NQ_7a02437a-1ede-4231-a77e-1c97c7605570" unitRef="usd">-26700000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i3f515f6b94c74b60a2e8412542be4a58_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTI2MA_e7370f6e-890b-4891-bb07-b6e3afcac034" unitRef="usd">-16200000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i5730b3688ac84af78861c64a7bff7226_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTI3NQ_7c1b3fac-9aff-4bf4-9e7b-96cd4f290efa" unitRef="usd">-28100000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i981f59c524034ae2aad4c2399e6d5e68_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTI5MA_62d37302-9fae-4e96-8918-0d29205ccc49" unitRef="usd">57600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i9ac96dab281246b899a5539cbb1c7caa_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTMwNQ_d825dc8e-0530-4cad-b947-aa0642b8e496" unitRef="usd">30800000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ib3405c6fb5bf403d9ddcdc55b09f9c40_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTQyMA_f472af61-f06c-409f-8cb5-b5fa35f62523" unitRef="usd">-178800000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i86c2504922c74f20b6947ba3a0e5f08c_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTM0NA_5c3ec75a-0786-4d4b-8cfd-0656333d8978" unitRef="usd">-184100000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i8716851304ce47c78d693c8fbc8c4d25_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTM2MA_ee099ea7-097b-41f6-81d8-320295970d56" unitRef="usd">5300000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i4b3432c506c84ea4b608a886948cb9e0_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTM3NA_802cf415-bc9b-4633-858f-99ea9d064987" unitRef="usd">-175500000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i487bf25b43584201821b0f867fa8b46d_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTM5MA_ab49a710-daa1-4aac-8b83-7a73f5a24eda" unitRef="usd">-123300000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i4c55990a904244bba58b17e08b1c743d_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTQwNg_a4e651dc-7e5b-4d84-a632-28eb82d1bd1d" unitRef="usd">-88600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i6454fa4f987f47ff8a7bec5f5880c17c_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTQyMQ_bb7b85b2-dda0-42cc-9485-b3a099a26ec4" unitRef="usd">36400000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="idef98a1330754f91b2b6bf7b15f3cbc2_D20210101-20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTQ1Mw_1ad6d280-3f8e-4695-8021-538d6d2b4353" unitRef="usd">-169600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTQ2MQ_d2d57a09-d010-4757-8b6f-9ff6758d3991" unitRef="usd">-161500000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i2191026268174bcea5171941f4685002_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTQ3Nw_aaa79fe8-6f9a-4ca4-af4e-9c4812600cd5" unitRef="usd">-7800000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i03c02695a9ab44048bd0258da2eca6c2_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTQ5MQ_037b58be-1892-469f-a0bd-6cc7c4490c74" unitRef="usd">-134000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ib02fb350b8294cf79238f8ac28814a33_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTUwNw_ba2f0997-4002-4afd-95ee-5e377bf060ab" unitRef="usd">-19000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i224dc243b09142e79be2793bb143e621_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTUyMg_d7499430-f04c-474f-8f36-8cdc80f8725c" unitRef="usd">-700000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i2191026268174bcea5171941f4685002_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTQ4MQ_aaa79fe8-6f9a-4ca4-af4e-9c4812600cd5" unitRef="usd">-7800000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ia67262c3055e4454a234313c3e0dc85e_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTU1OA_8de73ad5-3c15-4127-ad40-ac6c33fd15e5" unitRef="usd">-83000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i56d331b46b9a4efdbb5e3ad1f23f9ead_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTU3Mw_711220b5-37cb-431f-b012-e01afd48b5b1" unitRef="usd">75200000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i4e937d9313b341a4936799e24b272564_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTU4OA_e0da763e-8fec-47e0-995a-502c9e517bb9" unitRef="usd">-33600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i1bcc268ad44d4d85a2bb0db3dcc607dd_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTYwMw_0d5de959-5734-4594-85c7-a7f11d07247f" unitRef="usd">-21600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i84dd98441f5b410f8860bb2948d32eff_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTYxOA_0ce31583-e272-4039-aad8-5eb531c0d11c" unitRef="usd">-8400000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ib864307cd30d40f0bd34e34615d4e16e_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTYzMg_e5e0dcbd-2cd2-4d0a-97fd-502fd23e1c8e" unitRef="usd">-49400000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="if45b6cadc105496bb2443a9e4e106088_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTY0Nw_e7493b6f-8d2f-4b50-a43b-735e3261ffee" unitRef="usd">-38800000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="iedef257e63ab49869b306838576d8132_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTY2Mg_ae0ee0da-a4a5-40b7-b818-ad6738f20e42" unitRef="usd">-9300000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i935dcb4dd06b465394e28ba5f464a60e_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTY3Ng_5541b947-ad96-400f-8083-3dbbecd581a9" unitRef="usd">37900000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i9ba1915837f54850aa7710a9a9b830a5_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTY5MQ_b6bcd002-bca1-4c13-a6b7-fcc001bd48a4" unitRef="usd">23100000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i8f5510256e6e46d8b08657650046dd88_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTcwNg_d8ba63f3-b3e1-4618-9aac-643896434596" unitRef="usd">16000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i03c02695a9ab44048bd0258da2eca6c2_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTUxMw_037b58be-1892-469f-a0bd-6cc7c4490c74" unitRef="usd">-134000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i14014120b7f1451ba77bbd4c6119e669_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTc0NQ_a3400953-af27-49a3-992a-38661b65747e" unitRef="usd">-155900000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ia8de7440aef04953889c1780344dd531_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTc2MQ_3ff1946e-bf7c-4a85-9d75-d5d12b6b1e3d" unitRef="usd">21900000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ie041266e115a4ee99b954a653aa1b9d3_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTc3Ng_6e9920df-ad99-40a9-a8eb-8cdf7f0e8832" unitRef="usd">-144000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i991578eecc4d41a4a033787caa6553a0_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTc5Mg_c7394d55-5edc-40e6-bc12-3cfa0edf0466" unitRef="usd">-87700000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i8c73982e27d9444ba61869167d7cb223_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTgwNw_ded0dd27-5c5d-40a5-8ec2-bead3f1729c2" unitRef="usd">-53600000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ib02fb350b8294cf79238f8ac28814a33_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0OTU0Mw_ba2f0997-4002-4afd-95ee-5e377bf060ab" unitRef="usd">-19000000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i0324b8dbad1b4431b2bfa054b6c4b3c8_D20200101-20201231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90ZXh0cmVnaW9uOjc4MDhmZWUwOWY0ZTRjZDFiODQxZDBkMzRkYzNiOWViXzU0OTc1NTg0MTg0NQ_62b36796-8f4b-49c6-af99-aaf6243e89d9" unitRef="usd">-16200000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="ia525c171603a45d2b8b8091df88d9571_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNjgvZnJhZzowMjU2NmQzZDgzNzg0YmFhYTU3NGFkZWExMjM3OWYyMy90YWJsZTo4MzdjNmMyMjYwNTM0MTYzOWM0MzY4YjVlNWZlODJiMy90YWJsZXJhbmdlOjgzN2M2YzIyNjA1MzQxNjM5YzQzNjhiNWU1ZmU4MmIzXzQtOC0xLTEtNjc4NzQ_3488958c-ae03-42fa-9124-43d80470cd1c" unitRef="usd">-771011000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="i53e7b1c1fdca4db2b165435ea88dd500_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNjgvZnJhZzowMjU2NmQzZDgzNzg0YmFhYTU3NGFkZWExMjM3OWYyMy90YWJsZTo4MzdjNmMyMjYwNTM0MTYzOWM0MzY4YjVlNWZlODJiMy90YWJsZXJhbmdlOjgzN2M2YzIyNjA1MzQxNjM5YzQzNjhiNWU1ZmU4MmIzXzUtOC0xLTEtNjc4NzQ_4b785089-b072-4095-8a15-3666f52b9f48" unitRef="usd">-356184000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense contextRef="if30dd41b9e9d45439fb7711788849483_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNjgvZnJhZzowMjU2NmQzZDgzNzg0YmFhYTU3NGFkZWExMjM3OWYyMy90YWJsZTo4MzdjNmMyMjYwNTM0MTYzOWM0MzY4YjVlNWZlODJiMy90YWJsZXJhbmdlOjgzN2M2YzIyNjA1MzQxNjM5YzQzNjhiNWU1ZmU4MmIzXzYtOC0xLTEtNjc4NzQ_13f95cb1-528c-4ed1-a67f-e57c4a3108b5" unitRef="usd">-161452000</us-gaap:SupplementalInformationForPropertyCasualtyInsuranceUnderwritersPriorYearClaimsAndClaimsAdjustmentExpense>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaims1 contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzktMS0xLTEtNjc4NzQ_7ba15a7f-7640-4b8c-ba5d-47dc9ffdde54" unitRef="usd">5027517000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaims1>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaims1 contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzktMy0xLTEtNjc4NzQ_826e3b56-35ef-4502-8693-d4fd13376bb2" unitRef="usd">4584803000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaims1>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaims1 contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzktNS0xLTEtNjc4NzQ_dbee73d5-da67-49d4-8285-a26f5257a242" unitRef="usd">4689599000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaims1>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseBusinessAcquisitions contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzExLTEtMS0xLTY3ODc0_c9a8e2c7-9fe5-4c8b-9919-1ca0b90d1b5c" unitRef="usd">0</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseBusinessAcquisitions>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseBusinessAcquisitions contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzExLTMtMS0xLTY3ODc0_ce2c89ec-03a5-43e8-a4d0-78c053db36a3" unitRef="usd">104176000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseBusinessAcquisitions>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseBusinessAcquisitions contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzExLTUtMS0xLTY3ODc0_d8a48283-c6c9-41e2-81bc-e1094dee5639" unitRef="usd">0</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseBusinessAcquisitions>
+	<acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaimsRetroactiveReinsurance contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzEzLTEtMS0xLTY3ODc0_d0c79572-700c-4dd6-b75b-4c9bc6313eb1" unitRef="usd">0</acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaimsRetroactiveReinsurance>
+	<acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaimsRetroactiveReinsurance contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzEzLTMtMS0xLTY3ODc0_ea41e14a-f0ec-462d-a80c-acaf82dd6bce" unitRef="usd">444147000</acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaimsRetroactiveReinsurance>
+	<acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaimsRetroactiveReinsurance contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzEzLTUtMS0xLTY3ODc0_2ed2e0e7-43d6-4035-9207-91fa39d1262a" unitRef="usd">-182210000</acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredClaimsRetroactiveReinsurance>
+	<acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseImpactOfDeconsolidation contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzE1LTEtMS0xLTY3ODc0_c5bcdf4e-bd26-41b5-92bf-5540ff3f2073" unitRef="usd">0</acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseImpactOfDeconsolidation>
+	<acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseImpactOfDeconsolidation contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzE1LTMtMS0xLTY3ODc0_76b91c30-1fbf-4b96-a903-f1cd2e909fee" unitRef="usd">1460611000</acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseImpactOfDeconsolidation>
+	<acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseImpactOfDeconsolidation contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzE1LTUtMS0xLTY3ODc0_055e8626-c980-42e0-9b98-4bfe0d08d55d" unitRef="usd">0</acgl:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseImpactOfDeconsolidation>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseForeignCurrencyTranslationGainLoss contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzE3LTEtMS0xLTY3ODc0_0c8ae458-28a1-4f83-b259-c3d35df15734" unitRef="usd">-290376000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseForeignCurrencyTranslationGainLoss>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseForeignCurrencyTranslationGainLoss contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzE3LTMtMS0xLTY3ODc0_94758111-a2b9-4899-b385-dd46e4164e62" unitRef="usd">1181000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseForeignCurrencyTranslationGainLoss>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseForeignCurrencyTranslationGainLoss contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzE3LTUtMS0xLTY3ODc0_e12f8e74-0eb4-4727-b20e-b3f6760b4b79" unitRef="usd">179190000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseForeignCurrencyTranslationGainLoss>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidCurrentYear1 contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIwLTEtMS0xLTY3ODc0_795d8584-0dfc-4d5d-bb0d-f006e22226c5" unitRef="usd">887464000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidCurrentYear1>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidCurrentYear1 contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIwLTMtMS0xLTY3ODc0_14549925-cd3b-4217-8895-d1f802e08632" unitRef="usd">734846000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidCurrentYear1>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidCurrentYear1 contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIwLTUtMS0xLTY3ODc0_c24c236c-5d20-4f7e-a5b5-23d04fd02a10" unitRef="usd">661529000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidCurrentYear1>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidPriorYears1 contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIxLTEtMS0xLTY3ODc0_cef1fa83-a9a4-4268-aeb2-1f46af017d06" unitRef="usd">2254484000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidPriorYears1>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidPriorYears1 contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIxLTMtMS0xLTY3ODc0_7f2991db-c182-4252-9a85-e3d1fb60b8e8" unitRef="usd">2091705000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidPriorYears1>
+	<us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidPriorYears1 contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIxLTUtMS0xLTY3ODc0_b1da767a-5342-48ce-85e9-694ccde785c6" unitRef="usd">1999588000</us-gaap:LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseClaimsPaidPriorYears1>
+	<us-gaap:PaymentsForLossesAndLossAdjustmentExpense contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIyLTEtMS0xLTY3ODc0_4a3db83f-78a1-4bc2-a8d1-a4103eab59d5" unitRef="usd">3141948000</us-gaap:PaymentsForLossesAndLossAdjustmentExpense>
+	<us-gaap:PaymentsForLossesAndLossAdjustmentExpense contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIyLTMtMS0xLTY3ODc0_3058c6ac-9c50-4fdb-93f3-2f0d38cde6e4" unitRef="usd">2826551000</us-gaap:PaymentsForLossesAndLossAdjustmentExpense>
+	<us-gaap:PaymentsForLossesAndLossAdjustmentExpense contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNTQvZnJhZzo3ODA4ZmVlMDlmNGU0Y2QxYjg0MWQwZDM0ZGMzYjllYi90YWJsZTo0NjM5MDJkYTM0ZGU0ZjM0ODRiZjM0N2JkMmY0MDUzNi90YWJsZXJhbmdlOjQ2MzkwMmRhMzRkZTRmMzQ4NGJmMzQ3YmQyZjQwNTM2XzIyLTUtMS0xLTY3ODc0_0df7c0f3-2e25-4be5-93bd-04c6d46f5f82" unitRef="usd">2661117000</us-gaap:PaymentsForLossesAndLossAdjustmentExpense>
+	</xbrl>
+

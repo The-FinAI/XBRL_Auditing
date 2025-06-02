@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="AsOf2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_custom_RenovationCostsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PropertyPlantAndEquipmentByTypeAxis">ABQQ:RenovationCostsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_custom_RenovationCostsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:PropertyPlantAndEquipmentByTypeAxis">ABQQ:RenovationCostsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_custom_TVDramaSeriesCopyrightMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">ABQQ:TVDramaSeriesCopyrightMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_custom_FiveMoviesCopyrightMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">ABQQ:FiveMoviesCopyrightMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_custom_TVDramaSeriesCopyrightMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">ABQQ:TVDramaSeriesCopyrightMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_custom_FiveMoviesCopyrightMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">ABQQ:FiveMoviesCopyrightMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_custom_TotalCopyrightPrepaymentMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">ABQQ:TotalCopyrightPrepaymentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_custom_TotalCopyrightPrepaymentMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">ABQQ:TotalCopyrightPrepaymentMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_custom_YouallPerformServicesLTDMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:TypeOfArrangementAxis">ABQQ:YouallPerformServicesLTDMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-04-13_custom_SingaporeOfficeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:OtherCommitmentsAxis">ABQQ:SingaporeOfficeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-04-13</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-10-21_custom_KiscoTheatreMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:OtherCommitmentsAxis">ABQQ:KiscoTheatreMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-10-21</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_custom_PreferredClassDMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:PreferredClassDMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_custom_PreferredClassDMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:PreferredClassDMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_PreferredClassAMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:PreferredClassAMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_PreferredClassAMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:PreferredClassAMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_PreferredClassBMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:PreferredClassBMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_PreferredClassBMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:PreferredClassBMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_custom_PreferredClassCMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:PreferredClassCMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_custom_PreferredClassCMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">ABQQ:PreferredClassCMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2021-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <instant>2021-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_CommonStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_PreferredStockMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:PreferredStockMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_AdditionalPaidInCapitalMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<context id="AsOf2023-08-31_us-gaap_RetainedEarningsMember">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2023-08-31</instant>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:Cash contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">117096</us-gaap:Cash>
+	<us-gaap:Cash contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">84223</us-gaap:Cash>
+	<us-gaap:PrepaidExpenseCurrent contextRef="AsOf2023-08-31" id="xdx2ixbrl0051" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:PrepaidExpenseCurrent contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">13035</us-gaap:PrepaidExpenseCurrent>
+	<us-gaap:AssetsCurrent contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">117096</us-gaap:AssetsCurrent>
+	<us-gaap:AssetsCurrent contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">97258</us-gaap:AssetsCurrent>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">8254</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">12695</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2023-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">8254</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:PropertyPlantAndEquipmentNet contextRef="AsOf2022-08-31_custom_RenovationCostsMember" decimals="0" unitRef="USD">12695</us-gaap:PropertyPlantAndEquipmentNet>
+	<us-gaap:OperatingLeaseRightOfUseAsset contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">696380</us-gaap:OperatingLeaseRightOfUseAsset>
+	<us-gaap:OperatingLeaseRightOfUseAsset contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">1004018</us-gaap:OperatingLeaseRightOfUseAsset>
+	<us-gaap:FiniteLivedIntangibleAssetsNet contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">1455110</us-gaap:FiniteLivedIntangibleAssetsNet>
+	<us-gaap:FiniteLivedIntangibleAssetsNet contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">3798282</us-gaap:FiniteLivedIntangibleAssetsNet>
+	<us-gaap:PrepaidExpenseAndOtherAssets contextRef="AsOf2023-08-31_custom_TVDramaSeriesCopyrightMember" id="xdx2ixbrl0669" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:PrepaidExpenseAndOtherAssets contextRef="AsOf2022-08-31_custom_FiveMoviesCopyrightMember" id="xdx2ixbrl0672" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:PrepaidExpenseAndOtherAssets contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">300000</us-gaap:PrepaidExpenseAndOtherAssets>
+	<us-gaap:PrepaidExpenseAndOtherAssets contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">881724</us-gaap:PrepaidExpenseAndOtherAssets>
+	<us-gaap:PrepaidExpenseAndOtherAssets contextRef="AsOf2022-08-31_custom_TVDramaSeriesCopyrightMember" decimals="0" unitRef="USD">881724</us-gaap:PrepaidExpenseAndOtherAssets>
+	<us-gaap:PrepaidExpenseAndOtherAssets contextRef="AsOf2023-08-31_custom_FiveMoviesCopyrightMember" decimals="0" unitRef="USD">300000</us-gaap:PrepaidExpenseAndOtherAssets>
+	<us-gaap:PrepaidExpenseAndOtherAssets contextRef="AsOf2023-08-31_custom_TotalCopyrightPrepaymentMember" decimals="0" unitRef="USD">300000</us-gaap:PrepaidExpenseAndOtherAssets>
+	<us-gaap:PrepaidExpenseAndOtherAssets contextRef="AsOf2022-08-31_custom_TotalCopyrightPrepaymentMember" decimals="0" unitRef="USD">881724</us-gaap:PrepaidExpenseAndOtherAssets>
+	<us-gaap:OtherAssets contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">45240</us-gaap:OtherAssets>
+	<us-gaap:OtherAssets contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">45240</us-gaap:OtherAssets>
+	<us-gaap:Assets contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">2622080</us-gaap:Assets>
+	<us-gaap:Assets contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">5839217</us-gaap:Assets>
+	<us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">156763</us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent>
+	<us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">293786</us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent>
+	<us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent contextRef="AsOf2023-08-31_custom_YouallPerformServicesLTDMember" decimals="0" unitRef="USD">6388</us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent>
+	<us-gaap:AccountsPayableAndOtherAccruedLiabilities contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">6388</us-gaap:AccountsPayableAndOtherAccruedLiabilities>
+	<us-gaap:AccountsPayableAndOtherAccruedLiabilities contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">15127</us-gaap:AccountsPayableAndOtherAccruedLiabilities>
+	<us-gaap:LoansPayableCurrent contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">748285</us-gaap:LoansPayableCurrent>
+	<us-gaap:LoansPayableCurrent contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">377398</us-gaap:LoansPayableCurrent>
+	<us-gaap:AccruedRentCurrent contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">211507</us-gaap:AccruedRentCurrent>
+	<us-gaap:AccruedRentCurrent contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">229813</us-gaap:AccruedRentCurrent>
+	<us-gaap:AccruedRentCurrent contextRef="AsOf2021-04-13_custom_SingaporeOfficeMember" decimals="0" unitRef="USD">716</us-gaap:AccruedRentCurrent>
+	<us-gaap:AccruedRentCurrent contextRef="AsOf2021-10-21_custom_KiscoTheatreMember" decimals="0" unitRef="USD">14366</us-gaap:AccruedRentCurrent>
+	<us-gaap:DeferredRevenue contextRef="AsOf2023-08-31" id="xdx2ixbrl0093" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:DeferredRevenue contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">38000</us-gaap:DeferredRevenue>
+	<us-gaap:LiabilitiesCurrent contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">1122943</us-gaap:LiabilitiesCurrent>
+	<us-gaap:LiabilitiesCurrent contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">954124</us-gaap:LiabilitiesCurrent>
+	<us-gaap:AccruedRentNoncurrent contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">608149</us-gaap:AccruedRentNoncurrent>
+	<us-gaap:AccruedRentNoncurrent contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">863145</us-gaap:AccruedRentNoncurrent>
+	<us-gaap:Liabilities contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">1731092</us-gaap:Liabilities>
+	<us-gaap:Liabilities contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">1817269</us-gaap:Liabilities>
+	<us-gaap:PreferredStockValue contextRef="AsOf2023-08-31_custom_PreferredClassDMember" id="xdx2ixbrl0116" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:PreferredStockValue contextRef="AsOf2022-08-31_custom_PreferredClassDMember" id="xdx2ixbrl0117" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:PreferredStockValue contextRef="AsOf2023-08-31_us-gaap_PreferredClassAMember" decimals="0" unitRef="USD">100</us-gaap:PreferredStockValue>
+	<us-gaap:PreferredStockValue contextRef="AsOf2022-08-31_us-gaap_PreferredClassAMember" decimals="0" unitRef="USD">100</us-gaap:PreferredStockValue>
+	<us-gaap:PreferredStockValue contextRef="AsOf2023-08-31_us-gaap_PreferredClassBMember" decimals="0" unitRef="USD">20</us-gaap:PreferredStockValue>
+	<us-gaap:PreferredStockValue contextRef="AsOf2022-08-31_us-gaap_PreferredClassBMember" decimals="0" unitRef="USD">20</us-gaap:PreferredStockValue>
+	<us-gaap:PreferredStockValue contextRef="AsOf2023-08-31_custom_PreferredClassCMember" decimals="0" unitRef="USD">175</us-gaap:PreferredStockValue>
+	<us-gaap:PreferredStockValue contextRef="AsOf2022-08-31_custom_PreferredClassCMember" decimals="0" unitRef="USD">336</us-gaap:PreferredStockValue>
+	<us-gaap:CommonStockValue contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">1285283</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">384512</us-gaap:CommonStockValue>
+	<us-gaap:AdditionalPaidInCapitalCommonStock contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">11993408</us-gaap:AdditionalPaidInCapitalCommonStock>
+	<us-gaap:AdditionalPaidInCapitalCommonStock contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">12636838</us-gaap:AdditionalPaidInCapitalCommonStock>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">-12387998</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">-8789901</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:DeferredCompensationEquity contextRef="AsOf2023-08-31" id="xdx2ixbrl0128" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:DeferredCompensationEquity contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">209957</us-gaap:DeferredCompensationEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" id="xdx2ixbrl0387" unitRef="USD" xsi:nil="true"/>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">890988</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">4021948</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">226590</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">120</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">11009517</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_RetainedEarningsMember" decimals="0" unitRef="USD">-6578978</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="0" unitRef="USD">-7473</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2021-08-31" decimals="0" unitRef="USD">4649776</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">384512</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">456</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">12636838</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_RetainedEarningsMember" decimals="0" unitRef="USD">-8789901</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2022-08-31_us-gaap_AccumulatedOtherComprehensiveIncomeMember" decimals="0" unitRef="USD">-209957</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_CommonStockMember" decimals="0" unitRef="USD">1285283</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_PreferredStockMember" decimals="0" unitRef="USD">295</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_AdditionalPaidInCapitalMember" decimals="0" unitRef="USD">11993408</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity contextRef="AsOf2023-08-31_us-gaap_RetainedEarningsMember" decimals="0" unitRef="USD">-12387998</us-gaap:StockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="AsOf2023-08-31" decimals="0" unitRef="USD">2622080</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity contextRef="AsOf2022-08-31" decimals="0" unitRef="USD">5839217</us-gaap:LiabilitiesAndStockholdersEquity>
+	</xbrl>
+

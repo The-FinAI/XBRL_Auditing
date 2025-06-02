@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:SubsequentEventsTextBlock contextRef="From2022-09-01to2023-08-31">&lt;p id="xdx_801_eus-gaap--SubsequentEventsTextBlock_z9BZnD1VYDm6" style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;b&gt;NOTE 14 – SUBSEQUENT EVENTS&lt;/b&gt;  &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;In accordance with ASC 855-10, the Company has analyzed
+its operations subsequent to the date these financial statements were issued.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="text-decoration: underline"&gt;Conversion of Series C preferred stock to common
+stock&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;Subsequent to the year ended August 31, 2023, the
+Company issued total 1,056,681,936 common shares for the conversion of total 174,421 Series C preferred stock.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="text-decoration: underline"&gt;Reverse Stock split&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;As previously disclosed in the Company’s Form
+10-Q for the quarter ended May 31, 2023, on June 12, 2023, the Board of Directors approved a reverse split for the Company’s issued
+and outstanding common stock, at a ratio of 1 share for every 10,000 shares, contingent upon receiving a market effectiveness date from
+FINRA.&lt;/p&gt;
+
+&lt;p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;On September 8, 2023, however, the Board of Directors
+decided to cancel the company's upcoming 10,000 to 1 reverse split. The Board of Directors decided it would not be in the best interest
+of the stockholders or the Company to execute a reverse split at this time. The Company informed FINRA that it will not be moving forward
+with the reverse split and wthdrew its application.&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;&lt;span style="text-decoration: underline"&gt;Insurance of common shares&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt; &lt;/p&gt;
+
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify"&gt;On October 5, 2023, the Board of Directors resolved
+to issue 225,000,000 shares of the Company’s restricted common stock, par value $0.001 per share, to Chiyuan Deng, &lt;span style="color: #212529"&gt;the
+Chief Executive Officer, as executive salaries.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: justify; color: #212529"&gt;&lt;/p&gt;
+
+</us-gaap:SubsequentEventsTextBlock>
+	</xbrl>
+

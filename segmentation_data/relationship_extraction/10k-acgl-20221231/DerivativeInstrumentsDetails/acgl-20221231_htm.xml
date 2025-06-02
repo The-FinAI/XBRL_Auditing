@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="if61545e0f1e24a41bb74cd4ecdc7143a_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i92c9d30ef3ef431fb69435bda344523a_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ic517f075a04143d5b8e3b4cabed49fe7_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ibb311f154fd547f7a4d46416bd9039d8_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="id00418b37b194388bff4694695e891a8_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i85861c649e5a4a17a1ccda2d0b374581_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i0dce0c3c021c40bcb0f02c6ab5ae6906_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:FixedMaturitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">acgl:TbaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="iad40abb752b04f69a860a5676ebbeaff_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherAssetsMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i7484386d4b3341439745a5590a6ae20d_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i70173f57fcbc46a7b84846b3f0ff717c_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherLiabilitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="icf6e855c43364326b7761230bc3a0f16_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherLiabilitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="if77e213e0bba4d369611b8e9228a7c56_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherLiabilitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i74ed0f7b4d56435ab1986f31b7b3d655_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherLiabilitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ia391b8191a384e038d8b5a3036cd700d_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherLiabilitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="if5e4590150964fa7a1ec44f1181d54eb_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:BalanceSheetLocationAxis">us-gaap:OtherLiabilitiesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i659137a16d3146c7a182c92c976b7820_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="id13354d955814819b17cbe4bc24accf6_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i8bdd005a37cf4b46aa7179195bed7884_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f998771360646e5b88fa3c1b6a7f034_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="iaa32753589d24e3290dfc7f97425c3cb_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i9fd267c4c08845d191585cf616f4d497_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">acgl:TbaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ief2c81eb2d094d2e9d6a0160dafae304_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f58039c8da247199a5559e66a073685_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3f5929eeaace432bbbe3c054a8539045_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i80c8fc0218c54b708126a1b23af5f359_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i98446f6e6760493680d2afbbf95c0749_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:FutureMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i55baa4cb23534fa786175ec802cb3c3d_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3a8a421952294ab7881e3e0dc9b451c1_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i11a5dfd993b64e90b76a598669412d59_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:ForeignExchangeForwardMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i5d14c319894d46029697847ff533d614_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">acgl:TbaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i93f9c001749c4cf4b048366fac655a25_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">acgl:TbaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i3807f2e49aa44f8da78a7767f01aef50_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">acgl:TbaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="iad3a51045a904174b14c78e9c924e16b_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i1097381e3da3402b9c81e104e1f2af05_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i2eb1025740c54ffab4893d2e009f12e0_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DerivativeInstrumentRiskAxis">us-gaap:OtherContractMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<context id="i92744de4c02d44eaa9b8ec4a442fb31d_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="i908d8d79a5e9448aa3a32108ce89ce5e_D20210101-20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2021-01-01</startDate>
+            <endDate>2021-12-31</endDate>
+        </period>
+    </context>
+	<context id="i4f6c39b0c4494459bf1e2bb47dd467bb_D20200101-20201231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:HedgingDesignationAxis">us-gaap:NondesignatedMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2020-01-01</startDate>
+            <endDate>2020-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="if61545e0f1e24a41bb74cd4ecdc7143a_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzMtMS0xLTEtNjc4NzQ_4bfb5e2d-f25c-4640-8565-23e3b0822ed9" unitRef="usd">50629000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="i92c9d30ef3ef431fb69435bda344523a_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzQtMS0xLTEtNjc4NzQ_6f69f9fd-8231-4817-8d72-1b292d593a4c" unitRef="usd">38891000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="ic517f075a04143d5b8e3b4cabed49fe7_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzYtMS0xLTEtNjc4NzQ_41b41f4d-2c16-4fdd-9e2c-1f20bfaa1db6" unitRef="usd">58781000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="ibb311f154fd547f7a4d46416bd9039d8_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzctMS0xLTEtNjc4NzQ_948a542d-20cf-449b-8c08-3890fe90903b" unitRef="usd">148301000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="id00418b37b194388bff4694695e891a8_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEwLTEtMS0xLTY3ODc0_7fc6b69e-bbc5-49f2-87ea-90bd93f5e512" unitRef="usd">34999000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="i85861c649e5a4a17a1ccda2d0b374581_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzExLTEtMS0xLTY3ODc0_77d13ab7-024f-4bce-95ee-29a6b4e1939c" unitRef="usd">7734000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="i0dce0c3c021c40bcb0f02c6ab5ae6906_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEyLTEtMS0xLTY3ODc0_29cab46a-b3d7-48ab-a2c2-0c2507f2192e" unitRef="usd">11227000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="iad40abb752b04f69a860a5676ebbeaff_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEzLTEtMS0xLTY3ODc0_350838e4-a3ad-4c54-9c63-29dabc9085dc" unitRef="usd">73161000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeAsset contextRef="i7484386d4b3341439745a5590a6ae20d_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzE0LTEtMS0xLTY3ODc0_ab4d6726-9db8-40a2-b545-34b5f65451e4" unitRef="usd">127121000</us-gaap:DerivativeFairValueOfDerivativeAsset>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="i70173f57fcbc46a7b84846b3f0ff717c_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzMtMy0xLTEtNjc4NzQ_1719b59f-d0eb-4c48-bf13-eb2e4287a92e" unitRef="usd">16963000</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="icf6e855c43364326b7761230bc3a0f16_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzQtMy0xLTEtNjc4NzQ_385751a2-6820-4244-aa09-fbadbd958d31" unitRef="usd">35446000</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="if77e213e0bba4d369611b8e9228a7c56_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzYtMy0xLTEtNjc4NzQ_509fefb4-c5fd-4ee9-b607-d025c5fc4300" unitRef="usd">23552000</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="ibb311f154fd547f7a4d46416bd9039d8_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzctMy0xLTEtNjc4NzQ_c20812ba-7116-4804-8bda-d853946c7b25" unitRef="usd">75961000</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="i74ed0f7b4d56435ab1986f31b7b3d655_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEwLTMtMS0xLTY3ODc0_7a6361d7-c320-4ed0-96a4-df071fd86fbc" unitRef="usd">9808000</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="ia391b8191a384e038d8b5a3036cd700d_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzExLTMtMS0xLTY3ODc0_b2d4871c-ee17-4dfb-b671-8e0c03655af3" unitRef="usd">11390000</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="i0dce0c3c021c40bcb0f02c6ab5ae6906_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEyLTMtMS0xLTY3ODc0_5f29eedf-b883-404d-9725-361ca5b43d50" unitRef="usd">0</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="if5e4590150964fa7a1ec44f1181d54eb_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEzLTMtMS0xLTY3ODc0_4dac3801-2ed8-4d12-9d3e-3a3256909a25" unitRef="usd">33026000</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeFairValueOfDerivativeLiability contextRef="i7484386d4b3341439745a5590a6ae20d_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzE0LTMtMS0xLTY3ODc0_2863fd36-362f-4143-a18b-9ffcbe5402de" unitRef="usd">54224000</us-gaap:DerivativeFairValueOfDerivativeLiability>
+	<us-gaap:DerivativeNotionalAmount contextRef="i659137a16d3146c7a182c92c976b7820_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzMtNy0xLTEtNjc4NzQ_6138a254-e358-4b1c-9683-ce2bff497b73" unitRef="usd">3138446000</us-gaap:DerivativeNotionalAmount>
+	<us-gaap:DerivativeNotionalAmount contextRef="id13354d955814819b17cbe4bc24accf6_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzQtNy0xLTEtNjc4NzQ_fe34e377-167a-4b8f-8634-e5d18fe13f62" unitRef="usd">1136126000</us-gaap:DerivativeNotionalAmount>
+	<us-gaap:DerivativeNotionalAmount contextRef="i8bdd005a37cf4b46aa7179195bed7884_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzYtNy0xLTEtNjc4NzQ_9cfd1b9c-eac2-4a9c-aa62-902201da2bfc" unitRef="usd">3591793000</us-gaap:DerivativeNotionalAmount>
+	<us-gaap:DerivativeNotionalAmount contextRef="i4f998771360646e5b88fa3c1b6a7f034_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEwLTctMS0xLTY3ODc0_a621835e-e3a6-46d0-ba0e-bbf1c43e14dd" unitRef="usd">2826564000</us-gaap:DerivativeNotionalAmount>
+	<us-gaap:DerivativeNotionalAmount contextRef="iaa32753589d24e3290dfc7f97425c3cb_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzExLTctMS0xLTY3ODc0_36ddc94c-0616-49e1-996d-23115ee0a33e" unitRef="usd">915962000</us-gaap:DerivativeNotionalAmount>
+	<us-gaap:DerivativeNotionalAmount contextRef="i9fd267c4c08845d191585cf616f4d497_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEyLTctMS0xLTY3ODc0_10747601-8af0-4adf-9459-2649be1ac890" unitRef="usd">11227000</us-gaap:DerivativeNotionalAmount>
+	<us-gaap:DerivativeNotionalAmount contextRef="ief2c81eb2d094d2e9d6a0160dafae304_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZToxMjk5OWMwOTkxOTM0OGZhYjY2ZWY0OTRlN2I0YmJkOS90YWJsZXJhbmdlOjEyOTk5YzA5OTE5MzQ4ZmFiNjZlZjQ5NGU3YjRiYmQ5XzEzLTctMS0xLTY3ODc0_5aad1f52-6ceb-4b3d-83e5-8f9a35b31c75" unitRef="usd">3736773000</us-gaap:DerivativeNotionalAmount>
+	<us-gaap:DerivativeFairValueOfDerivativeAssetAmountNotOffsetAgainstCollateral contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90ZXh0cmVnaW9uOmNiNjEwMGEzYzQwOTRkODViOWNlZTQ1N2MzZDcxYWRhXzI3MDg_a22fe4f9-7dea-4475-8016-df56e107fda6" unitRef="usd">147400000</us-gaap:DerivativeFairValueOfDerivativeAssetAmountNotOffsetAgainstCollateral>
+	<us-gaap:DerivativeFairValueOfDerivativeAssetAmountNotOffsetAgainstCollateral contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90ZXh0cmVnaW9uOmNiNjEwMGEzYzQwOTRkODViOWNlZTQ1N2MzZDcxYWRhXzI4MzU_ef02b038-e97e-4b66-b388-5a351c420327" unitRef="usd">122300000</us-gaap:DerivativeFairValueOfDerivativeAssetAmountNotOffsetAgainstCollateral>
+	<us-gaap:DerivativeFairValueOfDerivativeLiabilityAmountNotOffsetAgainstCollateral contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90ZXh0cmVnaW9uOmNiNjEwMGEzYzQwOTRkODViOWNlZTQ1N2MzZDcxYWRhXzI3MTU_8b1395f3-fd4b-45d6-9ad2-59a6400b7d42" unitRef="usd">73200000</us-gaap:DerivativeFairValueOfDerivativeLiabilityAmountNotOffsetAgainstCollateral>
+	<us-gaap:DerivativeFairValueOfDerivativeLiabilityAmountNotOffsetAgainstCollateral contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90ZXh0cmVnaW9uOmNiNjEwMGEzYzQwOTRkODViOWNlZTQ1N2MzZDcxYWRhXzI4NDI_7076a950-eb50-4cc1-a383-cef52ef6e2e2" unitRef="usd">53900000</us-gaap:DerivativeFairValueOfDerivativeLiabilityAmountNotOffsetAgainstCollateral>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="ied66e8ec9038434ba50e7cf485b7f7fc_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToxYThjMzZhOTIyZGM0MGI2OTVjYjg0MmFhNTNmNDRiMS90YWJsZXJhbmdlOjFhOGMzNmE5MjJkYzQwYjY5NWNiODQyYWE1M2Y0NGIxXzE3LTEtMS0xLTY3ODc0_b3614635-d934-4671-b8bb-b3156120d5ac" unitRef="usd">-75023000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i0ebc5ed2877e445ebb3ae5f01c9c4518_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToxYThjMzZhOTIyZGM0MGI2OTVjYjg0MmFhNTNmNDRiMS90YWJsZXJhbmdlOjFhOGMzNmE5MjJkYzQwYjY5NWNiODQyYWE1M2Y0NGIxXzE3LTMtMS0xLTY3ODc0_eb3dde61-9d6c-4aff-99f2-721dbee9f6b8" unitRef="usd">-32390000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i3af389ed83944ccab3abe19ff0ab8de4_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90YWJsZToxYThjMzZhOTIyZGM0MGI2OTVjYjg0MmFhNTNmNDRiMS90YWJsZXJhbmdlOjFhOGMzNmE5MjJkYzQwYjY5NWNiODQyYWE1M2Y0NGIxXzE3LTUtMS0xLTY3ODc0_e5f5677d-4662-4112-a1ee-f8b835fa3f33" unitRef="usd">179675000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i3f5929eeaace432bbbe3c054a8539045_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzMtMi0xLTEtNjc4NzQ_18667891-f5b0-4f5f-a8f9-b9b3105738fb" unitRef="usd">-86634000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i80c8fc0218c54b708126a1b23af5f359_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzMtNC0xLTEtNjc4NzQ_ff06b9fa-83a8-4a74-a411-49f025b6a13f" unitRef="usd">-15262000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i98446f6e6760493680d2afbbf95c0749_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzMtNi0xLTEtNjc4NzQ_5291da02-14b3-4477-9a73-6df966c77953" unitRef="usd">114987000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i55baa4cb23534fa786175ec802cb3c3d_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzQtMi0xLTEtNjc4NzQ_8b119c39-cd5d-4c8a-8f84-1bc543940998" unitRef="usd">6144000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i3a8a421952294ab7881e3e0dc9b451c1_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzQtNC0xLTEtNjc4NzQ_ecf3cbe6-7230-485e-ab7b-3ecdeddf4a9b" unitRef="usd">-39755000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i11a5dfd993b64e90b76a598669412d59_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzQtNi0xLTEtNjc4NzQ_a0b15239-cedd-4982-885e-042e0c377b25" unitRef="usd">49974000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i5d14c319894d46029697847ff533d614_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzUtMi0xLTEtNjc4NzQ_bac4ac22-f428-4960-a63f-8bfe9c15fffe" unitRef="usd">-51000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i93f9c001749c4cf4b048366fac655a25_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzUtNC0xLTEtNjc4NzQ_7b322970-3bb2-4c9c-a62b-454bef265efd" unitRef="usd">-233000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i3807f2e49aa44f8da78a7767f01aef50_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzUtNi0xLTEtNjc4NzQ_8696e5c8-630b-4d92-8f0b-103dc383a403" unitRef="usd">1129000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="iad3a51045a904174b14c78e9c924e16b_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzYtMi0xLTEtNjc4NzQ_7025c77d-3439-406f-b624-2d0f1c640f5d" unitRef="usd">5518000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i1097381e3da3402b9c81e104e1f2af05_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzYtNC0xLTEtNjc4NzQ_87fa0f94-2643-43ae-a498-6084c2bfe93c" unitRef="usd">22860000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i2eb1025740c54ffab4893d2e009f12e0_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzYtNi0xLTEtNjc4NzQ_e2d76375-b83b-45e3-875f-0138d52b67fc" unitRef="usd">13585000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i92744de4c02d44eaa9b8ec4a442fb31d_D20220101-20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzctMi0xLTEtNjc4NzQ_e0c5c808-8dd1-479f-bc78-e48a8aa1ede7" unitRef="usd">-75023000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i908d8d79a5e9448aa3a32108ce89ce5e_D20210101-20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzctNC0xLTEtNjc4NzQ_95c079dc-2a94-4034-966a-01f55ad74767" unitRef="usd">-32390000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	<us-gaap:DerivativeGainLossOnDerivativeNet contextRef="i4f6c39b0c4494459bf1e2bb47dd467bb_D20200101-20201231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNzIvZnJhZzpjYjYxMDBhM2M0MDk0ZDg1YjljZWU0NTdjM2Q3MWFkYS90YWJsZTo0ZThmMjY2NzRmMGI0ODJjYmZiZmNkZjdjZjdkZDA4MC90YWJsZXJhbmdlOjRlOGYyNjY3NGYwYjQ4MmNiZmJmY2RmN2NmN2RkMDgwXzctNi0xLTEtNjc4NzQ_e8434a55-39fe-4e8c-8334-028ca6cbc1db" unitRef="usd">179675000</us-gaap:DerivativeGainLossOnDerivativeNet>
+	</xbrl>
+

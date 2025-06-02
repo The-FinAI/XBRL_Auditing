@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_LeasesAbstract" xlink:label="us-gaap_LeasesAbstract"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_LeasesAbstract" xlink:to="us-gaap_LeasesAbstract_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_LeasesAbstract_lbl" xml:lang="en-US">Leases [Abstract]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OtherCommitmentsTable" xlink:label="us-gaap_OtherCommitmentsTable"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OtherCommitmentsTable" xlink:to="us-gaap_OtherCommitmentsTable_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OtherCommitmentsTable_lbl" xml:lang="en-US">Other Commitments [Table]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OperatingLeasesFutureMinimumPaymentsRemainderOfFiscalYear" xlink:label="us-gaap_OperatingLeasesFutureMinimumPaymentsRemainderOfFiscalYear"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OperatingLeasesFutureMinimumPaymentsRemainderOfFiscalYear" xlink:to="us-gaap_OperatingLeasesFutureMinimumPaymentsRemainderOfFiscalYear_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OperatingLeasesFutureMinimumPaymentsRemainderOfFiscalYear_lbl" xml:lang="en-US">Operating Leases, Future Minimum Payments, Remainder of Fiscal Year</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OtherCommitmentsLineItems" xlink:label="us-gaap_OtherCommitmentsLineItems"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OtherCommitmentsLineItems" xlink:to="us-gaap_OtherCommitmentsLineItems_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OtherCommitmentsLineItems_lbl" xml:lang="en-US">Other Commitments [Line Items]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AccruedRentCurrent" xlink:label="us-gaap_AccruedRentCurrent"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_AccruedRentCurrent" xlink:to="us-gaap_AccruedRentCurrent_lbl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_AccruedRentCurrent" xlink:to="us-gaap_AccruedRentCurrent_2_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_AccruedRentCurrent_lbl" xml:lang="en-US">Current portion of obligations under operating leases</link:label>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:label="us-gaap_AccruedRentCurrent_2_lbl" xml:lang="en-US">Accrued Rent, Current</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_KiscoTheatreMember" xlink:label="ABQQ_KiscoTheatreMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_KiscoTheatreMember" xlink:to="ABQQ_KiscoTheatreMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_KiscoTheatreMember_lbl" xml:lang="en-US">Kisco Theatre [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_LesseeOperatingLeaseTermOfContract" xlink:label="us-gaap_LesseeOperatingLeaseTermOfContract"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_LesseeOperatingLeaseTermOfContract" xlink:to="us-gaap_LesseeOperatingLeaseTermOfContract_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_LesseeOperatingLeaseTermOfContract_lbl" xml:lang="en-US">Lessee, Operating Lease, Term of Contract</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_SingaporeOfficeMember" xlink:label="ABQQ_SingaporeOfficeMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_SingaporeOfficeMember" xlink:to="ABQQ_SingaporeOfficeMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_SingaporeOfficeMember_lbl" xml:lang="en-US">Singapore Office [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OtherCommitmentsAxis" xlink:label="us-gaap_OtherCommitmentsAxis"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OtherCommitmentsAxis" xlink:to="us-gaap_OtherCommitmentsAxis_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OtherCommitmentsAxis_lbl" xml:lang="en-US">Other Commitments [Axis]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_HongKongLeaseMember" xlink:label="ABQQ_HongKongLeaseMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_HongKongLeaseMember" xlink:to="ABQQ_HongKongLeaseMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_HongKongLeaseMember_lbl" xml:lang="en-US">Hong Kong Lease [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OperatingLeasesFutureMinimumPaymentsDueCurrent" xlink:label="us-gaap_OperatingLeasesFutureMinimumPaymentsDueCurrent"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OperatingLeasesFutureMinimumPaymentsDueCurrent" xlink:to="us-gaap_OperatingLeasesFutureMinimumPaymentsDueCurrent_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OperatingLeasesFutureMinimumPaymentsDueCurrent_lbl" xml:lang="en-US">Operating Leases, Future Minimum Payments Due, Next 12 Months</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_NewYorkLeaseMember" xlink:label="ABQQ_NewYorkLeaseMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_NewYorkLeaseMember" xlink:to="ABQQ_NewYorkLeaseMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_NewYorkLeaseMember_lbl" xml:lang="en-US">New York Lease [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_OperatingLeasesRentExpenseNet" xlink:label="us-gaap_OperatingLeasesRentExpenseNet"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_OperatingLeasesRentExpenseNet" xlink:to="us-gaap_OperatingLeasesRentExpenseNet_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_OperatingLeasesRentExpenseNet_lbl" xml:lang="en-US">Operating Leases, Rent Expense, Net</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_NewYorkLeaseRenewalMember" xlink:label="ABQQ_NewYorkLeaseRenewalMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_NewYorkLeaseRenewalMember" xlink:to="ABQQ_NewYorkLeaseRenewalMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_NewYorkLeaseRenewalMember_lbl" xml:lang="en-US">New York Lease Renewal [Member]</link:label>
+      </link:labelLink>
+</link:linkbase>
+

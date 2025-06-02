@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i25ca2ee7858e4d3992af895fdd664af3_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">acgl:ArchReBermudaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">country:BM</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="ifdd3e9949a304f14aa9ee465359d99e5_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">acgl:ArchReBermudaMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">country:BM</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="idc14dab07856401cb69fe67e57b8cd33_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">country:IE</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<context id="icaeaafb9be304314814d7be3ce6cbe0c_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">acgl:ArchReUSMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">country:US</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="if5a95cc04b29473ba80200d284ecbc5a_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">acgl:UnitedGuarantyResidentialInsuranceCompanyMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">stpr:NC</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i0410493a0d714f8e8245244291128075_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:MortgageSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">acgl:NorthCarolinaOrWisconsinMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i5700a450509048a08351d12e5268e058_D20220101-20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:StatementBusinessSegmentsAxis">acgl:MortgageSegmentMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:StatutoryAccountingPracticesByJurisdictionAxis">acgl:NorthCarolinaOrWisconsinMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2022-01-01</startDate>
+            <endDate>2022-12-31</endDate>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<acgl:StatutoryAccountingPracticesDividendsPermittedPercentageOfStatutoryCapitalAndSurplus contextRef="i25ca2ee7858e4d3992af895fdd664af3_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzI1Mjc_1dfb4afc-baf4-4324-acf2-8799ae0336e2" unitRef="number">0.25</acgl:StatutoryAccountingPracticesDividendsPermittedPercentageOfStatutoryCapitalAndSurplus>
+	<acgl:StatutoryCapitalAndSurplusNoticePeriodRequiredForDividends contextRef="i25ca2ee7858e4d3992af895fdd664af3_D20220101-20221231" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzI2Njc_e582a8c8-a043-45c2-98ea-4c40102ec8e5">P7D</acgl:StatutoryCapitalAndSurplusNoticePeriodRequiredForDividends>
+	<us-gaap:StatutoryAccountingPracticesStatutoryAmountAvailableForDividendPaymentsWithoutRegulatoryApproval contextRef="ifdd3e9949a304f14aa9ee465359d99e5_I20221231" decimals="-7" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzI4ODY_8c008a4b-2935-4ebb-adaa-c390aa6737af" unitRef="usd">3700000000</us-gaap:StatutoryAccountingPracticesStatutoryAmountAvailableForDividendPaymentsWithoutRegulatoryApproval>
+	<acgl:NumberOfSubsidiaries contextRef="idc14dab07856401cb69fe67e57b8cd33_D20220101-20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzI5ODU_fe18224c-32a1-4afc-848f-aaabd945bdb7" unitRef="subsidiary">3</acgl:NumberOfSubsidiaries>
+	<us-gaap:StatutoryAccountingPracticesStatutoryAmountAvailableForDividendPayments contextRef="icaeaafb9be304314814d7be3ce6cbe0c_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzU0NDA_72ae1848-8bc7-4ef8-a17c-296edbfe328f" unitRef="usd">255400000</us-gaap:StatutoryAccountingPracticesStatutoryAmountAvailableForDividendPayments>
+	<us-gaap:StatutoryAccountingPracticesStatutoryAmountAvailableForDividendPayments contextRef="if5a95cc04b29473ba80200d284ecbc5a_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzc3MzI_dd848339-9ab6-4860-85d5-67f3e607b745" unitRef="usd">156500000</us-gaap:StatutoryAccountingPracticesStatutoryAmountAvailableForDividendPayments>
+	<acgl:StatutoryAccountingContingencyLossReservePercentageOfNetEarnedPremiums contextRef="i0410493a0d714f8e8245244291128075_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzg0Mjg_1d7bdc0e-3eb7-4953-8196-2d94a7e76a00" unitRef="number">0.50</acgl:StatutoryAccountingContingencyLossReservePercentageOfNetEarnedPremiums>
+	<acgl:WithdrawalRestrictionPeriod contextRef="i5700a450509048a08351d12e5268e058_D20220101-20221231" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzg1MTU_a22c859b-f685-48a3-903f-a285ecc498ad">P10Y</acgl:WithdrawalRestrictionPeriod>
+	<acgl:StatutoryAccountingContingencyLossReservePercentageOfNetEarnedPremiumsWithPriorApproval contextRef="i0410493a0d714f8e8245244291128075_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzg3ODA_23eda2a4-596f-4d27-9781-1dc5dbdea2ba" unitRef="number">0.35</acgl:StatutoryAccountingContingencyLossReservePercentageOfNetEarnedPremiumsWithPriorApproval>
+	<acgl:MaximumRiskToCapitalRatio contextRef="i0410493a0d714f8e8245244291128075_I20221231" decimals="INF" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yMTcvZnJhZzo3NDU2Y2QzM2ZhNjk0NDkyOTFlMGY3NTNmNzZlZmM5Zi90ZXh0cmVnaW9uOjc0NTZjZDMzZmE2OTQ0OTI5MWUwZjc1M2Y3NmVmYzlmXzkyMTk_d46092ed-2c1b-44d9-b177-715996bce2e3" unitRef="number">25</acgl:MaximumRiskToCapitalRatio>
+	</xbrl>
+

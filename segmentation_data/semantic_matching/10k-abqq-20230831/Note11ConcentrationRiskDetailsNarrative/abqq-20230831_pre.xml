@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note11ConcentrationRiskDetailsNarrative" xlink:href="abqq-20230831.xsd#Note11ConcentrationRiskDetailsNarrative" xlink:type="simple"/>
+    <link:presentationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note11ConcentrationRiskDetailsNarrative" xlink:title="00000049 - Disclosure - NOTE 11 &#8211; CONCENTRATION RISK (Details Narrative)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_RisksAndUncertaintiesAbstract" xlink:label="loc_us-gaapRisksAndUncertaintiesAbstract"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskTable" xlink:label="loc_us-gaapConcentrationRiskTable"/>
+      <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapRisksAndUncertaintiesAbstract" xlink:to="loc_us-gaapConcentrationRiskTable" order="100"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskLineItems" xlink:label="loc_us-gaapConcentrationRiskLineItems"/>
+      <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskTable" xlink:to="loc_us-gaapConcentrationRiskLineItems" order="200"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskByTypeAxis" xlink:label="loc_us-gaapConcentrationRiskByTypeAxis"/>
+      <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskTable" xlink:to="loc_us-gaapConcentrationRiskByTypeAxis" order="10"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskTypeDomain" xlink:label="loc_us-gaapConcentrationRiskTypeDomain"/>
+      <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskByTypeAxis" xlink:to="loc_us-gaapConcentrationRiskTypeDomain" order="0"/>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_RevenueCustomerOneMember" xlink:label="loc_ABQQRevenueCustomerOneMember"/>
+      <link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskTypeDomain" xlink:to="loc_ABQQRevenueCustomerOneMember" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_RevenueCustomerTwoMember" xlink:label="loc_ABQQRevenueCustomerTwoMember"/>
+      <link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskTypeDomain" xlink:to="loc_ABQQRevenueCustomerTwoMember" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskPercentage1" xlink:label="loc_us-gaapConcentrationRiskPercentage1"/>
+      <link:presentationArc order="0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskLineItems" xlink:to="loc_us-gaapConcentrationRiskPercentage1" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AccountsReceivableNet" xlink:label="loc_us-gaapAccountsReceivableNet"/>
+      <link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskLineItems" xlink:to="loc_us-gaapAccountsReceivableNet" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_HongKongDepositProtection" xlink:label="loc_ABQQHongKongDepositProtection"/>
+      <link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskLineItems" xlink:to="loc_ABQQHongKongDepositProtection" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CashEquivalentsAtCarryingValue" xlink:label="loc_us-gaapCashEquivalentsAtCarryingValue"/>
+      <link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskLineItems" xlink:to="loc_us-gaapCashEquivalentsAtCarryingValue" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CashFDICInsuredAmount" xlink:label="loc_us-gaapCashFDICInsuredAmount"/>
+      <link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskLineItems" xlink:to="loc_us-gaapCashFDICInsuredAmount" xlink:type="arc"/>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FairValueConcentrationOfRiskCashAndCashEquivalents" xlink:label="loc_us-gaapFairValueConcentrationOfRiskCashAndCashEquivalents"/>
+      <link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapConcentrationRiskLineItems" xlink:to="loc_us-gaapFairValueConcentrationOfRiskCashAndCashEquivalents" xlink:type="arc"/>
+    </link:presentationLink>
+    </link:linkbase>

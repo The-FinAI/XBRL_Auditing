@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/ScheduleIVReinsurance" xlink:type="simple" xlink:href="acgl-20221231.xsd#ScheduleIVReinsurance"/>
+  <link:presentationLink xlink:role="http://www.archcapgroup.com/role/ScheduleIVReinsurance" xlink:type="extended">
+    <link:loc xlink:type="locator" xlink:label="loc_srt_SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesAbstract_b8ec96f9-35c1-4bcc-a1e6-eb1a436403a3" xlink:href="https://xbrl.fasb.org/srt/2022/elts/srt-2022.xsd#srt_SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesAbstract"/>
+    <link:loc xlink:type="locator" xlink:label="loc_srt_SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesTextBlock_55a3132a-5d79-4aae-909a-6a108796aada" xlink:href="https://xbrl.fasb.org/srt/2022/elts/srt-2022.xsd#srt_SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesTextBlock"/>
+    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_srt_SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesAbstract_b8ec96f9-35c1-4bcc-a1e6-eb1a436403a3" xlink:to="loc_srt_SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesTextBlock_55a3132a-5d79-4aae-909a-6a108796aada" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  </link:linkbase>

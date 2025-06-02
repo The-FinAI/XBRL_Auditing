@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i18425bbe787a4a289ca93816a74cef23_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:EquityMethodInvestmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i51cc224803934c888659faac7efb9cd8_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">us-gaap:EquityMethodInvestmentsMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ib6be43eadd0e431db1142132e1164d86_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">acgl:FairValueOptionMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i3e82b1efcd3044418610799f42dfe39f_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:InvestmentTypeAxis">acgl:FairValueOptionMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f58039c8da247199a5559e66a073685_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<acgl:InvestmentCommitments contextRef="i18425bbe787a4a289ca93816a74cef23_I20221231" decimals="-7" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzg5Njk_f784565b-14a9-4cbd-a0be-703ade538e72" unitRef="usd">2600000000</acgl:InvestmentCommitments>
+	<acgl:InvestmentCommitments contextRef="i51cc224803934c888659faac7efb9cd8_I20211231" decimals="-7" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzg5OTE_6e63fd34-882b-4566-ae35-ce588ed9f535" unitRef="usd">2600000000</acgl:InvestmentCommitments>
+	<acgl:InvestmentCommitments contextRef="ib6be43eadd0e431db1142132e1164d86_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzkwNDI_5b2a889c-14ed-473f-aa21-aa4b0f4dd2bb" unitRef="usd">16700000</acgl:InvestmentCommitments>
+	<acgl:InvestmentCommitments contextRef="i3e82b1efcd3044418610799f42dfe39f_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjYvZnJhZzpjZGJkYTNhYjFiYjU0MTZjYTNmMDQzMjI2YzFiNGNiMi90ZXh0cmVnaW9uOmNkYmRhM2FiMWJiNTQxNmNhM2YwNDMyMjZjMWI0Y2IyXzkwNjQ_35489c06-8a25-4851-a6e2-326ca9c42b19" unitRef="usd">18800000</acgl:InvestmentCommitments>
+	<acgl:InvestmentCommitments contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-8" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTMvZnJhZzplOGRkNWM3YzVmZjA0MmYwYjcyNzU0M2I1ZmRlYzdkOS90ZXh0cmVnaW9uOmU4ZGQ1YzdjNWZmMDQyZjBiNzI3NTQzYjVmZGVjN2Q5XzM0NzY_e6bb38c6-0257-4fda-9fde-c05d117b2368" unitRef="usd">2900000000</acgl:InvestmentCommitments>
+	<acgl:InvestmentCommitments contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-8" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTMvZnJhZzplOGRkNWM3YzVmZjA0MmYwYjcyNzU0M2I1ZmRlYzdkOS90ZXh0cmVnaW9uOmU4ZGQ1YzdjNWZmMDQyZjBiNzI3NTQzYjVmZGVjN2Q5XzM0ODM_29371839-fb07-4e3d-a71d-57586f39dcb0" unitRef="usd">3000000000</acgl:InvestmentCommitments>
+	<us-gaap:PurchaseCommitmentRemainingMinimumAmountCommitted contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTMvZnJhZzplOGRkNWM3YzVmZjA0MmYwYjcyNzU0M2I1ZmRlYzdkOS90ZXh0cmVnaW9uOmU4ZGQ1YzdjNWZmMDQyZjBiNzI3NTQzYjVmZGVjN2Q5XzM3NDU_eed96a72-c5a9-47c5-9d86-90c4972f4a72" unitRef="usd">150100000</us-gaap:PurchaseCommitmentRemainingMinimumAmountCommitted>
+	<us-gaap:PurchaseCommitmentRemainingMinimumAmountCommitted contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTMvZnJhZzplOGRkNWM3YzVmZjA0MmYwYjcyNzU0M2I1ZmRlYzdkOS90ZXh0cmVnaW9uOmU4ZGQ1YzdjNWZmMDQyZjBiNzI3NTQzYjVmZGVjN2Q5XzM3NTI_a149adfc-8f45-49ce-945c-5d8ddf05fdbf" unitRef="usd">114100000</us-gaap:PurchaseCommitmentRemainingMinimumAmountCommitted>
+	</xbrl>
+

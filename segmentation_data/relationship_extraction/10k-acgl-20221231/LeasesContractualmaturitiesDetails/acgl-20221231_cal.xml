@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/LeasesContractualmaturitiesDetails" xlink:type="simple" xlink:href="acgl-20221231.xsd#LeasesContractualmaturitiesDetails"/>
+  <link:calculationLink xlink:role="http://www.archcapgroup.com/role/LeasesContractualmaturitiesDetails" xlink:type="extended">
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_LesseeOperatingLeaseLiabilityPaymentsDue_b775b16c-f034-4c3b-9e39-a73978ade9d9" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_LesseeOperatingLeaseLiabilityPaymentsDue"/>
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_LesseeOperatingLeaseLiabilityUndiscountedExcessAmount_9fa744c8-ef4b-4f8a-8f57-5195e97235c7" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_LesseeOperatingLeaseLiabilityUndiscountedExcessAmount"/>
+    <link:calculationArc order="1" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaap_LesseeOperatingLeaseLiabilityPaymentsDue_b775b16c-f034-4c3b-9e39-a73978ade9d9" xlink:to="loc_us-gaap_LesseeOperatingLeaseLiabilityUndiscountedExcessAmount_9fa744c8-ef4b-4f8a-8f57-5195e97235c7" xlink:type="arc"/>
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_OperatingLeaseLiability_1018c87a-2554-4644-a191-a8256e2905ad" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_OperatingLeaseLiability"/>
+    <link:calculationArc order="2" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaap_LesseeOperatingLeaseLiabilityPaymentsDue_b775b16c-f034-4c3b-9e39-a73978ade9d9" xlink:to="loc_us-gaap_OperatingLeaseLiability_1018c87a-2554-4644-a191-a8256e2905ad" xlink:type="arc"/>
+  </link:calculationLink>
+  </link:linkbase>

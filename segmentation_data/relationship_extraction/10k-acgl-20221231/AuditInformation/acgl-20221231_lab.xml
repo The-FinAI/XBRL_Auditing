@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/netLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedNetLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel"/>
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel"/>
+  <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended"><link:loc xlink:type="locator" xlink:label="loc_dei_AuditorName" xlink:href="https://xbrl.sec.gov/dei/2022/dei-2022.xsd#dei_AuditorName"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_dei_AuditorName" xlink:to="lab_dei_AuditorName" xlink:type="arc" order="1"/>
+    <link:label id="lab_dei_AuditorName_eaaaa3ab-38ce-485b-9be1-213d0679fe68_terseLabel_en-US" xlink:label="lab_dei_AuditorName" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xlink:type="resource" xml:lang="en-US">Auditor Name</link:label>
+    <link:label id="lab_dei_AuditorName_label_en-US" xlink:label="lab_dei_AuditorName" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Auditor Name</link:label>
+    <link:loc xlink:type="locator" xlink:label="loc_dei_AuditorFirmId" xlink:href="https://xbrl.sec.gov/dei/2022/dei-2022.xsd#dei_AuditorFirmId"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_dei_AuditorFirmId" xlink:to="lab_dei_AuditorFirmId" xlink:type="arc" order="1"/>
+    <link:label id="lab_dei_AuditorFirmId_c591d6bf-6d9c-421c-84c6-d80a3a444bc4_terseLabel_en-US" xlink:label="lab_dei_AuditorFirmId" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xlink:type="resource" xml:lang="en-US">Auditor Firm ID</link:label>
+    <link:label id="lab_dei_AuditorFirmId_label_en-US" xlink:label="lab_dei_AuditorFirmId" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Auditor Firm ID</link:label>
+    <link:loc xlink:type="locator" xlink:label="loc_dei_AuditorLocation" xlink:href="https://xbrl.sec.gov/dei/2022/dei-2022.xsd#dei_AuditorLocation"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_dei_AuditorLocation" xlink:to="lab_dei_AuditorLocation" xlink:type="arc" order="1"/>
+    <link:label id="lab_dei_AuditorLocation_f22e495c-a879-4ebc-b7a6-98e83b9efa8f_terseLabel_en-US" xlink:label="lab_dei_AuditorLocation" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xlink:type="resource" xml:lang="en-US">Auditor Location</link:label>
+    <link:label id="lab_dei_AuditorLocation_label_en-US" xlink:label="lab_dei_AuditorLocation" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Auditor Location</link:label>
+    <link:loc xlink:type="locator" xlink:label="loc_acgl_AuditInformationAbstract" xlink:href="acgl-20221231.xsd#acgl_AuditInformationAbstract"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_acgl_AuditInformationAbstract" xlink:to="lab_acgl_AuditInformationAbstract" xlink:type="arc" order="1"/>
+    <link:label id="lab_acgl_AuditInformationAbstract_label_en-US" xlink:label="lab_acgl_AuditInformationAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en-US">Audit Information [Abstract]</link:label>
+    <link:label id="lab_acgl_AuditInformationAbstract_documentation_en-US" xlink:label="lab_acgl_AuditInformationAbstract" xlink:role="http://www.xbrl.org/2003/role/documentation" xlink:type="resource" xml:lang="en-US">Audit Information</link:label>
+    </link:labelLink>
+</link:linkbase>
+

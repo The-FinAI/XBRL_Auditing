@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:acgl="http://www.archcapgroup.com/20221231" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2022" xmlns:stpr="http://xbrl.sec.gov/stpr/2022" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en-US"><link:schemaRef xlink:href="acgl-20221231.xsd" xlink:type="simple"/>
+	<context id="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i4f58039c8da247199a5559e66a073685_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i32afa3174a204ebb94796b32f1c9df8a_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:UnsecuredDebtMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i1b85a9f7445245869177a243296de181_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:UnsecuredDebtMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="iee9b86758dd44c9eb9d8d4999d023a64_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2034Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i86e7c92720e94a6c901ffdeb6a6b2733_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2034Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ie64e7127622947e9988a90d824f86386_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2043Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ida9d873d18e246eba7fceadd4f997893_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2043Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i46928d96c0dc47319a7faf57eb735740_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2026Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ie6c6359c4a9140dda47389c575e4e091_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2026Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ic9b45fba34c447eb975382138551c5ca_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2046Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="iaf3a087b6e204d8da11c61fa61556fa1_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2046Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="ie4f37c142b6e40dc893c6c107ff96e34_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2050Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="i3e5ea1fcd0cd4b848845d98d28707c83_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:DebtInstrumentAxis">acgl:SeniorNotesDue2050Member</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i7cb919ae65824cb095d7215cf7f23b67_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="ide08ebc8182a4337a243ff25a9af9e57_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="us-gaap:LongtermDebtTypeAxis">us-gaap:SeniorNotesMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<context id="i328fc0d6399545b3a561afcdb6f0abca_I20221231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2022-12-31</instant>
+        </period>
+    </context>
+	<context id="id2a193cdd6f046628fbc00dc46a602ef_I20211231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000947484</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="srt:ConsolidatedEntitiesAxis">srt:ParentCompanyMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2021-12-31</instant>
+        </period>
+    </context>
+	<unit id="usd">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="usdPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="number">
+        <measure>pure</measure>
+    </unit>
+	<unit id="segment">
+        <measure>acgl:segment</measure>
+    </unit>
+	<unit id="claims">
+        <measure>acgl:claims</measure>
+    </unit>
+	<unit id="lots">
+        <measure>acgl:lots</measure>
+    </unit>
+	<unit id="eurPerShare">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:EUR</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="eur">
+        <measure>iso4217:EUR</measure>
+    </unit>
+	<unit id="director">
+        <measure>acgl:director</measure>
+    </unit>
+	<unit id="subsidiary">
+        <measure>acgl:subsidiary</measure>
+    </unit>
+	<us-gaap:SeniorLongTermNotes contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzM0LTEtMS0xLTY3ODc0_0b3fb9aa-8373-4b0d-ad7d-d3203b4ef839" unitRef="usd">2725410000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xMjcvZnJhZzozNzcxNTQ3ZDczMGI0MWNhOTJmY2I4MDEwMzBhZTkwZS90YWJsZTo0YTE5MzE4ZmUwM2M0MWFjOWFjNjM1ODgzNWIwMmY0ZS90YWJsZXJhbmdlOjRhMTkzMThmZTAzYzQxYWM5YWM2MzU4ODM1YjAyZjRlXzM0LTMtMS0xLTY3ODc0_bf52466c-1c10-4d19-a48e-d2478c9acc74" unitRef="usd">2724394000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="i32afa3174a204ebb94796b32f1c9df8a_I20221231" decimals="-7" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzE2NDk3_9dd14a7a-ba84-4e5e-acdc-b8098295c21c" unitRef="usd">2700000000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="i1b85a9f7445245869177a243296de181_I20211231" decimals="-7" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzE2NjIx_4ea3ae1f-6317-4915-9eb9-f96a6c944a52" unitRef="usd">2700000000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="iee9b86758dd44c9eb9d8d4999d023a64_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzMtNi0xLTEtNjc4NzQ_bffb89db-bd82-4f66-81f4-353aa86daffe" unitRef="usd">297618000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="i86e7c92720e94a6c901ffdeb6a6b2733_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzMtOC0xLTEtNjc4NzQ_757ad43a-48a5-4927-9b0f-db04c755df52" unitRef="usd">297488000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="ie64e7127622947e9988a90d824f86386_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzQtNi0xLTEtNjc4NzQ_af22f956-5948-4632-8560-0dd5fa8e51f1" unitRef="usd">495188000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="ida9d873d18e246eba7fceadd4f997893_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzQtOC0xLTEtNjc4NzQ_eb3b6e58-d08a-4294-b0ad-5e7191f91bee" unitRef="usd">495063000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="i46928d96c0dc47319a7faf57eb735740_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzUtNi0xLTEtNjc4NzQ_558c9baf-c8ce-45bd-9e09-fbcb0cb1e34e" unitRef="usd">498073000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="ie6c6359c4a9140dda47389c575e4e091_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzUtOC0xLTEtNjc4NzQ_5d67a0af-60b8-4f89-b021-5f8a8dbdad09" unitRef="usd">497633000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="ic9b45fba34c447eb975382138551c5ca_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzYtNi0xLTEtNjc4NzQ_639f22db-6a29-473b-889f-8b0c9096b499" unitRef="usd">445582000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="iaf3a087b6e204d8da11c61fa61556fa1_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzYtOC0xLTEtNjc4NzQ_3d9f82b0-79f3-473a-a585-78121ad29b34" unitRef="usd">445490000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="ie4f37c142b6e40dc893c6c107ff96e34_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzctNi0xLTEtNjc4NzQ_34be07f5-49b1-4d22-8f26-9940c51706d2" unitRef="usd">988949000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="i3e5ea1fcd0cd4b848845d98d28707c83_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzctOC0xLTEtNjc4NzQ_e32f31d9-0f5d-47c1-b5a9-9bba8696da03" unitRef="usd">988720000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="i7cb919ae65824cb095d7215cf7f23b67_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzktNi0xLTEtNjc4NzQ_7382b450-817e-489b-b197-c0c5b7ce8067" unitRef="usd">2725410000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="ide08ebc8182a4337a243ff25a9af9e57_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xOTYvZnJhZzpmNzI2YTgxMmI5OGQ0NjI2OTBlZThmZjI1ZTlhZTJmNC90YWJsZTo0ZmEyZGFmMWNiNDY0YjYzYjk0ZTBiNzM0MGM0MjM5Yi90YWJsZXJhbmdlOjRmYTJkYWYxY2I0NjRiNjNiOTRlMGI3MzQwYzQyMzliXzktOC0xLTEtNjc4NzQ_d0b5c093-131e-4249-89ba-1ae844539df5" unitRef="usd">2724394000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="i328fc0d6399545b3a561afcdb6f0abca_I20221231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTowZWY5OTUwMTI3MmU0YTYyYjQ5Zjc1NDRhMTQzYzkwZS90YWJsZXJhbmdlOjBlZjk5NTAxMjcyZTRhNjJiNDlmNzU0NGExNDNjOTBlXzI0LTEtMS0xLTY3ODc0_af44f1e8-71c6-40d5-983a-a545e4341e30" unitRef="usd">1286567000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:SeniorLongTermNotes contextRef="id2a193cdd6f046628fbc00dc46a602ef_I20211231" decimals="-3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8yNTkvZnJhZzo5OGEzYTc5OGFkMWU0ODNhYTc5NTRiYjFiNmRhZGFiZC90YWJsZTowZWY5OTUwMTI3MmU0YTYyYjQ5Zjc1NDRhMTQzYzkwZS90YWJsZXJhbmdlOjBlZjk5NTAxMjcyZTRhNjJiNDlmNzU0NGExNDNjOTBlXzI0LTMtMS0xLTY3ODc0_960ab795-d342-4697-88fe-a5d30d968c28" unitRef="usd">1286208000</us-gaap:SeniorLongTermNotes>
+	<us-gaap:LongTermDebtFairValue contextRef="i32afa3174a204ebb94796b32f1c9df8a_I20221231" decimals="-7" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzE2NTI0_47cf9523-6038-4e54-9294-3d4b1e4a53f9" unitRef="usd">2400000000</us-gaap:LongTermDebtFairValue>
+	<us-gaap:LongTermDebtFairValue contextRef="i1b85a9f7445245869177a243296de181_I20211231" decimals="-7" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzE2NjQ4_75fa42e3-8748-4e97-9080-cc134fc97e33" unitRef="usd">3300000000</us-gaap:LongTermDebtFairValue>
+	<acgl:TotalAssetsAndLiabilitiesMeasuredAtFairValue contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-8" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzQxNzA_b0cd8125-6343-42d1-bcf6-82b946ceec4b" unitRef="usd">23800000000</acgl:TotalAssetsAndLiabilitiesMeasuredAtFairValue>
+	<acgl:TotalAssetsAndLiabilitiesMeasuredAtFairValue contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-8" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzQzMjM_d9d46407-a559-4f02-a83a-e52c0e9586af" unitRef="usd">23800000000</acgl:TotalAssetsAndLiabilitiesMeasuredAtFairValue>
+	<acgl:TotalAssetsAndLiabilitiesMeasuredAtFairValuePricedUsingNonBindingBrokerQuotes contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzQyNTM_37c05c7d-4c1f-47d2-9f1b-ed222d7b50f3" unitRef="usd">12600000</acgl:TotalAssetsAndLiabilitiesMeasuredAtFairValuePricedUsingNonBindingBrokerQuotes>
+	<acgl:TotalAssetsAndLiabilitiesMeasuredAtFairValuePricedUsingNonBindingBrokerQuotes contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="-5" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzQ0MDY_78f39f1e-562e-4fbe-b137-bb397a8fe990" unitRef="usd">7700000</acgl:TotalAssetsAndLiabilitiesMeasuredAtFairValuePricedUsingNonBindingBrokerQuotes>
+	<acgl:PercentageOfTotalAssetsAndLiabilitiesMeasuredAtFairValuePricedUsingNonBindingBrokerQuotes contextRef="i80fb56aa19cb4edaa82dbbeb4350ab76_I20221231" decimals="3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzQyNjA_8834db93-3a56-4885-950b-68cb731de160" unitRef="number">0.001</acgl:PercentageOfTotalAssetsAndLiabilitiesMeasuredAtFairValuePricedUsingNonBindingBrokerQuotes>
+	<acgl:PercentageOfTotalAssetsAndLiabilitiesMeasuredAtFairValuePricedUsingNonBindingBrokerQuotes contextRef="i4f58039c8da247199a5559e66a073685_I20211231" decimals="3" id="id3VybDovL2RvY3MudjEvZG9jOjAwYmUwM2Q0NTIwZDQ1ZGNiZWViNmM1OWMyNGE4MzM0L3NlYzowMGJlMDNkNDUyMGQ0NWRjYmVlYjZjNTljMjRhODMzNF8xNjkvZnJhZzowZTgzMGE3MGRlYTM0OTI4OWI5N2U3ZGUxZjg2OGVlMi90ZXh0cmVnaW9uOjBlODMwYTcwZGVhMzQ5Mjg5Yjk3ZTdkZTFmODY4ZWUyXzQ0MTM_c4b0b555-a89d-402e-936e-ee84589e4659" unitRef="number">0.000</acgl:PercentageOfTotalAssetsAndLiabilitiesMeasuredAtFairValuePricedUsingNonBindingBrokerQuotes>
+	</xbrl>
+

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/OtherComprehensiveIncome" xlink:type="simple" xlink:href="acgl-20221231.xsd#OtherComprehensiveIncome"/>
+  <link:presentationLink xlink:role="http://www.archcapgroup.com/role/OtherComprehensiveIncome" xlink:type="extended">
+    <link:loc xlink:type="locator" xlink:label="loc_acgl_ComprehensiveIncomeNoteDisclosureAbstract_a498e300-ff1c-4a98-adbc-462d7576b605" xlink:href="acgl-20221231.xsd#acgl_ComprehensiveIncomeNoteDisclosureAbstract"/>
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_ComprehensiveIncomeNoteTextBlock_9176c130-c038-487a-ba4b-d11bb52748e9" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_ComprehensiveIncomeNoteTextBlock"/>
+    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_acgl_ComprehensiveIncomeNoteDisclosureAbstract_a498e300-ff1c-4a98-adbc-462d7576b605" xlink:to="loc_us-gaap_ComprehensiveIncomeNoteTextBlock_9176c130-c038-487a-ba4b-d11bb52748e9" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  </link:linkbase>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:ABQQ="http://abqqs.com/20230831" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:srt="http://fasb.org/srt/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><link:schemaRef xlink:href="abqq-20230831.xsd" xlink:type="simple"/>
+	<context id="From2022-09-01to2023-08-31">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0001605331</identifier>
+        </entity>
+        <period>
+            <startDate>2022-09-01</startDate>
+            <endDate>2023-08-31</endDate>
+        </period>
+    </context>
+	<unit id="USD">
+        <measure>iso4217:USD</measure>
+    </unit>
+	<unit id="Shares">
+        <measure>shares</measure>
+    </unit>
+	<unit id="USDPShares">
+        <divide>
+            <unitNumerator>
+                <measure>iso4217:USD</measure>
+            </unitNumerator>
+            <unitDenominator>
+                <measure>shares</measure>
+            </unitDenominator>
+        </divide>
+    </unit>
+	<unit id="Pure">
+        <measure>pure</measure>
+    </unit>
+	<us-gaap:ScheduleOfFutureMinimumLeasePaymentsForCapitalLeasesTableTextBlock contextRef="From2022-09-01to2023-08-31">&lt;table cellpadding="0" cellspacing="0" id="xdx_88A_eus-gaap--ScheduleOfFutureMinimumLeasePaymentsForCapitalLeasesTableTextBlock_zztNIYMIt46i" style="font: 11pt Calibri, Helvetica, Sans-Serif; margin-left: auto; border-collapse: collapse; width: 50%; margin-right: auto" summary="xdx: Disclosure - NOTE 6 - LEASES - Future Lease Payments (Details)"&gt;
+  &lt;tr style="vertical-align: bottom"&gt;
+    &lt;td colspan="2" style="font: bold 10pt Times New Roman, Times, Serif; text-align: left"&gt;Twelve months ending August 31,&lt;/td&gt;&lt;td&gt; &lt;/td&gt;
+    &lt;td colspan="3" style="text-align: right"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 68%; text-align: left"&gt;2024&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 2%"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt;$&lt;/td&gt;&lt;td id="xdx_985_eus-gaap--OperatingLeasesFutureMinimumPaymentsDueInRollingYearTwo_iI_c20230831_zOgBZlLsU8Y7" style="font: 10pt Times New Roman, Times, Serif; width: 27%; text-align: right"&gt;216,364&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; width: 1%; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: White"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt;2025&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_980_eus-gaap--OperatingLeasesFutureMinimumPaymentsDueInRollingYearThree_iI_c20230831_zTwdx8tSR9m7" style="font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;250,555&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt;2026&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_987_eus-gaap--OperatingLeasesFutureMinimumPaymentsDueInRollingYearFour_iI_c20230831_zWPxMVuXqRa7" style="font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;255,412&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: White"&gt;
+    &lt;td&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;2027&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt; &lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt; &lt;/span&gt;&lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt; &lt;/span&gt;&lt;/td&gt;&lt;td id="xdx_982_eus-gaap--OperatingLeasesFutureMinimumPaymentsDueInRollingYearFive_iI_c20230831_zzTMecWKL2R3" style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;107,275&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt; &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;Total future minimum lease payments&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif"&gt; &lt;/td&gt;
+    &lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td id="xdx_983_eus-gaap--LesseeOperatingLeaseLiabilityPaymentsDue_iI_c20230831_z9goa8aGhCg2" style="font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;829,606&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: White"&gt;
+    &lt;td&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;Less: imputed interest&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt; &lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;(&lt;span id="xdx_900_eus-gaap--ReceivableWithImputedInterestDiscount_iI_c20230831_zFtpOTJQLos"&gt;9,950&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt;)&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr style="vertical-align: bottom; background-color: rgb(204,238,255)"&gt;
+    &lt;td&gt;&lt;span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"&gt;Total&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt; &lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt"&gt; &lt;/td&gt;
+    &lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: left"&gt;$&lt;/td&gt;&lt;td style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; text-align: right"&gt;&lt;span id="xdx_90C_eus-gaap--OperatingLeaseLiability_iI_c20230831_znSMrWQD4Cn4"&gt;819,656&lt;/span&gt;&lt;/td&gt;&lt;td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1pt; text-align: left"&gt; &lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;</us-gaap:ScheduleOfFutureMinimumLeasePaymentsForCapitalLeasesTableTextBlock>
+	</xbrl>
+

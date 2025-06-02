@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/StatutoryInformationTables" xlink:type="simple" xlink:href="acgl-20221231.xsd#StatutoryInformationTables"/>
+  <link:presentationLink xlink:role="http://www.archcapgroup.com/role/StatutoryInformationTables" xlink:type="extended">
+    <link:loc xlink:type="locator" xlink:label="loc_acgl_DisclosureStatutoryInformationAbstract_22cfa149-a0fc-4518-bb5f-7c95edbb7854" xlink:href="acgl-20221231.xsd#acgl_DisclosureStatutoryInformationAbstract"/>
+    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_StatutoryAccountingPracticesDisclosureTextBlock_7fdb52a6-3e3d-4cf3-b029-68e7a110aad0" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_StatutoryAccountingPracticesDisclosureTextBlock"/>
+    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_acgl_DisclosureStatutoryInformationAbstract_22cfa149-a0fc-4518-bb5f-7c95edbb7854" xlink:to="loc_us-gaap_StatutoryAccountingPracticesDisclosureTextBlock_7fdb52a6-3e3d-4cf3-b029-68e7a110aad0" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  </link:linkbase>

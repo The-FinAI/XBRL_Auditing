@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/AuditInformation" xlink:type="simple" xlink:href="acgl-20221231.xsd#AuditInformation"/>
+  <link:presentationLink xlink:role="http://www.archcapgroup.com/role/AuditInformation" xlink:type="extended">
+    <link:loc xlink:type="locator" xlink:label="loc_acgl_AuditInformationAbstract_7e9d3e4d-4115-4d6d-8a07-bf2600aba424" xlink:href="acgl-20221231.xsd#acgl_AuditInformationAbstract"/>
+    <link:loc xlink:type="locator" xlink:label="loc_dei_AuditorName_f6bc960c-4200-451b-84f5-87cbcf9cb586" xlink:href="https://xbrl.sec.gov/dei/2022/dei-2022.xsd#dei_AuditorName"/>
+    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_acgl_AuditInformationAbstract_7e9d3e4d-4115-4d6d-8a07-bf2600aba424" xlink:to="loc_dei_AuditorName_f6bc960c-4200-451b-84f5-87cbcf9cb586" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:label="loc_dei_AuditorLocation_90be4d24-48f9-4753-ad6a-74140f85245b" xlink:href="https://xbrl.sec.gov/dei/2022/dei-2022.xsd#dei_AuditorLocation"/>
+    <link:presentationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_acgl_AuditInformationAbstract_7e9d3e4d-4115-4d6d-8a07-bf2600aba424" xlink:to="loc_dei_AuditorLocation_90be4d24-48f9-4753-ad6a-74140f85245b" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:label="loc_dei_AuditorFirmId_b31787db-c2db-4e92-8d65-c69e6c795c0c" xlink:href="https://xbrl.sec.gov/dei/2022/dei-2022.xsd#dei_AuditorFirmId"/>
+    <link:presentationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_acgl_AuditInformationAbstract_7e9d3e4d-4115-4d6d-8a07-bf2600aba424" xlink:to="loc_dei_AuditorFirmId_b31787db-c2db-4e92-8d65-c69e6c795c0c" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  </link:linkbase>

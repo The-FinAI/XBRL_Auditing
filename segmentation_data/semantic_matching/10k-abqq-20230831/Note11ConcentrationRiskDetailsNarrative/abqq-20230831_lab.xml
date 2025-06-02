@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+    <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+    <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link"><link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_HongKongDepositProtection" xlink:label="ABQQ_HongKongDepositProtection"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_HongKongDepositProtection" xlink:to="ABQQ_HongKongDepositProtection_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_HongKongDepositProtection_lbl" xml:lang="en-US">[custom:HongKongDepositProtection-0]</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_RevenueCustomerTwoMember" xlink:label="ABQQ_RevenueCustomerTwoMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_RevenueCustomerTwoMember" xlink:to="ABQQ_RevenueCustomerTwoMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_RevenueCustomerTwoMember_lbl" xml:lang="en-US">Revenue Customer Two [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CashEquivalentsAtCarryingValue" xlink:label="us-gaap_CashEquivalentsAtCarryingValue"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CashEquivalentsAtCarryingValue" xlink:to="us-gaap_CashEquivalentsAtCarryingValue_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_CashEquivalentsAtCarryingValue_lbl" xml:lang="en-US">Cash Equivalents, at Carrying Value</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskLineItems" xlink:label="us-gaap_ConcentrationRiskLineItems"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ConcentrationRiskLineItems" xlink:to="us-gaap_ConcentrationRiskLineItems_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ConcentrationRiskLineItems_lbl" xml:lang="en-US">Concentration Risk [Line Items]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_FairValueConcentrationOfRiskCashAndCashEquivalents" xlink:label="us-gaap_FairValueConcentrationOfRiskCashAndCashEquivalents"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_FairValueConcentrationOfRiskCashAndCashEquivalents" xlink:to="us-gaap_FairValueConcentrationOfRiskCashAndCashEquivalents_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_FairValueConcentrationOfRiskCashAndCashEquivalents_lbl" xml:lang="en-US">Fair Value, Concentration of Risk, Cash and Cash Equivalents</link:label>
+      <link:loc xlink:type="locator" xlink:href="abqq-20230831.xsd#ABQQ_RevenueCustomerOneMember" xlink:label="ABQQ_RevenueCustomerOneMember"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ABQQ_RevenueCustomerOneMember" xlink:to="ABQQ_RevenueCustomerOneMember_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="ABQQ_RevenueCustomerOneMember_lbl" xml:lang="en-US">Revenue Customer One [Member]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskPercentage1" xlink:label="us-gaap_ConcentrationRiskPercentage1"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ConcentrationRiskPercentage1" xlink:to="us-gaap_ConcentrationRiskPercentage1_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ConcentrationRiskPercentage1_lbl" xml:lang="en-US">Concentration Risk, Percentage</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskTable" xlink:label="us-gaap_ConcentrationRiskTable"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ConcentrationRiskTable" xlink:to="us-gaap_ConcentrationRiskTable_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ConcentrationRiskTable_lbl" xml:lang="en-US">Concentration Risk [Table]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_CashFDICInsuredAmount" xlink:label="us-gaap_CashFDICInsuredAmount"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_CashFDICInsuredAmount" xlink:to="us-gaap_CashFDICInsuredAmount_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_CashFDICInsuredAmount_lbl" xml:lang="en-US">Cash, FDIC Insured Amount</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_AccountsReceivableNet" xlink:label="us-gaap_AccountsReceivableNet"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_AccountsReceivableNet" xlink:to="us-gaap_AccountsReceivableNet_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_AccountsReceivableNet_lbl" xml:lang="en-US">Accounts Receivable, after Allowance for Credit Loss</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_RisksAndUncertaintiesAbstract" xlink:label="us-gaap_RisksAndUncertaintiesAbstract"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_RisksAndUncertaintiesAbstract" xlink:to="us-gaap_RisksAndUncertaintiesAbstract_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_RisksAndUncertaintiesAbstract_lbl" xml:lang="en-US">Risks and Uncertainties [Abstract]</link:label>
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_ConcentrationRiskByTypeAxis" xlink:label="us-gaap_ConcentrationRiskByTypeAxis"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="us-gaap_ConcentrationRiskByTypeAxis" xlink:to="us-gaap_ConcentrationRiskByTypeAxis_lbl" xlink:type="arc"/>
+      <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="us-gaap_ConcentrationRiskByTypeAxis_lbl" xml:lang="en-US">Concentration Risk Type [Axis]</link:label>
+      </link:labelLink>
+</link:linkbase>
+
