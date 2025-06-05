@@ -1,6 +1,6 @@
 # XBRL_Auditing
 
-## explanation
+## Explanation
  --I have provided three code examples—example_for_dqc_0081.ipynb, example_for_dqc_0099.ipynb, and example_for_dqc_0126.ipynb—which demonstrate how to extract gold standard answers from DQC messages for rule IDs 0081, 0099, and 0126, respectively.
  
  --Each rule ID corresponds to a specific error type and is aligned with a particular subtask: <br>
