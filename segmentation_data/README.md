@@ -1,0 +1,1 @@
+This folder contains examples of segmentation data. Replace folder with actual segmentation data.
