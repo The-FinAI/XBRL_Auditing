@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/DebtandFinancingArrangements" xlink:type="simple" xlink:href="acgl-20221231.xsd#DebtandFinancingArrangements"/>
-  <link:presentationLink xlink:role="http://www.archcapgroup.com/role/DebtandFinancingArrangements" xlink:type="extended">
-    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_DebtDisclosureAbstract_77f59ea5-a573-40a7-bf21-6dc28000433c" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_DebtDisclosureAbstract"/>
-    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_LongTermDebtTextBlock_80e6468b-6bf8-40e5-b00b-54a444a551a1" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_LongTermDebtTextBlock"/>
-    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaap_DebtDisclosureAbstract_77f59ea5-a573-40a7-bf21-6dc28000433c" xlink:to="loc_us-gaap_LongTermDebtTextBlock_80e6468b-6bf8-40e5-b00b-54a444a551a1" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
-  </link:presentationLink>
-  </link:linkbase>
