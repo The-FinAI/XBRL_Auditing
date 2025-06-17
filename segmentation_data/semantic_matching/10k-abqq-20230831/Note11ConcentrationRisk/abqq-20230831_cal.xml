@@ -1,4 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note11ConcentrationRisk" xlink:href="abqq-20230831.xsd#Note11ConcentrationRisk" xlink:type="simple"/>
-    <link:calculationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note11ConcentrationRisk" xlink:title="00000016 - Disclosure - NOTE 11 &#8211; CONCENTRATION RISK"/>
-    </link:linkbase>

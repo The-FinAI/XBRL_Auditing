@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note5IntangibleAssets" xlink:href="abqq-20230831.xsd#Note5IntangibleAssets" xlink:type="simple"/>
-    <link:presentationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note5IntangibleAssets" xlink:title="00000010 - Disclosure - NOTE 5 &#8211; INTANGIBLE ASSETS">
-      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_GoodwillAndIntangibleAssetsDisclosureAbstract" xlink:label="loc_us-gaapGoodwillAndIntangibleAssetsDisclosureAbstract"/>
-      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_IntangibleAssetsDisclosureTextBlock" xlink:label="loc_us-gaapIntangibleAssetsDisclosureTextBlock"/>
-      <link:presentationArc order="0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapGoodwillAndIntangibleAssetsDisclosureAbstract" xlink:to="loc_us-gaapIntangibleAssetsDisclosureTextBlock" xlink:type="arc"/>
-    </link:presentationLink>
-    </link:linkbase>

@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/DerivativeInstruments" xlink:type="simple" xlink:href="acgl-20221231.xsd#DerivativeInstruments"/>
-  <link:presentationLink xlink:role="http://www.archcapgroup.com/role/DerivativeInstruments" xlink:type="extended">
-    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_DerivativeInstrumentsAndHedgingActivitiesDisclosureAbstract_12153e50-af12-486c-abe2-169f3fce3bd6" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_DerivativeInstrumentsAndHedgingActivitiesDisclosureAbstract"/>
-    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_DerivativesAndFairValueTextBlock_738b2740-9647-4d13-aaeb-d8187e4c8779" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_DerivativesAndFairValueTextBlock"/>
-    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaap_DerivativeInstrumentsAndHedgingActivitiesDisclosureAbstract_12153e50-af12-486c-abe2-169f3fce3bd6" xlink:to="loc_us-gaap_DerivativesAndFairValueTextBlock_738b2740-9647-4d13-aaeb-d8187e4c8779" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
-  </link:presentationLink>
-  </link:linkbase>

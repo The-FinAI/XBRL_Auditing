@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/General" xlink:type="simple" xlink:href="acgl-20221231.xsd#General"/>
-  <link:presentationLink xlink:role="http://www.archcapgroup.com/role/General" xlink:type="extended">
-    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract_f80a8ebd-a533-4deb-b7b6-33fb33619b44" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract"/>
-    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock_c43ccd4b-eb13-4f13-89e1-4a07c15d0e7c" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock"/>
-    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsAbstract_f80a8ebd-a533-4deb-b7b6-33fb33619b44" xlink:to="loc_us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock_c43ccd4b-eb13-4f13-89e1-4a07c15d0e7c" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
-  </link:presentationLink>
-  </link:linkbase>

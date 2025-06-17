@@ -1,4 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note14-IncomeTaxes-ScheduleOfEffectiveIncomeTaxRateReconciliationDetails" xlink:href="abqq-20230831.xsd#Note14-IncomeTaxes-ScheduleOfEffectiveIncomeTaxRateReconciliationDetails" xlink:type="simple"/>
-    <link:calculationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note14-IncomeTaxes-ScheduleOfEffectiveIncomeTaxRateReconciliationDetails" xlink:title="00000047 - Disclosure - NOTE 14 - INCOME TAXES - Schedule of Effective Income Tax Rate Reconciliation (Details)"/>
-    </link:linkbase>

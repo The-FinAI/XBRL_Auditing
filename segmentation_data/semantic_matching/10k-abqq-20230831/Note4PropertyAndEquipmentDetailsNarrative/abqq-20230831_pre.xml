@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note4PropertyAndEquipmentDetailsNarrative" xlink:href="abqq-20230831.xsd#Note4PropertyAndEquipmentDetailsNarrative" xlink:type="simple"/>
-    <link:presentationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note4PropertyAndEquipmentDetailsNarrative" xlink:title="00000035 - Disclosure - NOTE 4 &#8211; PROPERTY AND EQUIPMENT (Details Narrative)">
-      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_PropertyPlantAndEquipmentAbstract" xlink:label="loc_us-gaapPropertyPlantAndEquipmentAbstract"/>
-      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2023/elts/us-gaap-2023.xsd#us-gaap_Depreciation" xlink:label="loc_us-gaapDepreciation"/>
-      <link:presentationArc order="0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_us-gaapPropertyPlantAndEquipmentAbstract" xlink:to="loc_us-gaapDepreciation" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel"/>
-    </link:presentationLink>
-    </link:linkbase>

@@ -1,3 +1,6 @@
 .DS_Store
 .env
 segmentation_data/
+segmentation_filing/
+
+output

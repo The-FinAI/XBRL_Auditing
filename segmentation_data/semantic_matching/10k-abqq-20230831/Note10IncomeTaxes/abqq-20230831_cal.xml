@@ -1,4 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://abqqs.com/role/Note10IncomeTaxes" xlink:href="abqq-20230831.xsd#Note10IncomeTaxes" xlink:type="simple"/>
-    <link:calculationLink xlink:type="extended" xlink:role="http://abqqs.com/role/Note10IncomeTaxes" xlink:title="00000015 - Disclosure - NOTE 10 &#8211; INCOME TAXES"/>
-    </link:linkbase>

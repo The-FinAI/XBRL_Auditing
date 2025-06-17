@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='US-ASCII'?>
-<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"><link:roleRef roleURI="http://www.archcapgroup.com/role/LegalProceedings" xlink:type="simple" xlink:href="acgl-20221231.xsd#LegalProceedings"/>
-  <link:presentationLink xlink:role="http://www.archcapgroup.com/role/LegalProceedings" xlink:type="extended">
-    <link:loc xlink:type="locator" xlink:label="loc_acgl_DisclosureLegalProceedingsAbstract_ad551bf3-992d-4819-bd0a-c82f8d67d9ca" xlink:href="acgl-20221231.xsd#acgl_DisclosureLegalProceedingsAbstract"/>
-    <link:loc xlink:type="locator" xlink:label="loc_us-gaap_LegalMattersAndContingenciesTextBlock_5a72a906-3295-4de7-9dca-2a172f855e3c" xlink:href="https://xbrl.fasb.org/us-gaap/2022/elts/us-gaap-2022.xsd#us-gaap_LegalMattersAndContingenciesTextBlock"/>
-    <link:presentationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_acgl_DisclosureLegalProceedingsAbstract_ad551bf3-992d-4819-bd0a-c82f8d67d9ca" xlink:to="loc_us-gaap_LegalMattersAndContingenciesTextBlock_5a72a906-3295-4de7-9dca-2a172f855e3c" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
-  </link:presentationLink>
-  </link:linkbase>
