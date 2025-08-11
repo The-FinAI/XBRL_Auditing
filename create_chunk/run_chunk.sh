@@ -4,7 +4,7 @@
 
 # Configure paths
 EXCEL_PATH="GAAP_Taxonomy_2024.xlsx"
-OUT_DIR="./gaap_chunks"
+OUT_DIR="./us_gaap_2024_chunks"
 
 # Ensure the output directory exists
 mkdir -p "$OUT_DIR"
